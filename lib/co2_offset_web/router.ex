@@ -16,7 +16,7 @@ defmodule Co2OffsetWeb.Router do
   scope "/", Co2OffsetWeb do
     pipe_through :browser
 
-    get "/", CalculatorController, :new
+    get "/", CalculatorController, :index
   end
 
   # Other scopes may use custom stacks.

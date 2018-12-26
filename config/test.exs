@@ -9,10 +9,4 @@ config :co2_offset, Co2OffsetWeb.Endpoint,
 # Print only warnings and errors during test
 config :logger, level: :warn
 
-# Configure your database
-config :co2_offset, Co2Offset.Repo,
-  username: "postgres",
-  password: "postgres",
-  database: "co2_offset_test",
-  hostname: "localhost",
-  pool: Ecto.Adapters.SQL.Sandbox
+import_config "test.secret.exs"
