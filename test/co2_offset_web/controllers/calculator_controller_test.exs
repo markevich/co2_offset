@@ -1,4 +1,4 @@
-defmodule Co2OffsetWeb.PageControllerTest do
+defmodule Co2OffsetWeb.CalculatorControllerTest do
   use Co2OffsetWeb.ConnCase
 
   test "GET /", %{conn: conn} do
