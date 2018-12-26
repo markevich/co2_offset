@@ -1,7 +1,10 @@
+![Travis](https://travis-ci.com/markevich/co2_offset.svg?branch=master)
+==========
 # CO2 offset
 
 Offset your carbon footpring
 
+- [!Travis](#travis)
 - [CO2 offset](#co2-offset)
   - [Install development environment](#install-development-environment)
 
@@ -13,10 +16,13 @@ Offset your carbon footpring
   - `mix archive.install hex phx_new 1.4.0`
 - Install `nodejs` and `npm`.
 - Create a db-user for aplication in `psql` console:
-  - `CREATE ROLE co2_offset LOGIN PASSWORD 'password' SUPERUSER;`
-- Copy example config:
+  - `CREATE ROLE username LOGIN PASSWORD 'password' SUPERUSER;`
+- Copy example configs:
   - `cp config/dev.secret.exs.example config/dev.secret.exs`
-- Configure DB and other parameters in `config/dev.secret.exs`
+  - `cp config/test.secret.exs.example config/test.secret.exs`
+- Configure DB parameters in
+  -  `config/dev.secret.exs`
+  -  `config/test.secret.exs`
 - Run:
   - `mix deps.get`
   - `mix deps.compile`
