@@ -10,7 +10,12 @@ defmodule Co2Offset.ConvertersTest do
       expected = {
         0.18,
         [
-            %{
+          %{
+            co2: 0.18,
+            km: 1.3636,
+            type: :car
+          },
+          %{
             co2: 0.18,
             km: 1.0,
             type: :plane
