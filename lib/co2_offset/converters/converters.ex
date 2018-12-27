@@ -1,5 +1,5 @@
 defmodule Co2Offset.Converters do
-  alias Co2Offset.Converters.{Plane, Car}
+  alias Co2Offset.Converters.{Plane, Car, Human}
 
   @moduledoc """
   This module is a root converter context.
@@ -12,5 +12,6 @@ defmodule Co2Offset.Converters do
 
     Plane.convert_and_structure({co2, []})
     |> Car.convert_and_structure
+    |> Human.convert_and_structure
   end
 end
