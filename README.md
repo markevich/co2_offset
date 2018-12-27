@@ -12,14 +12,14 @@ Offset your carbon footpring
 ## Install development environment
 - Install Elixir:
   - `brew install elixir`
-- Install Phoenix 14.0.
+- Copy example configs:
+  - `cp config/dev.secret.exs.example config/dev.secret.exs`
+  - `cp config/test.secret.exs.example config/test.secret.exs`
+- Install Phoenix 1.4.0.
   - `mix archive.install hex phx_new 1.4.0`
 - Install `nodejs` and `npm`.
 - Create a db-user for aplication in `psql` console:
   - `CREATE ROLE username LOGIN PASSWORD 'password' SUPERUSER;`
-- Copy example configs:
-  - `cp config/dev.secret.exs.example config/dev.secret.exs`
-  - `cp config/test.secret.exs.example config/test.secret.exs`
 - Configure DB parameters in
   -  `config/dev.secret.exs`
   -  `config/test.secret.exs`
