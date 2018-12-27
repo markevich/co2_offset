@@ -15,6 +15,11 @@ defmodule Co2Offset.ConvertersTest do
             days: 0.36,
             type: :human
           },
+           %{
+            co2: 0.36,
+            km: 16.0,
+            type: :train
+          },
           %{
             co2: 0.36,
             km: 2.7273,
