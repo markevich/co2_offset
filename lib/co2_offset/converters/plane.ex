@@ -1,4 +1,8 @@
 defmodule Co2Offset.Converters.Plane do
+  @moduledoc """
+  Converter CO2 <-> km for planes
+  """
+
   # The emissions are around 0.18 kg CO2 per km.
   #
   # These CO2 emissions are generally into the high atmosphere,
@@ -9,7 +13,8 @@ defmodule Co2Offset.Converters.Plane do
   # to give 0.36 kg CO2 equivalent per km.
   @co2_per_km 0.18 * 2.0
 
-  def convert_and_structure({co2_amount, acc}) do
+  @spec convert_and_structure({float(), list()}) :: {float(), nonempty_maybe_improper_list()}
+  def convert_and_structure({co2_amount, acc}) when is_float(co2_amount) and is_list(acc) do
     km_amount = co2_amount |> convert(:km_from_co2)
 
     {
@@ -18,14 +23,13 @@ defmodule Co2Offset.Converters.Plane do
     }
   end
 
-  @spec convert(float(), :co2_from_km) :: float()
-  def convert(value, :co2_from_km) do
-    (value * @co2_per_km) |> Float.round(4)
+  @spec convert(float(), :co2_from_km | :km_from_co2) :: float()
+  def convert(km, :co2_from_km) when is_float(km) do
+    (km * @co2_per_km) |> Float.round(4)
   end
 
-  @spec convert(float(), :km_from_co2) :: float()
-  def convert(value, :km_from_co2) do
-    (value / @co2_per_km) |> Float.round(4)
+  def convert(co2, :km_from_co2) when is_float(co2) do
+    (co2 / @co2_per_km) |> Float.round(4)
   end
 
   defp structured_info(km, co2) do
