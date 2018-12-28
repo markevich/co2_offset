@@ -25,6 +25,7 @@ defmodule Co2Offset.Converters.Plane do
 
   @spec convert(float(), :co2_from_km | :km_from_co2) :: float()
   def convert(km, :co2_from_km) when is_float(km) do
+    IO.inspect(123)
     (km * @co2_per_km) |> Float.round(4)
   end
 
