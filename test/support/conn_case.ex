@@ -13,6 +13,8 @@ defmodule Co2OffsetWeb.ConnCase do
   of the test unless the test case is marked as async.
   """
 
+  alias Ecto.Adapters.SQL
+
   use ExUnit.CaseTemplate
 
   using do
@@ -27,10 +29,10 @@ defmodule Co2OffsetWeb.ConnCase do
   end
 
   setup tags do
-    :ok = Ecto.Adapters.SQL.Sandbox.checkout(Co2Offset.Repo)
+    :ok = SQL.Sandbox.checkout(Co2Offset.Repo)
 
     unless tags[:async] do
-      Ecto.Adapters.SQL.Sandbox.mode(Co2Offset.Repo, {:shared, self()})
+      SQL.Sandbox.mode(Co2Offset.Repo, {:shared, self()})
     end
 
     {:ok, conn: Phoenix.ConnTest.build_conn()}

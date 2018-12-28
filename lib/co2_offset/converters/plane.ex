@@ -25,10 +25,12 @@ defmodule Co2Offset.Converters.Plane do
 
   @spec convert(float(), :co2_from_km | :km_from_co2) :: float()
   def convert(km, :co2_from_km) when is_float(km) do
+    # credo:disable-for-next-line
     (km * @co2_per_km) |> Float.round(4)
   end
 
   def convert(co2, :km_from_co2) when is_float(co2) do
+    # credo:disable-for-next-line
     (co2 / @co2_per_km) |> Float.round(4)
   end
 
