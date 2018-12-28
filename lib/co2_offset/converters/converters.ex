@@ -1,5 +1,5 @@
 defmodule Co2Offset.Converters do
-  alias Co2Offset.Converters.{Plane, Car, Human, Train}
+  alias Co2Offset.Converters.{Plane, Car, Human, Train, EtnoVolcano}
 
   @moduledoc """
   This module is a root converter context.
@@ -13,5 +13,6 @@ defmodule Co2Offset.Converters do
     |> Car.convert_and_structure
     |> Train.convert_and_structure
     |> Human.convert_and_structure
+    |> EtnoVolcano.convert_and_structure
   end
 end

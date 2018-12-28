@@ -5,29 +5,35 @@ defmodule Co2Offset.ConvertersTest do
 
   describe "converters" do
     test "from_plane/1 returns a correct mapping" do
-      km = 1.0
+      # speed of a plane - 700km/h
+      km = 700
 
       expected = {
-        0.36,
+        252.0,
         [
           %{
-            co2: 0.36,
-            days: 0.36,
+            co2: 252.0,
+            seconds: 22.6823,
+            type: :etno_volcano
+          },
+          %{
+            co2: 252.0,
+            days: 252.0,
             type: :human
           },
-           %{
-            co2: 0.36,
-            km: 16.0,
+          %{
+            co2: 252.0,
+            km: 11200,
             type: :train
           },
           %{
-            co2: 0.36,
-            km: 2.7273,
+            co2: 252.0,
+            km: 1909.0909,
             type: :car
           },
           %{
-            co2: 0.36,
-            km: 1.0,
+            co2: 252.0,
+            km: 700.0,
             type: :plane
           }
         ]
