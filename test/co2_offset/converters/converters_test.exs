@@ -15,6 +15,11 @@ defmodule Co2Offset.ConvertersTest do
         [
           %{
             co2: 252.0,
+            liters: 107.6923,
+            type: :petrol
+          },
+          %{
+            co2: 252.0,
             seconds: 22.6823,
             type: :etno_volcano
           },
