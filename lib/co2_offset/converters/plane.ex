@@ -9,12 +9,6 @@ defmodule Co2Offset.Converters.Plane do
   # to give 0.36 kg CO2 equivalent per km.
   @co2_per_km 0.18 * 2.0
 
-  @spec convert_and_structure({float(), [any()]}) ::
-          {float(),
-           nonempty_improper_list(
-             any(),
-             %{co2: float(), km: float(), type: :plane}
-           )}
   def convert_and_structure({co2_amount, acc}) do
     km_amount = co2_amount |> convert(:km_from_co2)
 

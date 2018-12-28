@@ -1,12 +1,6 @@
 defmodule Co2Offset.Converters.Human do
   @co2_per_day 1
 
-  @spec convert_and_structure({float(), [any()]}) ::
-          {float(),
-           nonempty_improper_list(
-             any(),
-             %{co2: float(), km: float(), type: :car}
-           )}
   def convert_and_structure({co2_amount, acc}) do
     days = co2_amount |> convert(:days_from_co2)
 

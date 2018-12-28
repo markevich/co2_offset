@@ -1,12 +1,6 @@
 defmodule Co2Offset.Converters.Car do
   @co2_per_km 0.132
 
-  @spec convert_and_structure({float(), [any()]}) ::
-          {float(),
-           nonempty_improper_list(
-             any(),
-             %{co2: float(), km: float(), type: :car}
-           )}
   def convert_and_structure({co2_amount, acc}) do
     km_amount = co2_amount |> convert(:km_from_co2)
 
