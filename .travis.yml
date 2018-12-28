@@ -5,6 +5,10 @@ otp_release: '19.0'
 services:
   - postgresql
 
+cache:
+ directories:
+   — /home/travis/.rvm/
+
 install:
   - cp config/test.secret.exs.example config/test.secret.exs
   - cp config/dev.secret.exs.example config/dev.secret.exs
@@ -14,7 +18,11 @@ install:
   - mix deps.compile
 
 before_script:
+  - rvm install ruby-2.3.1
+  - gem install pronto-credo
   - mix do ecto.create, ecto.migrate
 
 script:
-  - mix test
+  - 'export PULL_REQUEST_ID=${TRAVIS_PULL_REQUEST} &&
+   bundle exec pronto run -f github_pr'
+  — mix test

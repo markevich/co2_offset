@@ -1,4 +1,6 @@
 defmodule Co2Offset.ConvertersTest do
+  @moduledoc false
+
   use Co2Offset.DataCase
 
   alias Co2Offset.Converters
@@ -6,7 +8,7 @@ defmodule Co2Offset.ConvertersTest do
   describe "converters" do
     test "from_plane/1 returns a correct mapping" do
       # speed of a plane - 700km/h
-      km = 700
+      km = 700.0
 
       expected = {
         252.0,
@@ -23,7 +25,7 @@ defmodule Co2Offset.ConvertersTest do
           },
           %{
             co2: 252.0,
-            km: 11200,
+            km: 11_200,
             type: :train
           },
           %{

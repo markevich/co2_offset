@@ -6,10 +6,11 @@ defmodule Co2Offset.Converters do
   """
 
   @spec from_plane(float()) :: {float(), nonempty_maybe_improper_list()}
-  def from_plane(plane_km) do
+  def from_plane(plane_km) when is_float(plane_km) do
     co2 = Plane.convert(plane_km, :co2_from_km)
 
-    Plane.convert_and_structure({co2, []})
+    {co2, []}
+    |> Plane.convert_and_structure
     |> Car.convert_and_structure
     |> Train.convert_and_structure
     |> Human.convert_and_structure
