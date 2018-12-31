@@ -1,0 +1,2 @@
+<h5> Beef </h5>
+<div> <%= float_to_string(@data[:kg]) %> KG </div>
