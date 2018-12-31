@@ -1,8 +1,8 @@
 defmodule Co2OffsetWeb.CalculatorControllerTest do
   use Co2OffsetWeb.ConnCase
 
-  test "GET /", %{conn: conn} do
-    conn = get(conn, "/")
-    assert html_response(conn, 200) =~ "Welcome to Phoenix!"
+  test "show /calculators", %{conn: conn} do
+    conn = get(conn, "/calculators/1")
+    assert conn.status == 200
   end
 end
