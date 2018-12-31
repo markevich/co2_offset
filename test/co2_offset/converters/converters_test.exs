@@ -15,6 +15,11 @@ defmodule Co2Offset.ConvertersTest do
         [
           %{
             co2: 252.0,
+            kg: 53.9615,
+            type: :chicken
+          },
+          %{
+            co2: 252.0,
             kg: 7.2832,
             type: :beef
           },
