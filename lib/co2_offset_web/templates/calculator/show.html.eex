@@ -1,5 +1,5 @@
 <h1>
-  Co2 amount: <%= @co2_amount %>
+  Co2 amount: <%= float_to_string(@co2_amount) %> kg
 </h1>
 <%= Enum.map(@data, fn data -> %>
   <%= render(Co2OffsetWeb.CalculatorView, "_#{data[:type]}.html", data: data) %>

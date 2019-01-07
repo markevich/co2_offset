@@ -1,2 +1,3 @@
-<h5> Etno volcano </h5>
-<div> <%= float_to_string(@data[:seconds]) %> Seconds </div>
+<div class="calculator_unit">
+  <h5> Etno volcano <%= float_to_string(@data[:seconds]) %> Seconds </h5>
+</div>

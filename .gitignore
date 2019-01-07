@@ -12,3 +12,4 @@ npm-debug.log
 /config/*.secret.exs
 *.beam
 .elixir_ls/
+.idea/
