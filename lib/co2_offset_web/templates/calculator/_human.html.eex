@@ -1,2 +1,3 @@
-<h5> Human </h5>
-<div> <%= float_to_string(@data[:days]) %> Days </div>
+<div class="calculator_unit">
+  <h5> Human <%= float_to_string(@data[:days]) %> Days </h5>
+</div>

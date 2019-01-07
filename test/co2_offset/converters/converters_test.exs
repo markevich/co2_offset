@@ -15,6 +15,31 @@ defmodule Co2Offset.ConvertersTest do
         [
           %{
             co2: 252.0,
+            km: 700.0,
+            type: :plane
+          },
+          %{
+            co2: 252.0,
+            km: 1909.0909,
+            type: :car
+          },
+          %{
+            co2: 252.0,
+            km: 11_200,
+            type: :train
+          },
+          %{
+            co2: 252.0,
+            days: 252.0,
+            type: :human
+          },
+          %{
+            co2: 252.0,
+            liters: 107.6923,
+            type: :petrol
+          },
+          %{
+            co2: 252.0,
             kg: 53.9615,
             type: :chicken
           },
@@ -25,33 +50,8 @@ defmodule Co2Offset.ConvertersTest do
           },
           %{
             co2: 252.0,
-            liters: 107.6923,
-            type: :petrol
-          },
-          %{
-            co2: 252.0,
             seconds: 22.6823,
             type: :etno_volcano
-          },
-          %{
-            co2: 252.0,
-            days: 252.0,
-            type: :human
-          },
-          %{
-            co2: 252.0,
-            km: 11_200,
-            type: :train
-          },
-          %{
-            co2: 252.0,
-            km: 1909.0909,
-            type: :car
-          },
-          %{
-            co2: 252.0,
-            km: 700.0,
-            type: :plane
           }
         ]
       }

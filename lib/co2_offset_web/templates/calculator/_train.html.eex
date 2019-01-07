@@ -1,2 +1,3 @@
-<h5> Train </h5>
-<div> <%= float_to_string(@data[:km]) %> KM </div>
+<div class="calculator_unit">
+  <h5> Train <%= float_to_string(@data[:km]) %> KM</h5>
+</div>

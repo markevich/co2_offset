@@ -10,13 +10,13 @@ defmodule Co2Offset.Converters do
     co2 = Plane.convert(plane_km, :co2_from_km)
 
     {co2, []}
-    |> Plane.convert_and_structure
-    |> Car.convert_and_structure
-    |> Train.convert_and_structure
-    |> Human.convert_and_structure
     |> EtnoVolcano.convert_and_structure
-    |> Petrol.convert_and_structure
     |> Beef.convert_and_structure
     |> Chicken.convert_and_structure
+    |> Petrol.convert_and_structure
+    |> Human.convert_and_structure
+    |> Train.convert_and_structure
+    |> Car.convert_and_structure
+    |> Plane.convert_and_structure
   end
 end

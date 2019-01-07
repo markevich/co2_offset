@@ -1,2 +1,6 @@
-<h5> Plane </h5>
-<div> <%= float_to_string(@data[:km]) %> KM </div>
+<div class="calculator_unit">
+  <h5> Plane <%= float_to_string(@data[:km]) %> KM </h5>
+  <div>
+     <input type="range" min="1" max="20000" value="<%= float_to_string(@data[:km]) %>" class="slider">
+  </div>
+</div>

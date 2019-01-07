@@ -1,2 +1,3 @@
-<h5> Chicken </h5>
-<div> <%= float_to_string(@data[:kg]) %> KG  </div>
+<div class="calculator_unit">
+  <h5> Chicken <%= float_to_string(@data[:kg]) %> KG</h5>
+</div>
