@@ -25,18 +25,14 @@ defmodule Co2Offset.Converters.CarTest do
     test "returns correct struct" do
       co2 = 0.132
 
-      expected = {
-        co2,
-        [
-          %{
-            co2: 0.132,
-            km: 1,
-            type: :car
-          }
-        ]
+      expected = %{
+        co2: co2,
+        car: %{
+          km: 1.0
+        }
       }
 
-      assert(Car.convert_and_structure({co2, []}) == expected)
+      assert(Car.convert_and_structure(%{co2: co2}) == expected)
     end
   end
 end

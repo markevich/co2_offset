@@ -25,18 +25,14 @@ defmodule Co2Offset.Converters.ChickenTest do
     test "returns correct struct" do
       co2 = 1.0
 
-      expected = {
-        co2,
-        [
-          %{
-            co2: 1.0,
-            kg: 0.2141,
-            type: :chicken
-          }
-        ]
+      expected = %{
+        co2: co2,
+        chicken: %{
+          kg: 0.2141
+        }
       }
 
-      assert(Chicken.convert_and_structure({co2, []}) == expected)
+      assert(Chicken.convert_and_structure(%{co2: co2}) == expected)
     end
   end
 end

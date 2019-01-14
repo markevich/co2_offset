@@ -25,18 +25,14 @@ defmodule Co2Offset.Converters.PetrolTest do
     test "returns correct struct" do
       co2 = 2.34
 
-      expected = {
-        co2,
-        [
-          %{
-            co2: co2,
-            liters: 1,
-            type: :petrol
-          }
-        ]
+      expected = %{
+        co2: co2,
+        petrol: %{
+          liters: 1
+        }
       }
 
-      assert(Petrol.convert_and_structure({co2, []}) == expected)
+      assert(Petrol.convert_and_structure(%{co2: co2}) == expected)
     end
   end
 end

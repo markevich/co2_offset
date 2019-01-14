@@ -25,18 +25,14 @@ defmodule Co2Offset.Converters.TrainTest do
     test "returns correct struct" do
       co2 = 0.0225
 
-      expected = {
-        co2,
-        [
-          %{
-            co2: 0.0225,
-            km: 1,
-            type: :train
-          }
-        ]
+      expected = %{
+        co2: co2,
+        train: %{
+          km: 1
+        }
       }
 
-      assert(Train.convert_and_structure({co2, []}) == expected)
+      assert(Train.convert_and_structure(%{co2: co2}) == expected)
     end
   end
 end

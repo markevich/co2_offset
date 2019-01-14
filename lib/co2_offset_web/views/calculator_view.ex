@@ -2,9 +2,7 @@ defmodule Co2OffsetWeb.CalculatorView do
   use Co2OffsetWeb, :view
 
   def render("show.html", %{calculator: calculator}) do
-    {co2_amount, data} = calculator
-
-    render_template("show.html", co2_amount: co2_amount, data: data)
+    render_template("show.html", data: calculator)
   end
 
   def float_to_string(float) do

@@ -25,18 +25,14 @@ defmodule Co2Offset.Converters.PlaneTest do
     test "returns correct struct" do
       co2 = 0.36
 
-      expected = {
-        co2,
-        [
-          %{
-            co2: co2,
-            km: 1,
-            type: :plane
-          }
-        ]
+      expected = %{
+        co2: co2,
+        plane: %{
+          km: 1
+        }
       }
 
-      assert(Plane.convert_and_structure({co2, []}) == expected)
+      assert(Plane.convert_and_structure(%{co2: co2}) == expected)
     end
   end
 end

@@ -1,6 +1,12 @@
 <h1>
-  Co2 amount: <%= float_to_string(@co2_amount) %> kg
+  Co2 amount: <%= float_to_string(@data[:co2]) %> kg
 </h1>
-<%= Enum.map(@data, fn data -> %>
-  <%= render(Co2OffsetWeb.CalculatorView, "_#{data[:type]}.html", data: data) %>
-<% end) %>
+
+<%= render(Co2OffsetWeb.CalculatorView, "_plane.html", data: @data[:plane]) %>
+<%= render(Co2OffsetWeb.CalculatorView, "_car.html", data: @data[:car]) %>
+<%= render(Co2OffsetWeb.CalculatorView, "_train.html", data: @data[:train]) %>
+<%= render(Co2OffsetWeb.CalculatorView, "_petrol.html", data: @data[:petrol]) %>
+<%= render(Co2OffsetWeb.CalculatorView, "_human.html", data: @data[:human]) %>
+<%= render(Co2OffsetWeb.CalculatorView, "_beef.html", data: @data[:beef]) %>
+<%= render(Co2OffsetWeb.CalculatorView, "_chicken.html", data: @data[:chicken]) %>
+<%= render(Co2OffsetWeb.CalculatorView, "_etno_volcano.html", data: @data[:etno_volcano]) %>

@@ -10,50 +10,32 @@ defmodule Co2Offset.ConvertersTest do
       # speed of a plane - 700km/h
       km = 700.0
 
-      expected = {
-        252.0,
-        [
-          %{
-            co2: 252.0,
-            km: 700.0,
-            type: :plane
-          },
-          %{
-            co2: 252.0,
-            km: 1909.0909,
-            type: :car
-          },
-          %{
-            co2: 252.0,
-            km: 11_200,
-            type: :train
-          },
-          %{
-            co2: 252.0,
-            days: 252.0,
-            type: :human
-          },
-          %{
-            co2: 252.0,
-            liters: 107.6923,
-            type: :petrol
-          },
-          %{
-            co2: 252.0,
-            kg: 53.9615,
-            type: :chicken
-          },
-          %{
-            co2: 252.0,
-            kg: 7.2832,
-            type: :beef
-          },
-          %{
-            co2: 252.0,
-            seconds: 22.6823,
-            type: :etno_volcano
-          }
-        ]
+      expected = %{
+        co2: 252.0,
+        plane: %{
+          km: 700.0,
+        },
+        car: %{
+          km: 1909.0909,
+        },
+        train: %{
+          km: 11_200.0,
+        },
+        human: %{
+          days: 252.0,
+        },
+        petrol: %{
+          liters: 107.6923,
+        },
+        chicken: %{
+          kg: 53.9615,
+        },
+        beef: %{
+          kg: 7.2832,
+        },
+        etno_volcano: %{
+          seconds: 22.6823,
+        }
       }
 
       assert(Converters.from_plane(km) == expected)

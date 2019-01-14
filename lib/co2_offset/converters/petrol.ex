@@ -4,14 +4,17 @@ defmodule Co2Offset.Converters.Petrol do
   """
   @co2_per_liter 2.34
 
-  @spec convert_and_structure({float(), list()}) :: {float(), nonempty_maybe_improper_list()}
-  def convert_and_structure({co2_amount, acc}) when is_float(co2_amount) and is_list(acc) do
-    liter_amount = co2_amount |> convert(:liter_from_co2)
+  @spec convert_and_structure(%{optional(any) => any, co2: co2}) :: %{
+          optional(any) => any,
+          co2: co2,
+          petrol: %{liters: float()}
+        }
+        when co2: float
 
-    {
-      co2_amount,
-      [structured_info(liter_amount, co2_amount) | acc]
-    }
+  def convert_and_structure(acc) when is_map(acc) do
+    acc[:co2]
+    |> convert(:liter_from_co2)
+    |> structure(acc)
   end
 
   @spec convert(float(), :co2_from_liter | :liter_from_co2) :: float()
@@ -25,11 +28,8 @@ defmodule Co2Offset.Converters.Petrol do
     (co2 / @co2_per_liter) |> Float.round(4)
   end
 
-  defp structured_info(liter, co2) do
-    %{
-      type: :petrol,
-      liters: liter,
-      co2: co2
-    }
+  defp structure(liters, acc) do
+    acc
+    |> Map.put(:petrol, %{liters: liters})
   end
 end
