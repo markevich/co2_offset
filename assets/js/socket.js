@@ -39,7 +39,7 @@ let socket = new Socket("/socket", {params: {token: window.userToken}})
 //     <script>window.userToken = "<%= assigns[:user_token] %>";</script>
 //
 // You will need to verify the user token in the "connect/3" function
-// in "lib/web/channels/user_socket.ex":
+// in "lib/web/channels/application_socket.ex":
 //
 //     def connect(%{"token" => token}, socket, _connect_info) do
 //       # max_age: 1209600 is equivalent to two weeks in seconds
@@ -53,11 +53,5 @@ let socket = new Socket("/socket", {params: {token: window.userToken}})
 //
 // Finally, connect to the socket:
 socket.connect()
-
-// Now that you are connected, you can join channels with a topic:
-let channel = socket.channel("topic:subtopic", {})
-channel.join()
-  .receive("ok", resp => { console.log("Joined successfully", resp) })
-  .receive("error", resp => { console.log("Unable to join", resp) })
 
 export default socket
