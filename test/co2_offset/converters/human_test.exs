@@ -25,18 +25,14 @@ defmodule Co2Offset.Converters.HumanTest do
     test "returns correct struct" do
       co2 = 1.0
 
-      expected = {
-        co2,
-        [
-          %{
-            co2: 1.0,
-            days: 1.0,
-            type: :human
-          }
-        ]
+      expected = %{
+        co2: co2,
+        human: %{
+          days: 1.0
+        }
       }
 
-      assert(Human.convert_and_structure({co2, []}) == expected)
+      assert(Human.convert_and_structure(%{co2: co2}) == expected)
     end
   end
 end

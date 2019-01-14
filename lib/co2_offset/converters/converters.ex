@@ -5,11 +5,11 @@ defmodule Co2Offset.Converters do
   This module is a root converter context.
   """
 
-  @spec from_plane(float()) :: {float(), nonempty_maybe_improper_list()}
+  @spec from_plane(float()) :: %{optional(any) => any}
   def from_plane(plane_km) when is_float(plane_km) do
     co2 = Plane.convert(plane_km, :co2_from_km)
 
-    {co2, []}
+    %{co2: co2}
     |> EtnoVolcano.convert_and_structure
     |> Beef.convert_and_structure
     |> Chicken.convert_and_structure

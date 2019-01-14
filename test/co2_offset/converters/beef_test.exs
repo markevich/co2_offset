@@ -25,18 +25,14 @@ defmodule Co2Offset.Converters.BeefTest do
     test "returns correct struct" do
       co2 = 1.0
 
-      expected = {
-        co2,
-        [
-          %{
-            co2: 1.0,
-            kg: 0.0289,
-            type: :beef
-          }
-        ]
+      expected = %{
+        co2: co2,
+        beef: %{
+          kg: 0.0289
+        }
       }
 
-      assert(Beef.convert_and_structure({co2, []}) == expected)
+      assert(Beef.convert_and_structure(%{co2: co2}) == expected)
     end
   end
 end

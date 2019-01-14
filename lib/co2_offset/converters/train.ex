@@ -5,14 +5,17 @@ defmodule Co2Offset.Converters.Train do
 
   @co2_per_km 0.0225
 
-  @spec convert_and_structure({float(), list()}) :: {float(), nonempty_maybe_improper_list()}
-  def convert_and_structure({co2_amount, acc}) when is_float(co2_amount) and is_list(acc) do
-    km_amount = co2_amount |> convert(:km_from_co2)
+  @spec convert_and_structure(%{optional(any) => any, co2: co2}) :: %{
+          optional(any) => any,
+          co2: co2,
+          train: %{km: float()}
+        }
+        when co2: float
 
-    {
-      co2_amount,
-      [structured_info(km_amount, co2_amount) | acc]
-    }
+  def convert_and_structure(acc) when is_map(acc) do
+    acc[:co2]
+    |> convert(:km_from_co2)
+    |> structure(acc)
   end
 
   @spec convert(float(), :co2_from_km | :km_from_co2) :: float()
@@ -26,11 +29,8 @@ defmodule Co2Offset.Converters.Train do
     (co2 / @co2_per_km) |> Float.round(4)
   end
 
-  defp structured_info(km, co2) do
-    %{
-      type: :train,
-      km: km,
-      co2: co2
-    }
+  defp structure(km, acc) do
+    acc
+    |> Map.put(:train, %{km: km})
   end
 end

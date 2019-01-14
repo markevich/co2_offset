@@ -25,18 +25,14 @@ defmodule Co2Offset.Converters.EtnoVolcanoTest do
     test "returns correct struct" do
       co2 = 1.0
 
-      expected = {
-        co2,
-        [
-          %{
-            co2: 1.0,
-            seconds: 0.09,
-            type: :etno_volcano
-          }
-        ]
+      expected = %{
+        co2: co2,
+        etno_volcano: %{
+          seconds: 0.09,
+        }
       }
 
-      assert(EtnoVolcano.convert_and_structure({co2, []}) == expected)
+      assert(EtnoVolcano.convert_and_structure(%{co2: co2}) == expected)
     end
   end
 end
