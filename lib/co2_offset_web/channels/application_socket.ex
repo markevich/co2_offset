@@ -1,8 +1,8 @@
-defmodule Co2OffsetWeb.UserSocket do
+defmodule Co2OffsetWeb.ApplicationSocket do
   use Phoenix.Socket
 
   ## Channels
-  # channel "room:*", Co2OffsetWeb.RoomChannel
+   channel "calculator:*", Co2OffsetWeb.CalculatorChannel
 
   # Socket params are passed from the client and can
   # be used to verify and authenticate a user. After

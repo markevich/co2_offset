@@ -1,7 +1,7 @@
 defmodule Co2OffsetWeb.Endpoint do
   use Phoenix.Endpoint, otp_app: :co2_offset
 
-  socket "/socket", Co2OffsetWeb.UserSocket,
+  socket "/socket", Co2OffsetWeb.ApplicationSocket,
     websocket: true,
     longpoll: false
 
