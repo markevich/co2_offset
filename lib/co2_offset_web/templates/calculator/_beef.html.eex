@@ -1,3 +1,3 @@
 <div class="calculator_unit">
-  <h5> Beef <span id="data-beef-value"> <%= float_to_string(@data[:kg]) %> </span> KG</h5>
+  <h5> Beef <span id="data-beef-value"> <%= float_to_string(@calculator[:kg]) %> </span> KG</h5>
 </div>

@@ -1,4 +1,5 @@
-import socket from "../socket";
+import socket from "../socket"
+import SvgUpdate from "../svg_animation"
 
 let channel = socket.channel("calculator:1", {})
 let plane = document.querySelector("#data-plane-value")
@@ -20,9 +21,12 @@ planeSlider.addEventListener("input", event => {
   }
 })
 
+
 channel.on("value_updated", payload => {
   let new_values = payload.new_values
   planeSlider.value = new_values.plane.km
+
+  SvgUpdate(new_values.plane.km)
 
   plane.innerHTML = new_values.plane.km
   beef.innerHTML = new_values.beef.kg

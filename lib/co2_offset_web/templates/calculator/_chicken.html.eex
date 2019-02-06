@@ -1,3 +1,4 @@
 <div class="calculator_unit">
-  <h5> Chicken <span id="data-chicken-value"> <%= float_to_string(@data[:kg]) %> </span> KG</h5>
+  <h5> Chicken <span id="data-chicken-value"> <%= float_to_string(@calculator[:kg]) %> </span> KG</h5>
+  <object id="data-chicken-svg" data="/images/chicken-leg.svg" type="image/svg+xml"></object>
 </div>

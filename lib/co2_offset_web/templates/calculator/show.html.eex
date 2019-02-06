@@ -1,12 +1,12 @@
 <h1>
-  Co2 amount: <%= float_to_string(@data[:co2]) %> kg
+  Co2 amount: <%= float_to_string(@calculator[:co2]) %> kg
 </h1>
 
-<%= render(Co2OffsetWeb.CalculatorView, "_plane.html", data: @data[:plane]) %>
-<%= render(Co2OffsetWeb.CalculatorView, "_car.html", data: @data[:car]) %>
-<%= render(Co2OffsetWeb.CalculatorView, "_train.html", data: @data[:train]) %>
-<%= render(Co2OffsetWeb.CalculatorView, "_petrol.html", data: @data[:petrol]) %>
-<%= render(Co2OffsetWeb.CalculatorView, "_human.html", data: @data[:human]) %>
-<%= render(Co2OffsetWeb.CalculatorView, "_beef.html", data: @data[:beef]) %>
-<%= render(Co2OffsetWeb.CalculatorView, "_chicken.html", data: @data[:chicken]) %>
-<%= render(Co2OffsetWeb.CalculatorView, "_etno_volcano.html", data: @data[:etno_volcano]) %>
+<%= render(Co2OffsetWeb.CalculatorView, "_plane.html", calculator: @calculator[:plane], conn: @conn) %>
+<%= render(Co2OffsetWeb.CalculatorView, "_car.html", calculator: @calculator[:car], conn: @conn) %>
+<%= render(Co2OffsetWeb.CalculatorView, "_train.html", calculator: @calculator[:train], conn: @conn) %>
+<%= render(Co2OffsetWeb.CalculatorView, "_petrol.html", calculator: @calculator[:petrol], conn: @conn) %>
+<%= render(Co2OffsetWeb.CalculatorView, "_human.html", calculator: @calculator[:human], conn: @conn) %>
+<%= render(Co2OffsetWeb.CalculatorView, "_beef.html", calculator: @calculator[:beef], conn: @conn) %>
+<%= render(Co2OffsetWeb.CalculatorView, "_chicken.html", calculator: @calculator[:chicken], conn: @conn) %>
+<%= render(Co2OffsetWeb.CalculatorView, "_etno_volcano.html", calculator: @calculator[:etno_volcano], conn: @conn) %>
