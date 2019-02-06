@@ -16,6 +16,8 @@ defmodule Co2OffsetWeb.Router do
   scope "/", Co2OffsetWeb do
     pipe_through :browser
 
+    get("/", FlightController, :index)
+    resources("/flights", FlightController, only: [:index])
     resources("/calculators", CalculatorController, only: [:show])
   end
 
