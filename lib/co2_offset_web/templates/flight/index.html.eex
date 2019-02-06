@@ -1,0 +1,1 @@
+<%= link "Go to calculator", to: Routes.calculator_path(@conn, :show, 1) %>
