@@ -1,3 +1,22 @@
-<div class="calculator_unit">
-  <h5> Human <span id="data-human-value"> <%= float_to_string(@calculator[:days]) %> </span> Days </h5>
+<div class="calculator">
+  <h3 class="calculator__title"> Human </h3>
+  <div class="calculator__details">
+    <div class="calculator__distance-container">
+      <span class="calculator__distance calculator__distance_large" id="data-human-value">
+        <%= float_to_string(@calculator[:days]) %>
+      </span>
+      <span class="calculator__distance calculator__distance_small">Days</span>
+    </div>
+    <object class="calculator__image" id="data-human-svg" data="/images/chicken-leg.svg" type="image/svg+xml"></object>
+  </div>
+  <div class="calculator__example-container">
+    <div class="calculator__example-title">Same CO2 as:</div>
+    <table class="calculator__example-container">
+      <tr>
+        <td class="calculator__example-text calculator__example-text_large">365</td>
+        <td class="calculator__example-text calculator__example-text_small">days</td>
+        <td class="calculator__example-text calculator__example-text_small">of normal breathing</td>
+      </tr>
+    </table>
+  </div>
 </div>
