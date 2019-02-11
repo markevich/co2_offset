@@ -1,3 +1,23 @@
-<div class="calculator_unit">
-  <h5> Petrol <span id="data-petrol-value"> <%= float_to_string(@calculator[:liters]) %> </span> Liters </h5>
+<div class="calculator">
+  <h3 class="calculator__title"> Petrol </h3>
+  <div class="calculator__details">
+    <div class="calculator__distance-container">
+      <span class="calculator__distance calculator__distance_large" id="data-petrol-value">
+        <%= float_to_string(@calculator[:liters]) %>
+      </span>
+      <span class="calculator__distance calculator__distance_small">Liters</span>
+    </div>
+    <object class="calculator__image" id="data-petrol-svg" data="/images/chicken-leg.svg" type="image/svg+xml"></object>
+  </div>
+  <div class="calculator__example-container">
+    <div class="calculator__example-title">Same CO2 as:</div>
+    <table class="calculator__example-container">
+      <tr>
+        <td class="calculator__example-text calculator__example-text_small">Burning</td>
+        <td class="calculator__example-text calculator__example-text_large">250</td>
+        <td class="calculator__example-text calculator__example-text_small">liters</td>
+        <td class="calculator__example-text calculator__example-text_small">of 95 petrol</td>
+      </tr>
+    </table>
+  </div>
 </div>

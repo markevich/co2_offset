@@ -1,3 +1,22 @@
-<div class="calculator_unit">
-  <h5> Etno volcano <span id="data-etno-volcano-value"> <%= float_to_string(@calculator[:seconds]) %> </span> Seconds </h5>
+<div class="calculator">
+  <h3 class="calculator__title"> Etno volcano </h3>
+  <div class="calculator__details">
+    <div class="calculator__distance-container">
+      <span class="calculator__distance calculator__distance_large" id="data-etno-volcano-value">
+        <%= float_to_string(@calculator[:seconds]) %>
+      </span>
+      <span class="calculator__distance calculator__distance_small">Seconds</span>
+    </div>
+    <object class="calculator__image" id="data-etno-volcano-svg" data="/images/chicken-leg.svg" type="image/svg+xml"></object>
+  </div>
+  <div class="calculator__example-container">
+    <div class="calculator__example-title">Same CO2 as:</div>
+    <table class="calculator__example-container">
+      <tr>
+        <td class="calculator__example-text calculator__example-text_large">25</td>
+        <td class="calculator__example-text calculator__example-text_small">second</td>
+        <td class="calculator__example-text calculator__example-text_small">erruption</td>
+      </tr>
+    </table>
+  </div>
 </div>

@@ -1,0 +1,46 @@
+.calculator{
+  border: 1px solid black;
+  border-radius: 3px;
+  width: 300px;
+  padding: 5px;
+  margin: 10px;
+  font-family: open-sans;
+}
+.calculator__title{
+  font-family: open-sans-light;
+  margin: 2px;
+  text-align: center;
+}
+.calculator__details{
+  border-bottom: 1px solid black;
+}
+.calculator__distance-container{
+  display: inline-block;
+  line-height: 50px;
+}
+.calculator__distance_large{
+  font-weight: bold;
+  font-size: 20px;
+}
+.calculator__distance_small{
+  font-size: 14px;
+}
+.calculator__image{
+  float: right;
+  width: 50px;
+}
+.calculator__example-container{
+  width: 100%;
+  text-align: center;
+}
+.calculator__example-title{
+  text-align: center;
+  margin-bottom: 10px;
+}
+.calculator__example-text_small{
+  font-size: 14px;
+}
+.calculator__example-text_large{
+  font-weight: bold;
+  font-size: 20px;
+}
