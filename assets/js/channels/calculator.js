@@ -2,6 +2,7 @@ import socket from "../socket"
 import SvgUpdate from "../svg_animation"
 
 let channel = socket.channel("calculator:1", {})
+let co2ValueInput = document.querySelector("#data-co2-value")
 let plane = document.querySelector("#data-plane-value")
 let planeSlider = document.querySelector("#data-plane-slider")
 let beef = document.querySelector("#data-beef-value")
@@ -28,6 +29,7 @@ channel.on("value_updated", payload => {
 
   SvgUpdate(new_values.plane.km)
 
+  co2ValueInput.innerHTML = new_values.co2
   plane.innerHTML = new_values.plane.km
   beef.innerHTML = new_values.beef.kg
   car.innerHTML = new_values.car.km
