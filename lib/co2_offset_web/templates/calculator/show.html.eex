@@ -1,5 +1,7 @@
-<h1>
-  Co2 amount: <%= float_to_string(@calculator[:co2]) %> kg
+<h1 class="co2-amount">
+  <span class="co2-amount__title"> Co2 amount: </span>
+  <span id="data-co2-value" class="co2-amount__value"><%= float_to_string(@calculator[:co2]) %></span>
+  <span class="co2-amount__title">kg</span>
 </h1>
 
 <%= render(Co2OffsetWeb.CalculatorView, "_plane.html", calculator: @calculator[:plane], conn: @conn) %>
