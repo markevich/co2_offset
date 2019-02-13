@@ -10,13 +10,13 @@ Offset your carbon footpring
 
 
 ## Install development environment
-- Install Elixir:
-  - `brew install elixir`
+- Install Elixir 1.8.1:
+  - `brew install elixir@1.8.1`
 - Copy example configs:
   - `cp config/dev.secret.exs.example config/dev.secret.exs`
   - `cp config/test.secret.exs.example config/test.secret.exs`
-- Install Phoenix 1.4.0.
-  - `mix archive.install hex phx_new 1.4.0`
+- Install Phoenix 1.4.1.
+  - `mix archive.install hex phx_new 1.4.1`
 - Install `nodejs` and `npm`.
 - Create a db-user for aplication in `psql` console:
   - `CREATE ROLE username LOGIN PASSWORD 'password' SUPERUSER;`
