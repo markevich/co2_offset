@@ -1,50 +1,39 @@
 defmodule Mix.Tasks.Co2Offset.UpdateAirportsTable do
   use Mix.Task
+  alias Co2Offset.Geo.Airport
   alias Co2Offset.Repo
 
   @moduledoc """
   Migrate the data from tools/airports.csv into airports database table
 
-  This can be used in your application as:
+  Example of usage from elixir code:
+      Mix.Task.run("co2_offset.update_airports_table")
 
+  Example of usage from terminal:
       mix co2_offset.update_airports_table
   """
 
-  @shortdoc "Update airports data"
-
   def run(_) do
-    Mix.Task.run("app.start")
+    Application.ensure_all_started(:co2_offset)
 
-    {:ok, _result} = drop_table_sql() |> Repo.query()
-    {:ok, _result} = create_table_sql() |> Repo.query()
+    {:ok, _result} = truncate_table_sql() |> Repo.query()
     {:ok, _result} = copy_table_sql() |> Repo.query()
     {:ok, _result} = delete_bad_iata_sql() |> Repo.query()
+
+    new_count = Repo.aggregate(Airport, :count, :id)
+
+    IO.puts("Import completed. New airports count: #{new_count}")
   end
 
-  def drop_table_sql do
+  def truncate_table_sql do
     """
-    DROP TABLE if exists airports;
-    """
-  end
-
-  def create_table_sql do
-    """
-    create table airports
-                (
-                  id          serial primary key,
-                  name        varchar(65)       ,
-                  iata        char   ( 3)       ,
-                  city        varchar(50)       ,
-                  country     varchar(50)       ,
-                  lat         double precision  ,
-                  lon         double precision
-                );
+    TRUNCATE airports;
     """
   end
 
   def copy_table_sql do
     """
-    COPY airports(name, city, country, iata, lat, lon) FROM PROGRAM '#{data_program()}' WITH (FORMAT CSV);
+    COPY airports(name, city, country, iata, lat, long) FROM PROGRAM '#{data_program()}' WITH (FORMAT CSV);
     """
   end
 
