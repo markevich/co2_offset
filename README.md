@@ -26,8 +26,7 @@ Offset your carbon footpring
 - Run:
   - `mix deps.get`
   - `mix deps.compile`
-  - `mix ecto.create`
-  - `mix ecto.migrate`
+  - `mix ecto.setup`
   - `cd assets && npm install && node node_modules/webpack/bin/webpack.js --mode development`
 - Run the server: `mix phx.server`.
-- Go to `localhost:4000` and check working of the application.
+- Go to `localhost:4000`
