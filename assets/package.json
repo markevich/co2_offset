@@ -6,7 +6,9 @@
   "license": "MIT",
   "scripts": {
     "deploy": "webpack --mode production",
-    "watch": "webpack --mode development --watch"
+    "watch": "webpack --mode development --watch",
+    "size": "size-limit",
+    "test": "npm run size"
   },
   "dependencies": {
     "phoenix": "file:../deps/phoenix",
@@ -20,8 +22,16 @@
     "css-loader": "^2.1.1",
     "mini-css-extract-plugin": "^0.5.0",
     "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "size-limit": "^0.21.1",
     "uglifyjs-webpack-plugin": "^2.1.2",
     "webpack": "4.29.6",
     "webpack-cli": "^3.2.3"
-  }
+  },
+  "size-limit": [
+    {
+      "limit": "300 KB",
+      "webpack": false,
+      "path": "../priv/static/js/app.js"
+    }
+  ]
 }

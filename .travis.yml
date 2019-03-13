@@ -1,6 +1,12 @@
 language: elixir
 elixir: '1.8.1'
 
+cache:
+  directories:
+    - assets/node_modules
+    - _build
+    - deps
+
 env:
   - MIX_ENV=test
 
@@ -15,7 +21,9 @@ install:
 
 before_script:
   - mix do ecto.create, ecto.migrate
+  - cd assets && npm install && npm run deploy && cd ../
 
 script:
   - mix test
   - mix credo --strict
+  - cd assets && npm test
