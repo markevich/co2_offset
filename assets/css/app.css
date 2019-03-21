@@ -1,6 +1,7 @@
 /* This file is for your main application css. */
+@import "normalize.css";
+@import "./calculator.css";
 
-/* @import "./phoenix.css"; */
 @font-face {
   font-family: open-sans;
   src: url("/fonts/open_sans/regular.ttf");
@@ -13,18 +14,6 @@
   font-family: open-sans-light;
   src: url("/fonts/open_sans/light.ttf");
 }
-
-.calculator_unit{
-    font-family: 'Open Sans', sans-serif;
-    border: 1px solid black;
-    border-radius: 5px;
-    width: 200px;
-    padding: 5px 30px;
-    text-align: center;
-    margin: 10px;
-}
 #data-plane-slider{
   width: 100%;
 }
-
-@import "./calculator.css";
