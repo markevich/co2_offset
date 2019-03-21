@@ -8,7 +8,8 @@
     "deploy": "webpack --mode production",
     "watch": "webpack --mode development --watch",
     "size": "size-limit",
-    "test": "npm run size"
+    "test": "npm run size",
+    "upgrade-interactive": "npm-check --update"
   },
   "dependencies": {
     "ityped": "^1.0.3",
@@ -16,14 +17,15 @@
     "phoenix_html": "file:../deps/phoenix_html"
   },
   "devDependencies": {
-    "@babel/core": "^7.3.4",
-    "@babel/preset-env": "^7.3.4",
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.1",
     "autoprefixer": "^9.5.0",
     "babel-loader": "^8.0.5",
     "copy-webpack-plugin": "^5.0.1",
     "css-loader": "^2.1.1",
     "mini-css-extract-plugin": "^0.5.0",
     "normalize.css": "^8.0.1",
+    "npm-check": "^5.9.0",
     "optimize-css-assets-webpack-plugin": "^5.0.1",
     "postcss-custom-properties": "^8.0.9",
     "postcss-import": "^12.0.1",
@@ -33,7 +35,7 @@
     "size-limit": "^0.21.1",
     "terser-webpack-plugin": "^1.2.3",
     "webpack": "4.29.6",
-    "webpack-cli": "^3.2.3"
+    "webpack-cli": "^3.3.0"
   },
   "size-limit": [
     {
