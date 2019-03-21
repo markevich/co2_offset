@@ -37,7 +37,7 @@
       ]
     },
     "properties": {
-      "capital": "Porto-Novo",
+      "capital": "Porto Novo",
       "country": "Benin"
     }
   },
@@ -555,7 +555,7 @@
       ]
     },
     "properties": {
-      "capital": "Saint-Denis",
+      "capital": "Saint Denis",
       "country": "Reunion"
     }
   },
@@ -2529,7 +2529,7 @@
       ]
     },
     "properties": {
-      "capital": "Port-au-Prince",
+      "capital": "Port au Prince",
       "country": "Haiti"
     }
   },
@@ -2571,7 +2571,7 @@
       ]
     },
     "properties": {
-      "capital": "Fort-de-France",
+      "capital": "Fort de France",
       "country": "Martinique"
     }
   },
@@ -2725,7 +2725,7 @@
       ]
     },
     "properties": {
-      "capital": "Saint-Pierre",
+      "capital": "Saint Pierre",
       "country": "Saint Pierre and Miquelon"
     }
   },

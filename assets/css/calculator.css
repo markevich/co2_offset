@@ -1,7 +1,7 @@
 .calculator{
   border: 1px solid black;
   border-radius: 3px;
-  width: 300px;
+  width: 330px;
   padding: 5px;
   margin: 10px;
   font-family: open-sans;
@@ -30,17 +30,27 @@
   width: 50px;
 }
 .calculator__example-container{
-  width: 100%;
+  width: 330px;
+  table-layout: fixed;
   text-align: center;
+}
+.calculator__example-row{
+  height: 30px;
 }
 .calculator__example-title{
   text-align: center;
   margin-bottom: 10px;
 }
-.calculator__example-text_small{
+.calculator__example-car-title{
+  text-align: left;
   font-size: 14px;
+  width: 90px;
 }
-.calculator__example-text_large{
+.calculator__example-car-narrow{
+  width: 20px;
+}
+.calculator__example-car-city{
+  width: 100px;
   font-weight: bold;
   font-size: 20px;
 }
