@@ -11,8 +11,6 @@ import css from "../css/app.css"
 //
 // import "phoenix_html"
 
-// Import local files
-//
-// Local files can be imported directly using relative paths, for example:
 import socket from "./socket"
-import { calculator } from "./channels/calculator"
+import { calculatorChannel } from "./channels/calculator"
+import { calculator } from "./calculator";
