@@ -4,7 +4,7 @@ defmodule Co2Offset.MixProject do
   def project do
     [
       app: :co2_offset,
-      version: "0.1.0",
+      version: "0.2.1",
       elixir: "~> 1.8.1",
       elixirc_paths: elixirc_paths(Mix.env()),
       compilers: [:phoenix, :gettext] ++ Mix.compilers(),
@@ -20,9 +20,12 @@ defmodule Co2Offset.MixProject do
   def application do
     [
       mod: {Co2Offset.Application, []},
-      extra_applications: [:logger, :runtime_tools]
+      extra_applications: app_list(Mix.env)
     ]
   end
+
+  def app_list(_), do: app_list()
+  def app_list, do: [:logger, :runtime_tools]
 
   # Specifies which paths to compile per environment.
   defp elixirc_paths(:test), do: ["lib", "test/support"]
@@ -43,7 +46,8 @@ defmodule Co2Offset.MixProject do
       {:gettext, "~> 0.11"},
       {:jason, "~> 1.0"},
       {:plug_cowboy, "~> 2.0"},
-      {:credo, "~> 1.0.2", only: [:dev, :test], runtime: false}
+      {:credo, "~> 1.0.2", only: [:dev, :test], runtime: false},
+      {:distillery, "~> 2.0"}
     ]
   end
 
