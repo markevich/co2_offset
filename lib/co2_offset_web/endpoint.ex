@@ -2,7 +2,7 @@ defmodule Co2OffsetWeb.Endpoint do
   use Phoenix.Endpoint, otp_app: :co2_offset
 
   socket "/socket", Co2OffsetWeb.ApplicationSocket,
-    websocket: true,
+    websocket: [check_origin: false],
     longpoll: false
 
   # Serve at "/" the static files from "priv/static" directory.
