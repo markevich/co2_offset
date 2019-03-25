@@ -14,7 +14,10 @@ Helpers.get_env("ERLANG_COOKIE")
 Helpers.get_env("PORT")
 
 config :co2_offset, Co2Offset.Endpoint,
-  secret_key_base: Helpers.get_env("SECRET_KEY_BASE")
+  secret_key_base: Helpers.get_env("SECRET_KEY_BASE"),
+  live_view: [
+    signing_salt: Helpers.get_env("LIVE_VIEW_SALT")
+  ]
 
 config :co2_offset, Co2Offset.Repo,
   username: Helpers.get_env("DATABASE_USER"),
