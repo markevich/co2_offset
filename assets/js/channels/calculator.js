@@ -1,47 +1,47 @@
-import socket from "../socket"
-import SvgUpdate from "../svg_animation"
+import socket from '../socket';
+import SvgUpdate from '../svg_animation';
 
-let channel = socket.channel("calculator:1", {})
-let co2ValueInput = document.querySelector("#data-co2-value")
-let plane = document.querySelector("#data-plane-value")
-let planeSlider = document.querySelector("#data-plane-slider")
-let beef = document.querySelector("#data-beef-value")
-let car = document.querySelector("#data-car-value")
-let chicken = document.querySelector("#data-chicken-value")
-let etnoVolcano  = document.querySelector("#data-etno-volcano-value")
-let human = document.querySelector("#data-human-value")
-let petrol = document.querySelector("#data-petrol-value")
-let train = document.querySelector("#data-train-value")
+const channel = socket.channel('calculator:1', {});
+const co2ValueInput = document.querySelector('#data-co2-value');
+const plane = document.querySelector('#data-plane-value');
+const planeSlider = document.querySelector('#data-plane-slider');
+const beef = document.querySelector('#data-beef-value');
+const car = document.querySelector('#data-car-value');
+const chicken = document.querySelector('#data-chicken-value');
+const etnoVolcano = document.querySelector('#data-etno-volcano-value');
+const human = document.querySelector('#data-human-value');
+const petrol = document.querySelector('#data-petrol-value');
+const train = document.querySelector('#data-train-value');
 
-let lastOccurance = Date.now()
-planeSlider.addEventListener("input", event => {
-  if(Date.now() - lastOccurance > 50) {
-    channel.push("value_updated", {plane_km: planeSlider.value})
+let lastOccurance = Date.now();
+planeSlider.addEventListener('input', () => {
+  if (Date.now() - lastOccurance > 50) {
+    channel.push('value_updated', {
+      plane_km: planeSlider.value,
+    });
 
-    lastOccurance = Date.now()
+    lastOccurance = Date.now();
   }
-})
+});
 
 
-channel.on("value_updated", payload => {
-  let new_values = payload.new_values
-  planeSlider.value = new_values.plane.km
+channel.on('value_updated', (payload) => {
+  const newValues = payload.new_values;
+  planeSlider.value = newValues.plane.km;
 
-  SvgUpdate(new_values.plane.km)
+  SvgUpdate(newValues.plane.km);
 
-  co2ValueInput.innerHTML = new_values.co2
-  plane.innerHTML = new_values.plane.km
-  beef.innerHTML = new_values.beef.kg
-  car.innerHTML = new_values.car.km
-  chicken.innerHTML = new_values.chicken.kg
-  etnoVolcano.innerHTML = new_values.etno_volcano.seconds
-  human.innerHTML = new_values.human.days
-  petrol.innerHTML = new_values.petrol.liters
-  train.innerHTML = new_values.train.km
-})
+  co2ValueInput.innerHTML = newValues.co2;
+  plane.innerHTML = newValues.plane.km;
+  beef.innerHTML = newValues.beef.kg;
+  car.innerHTML = newValues.car.km;
+  chicken.innerHTML = newValues.chicken.kg;
+  etnoVolcano.innerHTML = newValues.etno_volcano.seconds;
+  human.innerHTML = newValues.human.days;
+  petrol.innerHTML = newValues.petrol.liters;
+  train.innerHTML = newValues.train.km;
+});
 
-channel.join()
-  .receive("ok", resp => { console.log("Joined successfully", resp) })
-  .receive("error", resp => { console.log("Unable to join", resp) })
+channel.join();
 
-export default channel
+export default channel;
