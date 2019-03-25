@@ -18,10 +18,10 @@
   },
   "devDependencies": {
     "@babel/core": "^7.4.0",
-    "@babel/preset-env": "^7.4.1",
+    "@babel/preset-env": "^7.4.2",
     "autoprefixer": "^9.5.0",
     "babel-loader": "^8.0.5",
-    "copy-webpack-plugin": "^5.0.1",
+    "copy-webpack-plugin": "^5.0.2",
     "css-loader": "^2.1.1",
     "mini-css-extract-plugin": "^0.5.0",
     "normalize.css": "^8.0.1",
