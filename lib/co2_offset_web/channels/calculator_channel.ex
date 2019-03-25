@@ -2,7 +2,7 @@ defmodule Co2OffsetWeb.CalculatorChannel do
   use Phoenix.Channel
   alias Co2Offset.Converters
 
-    @moduledoc """
+  @moduledoc """
   Calculator channel
   """
 
