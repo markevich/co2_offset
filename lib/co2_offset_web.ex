@@ -41,6 +41,7 @@ defmodule Co2OffsetWeb do
 
       import Co2OffsetWeb.ErrorHelpers
       import Co2OffsetWeb.Gettext
+      import Phoenix.LiveView, only: [live_render: 2, live_render: 3]
       alias Co2OffsetWeb.Router.Helpers, as: Routes
     end
   end
@@ -50,6 +51,7 @@ defmodule Co2OffsetWeb do
       use Phoenix.Router
       import Plug.Conn
       import Phoenix.Controller
+      import Phoenix.LiveView.Router
     end
   end
 

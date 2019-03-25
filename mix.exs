@@ -36,8 +36,9 @@ defmodule Co2Offset.MixProject do
   # Type `mix help deps` for examples and options.
   defp deps do
     [
-      {:phoenix, "~> 1.4.1"},
+      {:phoenix, "~> 1.4.1", override: true},
       {:phoenix_pubsub, "~> 1.1.1"},
+      {:phoenix_live_view, github: "phoenixframework/phoenix_live_view"},
       {:phoenix_ecto, "~> 4.0"},
       {:ecto_sql, "~> 3.0.5"},
       {:postgrex, ">= 0.0.0"},
