@@ -20,7 +20,7 @@ defmodule Co2Offset.MixProject do
   def application do
     [
       mod: {Co2Offset.Application, []},
-      extra_applications: app_list(Mix.env)
+      extra_applications: app_list(Mix.env())
     ]
   end
 
