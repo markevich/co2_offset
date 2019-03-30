@@ -1,5 +1,6 @@
 language: elixir
 elixir: '1.8.1'
+otp_release: '21.2.4'
 
 cache:
   directories:
@@ -8,7 +9,7 @@ cache:
     - deps
 
 env:
-  - MIX_ENV=test
+  - MIX_ENV=test TRAVIS_NODE_VERSION="11.11.0"
 
 services:
   - postgresql
@@ -18,6 +19,8 @@ install:
   - mix local.rebar --force
   - mix local.hex --force
   - mix deps.get
+  - nvm install $TRAVIS_NODE_VERSION
+  - nvm use $TRAVIS_NODE_VERSION
 
 before_script:
   - mix do ecto.create, ecto.migrate
@@ -26,4 +29,5 @@ before_script:
 script:
   - mix test
   - mix credo --strict
+  - mix hex.audit
   - cd assets && npm test
