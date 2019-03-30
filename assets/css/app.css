@@ -1,19 +1,10 @@
 /* This file is for your main application css. */
 @import "normalize.css";
+@import "./components.css";
+@import "./flight.css";
 @import "./calculator.css";
 
-@font-face {
-  font-family: open-sans;
-  src: url("/fonts/open_sans/regular.ttf");
-}
-@font-face {
-  font-family: open-sans-bold;
-  src: url("/fonts/open_sans/bold.ttf");
-}
-@font-face {
-  font-family: open-sans-light;
-  src: url("/fonts/open_sans/light.ttf");
-}
-#data-plane-slider{
+
+#data-plane-slider {
   width: 100%;
 }

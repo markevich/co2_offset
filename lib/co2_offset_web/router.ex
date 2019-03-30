@@ -8,6 +8,7 @@ defmodule Co2OffsetWeb.Router do
     plug Phoenix.LiveView.Flash
     plug :protect_from_forgery
     plug :put_secure_browser_headers
+    plug :put_layout, {Co2OffsetWeb.LayoutView, :app}
   end
 
   pipeline :api do
@@ -17,9 +18,10 @@ defmodule Co2OffsetWeb.Router do
   scope "/", Co2OffsetWeb do
     pipe_through :browser
 
-    get("/", FlightController, :new)
-    resources("/flights", FlightController, only: [:new])
     resources("/calculators", CalculatorController, only: [:show])
+
+    live("/", FlightLive.New)
+    live("/flights/new", FlightLive.New)
   end
 
   # Other scopes may use custom stacks.
