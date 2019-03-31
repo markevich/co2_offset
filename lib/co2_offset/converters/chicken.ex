@@ -27,6 +27,7 @@ defmodule Co2Offset.Converters.Chicken do
     # credo:disable-for-next-line
     (co2 / @co2_per_kg) |> Float.round(4)
   end
+
   defp structure(kg, acc) do
     acc
     |> Map.put(:chicken, %{kg: kg})
