@@ -1,11 +1,13 @@
 @font-face {
   font-family: open-sans-regular;
-  src: url("/fonts/open_sans/regular.ttf");
+  font-display: swap;
+  src: url("/fonts/open_sans/open-sans-regular.woff");
 }
 
 @font-face {
   font-family: montserrat-semi-bold;
-  src: url("/fonts/montserrat/semi_bold.ttf");
+  font-display: swap;
+  src: url("/fonts/montserrat/montserrat-semi-bold.woff");
 }
 
 :root {
