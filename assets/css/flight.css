@@ -29,10 +29,11 @@
   position: relative;
 }
 
-.new-flight-container__leaf1 {
+.new-flight-container__leaf {
   position: absolute;
   right: -100px;
   top: -75px;
+  width: 25vh;
 }
 
 .new-flight-container__form-container {
