@@ -25,14 +25,10 @@
   color: var(--c-primary-alpha);
 }
 
-.new-flight-container__leaf-container {
-  position: relative;
-}
-
 .new-flight-container__leaf {
-  position: absolute;
-  right: -100px;
-  top: -75px;
+  position: fixed;
+  right: -10vh;
+  top: 35%;
   width: 25vh;
 }
 
