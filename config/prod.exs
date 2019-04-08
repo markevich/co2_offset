@@ -10,9 +10,17 @@ use Mix.Config
 # which you should run after static files are built and
 # before starting your production server.
 config :co2_offset, Co2OffsetWeb.Endpoint,
-  http: [:inet6, port: {:system, "PORT"}],
-  url: [host: "localhost", port: {:system, "PORT"}],
+  url: [host: "co2offset.dev", port: 443],
   cache_static_manifest: "priv/static/cache_manifest.json",
+  force_ssl: [hsts: true],
+  http: [port: 80],
+  https: [
+    port: 443,
+    cipher_suite: :strong,
+    keyfile: System.get_env("CO2_OFFSET_SSL_KEY_PATH"),
+    cacertfile: System.get_env("CO2_OFFSET_SSL_CACERT_PATH"),
+    certfile: System.get_env("CO2_OFFSET_SSL_CERT_PATH")
+  ],
   server: true,
   root: ".",
   version: Application.spec(:phoenix_distillery, :vsn)
@@ -59,7 +67,7 @@ config :logger, level: :info
 # If you are doing OTP releases, you need to instruct Phoenix
 # to start the server for all endpoints:
 #
-#     config :phoenix, :serve_endpoints, true
+config :phoenix, :serve_endpoints, true
 #
 # Alternatively, you can configure exactly which server to
 # start per endpoint:
