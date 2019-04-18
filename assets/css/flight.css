@@ -7,6 +7,7 @@
 }
 
 .new-flight-container__heading {
+  margin: 0;
   margin-top: 2px;
   flex: 1;
   font-family: montserrat-semi-bold;
@@ -32,13 +33,13 @@
   width: 25vh;
 }
 
-.new-flight-container__form-container {
+.new-flight-form__container {
   flex: 1;
   align-self: flex-end;
   width: 100%;
 }
 
-.new-flight-container__form-heading {
+.new-flight-form__heading {
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -47,42 +48,82 @@
   color: var(--c-primary-beta);
 }
 
-.new-flight-container__form {
+.new-flight-form__form {
   margin-top: 10px;
 }
 
-.new-flight-container__inputs-container {
-  background-color: var(--c-neutral-gamma);
-  border-radius: 5px;
+.new-flight-form__input-group {
+  position: relative;
 }
 
-.new-flight-container__input {
+.new-flight-form__input {
   border: none;
   height: 68px;
   width: 100%;
+  padding: 32px 16px 0 5%;
   box-sizing: border-box;
+  background-color: var(--c-neutral-gamma);
 }
 
-.new-flight-container__input:nth-of-type(1) {
-  border-radius: 9px 9px 0 0;
+.new-flight-form__input:focus {
+  outline: none;
+  /* border: 1px solid var(--c-primary-alpha); */
 }
 
-.new-flight-container__input:nth-of-type(2) {
-  border-radius: 0 0 9px 9px;
+.new-flight-form__input--upper {
+  border-radius: 5px 5px 0 0;
 }
 
-.new-flight-container__button {
+.new-flight-form__input--upper:after {
+  position: absolute;
+  content: '';
+}
+
+.new-flight-form__input--bottom {
+  border-radius: 0 0 5px 5px;
+}
+
+.new-flight-form__label {
+  color: var(--c-neutral-alpha);
+  font-size: 18px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 5%;
+  top: 22px;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+/* active state */
+.new-flight-form__input:focus~.new-flight-form__label,
+.new-flight-form__input:valid~.new-flight-form__label {
+  top: 10px;
+  font-size: 14px;
+}
+
+.new-flight-form__line-container {
+  position: relative;
+  height: 1px;
+  background-color: var(--c-neutral-gamma);
+}
+
+.new-flight-form__line {
+  position: absolute;
+  border: none;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid var(--c-neutral-beta);
+  width: 90%;
+  left: 5%;
+}
+
+.new-flight-form__button {
   margin-top: 20px;
   height: 55px;
   width: 100%;
   font-size: 20px;
   box-shadow: 0px 7px 13px var(--c-shadow-primary-alpha);
   margin-bottom: 13px;
-}
-
-.new-flight-container__inputs-line {
-  border-bottom: 1px solid;
-  border-color: var(--c-neutral-beta);
-  width: 75%;
-  margin-left: 12.5%;
 }

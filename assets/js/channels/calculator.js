@@ -14,15 +14,17 @@ const petrol = document.querySelector('#data-petrol-value');
 const train = document.querySelector('#data-train-value');
 
 let lastOccurance = Date.now();
-planeSlider.addEventListener('input', () => {
-  if (Date.now() - lastOccurance > 50) {
-    channel.push('value_updated', {
-      plane_km: planeSlider.value,
-    });
+if (planeSlider) {
+  planeSlider.addEventListener('input', () => {
+    if (Date.now() - lastOccurance > 50) {
+      channel.push('value_updated', {
+        plane_km: planeSlider.value,
+      });
 
-    lastOccurance = Date.now();
-  }
-});
+      lastOccurance = Date.now();
+    }
+  });
+}
 
 
 channel.on('value_updated', (payload) => {

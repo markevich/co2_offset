@@ -34,7 +34,7 @@ defmodule Co2Offset.ConvertersTest do
           kg: 7.2832,
         },
         etno_volcano: %{
-          seconds: 22.6823,
+          seconds: 0.0227,
         }
       }
 

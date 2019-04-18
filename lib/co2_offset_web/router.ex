@@ -20,8 +20,8 @@ defmodule Co2OffsetWeb.Router do
 
     resources("/calculators", CalculatorController, only: [:show])
 
-    live("/", FlightLive.New)
-    live("/flights/new", FlightLive.New)
+    live("/", CalculatorLive.New)
+    live("/calculators/new", CalculatorLive.New)
   end
 
   # Other scopes may use custom stacks.

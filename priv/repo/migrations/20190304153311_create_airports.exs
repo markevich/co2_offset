@@ -10,5 +10,6 @@ defmodule Co2Offset.Repo.Migrations.CreateAirports do
       add :lat, :float
       add :long, :float
     end
+    create unique_index(:airports, [:iata])
   end
 end

@@ -48,7 +48,8 @@ defmodule Co2Offset.MixProject do
       {:jason, "~> 1.0"},
       {:plug_cowboy, "~> 2.0"},
       {:credo, "~> 1.0.2", only: [:dev, :test], runtime: false},
-      {:distillery, "~> 2.0"}
+      {:distillery, "~> 2.0"},
+      {:ex_machina, "~> 2.3", only: :test}
     ]
   end
 
