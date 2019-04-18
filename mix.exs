@@ -4,7 +4,7 @@ defmodule Co2Offset.MixProject do
   def project do
     [
       app: :co2_offset,
-      version: "0.3.3",
+      version: "0.3.4",
       elixir: "~> 1.8.1",
       elixirc_paths: elixirc_paths(Mix.env()),
       compilers: [:phoenix, :gettext] ++ Mix.compilers(),
