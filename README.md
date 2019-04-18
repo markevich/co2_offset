@@ -44,5 +44,8 @@ Offset your carbon footpring
   - `mix deps.compile`
   - `mix ecto.setup`
   - `cd assets && npm install && node node_modules/webpack/bin/webpack.js --mode development && cd ../`
+- Configure git hooks:
+  - `chmod -v -R +x .githooks`
+  - `git config core.hooksPath .githooks`
 - Run the server: `mix phx.server`.
 - Go to `localhost:4000`

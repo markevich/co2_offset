@@ -11,11 +11,9 @@ import '../css/app.css';
 //
 // import "phoenix_html"
 
-import './socket';
+import LiveSocket from 'phoenix_live_view';
 import './channels/calculator';
 import './calculator';
-
-import LiveSocket from 'phoenix_live_view';
 
 const liveSocket = new LiveSocket('/live');
 liveSocket.connect();

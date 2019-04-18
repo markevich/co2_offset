@@ -21,7 +21,10 @@ defmodule Co2OffsetWeb.ConnCase do
     quote do
       # Import conveniences for testing with connections
       use Phoenix.ConnTest
+      import Phoenix.LiveViewTest
       alias Co2OffsetWeb.Router.Helpers, as: Routes
+
+      import Co2Offset.Factory
 
       # The default endpoint for testing
       @endpoint Co2OffsetWeb.Endpoint

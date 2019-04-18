@@ -5,19 +5,19 @@ defmodule Co2Offset.Converters.EtnoVolcanoTest do
 
   describe "convert" do
     test "co2_from_seconds returns a correct amount of co2 for 1 second" do
-      assert(11.11 = EtnoVolcano.convert(1.0, :co2_from_seconds))
+      assert(11_111.0 = EtnoVolcano.convert(1.0, :co2_from_seconds))
     end
 
     test "co2_from_seconds/1 returns a correct amount of co2 for 3 seconds" do
-      assert(33.33 = EtnoVolcano.convert(3.0, :co2_from_seconds))
+      assert(33_333.0 = EtnoVolcano.convert(3.0, :co2_from_seconds))
     end
 
     test "seconds_from_co2/1 returns a correct amount of seconds for 0.132 co2" do
-      assert(1.0 = EtnoVolcano.convert(11.11, :seconds_from_co2))
+      assert(1.0 = EtnoVolcano.convert(11_111.0, :seconds_from_co2))
     end
 
     test "seconds_from_co2/1 returns a correct amount of seconds for 0.396 co2" do
-      assert(3.0 = EtnoVolcano.convert(33.33, :seconds_from_co2))
+      assert(3.0 = EtnoVolcano.convert(33_333.0, :seconds_from_co2))
     end
   end
 
@@ -28,7 +28,7 @@ defmodule Co2Offset.Converters.EtnoVolcanoTest do
       expected = %{
         co2: co2,
         etno_volcano: %{
-          seconds: 0.09,
+          seconds: 0.0001,
         }
       }
 

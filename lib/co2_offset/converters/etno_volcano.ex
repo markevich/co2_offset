@@ -2,7 +2,7 @@ defmodule Co2Offset.Converters.EtnoVolcano do
   @moduledoc """
   Converter CO2 <-> seconds for etno volcano
   """
-  @co2_per_second 11.11
+  @co2_per_second 11_111
 
   @spec convert_and_structure(%{optional(any) => any, co2: co2}) :: %{
           optional(any) => any,
