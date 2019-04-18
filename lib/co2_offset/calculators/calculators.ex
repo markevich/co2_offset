@@ -1,6 +1,7 @@
 defmodule Co2Offset.Calculators do
   alias Co2Offset.Calculators.Calculator
   alias Co2Offset.Repo
+
   @moduledoc """
   This module is a root Calculator context.
   """

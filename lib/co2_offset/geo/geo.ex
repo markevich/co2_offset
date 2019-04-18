@@ -13,16 +13,11 @@ defmodule Co2Offset.Geo do
   end
 
   def distance_between_airports(airport_from, airport_to) do
-    calculate_great_circle_distance(
+    GreatCircleDistance.call(
       airport_from.lat,
       airport_from.long,
       airport_to.lat,
       airport_to.long
     )
-  end
-
-  @spec calculate_great_circle_distance(number(), number(), number(), number()) :: integer()
-  defp calculate_great_circle_distance(lat1, lon1, lat2, lon2) do
-    GreatCircleDistance.call(lat1, lon1, lat2, lon2)
   end
 end

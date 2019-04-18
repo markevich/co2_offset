@@ -3,8 +3,8 @@ defmodule Co2Offset.Repo.Migrations.CreateCapitalsDistances do
 
   def change do
     create table(:capitals_distances) do
-      add :capital_a, :string
-      add :capital_b, :string
+      add :capital_from, :string
+      add :capital_to, :string
       add :distance, :float
       add :transport_type, :string
 

@@ -1,6 +1,5 @@
 defmodule Mix.Tasks.Co2Offset.UpdateCapitalsDistancesCsv do
   use Mix.Task
-  require IEx
 
   @capitals_json_path "priv/tools/capitals.json"
   @distances_csv_path "priv/tools/capitals_distances.csv"
