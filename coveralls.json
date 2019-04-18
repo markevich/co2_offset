@@ -1,0 +1,22 @@
+{
+  "skip_files": [
+    "lib/co2_offset.ex",
+    "lib/co2_offset/application.ex",
+    "lib/co2_offset/repo.ex",
+    "lib/co2_offset_web.ex",
+    "lib/co2_offset_web/endpoint.ex",
+    "lib/co2_offset_web/gettext.ex",
+    "lib/co2_offset_web/router.ex",
+    "lib/co2_offset_web/channels/application_socket.ex",
+    "lib/co2_offset_web/views/error_view.ex",
+    "lib/co2_offset_web/views/error_helpers.ex",
+    "lib/mix/tasks",
+    "test"
+  ],
+  "terminal_options": {
+    "file_column_width": 80
+  },
+  "coverage_options": {
+    "minimum_coverage": 100
+  }
+}

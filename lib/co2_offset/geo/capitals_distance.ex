@@ -7,8 +7,8 @@ defmodule Co2Offset.Geo.CapitalsDistance do
   """
 
   schema "capitals_distances" do
-    field :capital_a, :string
-    field :capital_b, :string
+    field :capital_from, :string
+    field :capital_to, :string
     field :distance, :integer
   end
 end

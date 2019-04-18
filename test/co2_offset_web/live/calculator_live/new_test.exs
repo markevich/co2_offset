@@ -24,31 +24,43 @@ defmodule Co2OffsetWeb.CalculatorLive.NewTest do
       {:ok, airport_from: airport_from, airport_to: airport_to}
     end
 
-    @tag skip: "wait for elixir slack answer https://elixir-lang.slack.com/archives/C03QQCV4H/p1555569448222400"
     test "creates new calculator", %{
       view: view,
       airport_from: airport_from,
       airport_to: airport_to
     } do
+      # "wait for elixir slack answer https://elixir-lang.slack.com/archives/C03QQCV4H/p1555569448222400"
+      # assert_redirect(
+      #   view,
+      #   "calculators/1",
+      #   fn ->
+      #     assert render_submit(
+      #              view,
+      #              :save,
+      #              %{
+      #                calculator: %{
+      #                  iata_from: airport_from.iata,
+      #                  iata_to: airport_to.iata
+      #                }
+      #              }
+      #            )
+      #   end
+      # )
       calculators_before = Repo.aggregate(Calculator, :count, :id)
 
-      assert_redirect(
+      render_submit(
         view,
-        "calculators/1",
-        fn ->
-          assert render_submit(
-            view,
-            :save,
-            %{
-              calculator: %{
-                iata_from: airport_from.iata,
-                iata_to: airport_to.iata
-              }
-            }
-          )
-      end)
+        :save,
+        %{
+          calculator: %{
+            iata_from: airport_from.iata,
+            iata_to: airport_to.iata
+          }
+        }
+      )
 
       calculators_after = Repo.aggregate(Calculator, :count, :id)
+
       assert(calculators_after == calculators_before + 1)
     end
   end

@@ -27,7 +27,7 @@ before_script:
   - cd assets && npm install && npm run deploy && cd ../
 
 script:
-  - mix test
+  - mix coveralls.travis
   - mix credo --strict
   - mix hex.audit
   - cd assets && npm test

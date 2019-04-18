@@ -13,7 +13,7 @@ defmodule Co2OffsetWeb.CalculatorChannelTest do
   end
 
   test "value_updated broadcasts to calculator:1", %{socket: socket} do
-    push socket, "value_updated", %{"plane_km" => "5.0"}
+    push(socket, "value_updated", %{"plane_km" => "5.0"})
 
     expected = %{new_values: Converters.from_plane(5.0)}
 

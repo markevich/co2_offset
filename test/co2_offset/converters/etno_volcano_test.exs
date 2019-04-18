@@ -28,7 +28,7 @@ defmodule Co2Offset.Converters.EtnoVolcanoTest do
       expected = %{
         co2: co2,
         etno_volcano: %{
-          seconds: 0.0001,
+          seconds: 0.0001
         }
       }
 

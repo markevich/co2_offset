@@ -1,10 +1,11 @@
 ![Travis](https://travis-ci.com/markevich/co2_offset.svg?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/markevich/co2_offset/badge.svg?branch=master)](https://coveralls.io/github/markevich/co2_offset?branch=master)
 ==========
 # CO2 offset
 
 Offset your carbon footpring
 
-- [!Travis](#travis)
+- [![Coverage Status](https://coveralls.io/github/markevich/co2_offset?branch=master)](#coverage-statushttpscoverallsiogithubmarkevichco2offsetbranchmaster)
 - [CO2 offset](#co2-offset)
   - [Install development environment](#install-development-environment)
 

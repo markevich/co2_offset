@@ -24,6 +24,7 @@ defmodule Co2Offset.DataCase do
       import Ecto.Changeset
       import Ecto.Query
       import Co2Offset.DataCase
+      import Co2Offset.Factory
     end
   end
 

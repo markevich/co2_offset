@@ -1,4 +1,5 @@
 #!/bin/sh
 
-#mix format --check-formatted
-# mix credo --strict
+mix format --check-formatted &&
+mix credo --strict &&
+MIX_ENV=test mix coveralls

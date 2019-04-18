@@ -32,7 +32,7 @@ defmodule Mix.Tasks.Co2Offset.UpdateCapitalsDistancesTable do
 
   def copy_table_sql do
     """
-    COPY capitals_distances(capital_a, capital_b, distance) FROM PROGRAM '#{data_program()}' WITH (FORMAT CSV);
+    COPY capitals_distances(capital_from, capital_to, distance) FROM PROGRAM '#{data_program()}' WITH (FORMAT CSV);
     """
   end
 

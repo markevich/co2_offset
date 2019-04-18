@@ -6,7 +6,6 @@ defmodule Co2OffsetWeb.CalculatorControllerTest do
       :ok,
       calculator: insert(:calculator)
     }
-
   end
 
   describe "happy path" do
