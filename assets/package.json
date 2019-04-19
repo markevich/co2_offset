@@ -43,9 +43,13 @@
   },
   "size-limit": [
     {
-      "limit": "300 KB",
+      "limit": "15 KB",
       "webpack": false,
-      "path": "../priv/static/js/app.js"
+      "path": [
+        "../priv/static/js/core.js",
+        "../priv/static/js/pages/calculator.new.js",
+        "../priv/static/js/pages/calculator.show.js"
+      ]
     }
   ]
 }
