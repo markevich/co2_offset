@@ -2,4 +2,5 @@
 
 mix format --check-formatted &&
 mix credo --strict &&
-MIX_ENV=test mix coveralls
+MIX_ENV=test mix coveralls &&
+cd assets && npm run test
