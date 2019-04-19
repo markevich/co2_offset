@@ -1,7 +1,6 @@
 /* This file is for your main application css. */
 @import "normalize.css";
 @import "./components.css";
-@import "./flight.css";
 @import "./calculator.css";
 
 
