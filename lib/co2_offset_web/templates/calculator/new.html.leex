@@ -1,6 +1,9 @@
 <link rel="stylesheet" href="<%= Routes.static_path(@socket, "/css/pages/calculator.new.css") %>"/>
 <script type="text/javascript" src="<%= Routes.static_path(@socket, "/js/pages/calculator.new.js") %>"></script>
 
+<link rel="preload" href="<%= Routes.static_path(@socket, "/css/pages/calculator.show.css") %>" as="style">
+<link rel="preload" href="<%= Routes.static_path(@socket, "/js/pages/calculator.show.js") %>" as="script">
+
 <%= #link "Go to calculator", to: Routes.calculator_path(@socket, :show, 1) %>
 <div class="new-calculator-container">
   <div class="header">
