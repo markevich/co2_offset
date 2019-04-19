@@ -1,3 +1,6 @@
+<link rel="stylesheet" href="<%= Routes.static_path(@conn, "/css/pages/calculator.show.css") %>"/>
+<script type="text/javascript" src="<%= Routes.static_path(@conn, "/js/pages/calculator.show.js") %>"></script>
+
 <h1 class="co2-amount">
   <span class="co2-amount__title"> Co2 amount: </span>
   <span id="data-co2-value" class="co2-amount__value"><%= float_to_string(@calculator[:co2]) %></span>

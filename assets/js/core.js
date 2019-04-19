@@ -10,5 +10,3 @@ import '../css/core.css';
 // Import dependencies
 //
 // import "phoenix_html"
-
-import './channels/calculator';

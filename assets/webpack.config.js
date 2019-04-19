@@ -14,7 +14,8 @@ module.exports = (env, options) => ({
   },
   entry: {
     'core': ['./js/core.js'],
-    'pages/calculator.new': ['./js/pages/calculator.new.js']
+    'pages/calculator.new': ['./js/pages/calculator.new.js'],
+    'pages/calculator.show': ['./js/pages/calculator.show.js'],
     // 'vendor': [].concat(glob.sync('./vendor/**/*.js'))
   },
   output: {
