@@ -1,4 +1,4 @@
-.new-flight-container {
+.new-calculator-container {
   background-color: var(--c-primary-gamma);
   height: 100%;
   display: flex;
@@ -6,7 +6,7 @@
   /* justify-content: space-between; */
 }
 
-.new-flight-container__heading {
+.new-calculator-container__heading {
   margin: 0;
   margin-top: 2px;
   flex: 1;
@@ -15,31 +15,31 @@
   color: var(--c-primary-alpha);
 }
 
-.new-flight-container__subheading-container {
+.new-calculator-container__subheading-container {
   flex: 3;
 }
 
-.new-flight-container__subheading {
+.new-calculator-container__subheading {
   font-size: 20px;
   line-height: 32px;
   font-weight: normal;
   color: var(--c-primary-alpha);
 }
 
-.new-flight-container__leaf {
+.new-calculator-container__leaf {
   position: fixed;
   right: -10vh;
   top: 35%;
   width: 25vh;
 }
 
-.new-flight-form__container {
+.new-calculator-form__container {
   flex: 1;
   align-self: flex-end;
   width: 100%;
 }
 
-.new-flight-form__heading {
+.new-calculator-form__heading {
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -48,15 +48,15 @@
   color: var(--c-primary-beta);
 }
 
-.new-flight-form__form {
+.new-calculator-form__form {
   margin-top: 10px;
 }
 
-.new-flight-form__input-group {
+.new-calculator-form__input-group {
   position: relative;
 }
 
-.new-flight-form__input {
+.new-calculator-form__input {
   border: none;
   height: 68px;
   width: 100%;
@@ -65,25 +65,25 @@
   background-color: var(--c-neutral-gamma);
 }
 
-.new-flight-form__input:focus {
+.new-calculator-form__input:focus {
   outline: none;
   /* border: 1px solid var(--c-primary-alpha); */
 }
 
-.new-flight-form__input--upper {
+.new-calculator-form__input--upper {
   border-radius: 5px 5px 0 0;
 }
 
-.new-flight-form__input--upper:after {
+.new-calculator-form__input--upper:after {
   position: absolute;
   content: '';
 }
 
-.new-flight-form__input--bottom {
+.new-calculator-form__input--bottom {
   border-radius: 0 0 5px 5px;
 }
 
-.new-flight-form__label {
+.new-calculator-form__label {
   color: var(--c-neutral-alpha);
   font-size: 18px;
   font-weight: normal;
@@ -97,19 +97,19 @@
 }
 
 /* active state */
-.new-flight-form__input:focus~.new-flight-form__label,
-.new-flight-form__input:valid~.new-flight-form__label {
+.new-calculator-form__input:focus~.new-calculator-form__label,
+.new-calculator-form__input:valid~.new-calculator-form__label {
   top: 10px;
   font-size: 14px;
 }
 
-.new-flight-form__line-container {
+.new-calculator-form__line-container {
   position: relative;
   height: 1px;
   background-color: var(--c-neutral-gamma);
 }
 
-.new-flight-form__line {
+.new-calculator-form__line {
   position: absolute;
   border: none;
   margin: 0;
@@ -119,7 +119,7 @@
   left: 5%;
 }
 
-.new-flight-form__button {
+.new-calculator-form__button {
   margin-top: 20px;
   height: 55px;
   width: 100%;

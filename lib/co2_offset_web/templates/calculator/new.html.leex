@@ -2,7 +2,7 @@
 <script type="text/javascript" src="<%= Routes.static_path(@socket, "/js/pages/calculator.new.js") %>"></script>
 
 <%= #link "Go to calculator", to: Routes.calculator_path(@socket, :show, 1) %>
-<div class="new-flight-container">
+<div class="new-calculator-container">
   <div class="header">
     <span class="header__logo">CO²</span>
     <div class="header__menu">
@@ -13,37 +13,37 @@
   </div>
 
 
-  <h1 class="new-flight-container__heading">
+  <h1 class="new-calculator-container__heading">
     Offset your flight CO² emissions
   </h1>
 
-  <div class="new-flight-container__subheading-container">
-    <h2 class="new-flight-container__subheading">
+  <div class="new-calculator-container__subheading-container">
+    <h2 class="new-calculator-container__subheading">
       Measure your carbon footprint<br />
       and take the first step to help<br />
       to restore the balance.
     </h2>
-    <img class="new-flight-container__leaf" src="<%= Routes.static_path(@socket, "/images/leaf1.svg") %>">
+    <img class="new-calculator-container__leaf" src="<%= Routes.static_path(@socket, "/images/leaf1.svg") %>">
   </div>
 
 
-  <div class="new-flight-form__container">
-    <h4 class="new-flight-form__heading">
+  <div class="new-calculator-form__container">
+    <h4 class="new-calculator-form__heading">
       Enter your flight details
     </h4>
-    <%= f = form_for @changeset, "#", class: "new-flight-form__form", phx_submit: :save %>
-      <div class="new-flight-form__input-group">
-        <%= text_input f, :iata_from, class: "new-flight-form__input new-flight-form__input--upper", required: "required" %>
-        <label class="new-flight-form__label">Flight from</label>
+    <%= f = form_for @changeset, "#", class: "new-calculator-form__form", phx_submit: :save %>
+      <div class="new-calculator-form__input-group">
+        <%= text_input f, :iata_from, class: "new-calculator-form__input new-calculator-form__input--upper", required: "required" %>
+        <label class="new-calculator-form__label">Flight from</label>
       </div>
-      <div class="new-flight-form__line-container">
-        <hr class="new-flight-form__line"></hr>
+      <div class="new-calculator-form__line-container">
+        <hr class="new-calculator-form__line"></hr>
       </div>
-      <div class="new-flight-form__input-group">
-        <%= text_input f, :iata_to, class: "new-flight-form__input new-flight-form__input--bottom", required: "required" %>
-        <label class="new-flight-form__label">Flight to</label>
+      <div class="new-calculator-form__input-group">
+        <%= text_input f, :iata_to, class: "new-calculator-form__input new-calculator-form__input--bottom", required: "required" %>
+        <label class="new-calculator-form__label">Flight to</label>
       </div>
-      <input class="button new-flight-form__button" type="submit" value="Measure!"></input>
+      <input class="button new-calculator-form__button" type="submit" value="Measure!"></input>
     </form>
   </div>
 </div>
