@@ -3,7 +3,7 @@
   <div class="calculator__details">
     <div class="calculator__distance-container">
       <span class="calculator__distance calculator__distance_large" id="data-plane-value">
-        <%= float_to_string(@calculator[:km]) %>
+        <%= float_to_string(@converter[:km]) %>
       </span>
       <span class="calculator__distance calculator__distance_small">KM</span>
     </div>
@@ -16,6 +16,6 @@
       <td class="calculator__example-text calculator__example-text_small">to</td>
       <td class="calculator__example-text calculator__example-text_large">Moscow</td>
     </table>
-    <input id="data-plane-slider" type="range" min="0" step="500" max="20000" value="<%= float_to_string(@calculator[:km]) %>">
+    <input id="data-plane-slider" type="range" min="0" step="500" max="20000" value="<%= float_to_string(@converter[:km]) %>">
   </div>
 </div>

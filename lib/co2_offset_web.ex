@@ -31,6 +31,7 @@ defmodule Co2OffsetWeb do
     quote do
       use Phoenix.View,
         root: "lib/co2_offset_web/templates",
+        pattern: "**/*",
         namespace: Co2OffsetWeb
 
       # Import convenience functions from controllers

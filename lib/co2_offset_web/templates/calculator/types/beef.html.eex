@@ -1,21 +1,21 @@
 <div class="calculator">
-  <h3 class="calculator__title"> Chicken </h3>
+  <h3 class="calculator__title"> Beef </h3>
   <div class="calculator__details">
     <div class="calculator__distance-container">
-      <span class="calculator__distance calculator__distance_large" id="data-chicken-value">
-        <%= float_to_string(@calculator[:kg]) %>
+      <span class="calculator__distance calculator__distance_large" id="data-beef-value">
+        <%= float_to_string(@converter[:kg]) %>
       </span>
       <span class="calculator__distance calculator__distance_small">KG</span>
     </div>
-    <object class="calculator__image" id="data-chicken-svg" data="/images/chicken-leg.svg" type="image/svg+xml"></object>
+    <object class="calculator__image" id="data-beef-svg" data="/images/chicken-leg.svg" type="image/svg+xml"></object>
   </div>
   <div class="calculator__example-container">
     <div class="calculator__example-title">Same CO2 as:</div>
     <table class="calculator__example-container">
       <tr>
         <td class="calculator__example-text calculator__example-text_small">Growing</td>
-        <td class="calculator__example-text calculator__example-text_large">40</td>
-        <td class="calculator__example-text calculator__example-text_small">chickens</td>
+        <td class="calculator__example-text calculator__example-text_large">2</td>
+        <td class="calculator__example-text calculator__example-text_small">cows</td>
       </tr>
     </table>
   </div>

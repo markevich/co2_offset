@@ -18,10 +18,9 @@ defmodule Co2OffsetWeb.Router do
   scope "/", Co2OffsetWeb do
     pipe_through :browser
 
-    resources("/calculators", CalculatorController, only: [:show])
-
     live("/", CalculatorLive.New)
     live("/calculators/new", CalculatorLive.New)
+    live("/calculators/:id", CalculatorLive.Show)
   end
 
   # Other scopes may use custom stacks.

@@ -3,7 +3,7 @@
   <div class="calculator__details">
     <div class="calculator__distance-container">
       <span class="calculator__distance calculator__distance_large" id="data-train-value">
-        <%= float_to_string(@calculator[:km]) %>
+        <%= float_to_string(@converter[:km]) %>
       </span>
       <span class="calculator__distance calculator__distance_small">KM</span>
     </div>
