@@ -77,3 +77,10 @@ div[data-phx-view] {
   border: 0;
   border-radius: 5px;
 }
+
+.button--small{
+  width: 124px;
+  font-size: 18px;
+  height: 35px;
+  background-color: var(--c-primary-beta);
+}

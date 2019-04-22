@@ -1,68 +1,48 @@
-.calculator {
-  border: 1px solid black;
-  border-radius: 3px;
-  width: 330px;
-  padding: 5px;
-  margin: 10px;
-  font-family: open-sans-regular;
+.show-calculator-actions{
+  position: sticky;
+  top: 0;
+  background-color: var(--c-neutral-gamma);
+  padding: 22px 16px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.calculator__title {
-  font-family: open-sans-regular;
-  margin: 2px;
-  text-align: center;
+.show-calculator-money{
+  display: flex;
 }
 
-.calculator__details {
-  border-bottom: 1px solid black;
-}
-
-.calculator__distance-container {
-  display: inline-block;
-  line-height: 50px;
-}
-
-.calculator__distance_large {
-  font-weight: bold;
-  font-size: 20px;
-}
-
-.calculator__distance_small {
-  font-size: 14px;
-}
-
-.calculator__image {
-  float: right;
+.show-calculator-money__button{
+  margin: 0;
+  height: 35px;
+  background-color: var(--c-neutral-beta);
+  border-color: var(--c-neutral-beta);
+  border-style: solid;
   width: 50px;
 }
 
-.calculator__example-container {
-  width: 330px;
-  table-layout: fixed;
-  text-align: center;
+.show-calculator-money__button--dec{
+  border-width: 1px 0 1px 1px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 
-.calculator__example-row {
-  height: 30px;
+.show-calculator-money__button--inc{
+  border-width: 1px 1px 1px 0;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
-.calculator__example-title {
-  text-align: center;
-  margin-bottom: 10px;
-}
-
-.calculator__example-car-title {
-  text-align: left;
-  font-size: 14px;
-  width: 90px;
-}
-
-.calculator__example-car-narrow {
-  width: 20px;
-}
-
-.calculator__example-car-city {
-  width: 100px;
+.show-calculator-money__amount{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  line-height: 1;
+  width: 80px;
+  height: 100%;
+  border-color: var(--c-neutral-beta);
+  border-width: 1px 0 1px 0;
+  border-style: solid;
+  font-size: 18px;
   font-weight: bold;
-  font-size: 20px;
 }

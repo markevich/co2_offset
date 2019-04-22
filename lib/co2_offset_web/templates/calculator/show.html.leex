@@ -1,6 +1,16 @@
 <link rel="stylesheet" href="<%= Routes.static_path(@socket, "/css/pages/calculator.show.css") %>"/>
 <script type="text/javascript" src="<%= Routes.static_path(@socket, "/js/pages/calculator.show.js") %>"></script>
 
+<div class="show-calculator-actions">
+  <div class="show-calculator-money">
+    <button class="show-calculator-money__button show-calculator-money__button--dec">-</button>
+    <div class="show-calculator-money__amount"><span>$3600</span></div>
+    <button class="show-calculator-money__button show-calculator-money__button--inc">+</button>
+  </div>
+  <button class="button button--small show-calculator-button">
+    Donate
+  </button>
+</div>
 <h1 class="co2-amount">
   <span class="co2-amount__title"> Co2 amount: </span>
   <span id="data-co2-value" class="co2-amount__value"><%= float_to_string(@converter[:co2]) %></span>
