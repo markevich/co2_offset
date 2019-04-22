@@ -3,7 +3,7 @@
   <div class="calculator__details">
     <div class="calculator__distance-container">
       <span class="calculator__distance calculator__distance_large" id="data-petrol-value">
-        <%= float_to_string(@calculator[:liters]) %>
+        <%= float_to_string(@converter[:liters]) %>
       </span>
       <span class="calculator__distance calculator__distance_small">Liters</span>
     </div>

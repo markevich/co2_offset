@@ -3,7 +3,7 @@
   <div class="calculator__details">
     <div class="calculator__distance-container">
       <span class="calculator__distance calculator__distance_large" id="data-etno-volcano-value">
-        <%= float_to_string(@calculator[:seconds]) %>
+        <%= float_to_string(@converter[:seconds]) %>
       </span>
       <span class="calculator__distance calculator__distance_small">Seconds</span>
     </div>

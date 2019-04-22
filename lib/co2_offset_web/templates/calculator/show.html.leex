@@ -1,0 +1,12 @@
+<link rel="stylesheet" href="<%= Routes.static_path(@socket, "/css/pages/calculator.show.css") %>"/>
+<script type="text/javascript" src="<%= Routes.static_path(@socket, "/js/pages/calculator.show.js") %>"></script>
+
+<h1 class="co2-amount">
+  <span class="co2-amount__title"> Co2 amount: </span>
+  <span id="data-co2-value" class="co2-amount__value"><%= float_to_string(@converter[:co2]) %></span>
+  <span class="co2-amount__title">kg</span>
+</h1>
+
+<%= for type <- [:plane, :car, :train, :petrol, :human, :beef, :chicken, :etno_volcano] do %>
+  <%= render(Co2OffsetWeb.CalculatorView, "types/#{type}.html", converter: @converter[type], socket: @socket) %>
+<% end %>

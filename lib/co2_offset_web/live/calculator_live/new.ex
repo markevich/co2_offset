@@ -2,6 +2,7 @@ defmodule Co2OffsetWeb.CalculatorLive.New do
   use Phoenix.LiveView
   alias Co2Offset.Calculators
   alias Co2Offset.Calculators.Calculator
+  alias Co2OffsetWeb.CalculatorLive.Show
   alias Co2OffsetWeb.Router.Helpers, as: Routes
 
   @moduledoc """
@@ -39,7 +40,7 @@ defmodule Co2OffsetWeb.CalculatorLive.New do
       {:ok, calculator} ->
         {:stop,
          socket
-         |> redirect(to: Routes.calculator_path(socket, :show, calculator))}
+         |> redirect(to: Routes.live_path(socket, Show, calculator))}
 
       {:error, %Ecto.Changeset{} = changeset} ->
         {:noreply, assign(socket, changeset: changeset)}

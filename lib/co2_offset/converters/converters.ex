@@ -6,8 +6,8 @@ defmodule Co2Offset.Converters do
   """
 
   @spec from_plane(float()) :: %{optional(any) => any}
-  def from_plane(plane_km) when is_float(plane_km) do
-    co2 = Plane.convert(plane_km, :co2_from_km)
+  def from_plane(plane_km) when is_integer(plane_km) do
+    co2 = Plane.convert(plane_km / 1.0, :co2_from_km)
 
     %{co2: co2}
     |> EtnoVolcano.convert_and_structure()

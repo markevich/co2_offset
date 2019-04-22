@@ -8,7 +8,7 @@ defmodule Co2Offset.ConvertersTest do
   describe "converters" do
     test "from_plane/1 returns a correct mapping" do
       # speed of a plane - 700km/h
-      km = 700.0
+      km = 700
 
       expected = %{
         co2: 252.0,
