@@ -1,21 +1,39 @@
-<div class="calculator">
-  <h3 class="calculator__title"> Plane </h3>
-  <div class="calculator__details">
-    <div class="calculator__distance-container">
-      <span class="calculator__distance calculator__distance_large" id="data-plane-value">
-        <%= float_to_string(@converter[:km]) %>
-      </span>
-      <span class="calculator__distance calculator__distance_small">KM</span>
+<div class="converter-container">
+  <div class="converter-item converter-item--primary">
+    <div class="converter-item__header">
+      <object class="converter-item__icon" data="<%= Routes.static_path(@socket, "/images/converters/plane.svg") %>" type="image/svg+xml">
+      </object>
+      <div class="converter-item__details">
+        <div class="converter-item__details-row">
+          <div class="converter-item__details-name">
+            Plane
+          </div>
+          <div class="converter-item__details-value">
+            <%= float_to_string(@converter[:km]) %>
+            KM
+          </div>
+        </div>
+        <div class="converter-item__details-row">
+          <div class="converter-item__details-name converter-item__details-name--secondary">
+            Compensated CO²
+          </div>
+          <div class="converter-item__details-value converter-item__details-value--secondary">
+            <%= float_to_string(@co2_amount) %>
+            KG
+          </div>
+        </div>
+      </div>
     </div>
-    <object class="calculator__image" id="data-plane-svg" data="/images/chicken-leg.svg" type="image/svg+xml"></object>
+    <div class="converter-item__examples">
+      <div class="converter-item__examples-row">
+        <div class="converter-item__examples-from">
+          Begawan
+        </div>
+        <div class="converter-item__examples-indicator">
+        </div>
+        <div class="converter-item__examples-to">
+          Berlin
+        </div>
+      </div>
+    </div>
   </div>
-  <div class="calculator__example-container">
-    <table class="calculator__example-container">
-      <td class="calculator__example-text calculator__example-text_small">Flight from</td>
-      <td class="calculator__example-text calculator__example-text_large">Minsk</td>
-      <td class="calculator__example-text calculator__example-text_small">to</td>
-      <td class="calculator__example-text calculator__example-text_large">Moscow</td>
-    </table>
-    <input id="data-plane-slider" type="range" min="0" step="500" max="20000" value="<%= float_to_string(@converter[:km]) %>">
-  </div>
-</div>

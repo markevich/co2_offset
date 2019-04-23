@@ -7,7 +7,6 @@
       </span>
       <span class="calculator__distance calculator__distance_small">Days</span>
     </div>
-    <object class="calculator__image" id="data-human-svg" data="/images/chicken-leg.svg" type="image/svg+xml"></object>
   </div>
   <div class="calculator__example-container">
     <div class="calculator__example-title">Same CO2 as:</div>

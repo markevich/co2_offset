@@ -15,7 +15,7 @@ defmodule Co2OffsetWeb.CalculatorLive.ShowTest do
   end
 
   test "renders /calculators/show", %{html: html} do
-    assert html =~ "Co2 amount:"
+    assert html =~ "Compensated CO²"
     assert html =~ "231.12"
     assert html =~ "Plane"
     assert html =~ "642.0"
