@@ -9,7 +9,7 @@
             Petrol burning
           </div>
           <div class="converter-item__details-value">
-            <%= float_to_string(@converter[:liters]) %>
+            <%= to_int(@converter[:liters]) %>
             liters
           </div>
         </div>

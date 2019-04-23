@@ -9,7 +9,7 @@
             Plane
           </div>
           <div class="converter-item__details-value">
-            <%= float_to_string(@converter[:km]) %>
+            <%= to_int(@converter[:km]) %>
             KM
           </div>
         </div>
@@ -18,7 +18,7 @@
             Compensated CO²
           </div>
           <div class="converter-item__details-value converter-item__details-value--secondary">
-            <%= float_to_string(@co2_amount) %>
+            <%= to_int(@co2_amount) %>
             KG
           </div>
         </div>
