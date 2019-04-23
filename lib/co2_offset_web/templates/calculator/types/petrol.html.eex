@@ -1,22 +1,19 @@
-<div class="calculator">
-  <h3 class="calculator__title"> Petrol </h3>
-  <div class="calculator__details">
-    <div class="calculator__distance-container">
-      <span class="calculator__distance calculator__distance_large" id="data-petrol-value">
-        <%= float_to_string(@converter[:liters]) %>
-      </span>
-      <span class="calculator__distance calculator__distance_small">Liters</span>
+<div class="converter-container">
+  <div class="converter-item converter-item">
+    <div class="converter-item__header">
+      <object class="converter-item__icon" data="<%= Routes.static_path(@socket, "/images/converters/plane.svg") %>" type="image/svg+xml">
+      </object>
+      <div class="converter-item__details">
+        <div class="converter-item__details-row">
+          <div class="converter-item__details-name">
+            Petrol burning
+          </div>
+          <div class="converter-item__details-value">
+            <%= float_to_string(@converter[:liters]) %>
+            liters
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-  <div class="calculator__example-container">
-    <div class="calculator__example-title">Same CO2 as:</div>
-    <table class="calculator__example-container">
-      <tr>
-        <td class="calculator__example-text calculator__example-text_small">Burning</td>
-        <td class="calculator__example-text calculator__example-text_large">250</td>
-        <td class="calculator__example-text calculator__example-text_small">liters</td>
-        <td class="calculator__example-text calculator__example-text_small">of 95 petrol</td>
-      </tr>
-    </table>
   </div>
 </div>

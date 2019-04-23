@@ -7,8 +7,11 @@ body{
   top: 0;
   background-color: var(--c-neutral-gamma);
   padding: 22px 16px;
+  margin-bottom: 16px;
   display: flex;
   justify-content: space-between;
+  z-index: 2;
+  box-shadow: 0px 1px 9px var(--c-shadow-primary-alpha);
 }
 
 .money{
@@ -51,16 +54,40 @@ body{
   font-weight: bold;
 }
 
+.converters-separator__container{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+}
+
+.converters-separator__item{
+  padding: 8px 20px;
+  margin-top: 16px;
+  margin-bottom: -16px;
+  font-size: 14px;
+  color: var(--c-neutral-gamma);
+  background-color: #BDBDBD;
+  border-radius: 20px;
+}
+
 .converter-container{
-  padding: 16px;
+  margin: 0 16px;
+  position: relative;
+}
+.converter-container:after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 95%;
+  left: 2.5%;
+  border-bottom: 1px solid #f2f2f2;
+  z-index: 1;
 }
 
 .converter-item{
   background-color: var(--c-neutral-gamma);
   border-radius: 7px;
-}
-
-.converter-item--primary{
   padding: 13px 16px;
 }
 

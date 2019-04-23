@@ -1,5 +1,5 @@
 <div class="converter-container">
-  <div class="converter-item converter-item--primary">
+  <div class="converter-item converter-item">
     <div class="converter-item__header">
       <object class="converter-item__icon" data="<%= Routes.static_path(@socket, "/images/converters/plane.svg") %>" type="image/svg+xml">
       </object>
@@ -37,3 +37,4 @@
       </div>
     </div>
   </div>
+</div>

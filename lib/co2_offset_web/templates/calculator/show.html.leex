@@ -11,8 +11,14 @@
     Donate
   </button>
 </div>
+
 <%= render(Co2OffsetWeb.CalculatorView, "types/plane.html", converter: @converter[:plane], co2_amount: @converter[:co2], socket: @socket) %>
 
+<div class="converters-separator__container">
+  <div class="converters-separator__item">
+    Same CO² as:
+  </div>
+</div>
 <%= for type <- [:car, :train, :petrol, :human, :beef, :chicken, :etno_volcano] do %>
   <%= render(Co2OffsetWeb.CalculatorView, "types/#{type}.html", converter: @converter[type], socket: @socket) %>
 <% end %>
