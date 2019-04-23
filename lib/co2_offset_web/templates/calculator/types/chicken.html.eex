@@ -9,7 +9,7 @@
             Chicken
           </div>
           <div class="converter-item__details-value">
-            <%= float_to_string(@converter[:kg]) %>
+            <%= to_int(@converter[:kg]) %>
             KG
           </div>
         </div>

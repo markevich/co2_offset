@@ -9,7 +9,7 @@
             Etno volcano breathing
           </div>
           <div class="converter-item__details-value">
-            <%= float_to_string(@converter[:seconds]) %>
+            <%= to_float_string(@converter[:seconds]) %>
             sec
           </div>
         </div>

@@ -9,7 +9,7 @@
             Car
           </div>
           <div class="converter-item__details-value">
-            <%= float_to_string(@converter[:km]) %>
+            <%= to_int(@converter[:km]) %>
             KM
           </div>
         </div>
