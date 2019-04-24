@@ -34,17 +34,63 @@
     <h4 class="new-calculator-form__heading">
       Enter your flight details
     </h4>
-    <%= f = form_for @changeset, "#", class: "new-calculator-form__form", phx_submit: :save %>
+    <%= f = form_for @changeset, "#", class: "new-calculator-form__form", phx_submit: :save, phx_change: :autocomplete %>
       <div class="new-calculator-form__input-group">
-        <%= text_input f, :iata_from, class: "new-calculator-form__input new-calculator-form__input--upper", required: "required" %>
+        <%= text_input f, :iata_from, class: "new-calculator-form__input new-calculator-form__input--upper", required: "required", phx_focus: :show_iata_from_autocomplete %>
         <label class="new-calculator-form__label">Flight from</label>
+        <div class="new-calculator-autocomplete">
+          <div class="new-calculator-autocomplete__container">
+          <%= if @show_iata_from_autocomplete do %>
+              <%= for {city, airports} <- @iata_from_autocomplete do %>
+                <div class="new-calculator-autocomplete__group">
+                  <div class="new-calculator-autocomplete__location">
+                    <%= city %>, <span class="new-calculator-autocomplete__country"><%= List.first(airports).country %></span>
+                  </div>
+                  <%= for airport <- airports do %>
+                    <div class="new-calculator-autocomplete__item" value="ololo" phx-click="set_iata_from" phx-value="<%= airport.iata %>">
+                      <div class="new-calculator-autocomplete__name">
+                        <%= airport.name %>
+                      </div>
+                      <div class="new-calculator-autocomplete__iata">
+                        <%= airport.iata %>
+                      </div>
+                    </div>
+                  <% end %>
+                </div>
+              <% end %>
+          <% end %>
+          </div>
+        </div>
       </div>
       <div class="new-calculator-form__line-container">
         <hr class="new-calculator-form__line"></hr>
       </div>
       <div class="new-calculator-form__input-group">
-        <%= text_input f, :iata_to, class: "new-calculator-form__input new-calculator-form__input--bottom", required: "required" %>
+        <%= text_input f, :iata_to, class: "new-calculator-form__input new-calculator-form__input--bottom", required: "required", phx_focus: :show_iata_to_autocomplete %>
         <label class="new-calculator-form__label">Flight to</label>
+        <div class="new-calculator-autocomplete">
+          <div class="new-calculator-autocomplete__container">
+          <%= if @show_iata_to_autocomplete do %>
+              <%= for {city, airports} <- @iata_to_autocomplete do %>
+                <div class="new-calculator-autocomplete__group">
+                  <div class="new-calculator-autocomplete__location">
+                    <%= city %>, <span class="new-calculator-autocomplete__country"><%= List.first(airports).country %></span>
+                  </div>
+                  <%= for airport <- airports do %>
+                    <div class="new-calculator-autocomplete__item" phx-click="set_iata_to" phx-value="<%= airport.iata %>">
+                      <div class="new-calculator-autocomplete__name">
+                        <%= airport.name %>
+                      </div>
+                      <div class="new-calculator-autocomplete__iata">
+                        <%= airport.iata %>
+                      </div>
+                    </div>
+                  <% end %>
+                </div>
+              <% end %>
+          <% end %>
+          </div>
+        </div>
       </div>
       <input class="button new-calculator-form__button" type="submit" value="Measure!"></input>
     </form>
