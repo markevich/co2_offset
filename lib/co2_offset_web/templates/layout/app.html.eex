@@ -7,7 +7,7 @@
     <title>Co2Offset</title>
     <link rel="stylesheet" href="<%= Routes.static_path(@conn, "/css/core.css") %>"/>
   </head>
-  <body>
+  <body onclick="void(0);">
     <main role="main" class="container">
       <!-- <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
       <p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p> -->

@@ -30,6 +30,7 @@
 body {
   font-family: open-sans-regular, sans-serif;
   background-color: var(--c-primary-gamma);
+  cursor: pointer;
 }
 
 html,
