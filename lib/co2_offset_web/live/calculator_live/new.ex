@@ -2,12 +2,9 @@ defmodule Co2OffsetWeb.CalculatorLive.New do
   use Phoenix.LiveView
   alias Co2Offset.Calculators
   alias Co2Offset.Calculators.Calculator
-  alias Co2Offset.Geo.Airport
+  alias Co2Offset.Geo
   alias Co2OffsetWeb.CalculatorLive.Show
   alias Co2OffsetWeb.Router.Helpers, as: Routes
-
-  import Ecto.Query
-  alias Co2Offset.Repo
 
   @moduledoc """
   Live view for Flights/new page.
@@ -88,28 +85,9 @@ defmodule Co2OffsetWeb.CalculatorLive.New do
     end
   end
 
-  defp get_autocomplete_records(token) when byte_size(token) <= 2 do
-    %{}
-  end
-
-  defp get_autocomplete_records(search_term) do
-    term = String.downcase(search_term)
-
+  defp get_autocomplete_records(term) do
     term
-    |> query()
-    |> Repo.all()
+    |> Geo.search_airports()
     |> Enum.group_by(fn a -> a.city end)
-  end
-
-  defp query(term) do
-    term = "#{term}%"
-
-    from a in Airport,
-      where:
-        like(fragment("lower(?)", a.city), ^term) or
-          like(fragment("lower(?)", a.country), ^term) or
-          like(fragment("lower(?)", a.name), ^term) or
-          like(fragment("lower(?)", a.iata), ^term),
-      limit: 10
   end
 end
