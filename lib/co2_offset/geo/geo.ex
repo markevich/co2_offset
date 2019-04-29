@@ -20,4 +20,27 @@ defmodule Co2Offset.Geo do
       airport_to.long
     )
   end
+
+  def search_airports(term) when byte_size(term) <= 2 do
+    %{}
+  end
+
+  def search_airports(term) do
+    term
+    |> String.downcase()
+    |> form_query()
+    |> Repo.all()
+  end
+
+  defp form_query(term) do
+    term = "%#{term}%"
+
+    from a in Airport,
+      where:
+        like(fragment("lower(?)", a.city), ^term) or
+          like(fragment("lower(?)", a.country), ^term) or
+          like(fragment("lower(?)", a.name), ^term) or
+          like(fragment("lower(?)", a.iata), ^term),
+      limit: 10
+  end
 end

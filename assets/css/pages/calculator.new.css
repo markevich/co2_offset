@@ -149,10 +149,6 @@
 }
 
 .new-calculator-autocomplete__location{
-  /* margin: */
-}
-
-.new-calculator-autocomplete__country{
   color: #b3b3b3;
 }
 
@@ -163,8 +159,17 @@
 
 }
 
-.new-calculator-autocomplete__name{
+.new-calculator-autocomplete__airport{
   margin-left: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.new-calculator-autocomplete__icon{
+  width: 19px;
+  height: 19px;
+  margin-right: 8px;
 }
 
 .new-calculator-autocomplete__iata{
