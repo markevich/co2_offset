@@ -4,25 +4,39 @@ defmodule Co2OffsetWeb.CalculatorLive.ShowTest do
 
   setup do
     calculator = insert(:calculator, original_distance: 642)
+    distance_1700 = insert(:capitals_distance, distance: 1700)
+    distance_10000 = insert(:capitals_distance, distance: 10_000)
 
     {:ok, view, html} =
       mount(Co2OffsetWeb.Endpoint, Show, session: %{path_params: %{"id" => calculator.id}})
 
     {
       :ok,
-      view: view, html: html, calculator: calculator
+      view: view,
+      html: html,
+      calculator: calculator,
+      distance_1700: distance_1700,
+      distance_10000: distance_10000
     }
   end
 
-  test "renders /calculators/show", %{html: html} do
+  test "renders /calculators/show", %{
+    html: html,
+    distance_1700: distance_1700,
+    distance_10000: distance_10000
+  } do
     assert html =~ "Compensated CO²"
     assert html =~ "231"
     assert html =~ "Plane"
     assert html =~ "642"
     assert html =~ "Car"
     assert html =~ "1751"
+    assert html =~ distance_1700.capital_from
+    assert html =~ distance_1700.capital_to
     assert html =~ "Train"
     assert html =~ "10272"
+    assert html =~ distance_10000.capital_from
+    assert html =~ distance_10000.capital_to
     assert html =~ "Petrol"
     assert html =~ "99"
     assert html =~ "Human"

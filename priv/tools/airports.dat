@@ -2167,7 +2167,7 @@
 2950,"Gomel","Gomel","Belarus","GME","UMGG",52.527000427246094,31.016700744628906,472,3,"E","Europe/Minsk","airport","OurAirports"
 2951,"Vitebsk Vostochny","Vitebsk","Belarus","VTB","UMII",55.126499176025,30.349599838257,682,3,"E","Europe/Minsk","airport","OurAirports"
 2952,"Khrabrovo","Kaliningrad","Russia","KGD","UMKK",54.88999938964844,20.592599868774414,42,2,"N","Europe/Kaliningrad","airport","OurAirports"
-2954,"Minsk National","Minsk 2","Belarus","MSQ","UMMS",53.882499694824,28.030700683594,670,3,"E","Europe/Minsk","airport","OurAirports"
+2954,"Minsk National","Minsk","Belarus","MSQ","UMMS",53.882499694824,28.030700683594,670,3,"E","Europe/Minsk","airport","OurAirports"
 2955,"Abakan","Abakan","Russia","ABA","UNAA",53.7400016784668,91.38500213623047,831,7,"N","Asia/Krasnoyarsk","airport","OurAirports"
 2956,"Barnaul","Barnaul","Russia","BAX","UNBB",53.363800048828125,83.53849792480469,837,7,"N","Asia/Krasnoyarsk","airport","OurAirports"
 2957,"Kemerovo","Kemorovo","Russia","KEJ","UNEE",55.27009963989258,86.1072006225586,863,7,"N","Asia/Krasnoyarsk","airport","OurAirports"

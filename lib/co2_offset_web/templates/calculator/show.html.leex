@@ -12,7 +12,7 @@
   </button>
 </div>
 
-<%= render(Co2OffsetWeb.CalculatorView, "types/plane.html", converter: @converter[:plane], co2_amount: @converter[:co2], socket: @socket) %>
+<%= render(Co2OffsetWeb.CalculatorView, "types/plane.html", converter: @converters[:plane], co2_amount: @converters[:co2], calculator: @calculator, socket: @socket) %>
 
 <div class="converters-separator__container">
   <div class="converters-separator__item">
@@ -20,5 +20,5 @@
   </div>
 </div>
 <%= for type <- [:car, :train, :petrol, :human, :beef, :chicken, :etno_volcano] do %>
-  <%= render(Co2OffsetWeb.CalculatorView, "types/#{type}.html", converter: @converter[type], socket: @socket) %>
+  <%= render(Co2OffsetWeb.CalculatorView, "types/#{type}.html", converter: @converters[type], socket: @socket) %>
 <% end %>

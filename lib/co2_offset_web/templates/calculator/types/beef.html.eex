@@ -10,7 +10,7 @@
           </div>
           <div class="converter-item__details-value">
             <%= to_float_string(@converter[:kg]) %>
-            KG
+            kg
           </div>
         </div>
       </div>

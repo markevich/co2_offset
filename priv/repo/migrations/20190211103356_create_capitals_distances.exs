@@ -10,7 +10,5 @@ defmodule Co2Offset.Repo.Migrations.CreateCapitalsDistances do
 
       timestamps()
     end
-
-    create index(:capitals_distances, [:distance])
   end
 end

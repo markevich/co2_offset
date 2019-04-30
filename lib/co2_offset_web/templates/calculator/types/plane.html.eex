@@ -10,7 +10,7 @@
           </div>
           <div class="converter-item__details-value">
             <%= to_int(@converter[:km]) %>
-            KM
+            km
           </div>
         </div>
         <div class="converter-item__details-row">
@@ -19,7 +19,7 @@
           </div>
           <div class="converter-item__details-value converter-item__details-value--secondary">
             <%= to_int(@co2_amount) %>
-            KG
+            kg
           </div>
         </div>
       </div>
@@ -27,13 +27,13 @@
     <div class="converter-item__examples">
       <div class="converter-item__examples-row">
         <div class="converter-item__examples-from">
-          Begawan
+          <%= @calculator.city_from %>
         </div>
         <div class="converter-item__examples-indicator">
           <img src="<%= Routes.static_path(@socket, "/images/calculator.show/indicator-plane.svg") %>"/>
         </div>
         <div class="converter-item__examples-to">
-          Berlin
+          <%= @calculator.city_to %>
         </div>
       </div>
     </div>

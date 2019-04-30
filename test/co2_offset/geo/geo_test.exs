@@ -101,4 +101,18 @@ defmodule Co2Offset.Geo.GeoTest do
       assert %{} = Geo.search_airports("")
     end
   end
+
+  describe "get_locations_with_similar_distance" do
+    setup do
+      insert(:capitals_distance, capital_from: "Minsk", capital_to: "Moscow", distance: 900)
+      insert(:capitals_distance, capital_from: "Paris", capital_to: "Copenhagen", distance: 1000)
+
+      {:ok, %{}}
+    end
+
+    test "returns closest locations" do
+      assert %{from: "Paris", to: "Copenhagen"} = Geo.get_locations_with_similar_distance(955)
+      assert %{from: "Minsk", to: "Moscow"} = Geo.get_locations_with_similar_distance(945)
+    end
+  end
 end
