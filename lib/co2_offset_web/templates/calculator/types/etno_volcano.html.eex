@@ -1,7 +1,7 @@
 <div class="converter-container">
   <div class="converter-item converter-item">
     <div class="converter-item__header">
-      <object class="converter-item__icon" data="<%= Routes.static_path(@socket, "/images/converters/plane.svg") %>" type="image/svg+xml">
+      <img src="<%= Routes.static_path(@socket, "/images/calculator.show/volcano.svg") %>"/>
       </object>
       <div class="converter-item__details">
         <div class="converter-item__details-row">
