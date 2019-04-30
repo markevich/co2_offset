@@ -8,5 +8,7 @@ defmodule Co2Offset.Repo.Migrations.FixCapitalsDistances do
       remove :inserted_at
       remove :updated_at
     end
+
+    create index(:capitals_distances, [:distance])
   end
 end

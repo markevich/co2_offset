@@ -140,8 +140,8 @@ body{
 .converter-item__examples-row{
   display: flex;
   flex-direction: row;
+  align-items: center;
   font: var(--t-caption-beta);
-  color: var(--c-primary-alpha);
 }
 
 .converter-item__examples-from{
@@ -149,6 +149,7 @@ body{
 }
 
 .converter-item__examples-indicator{
+  height: 19px;
   flex: 1;
 }
 
