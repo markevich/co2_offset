@@ -134,15 +134,16 @@
         #
         # Controversial and experimental checks (opt-in, just remove `, false`)
         #
-        {Credo.Check.Consistency.MultiAliasImportRequireUse, false},
-        {Credo.Check.Design.DuplicatedCode, false},
+        {Credo.Check.Consistency.MultiAliasImportRequireUse},
+        {Credo.Check.Design.DuplicatedCode},
+        {Credo.Check.Readability.MultiAlias},
         {Credo.Check.Readability.Specs, false},
-        {Credo.Check.Refactor.ABCSize, false},
-        {Credo.Check.Refactor.AppendSingleItem, false},
-        {Credo.Check.Refactor.DoubleBooleanNegation, false},
-        {Credo.Check.Refactor.VariableRebinding, false},
-        {Credo.Check.Warning.MapGetUnsafePass, false},
-        {Credo.Check.Warning.UnsafeToAtom, false}
+        {Credo.Check.Refactor.ABCSize},
+        {Credo.Check.Refactor.AppendSingleItem},
+        {Credo.Check.Refactor.DoubleBooleanNegation},
+        {Credo.Check.Refactor.VariableRebinding},
+        {Credo.Check.Warning.MapGetUnsafePass},
+        {Credo.Check.Warning.UnsafeToAtom}
 
         #
         # Custom checks can be created using `mix credo.gen.check`.

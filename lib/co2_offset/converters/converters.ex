@@ -1,4 +1,5 @@
 defmodule Co2Offset.Converters do
+  # credo:disable-for-next-line
   alias Co2Offset.Converters.{Beef, Car, Chicken, EtnoVolcano, Human, Petrol, Plane, Train}
 
   @moduledoc """
