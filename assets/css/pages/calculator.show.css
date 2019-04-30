@@ -1,11 +1,11 @@
 body{
-  background-color: #f2f2f2;
+  background-color: var(--c-neutral-eta);
 }
 
 .actions{
   position: sticky;
   top: 0;
-  background-color: var(--c-neutral-gamma);
+  background-color: var(--c-neutral-iota);
   padding: 22px 16px;
   margin-bottom: 16px;
   display: flex;
@@ -21,8 +21,8 @@ body{
 .money__button{
   margin: 0;
   height: 35px;
-  background-color: var(--c-neutral-beta);
-  border-color: var(--c-neutral-beta);
+  background-color: var(--c-neutral-epsilon);
+  border-color: var(--c-neutral-epsilon);
   border-style: solid;
   width: 50px;
 }
@@ -47,11 +47,10 @@ body{
   line-height: 1;
   width: 80px;
   height: 100%;
-  border-color: var(--c-neutral-beta);
+  border-color: var(--c-neutral-epsilon);
   border-width: 1px 0 1px 0;
   border-style: solid;
-  font-size: 18px;
-  font-weight: bold;
+  font: var(--t-body-beta-bold);
 }
 
 .converters-separator__container{
@@ -65,9 +64,9 @@ body{
   padding: 8px 20px;
   margin-top: 16px;
   margin-bottom: -16px;
-  font-size: 14px;
-  color: var(--c-neutral-gamma);
-  background-color: #BDBDBD;
+  font: var(--t-caption-beta);
+  color: var(--c-neutral-iota);
+  background-color: var(--c-neutral-delta);
   border-radius: 20px;
 }
 
@@ -81,12 +80,12 @@ body{
   position: absolute;
   width: 95%;
   left: 2.5%;
-  border-bottom: 1px solid #f2f2f2;
+  border-bottom: 1px solid var(--c-neutral-eta);
   z-index: 1;
 }
 
 .converter-item{
-  background-color: var(--c-neutral-gamma);
+  background-color: var(--c-neutral-iota);
   border-radius: 7px;
   padding: 13px 16px;
 }
@@ -117,22 +116,21 @@ body{
 
 
 .converter-item__details-name{
-  font-size: 18px;
+  font: var(--t-body-beta);
 }
 
 .converter-item__details-name--secondary{
-  font-size: 14px;
-  color: #aaa;
+  font: var(--t-caption-beta);
+  color: var(--c-neutral-beta);
 }
 
 .converter-item__details-value{
-  font-size: 16px;
-  font-weight: bold;
+  font: var(--t-body-alpha-bold);
 }
 
 .converter-item__details-value--secondary{
-  font-size: 14px;
-  color: #aaa;
+  font: var(--t-caption-beta-bold);
+  color: var(--c-neutral-beta);
 }
 
 .converter-item__examples{
@@ -142,7 +140,7 @@ body{
 .converter-item__examples-row{
   display: flex;
   flex-direction: row;
-  font-size: 14px;
+  font: var(--t-caption-beta);
   color: var(--c-primary-alpha);
 }
 
