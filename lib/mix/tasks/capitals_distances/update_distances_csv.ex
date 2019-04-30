@@ -1,15 +1,15 @@
-defmodule Mix.Tasks.Co2Offset.UpdateCapitalsDistancesCsv do
+defmodule Mix.Tasks.Co2Offset.UpdateDistancesCsv do
   use Mix.Task
 
-  @capitals_json_path "priv/tools/capitals.json"
-  @distances_csv_path "priv/tools/capitals_distances.csv"
+  @capitals_json_path "priv/tools/distances.json"
+  @distances_csv_path "priv/tools/distances.csv"
 
   @moduledoc """
-  Update tools/capitals_distances.csv data with actual distances
+  Update tools/distances.csv data with actual distances
 
   This can be used in your application as:
 
-      mix co2_offset.update_capitals_distances_csv
+      mix co2_offset.update_distances_csv
   """
 
   @shortdoc "Update distances csv"

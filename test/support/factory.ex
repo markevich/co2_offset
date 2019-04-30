@@ -23,9 +23,9 @@ defmodule Co2Offset.Factory do
   end
 
   def capitals_distance_factory do
-    %Co2Offset.Geo.CapitalsDistance{
-      capital_from: sequence(:iata, fn n -> generate_unique_string(n, 3) end),
-      capital_to: sequence(:iata, fn n -> generate_unique_string(n, 4) end),
+    %Co2Offset.Geo.Distance{
+      from: sequence(:iata, fn n -> generate_unique_string(n, 3) end),
+      to: sequence(:iata, fn n -> generate_unique_string(n, 4) end),
       distance: 42
     }
   end

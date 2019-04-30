@@ -104,8 +104,8 @@ defmodule Co2Offset.Geo.GeoTest do
 
   describe "get_locations_with_similar_distance" do
     setup do
-      insert(:capitals_distance, capital_from: "Minsk", capital_to: "Moscow", distance: 900)
-      insert(:capitals_distance, capital_from: "Paris", capital_to: "Copenhagen", distance: 1000)
+      insert(:capitals_distance, from: "Minsk", to: "Moscow", distance: 900)
+      insert(:capitals_distance, from: "Paris", to: "Copenhagen", distance: 1000)
 
       {:ok, %{}}
     end

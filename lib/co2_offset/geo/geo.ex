@@ -1,6 +1,5 @@
 defmodule Co2Offset.Geo do
   alias Co2Offset.Geo.Airport
-  alias Co2Offset.Geo.CapitalsDistance
   alias Co2Offset.Geo.GreatCircleDistance
   alias Co2Offset.Repo
   import Ecto.Query, only: [from: 2]
@@ -56,9 +55,9 @@ defmodule Co2Offset.Geo do
     """
      SELECT * FROM
        (
-         (SELECT * FROM capitals_distances WHERE distance >= $1 ORDER BY distance LIMIT 1)
+         (SELECT * FROM distances WHERE distance >= $1 ORDER BY distance LIMIT 1)
              UNION ALL
-         (SELECT * FROM capitals_distances WHERE distance < $1  ORDER BY distance DESC LIMIT 1)
+         (SELECT * FROM distances WHERE distance < $1  ORDER BY distance DESC LIMIT 1)
        ) as foo
      ORDER BY abs($1 - distance) LIMIT 1;
     """

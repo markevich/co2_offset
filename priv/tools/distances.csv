@@ -1,34 +1,34 @@
 Luanda,Algiers,5180
-Porto-Novo,Algiers,3364
-Porto-Novo,Luanda,2073
+Porto Novo,Algiers,3364
+Porto Novo,Luanda,2073
 Gaborone,Algiers,7236
 Gaborone,Luanda,2213
-Gaborone,Porto-Novo,4286
+Gaborone,Porto Novo,4286
 Ouagadougou,Algiers,2749
 Ouagadougou,Luanda,2867
-Ouagadougou,Porto-Novo,794
+Ouagadougou,Porto Novo,794
 Ouagadougou,Gaborone,5080
 Bujumbura,Algiers,5229
 Bujumbura,Luanda,1883
-Bujumbura,Porto-Novo,3167
+Bujumbura,Porto Novo,3167
 Bujumbura,Gaborone,2394
 Bujumbura,Ouagadougou,3836
 Yaoundé,Algiers,3757
 Yaoundé,Luanda,1426
-Yaoundé,Porto-Novo,1030
+Yaoundé,Porto Novo,1030
 Yaoundé,Gaborone,3532
 Yaoundé,Ouagadougou,1718
 Yaoundé,Bujumbura,2140
 Praia,Algiers,3574
 Praia,Luanda,4836
-Praia,Porto-Novo,2999
+Praia,Porto Novo,2999
 Praia,Gaborone,6935
 Praia,Ouagadougou,2391
 Praia,Bujumbura,6166
 Praia,Yaoundé,4027
 Bangui,Algiers,3934
 Bangui,Luanda,1582
-Bangui,Porto-Novo,1781
+Bangui,Porto Novo,1781
 Bangui,Gaborone,3323
 Bangui,Ouagadougou,2380
 Bangui,Bujumbura,1478
@@ -36,7 +36,7 @@ Bangui,Yaoundé,782
 Bangui,Praia,4748
 N'Djamena,Algiers,2991
 N'Djamena,Luanda,2338
-N'Djamena,Porto-Novo,1500
+N'Djamena,Porto Novo,1500
 N'Djamena,Gaborone,4254
 N'Djamena,Ouagadougou,1801
 N'Djamena,Bujumbura,2339
@@ -45,7 +45,7 @@ N'Djamena,Praia,4175
 N'Djamena,Bangui,944
 Moroni,Algiers,6834
 Moroni,Luanda,3299
-Moroni,Porto-Novo,4931
+Moroni,Porto Novo,4931
 Moroni,Gaborone,2326
 Moroni,Ouagadougou,5621
 Moroni,Bujumbura,1789
@@ -55,7 +55,7 @@ Moroni,Bangui,3265
 Moroni,N'Djamena,4088
 Kinshasa,Algiers,4741
 Kinshasa,Luanda,553
-Kinshasa,Porto-Novo,1854
+Kinshasa,Porto Novo,1854
 Kinshasa,Gaborone,2529
 Kinshasa,Ouagadougou,2628
 Kinshasa,Bujumbura,1562
@@ -66,7 +66,7 @@ Kinshasa,N'Djamena,1827
 Kinshasa,Moroni,3182
 Djibouti,Algiers,4882
 Djibouti,Luanda,4013
-Djibouti,Porto-Novo,4485
+Djibouti,Porto Novo,4485
 Djibouti,Gaborone,4443
 Djibouti,Ouagadougou,4855
 Djibouti,Bujumbura,2258
@@ -78,7 +78,7 @@ Djibouti,Moroni,2590
 Djibouti,Kinshasa,3551
 Cairo,Algiers,2711
 Cairo,Luanda,4735
-Cairo,Porto-Novo,3978
+Cairo,Porto Novo,3978
 Cairo,Gaborone,6110
 Cairo,Ouagadougou,3904
 Cairo,Bujumbura,3724
@@ -91,7 +91,7 @@ Cairo,Kinshasa,4183
 Cairo,Djibouti,2393
 Malabo,Algiers,3716
 Malabo,Luanda,1484
-Malabo,Porto-Novo,750
+Malabo,Porto Novo,750
 Malabo,Gaborone,3661
 Malabo,Ouagadougou,1485
 Malabo,Bujumbura,2420
@@ -105,7 +105,7 @@ Malabo,Djibouti,3883
 Malabo,Cairo,3760
 Asmara,Algiers,4265
 Asmara,Luanda,3904
-Asmara,Porto-Novo,4080
+Asmara,Porto Novo,4080
 Asmara,Gaborone,4665
 Asmara,Ouagadougou,4375
 Asmara,Bujumbura,2332
@@ -120,7 +120,7 @@ Asmara,Cairo,1816
 Asmara,Malabo,3541
 Addis Ababa,Algiers,4734
 Addis Ababa,Luanda,3454
-Addis Ababa,Porto-Novo,3991
+Addis Ababa,Porto Novo,3991
 Addis Ababa,Gaborone,3995
 Addis Ababa,Ouagadougou,4413
 Addis Ababa,Bujumbura,1728
@@ -136,7 +136,7 @@ Addis Ababa,Malabo,3362
 Addis Ababa,Asmara,702
 Libreville,Algiers,4097
 Libreville,Luanda,1108
-Libreville,Porto-Novo,1019
+Libreville,Porto Novo,1019
 Libreville,Gaborone,3301
 Libreville,Ouagadougou,1800
 Libreville,Bujumbura,2252
@@ -153,7 +153,7 @@ Libreville,Asmara,3638
 Libreville,Addis Ababa,3383
 Banjul,Algiers,3243
 Banjul,Luanda,4120
-Banjul,Porto-Novo,2237
+Banjul,Porto Novo,2237
 Banjul,Gaborone,6261
 Banjul,Ouagadougou,1635
 Banjul,Bujumbura,5403
@@ -171,7 +171,7 @@ Banjul,Addis Ababa,6043
 Banjul,Libreville,3213
 Accra,Algiers,3484
 Accra,Luanda,2186
-Accra,Porto-Novo,327
+Accra,Porto Novo,327
 Accra,Gaborone,4390
 Accra,Ouagadougou,771
 Accra,Bujumbura,3430
@@ -190,7 +190,7 @@ Accra,Libreville,1216
 Accra,Banjul,1998
 Conakry,Algiers,3462
 Conakry,Luanda,3613
-Conakry,Porto-Novo,1824
+Conakry,Porto Novo,1824
 Conakry,Gaborone,5734
 Conakry,Ouagadougou,1363
 Conakry,Bujumbura,4980
@@ -210,7 +210,7 @@ Conakry,Banjul,537
 Conakry,Accra,1550
 Bissau,Algiers,3336
 Bissau,Luanda,3931
-Bissau,Porto-Novo,2084
+Bissau,Porto Novo,2084
 Bissau,Gaborone,6063
 Bissau,Ouagadougou,1531
 Bissau,Bujumbura,5251
@@ -231,7 +231,7 @@ Bissau,Accra,1831
 Bissau,Conakry,332
 Yamoussoukro,Algiers,3433
 Yamoussoukro,Luanda,2691
-Yamoussoukro,Porto-Novo,871
+Yamoussoukro,Porto Novo,871
 Yamoussoukro,Gaborone,4864
 Yamoussoukro,Ouagadougou,741
 Yamoussoukro,Bujumbura,4009
@@ -253,7 +253,7 @@ Yamoussoukro,Conakry,973
 Yamoussoukro,Bissau,1263
 Nairobi,Algiers,5479
 Nairobi,Luanda,2743
-Nairobi,Porto-Novo,3895
+Nairobi,Porto Novo,3895
 Nairobi,Gaborone,2851
 Nairobi,Ouagadougou,4497
 Nairobi,Bujumbura,861
@@ -276,7 +276,7 @@ Nairobi,Bissau,5970
 Nairobi,Yamoussoukro,4758
 Maseru,Algiers,7777
 Maseru,Luanda,2719
-Maseru,Porto-Novo,4790
+Maseru,Porto Novo,4790
 Maseru,Gaborone,542
 Maseru,Ouagadougou,5584
 Maseru,Bujumbura,2891
@@ -300,7 +300,7 @@ Maseru,Yamoussoukro,5331
 Maseru,Nairobi,3271
 Monrovia,Algiers,3666
 Monrovia,Luanda,3151
-Monrovia,Porto-Novo,1481
+Monrovia,Porto Novo,1481
 Monrovia,Gaborone,5257
 Monrovia,Ouagadougou,1220
 Monrovia,Bujumbura,4587
@@ -325,7 +325,7 @@ Monrovia,Nairobi,5353
 Monrovia,Maseru,5693
 Tripoli,Algiers,1021
 Tripoli,Luanda,4639
-Tripoli,Porto-Novo,3131
+Tripoli,Porto Novo,3131
 Tripoli,Gaborone,6538
 Tripoli,Ouagadougou,2728
 Tripoli,Bujumbura,4377
@@ -351,7 +351,7 @@ Tripoli,Maseru,7078
 Tripoli,Monrovia,3858
 Antananarivo,Algiers,7752
 Antananarivo,Luanda,3861
-Antananarivo,Porto-Novo,5676
+Antananarivo,Porto Novo,5676
 Antananarivo,Gaborone,2320
 Antananarivo,Ouagadougou,6404
 Antananarivo,Bujumbura,2624
@@ -378,7 +378,7 @@ Antananarivo,Monrovia,6977
 Antananarivo,Tripoli,6818
 Lilongwe,Algiers,6495
 Lilongwe,Luanda,2311
-Lilongwe,Porto-Novo,4126
+Lilongwe,Porto Novo,4126
 Lilongwe,Gaborone,1446
 Lilongwe,Ouagadougou,4871
 Lilongwe,Bujumbura,1274
@@ -406,7 +406,7 @@ Lilongwe,Tripoli,5651
 Lilongwe,Antananarivo,1565
 Bamako,Algiers,2897
 Bamako,Luanda,3348
-Bamako,Porto-Novo,1348
+Bamako,Porto Novo,1348
 Bamako,Gaborone,5544
 Bamako,Ouagadougou,703
 Bamako,Bujumbura,4495
@@ -435,7 +435,7 @@ Bamako,Antananarivo,7024
 Bamako,Lilongwe,5473
 Nouakchott,Algiers,2787
 Nouakchott,Luanda,4387
-Nouakchott,Porto-Novo,2391
+Nouakchott,Porto Novo,2391
 Nouakchott,Gaborone,6571
 Nouakchott,Ouagadougou,1675
 Nouakchott,Bujumbura,5511
@@ -465,7 +465,7 @@ Nouakchott,Lilongwe,6517
 Nouakchott,Bamako,1047
 Port Louis,Algiers,8522
 Port Louis,Luanda,4912
-Port Louis,Porto-Novo,6692
+Port Louis,Porto Novo,6692
 Port Louis,Gaborone,3278
 Port Louis,Ouagadougou,7400
 Port Louis,Bujumbura,3575
@@ -496,7 +496,7 @@ Port Louis,Bamako,8037
 Port Louis,Nouakchott,9069
 Mamoutzou,Algiers,7058
 Mamoutzou,Luanda,3520
-Mamoutzou,Porto-Novo,5175
+Mamoutzou,Porto Novo,5175
 Mamoutzou,Gaborone,2420
 Mamoutzou,Ouagadougou,5866
 Mamoutzou,Bujumbura,2034
@@ -528,7 +528,7 @@ Mamoutzou,Nouakchott,7540
 Mamoutzou,Port Louis,1543
 Rabat,Algiers,945
 Rabat,Luanda,5214
-Rabat,Porto-Novo,3209
+Rabat,Porto Novo,3209
 Rabat,Gaborone,7383
 Rabat,Ouagadougou,2465
 Rabat,Bujumbura,5625
@@ -561,7 +561,7 @@ Rabat,Port Louis,9085
 Rabat,Mamoutzou,7570
 Maputo,Algiers,7629
 Maputo,Luanda,2793
-Maputo,Porto-Novo,4848
+Maputo,Porto Novo,4848
 Maputo,Gaborone,686
 Maputo,Ouagadougou,5639
 Maputo,Bujumbura,2535
@@ -595,7 +595,7 @@ Maputo,Mamoutzou,1975
 Maputo,Rabat,7859
 Windhoek,Algiers,6758
 Windhoek,Luanda,1580
-Windhoek,Porto-Novo,3595
+Windhoek,Porto Novo,3595
 Windhoek,Gaborone,929
 Windhoek,Ouagadougou,4382
 Windhoek,Bujumbura,2510
@@ -630,7 +630,7 @@ Windhoek,Rabat,6780
 Windhoek,Maputo,1615
 Niamey,Algiers,2586
 Niamey,Luanda,2772
-Niamey,Porto-Novo,781
+Niamey,Porto Novo,781
 Niamey,Gaborone,4967
 Niamey,Ouagadougou,414
 Niamey,Bujumbura,3545
@@ -666,7 +666,7 @@ Niamey,Maputo,5490
 Niamey,Windhoek,4330
 Abuja,Algiers,3110
 Abuja,Luanda,2091
-Abuja,Porto-Novo,609
+Abuja,Porto Novo,609
 Abuja,Gaborone,4249
 Abuja,Ouagadougou,1050
 Abuja,Bujumbura,2792
@@ -703,7 +703,7 @@ Abuja,Windhoek,3669
 Abuja,Niamey,766
 Brazzaville,Algiers,4735
 Brazzaville,Luanda,556
-Brazzaville,Porto-Novo,1848
+Brazzaville,Porto Novo,1848
 Brazzaville,Gaborone,2535
 Brazzaville,Ouagadougou,2622
 Brazzaville,Bujumbura,1565
@@ -739,48 +739,48 @@ Brazzaville,Maputo,3036
 Brazzaville,Windhoek,2043
 Brazzaville,Niamey,2454
 Brazzaville,Abuja,1717
-Saint-Denis,Algiers,8441
-Saint-Denis,Luanda,4714
-Saint-Denis,Porto-Novo,6522
-Saint-Denis,Gaborone,3052
-Saint-Denis,Ouagadougou,7239
-Saint-Denis,Bujumbura,3428
-Saint-Denis,Yaoundé,5522
-Saint-Denis,Praia,9491
-Saint-Denis,Bangui,4906
-Saint-Denis,N'Djamena,5740
-Saint-Denis,Moroni,1652
-Saint-Denis,Kinshasa,4709
-Saint-Denis,Djibouti,3853
-Saint-Denis,Cairo,6228
-Saint-Denis,Malabo,5776
-Saint-Denis,Asmara,4412
-Saint-Denis,Addis Ababa,3793
-Saint-Denis,Libreville,5528
-Saint-Denis,Banjul,8741
-Saint-Denis,Accra,6744
-Saint-Denis,Conakry,8271
-Saint-Denis,Bissau,8570
-Saint-Denis,Yamoussoukro,7307
-Saint-Denis,Nairobi,2973
-Saint-Denis,Maseru,2960
-Saint-Denis,Monrovia,7832
-Saint-Denis,Tripoli,7474
-Saint-Denis,Antananarivo,855
-Saint-Denis,Lilongwe,2420
-Saint-Denis,Bamako,7869
-Saint-Denis,Nouakchott,8905
-Saint-Denis,Port Louis,228
-Saint-Denis,Mamoutzou,1411
-Saint-Denis,Rabat,8978
-Saint-Denis,Maputo,2398
-Saint-Denis,Windhoek,3957
-Saint-Denis,Niamey,6968
-Saint-Denis,Abuja,6209
-Saint-Denis,Brazzaville,4714
+Saint Denis,Algiers,8441
+Saint Denis,Luanda,4714
+Saint Denis,Porto Novo,6522
+Saint Denis,Gaborone,3052
+Saint Denis,Ouagadougou,7239
+Saint Denis,Bujumbura,3428
+Saint Denis,Yaoundé,5522
+Saint Denis,Praia,9491
+Saint Denis,Bangui,4906
+Saint Denis,N'Djamena,5740
+Saint Denis,Moroni,1652
+Saint Denis,Kinshasa,4709
+Saint Denis,Djibouti,3853
+Saint Denis,Cairo,6228
+Saint Denis,Malabo,5776
+Saint Denis,Asmara,4412
+Saint Denis,Addis Ababa,3793
+Saint Denis,Libreville,5528
+Saint Denis,Banjul,8741
+Saint Denis,Accra,6744
+Saint Denis,Conakry,8271
+Saint Denis,Bissau,8570
+Saint Denis,Yamoussoukro,7307
+Saint Denis,Nairobi,2973
+Saint Denis,Maseru,2960
+Saint Denis,Monrovia,7832
+Saint Denis,Tripoli,7474
+Saint Denis,Antananarivo,855
+Saint Denis,Lilongwe,2420
+Saint Denis,Bamako,7869
+Saint Denis,Nouakchott,8905
+Saint Denis,Port Louis,228
+Saint Denis,Mamoutzou,1411
+Saint Denis,Rabat,8978
+Saint Denis,Maputo,2398
+Saint Denis,Windhoek,3957
+Saint Denis,Niamey,6968
+Saint Denis,Abuja,6209
+Saint Denis,Brazzaville,4714
 Kigali,Algiers,5129
 Kigali,Luanda,2013
-Kigali,Porto-Novo,3190
+Kigali,Porto Novo,3190
 Kigali,Gaborone,2563
 Kigali,Ouagadougou,3835
 Kigali,Bujumbura,177
@@ -817,10 +817,10 @@ Kigali,Windhoek,2686
 Kigali,Niamey,3529
 Kigali,Abuja,2786
 Kigali,Brazzaville,1661
-Kigali,Saint-Denis,3465
+Kigali,Saint Denis,3465
 Jamestown,Algiers,5931
 Jamestown,Luanda,2202
-Jamestown,Porto-Novo,2658
+Jamestown,Porto Novo,2658
 Jamestown,Gaborone,3429
 Jamestown,Ouagadougou,3181
 Jamestown,Bujumbura,4082
@@ -857,11 +857,11 @@ Jamestown,Windhoek,2501
 Jamestown,Niamey,3386
 Jamestown,Abuja,3138
 Jamestown,Brazzaville,2636
-Jamestown,Saint-Denis,6440
+Jamestown,Saint Denis,6440
 Jamestown,Kigali,4215
 São Tomé,Algiers,4066
 São Tomé,Luanda,1249
-São Tomé,Porto-Novo,824
+São Tomé,Porto Novo,824
 São Tomé,Gaborone,3462
 São Tomé,Ouagadougou,1618
 São Tomé,Bujumbura,2549
@@ -898,12 +898,12 @@ São Tomé,Windhoek,2782
 São Tomé,Niamey,1550
 São Tomé,Abuja,974
 São Tomé,Brazzaville,1079
-São Tomé,Saint-Denis,5793
+São Tomé,Saint Denis,5793
 São Tomé,Kigali,2606
 São Tomé,Jamestown,2268
 Dakar,Algiers,3183
 Dakar,Luanda,4275
-Dakar,Porto-Novo,2370
+Dakar,Porto Novo,2370
 Dakar,Gaborone,6422
 Dakar,Ouagadougou,1739
 Dakar,Bujumbura,5532
@@ -940,13 +940,13 @@ Dakar,Windhoek,5594
 Dakar,Niamey,2112
 Dakar,Abuja,2781
 Dakar,Brazzaville,4177
-Dakar,Saint-Denis,8883
+Dakar,Saint Denis,8883
 Dakar,Kigali,5545
 Dakar,Jamestown,3641
 Dakar,São Tomé,3099
 Victoria,Algiers,7112
 Victoria,Luanda,4683
-Victoria,Porto-Novo,5995
+Victoria,Porto Novo,5995
 Victoria,Gaborone,3863
 Victoria,Ouagadougou,6573
 Victoria,Bujumbura,2897
@@ -983,14 +983,14 @@ Victoria,Windhoek,4580
 Victoria,Niamey,6222
 Victoria,Abuja,5530
 Victoria,Brazzaville,4453
-Victoria,Saint-Denis,1808
+Victoria,Saint Denis,1808
 Victoria,Kigali,2834
 Victoria,Jamestown,6787
 Victoria,São Tomé,5440
 Victoria,Dakar,8310
 Freetown,Algiers,3547
 Freetown,Luanda,3507
-Freetown,Porto-Novo,1759
+Freetown,Porto Novo,1759
 Freetown,Gaborone,5618
 Freetown,Ouagadougou,1350
 Freetown,Bujumbura,4903
@@ -1027,7 +1027,7 @@ Freetown,Windhoek,4776
 Freetown,Niamey,1765
 Freetown,Abuja,2277
 Freetown,Brazzaville,3465
-Freetown,Saint-Denis,8177
+Freetown,Saint Denis,8177
 Freetown,Kigali,4937
 Freetown,Jamestown,2838
 Freetown,São Tomé,2389
@@ -1035,7 +1035,7 @@ Freetown,Dakar,829
 Freetown,Victoria,7753
 Mogadishu,Algiers,5799
 Mogadishu,Luanda,3759
-Mogadishu,Porto-Novo,4763
+Mogadishu,Porto Novo,4763
 Mogadishu,Gaborone,3634
 Mogadishu,Ouagadougou,5287
 Mogadishu,Bujumbura,1876
@@ -1072,7 +1072,7 @@ Mogadishu,Windhoek,4108
 Mogadishu,Niamey,4920
 Mogadishu,Abuja,4259
 Mogadishu,Brazzaville,3413
-Mogadishu,Saint-Denis,2776
+Mogadishu,Saint Denis,2776
 Mogadishu,Kigali,1756
 Mogadishu,Jamestown,5954
 Mogadishu,São Tomé,4296
@@ -1081,7 +1081,7 @@ Mogadishu,Victoria,1345
 Mogadishu,Freetown,6518
 Pretoria,Algiers,7431
 Pretoria,Luanda,2455
-Pretoria,Porto-Novo,4527
+Pretoria,Porto Novo,4527
 Pretoria,Gaborone,259
 Pretoria,Ouagadougou,5321
 Pretoria,Bujumbura,2489
@@ -1118,7 +1118,7 @@ Pretoria,Windhoek,1181
 Pretoria,Niamey,5198
 Pretoria,Abuja,4472
 Pretoria,Brazzaville,2756
-Pretoria,Saint-Denis,2830
+Pretoria,Saint Denis,2830
 Pretoria,Kigali,2653
 Pretoria,Jamestown,3676
 Pretoria,São Tomé,3704
@@ -1128,7 +1128,7 @@ Pretoria,Freetown,5876
 Pretoria,Mogadishu,3598
 Khartoum,Algiers,3743
 Khartoum,Luanda,3446
-Khartoum,Porto-Novo,3413
+Khartoum,Porto Novo,3413
 Khartoum,Gaborone,4527
 Khartoum,Ouagadougou,3689
 Khartoum,Bujumbura,2134
@@ -1165,7 +1165,7 @@ Khartoum,Windhoek,4559
 Khartoum,Niamey,3280
 Khartoum,Abuja,2813
 Khartoum,Brazzaville,2909
-Khartoum,Saint-Denis,4761
+Khartoum,Saint Denis,4761
 Khartoum,Kigali,1965
 Khartoum,Jamestown,5467
 Khartoum,São Tomé,3299
@@ -1176,7 +1176,7 @@ Khartoum,Mogadishu,2056
 Khartoum,Pretoria,4615
 Mbabane,Algiers,7604
 Mbabane,Luanda,2709
-Mbabane,Porto-Novo,4773
+Mbabane,Porto Novo,4773
 Mbabane,Gaborone,556
 Mbabane,Ouagadougou,5565
 Mbabane,Bujumbura,2558
@@ -1213,7 +1213,7 @@ Mbabane,Windhoek,1481
 Mbabane,Niamey,5428
 Mbabane,Abuja,4692
 Mbabane,Brazzaville,2976
-Mbabane,Saint-Denis,2546
+Mbabane,Saint Denis,2546
 Mbabane,Kigali,2712
 Mbabane,Jamestown,3977
 Mbabane,São Tomé,3953
@@ -1225,7 +1225,7 @@ Mbabane,Pretoria,301
 Mbabane,Khartoum,4658
 Dodoma,Algiers,5859
 Dodoma,Luanda,2499
-Dodoma,Porto-Novo,3938
+Dodoma,Porto Novo,3938
 Dodoma,Gaborone,2307
 Dodoma,Ouagadougou,4607
 Dodoma,Bujumbura,772
@@ -1262,7 +1262,7 @@ Dodoma,Windhoek,2707
 Dodoma,Niamey,4310
 Dodoma,Abuja,3561
 Dodoma,Brazzaville,2275
-Dodoma,Saint-Denis,2680
+Dodoma,Saint Denis,2680
 Dodoma,Kigali,785
 Dodoma,Jamestown,4643
 Dodoma,São Tomé,3300
@@ -1275,7 +1275,7 @@ Dodoma,Khartoum,2441
 Dodoma,Mbabane,2293
 Lomé,Algiers,3409
 Lomé,Luanda,2133
-Lomé,Porto-Novo,159
+Lomé,Porto Novo,159
 Lomé,Gaborone,4344
 Lomé,Ouagadougou,755
 Lomé,Bujumbura,3300
@@ -1312,7 +1312,7 @@ Lomé,Windhoek,3629
 Lomé,Niamey,825
 Lomé,Abuja,764
 Lomé,Brazzaville,1944
-Lomé,Saint-Denis,6637
+Lomé,Saint Denis,6637
 Lomé,Kigali,3327
 Lomé,Jamestown,2571
 Lomé,São Tomé,889
@@ -1326,7 +1326,7 @@ Lomé,Mbabane,4841
 Lomé,Dodoma,4069
 Tunis,Algiers,635
 Tunis,Luanda,5087
-Tunis,Porto-Novo,3458
+Tunis,Porto Novo,3458
 Tunis,Gaborone,7031
 Tunis,Ouagadougou,2959
 Tunis,Bujumbura,4892
@@ -1363,7 +1363,7 @@ Tunis,Windhoek,6642
 Tunis,Niamey,2713
 Tunis,Abuja,3098
 Tunis,Brazzaville,4600
-Tunis,Saint-Denis,7981
+Tunis,Saint Denis,7981
 Tunis,Kigali,4776
 Tunis,Jamestown,6099
 Tunis,São Tomé,4072
@@ -1378,7 +1378,7 @@ Tunis,Dodoma,5470
 Tunis,Lomé,3531
 Kampala,Algiers,5064
 Kampala,Luanda,2373
-Kampala,Porto-Novo,3396
+Kampala,Porto Novo,3396
 Kampala,Gaborone,2868
 Kampala,Ouagadougou,3993
 Kampala,Bujumbura,545
@@ -1415,7 +1415,7 @@ Kampala,Windhoek,3048
 Kampala,Niamey,3662
 Kampala,Abuja,2944
 Kampala,Brazzaville,1989
-Kampala,Saint-Denis,3426
+Kampala,Saint Denis,3426
 Kampala,Kigali,377
 Kampala,Jamestown,4575
 Kampala,São Tomé,2874
@@ -1431,7 +1431,7 @@ Kampala,Lomé,3541
 Kampala,Tunis,4668
 El Aaiún,Algiers,1862
 El Aaiún,Luanda,4913
-El Aaiún,Porto-Novo,2840
+El Aaiún,Porto Novo,2840
 El Aaiún,Gaborone,7126
 El Aaiún,Ouagadougou,2045
 El Aaiún,Bujumbura,5687
@@ -1468,7 +1468,7 @@ El Aaiún,Windhoek,6415
 El Aaiún,Niamey,2198
 El Aaiún,Abuja,2961
 El Aaiún,Brazzaville,4644
-El Aaiún,Saint-Denis,9113
+El Aaiún,Saint Denis,9113
 El Aaiún,Kigali,5649
 El Aaiún,Jamestown,4860
 El Aaiún,São Tomé,3664
@@ -1485,7 +1485,7 @@ El Aaiún,Tunis,2443
 El Aaiún,Kampala,5722
 Lusaka,Algiers,6376
 Lusaka,Luanda,1792
-Lusaka,Porto-Novo,3734
+Lusaka,Porto Novo,3734
 Lusaka,Gaborone,1057
 Lusaka,Ouagadougou,4507
 Lusaka,Bujumbura,1343
@@ -1522,7 +1522,7 @@ Lusaka,Windhoek,1421
 Lusaka,Niamey,4316
 Lusaka,Abuja,3559
 Lusaka,Brazzaville,1886
-Lusaka,Saint-Denis,2930
+Lusaka,Saint Denis,2930
 Lusaka,Kigali,1509
 Lusaka,Jamestown,3638
 Lusaka,São Tomé,2946
@@ -1540,7 +1540,7 @@ Lusaka,Kampala,1811
 Lusaka,El Aaiún,6514
 Harare,Algiers,6743
 Harare,Luanda,2169
-Harare,Porto-Novo,4132
+Harare,Porto Novo,4132
 Harare,Gaborone,926
 Harare,Ouagadougou,4905
 Harare,Bujumbura,1617
@@ -1577,7 +1577,7 @@ Harare,Windhoek,1549
 Harare,Niamey,4714
 Harare,Abuja,3956
 Harare,Brazzaville,2285
-Harare,Saint-Denis,2580
+Harare,Saint Denis,2580
 Harare,Kigali,1769
 Harare,Jamestown,3912
 Harare,São Tomé,3341
@@ -1596,7 +1596,7 @@ Harare,El Aaiún,6912
 Harare,Lusaka,399
 Kabul,Algiers,5858
 Kabul,Luanda,7601
-Kabul,Porto-Novo,7458
+Kabul,Porto Novo,7458
 Kabul,Gaborone,8007
 Kabul,Ouagadougou,7473
 Kabul,Bujumbura,5921
@@ -1633,7 +1633,7 @@ Kabul,Windhoek,8398
 Kabul,Niamey,7072
 Kabul,Abuja,6853
 Kabul,Brazzaville,7091
-Kabul,Saint-Denis,6330
+Kabul,Saint Denis,6330
 Kabul,Kigali,5750
 Kabul,Jamestown,9684
 Kabul,São Tomé,7493
@@ -1653,7 +1653,7 @@ Kabul,Lusaka,7035
 Kabul,Harare,7081
 Yerevan,Algiers,3598
 Yerevan,Luanda,6327
-Yerevan,Porto-Novo,5600
+Yerevan,Porto Novo,5600
 Yerevan,Gaborone,7462
 Yerevan,Ouagadougou,5447
 Yerevan,Bujumbura,5084
@@ -1690,7 +1690,7 @@ Yerevan,Windhoek,7533
 Yerevan,Niamey,5074
 Yerevan,Abuja,5032
 Yerevan,Brazzaville,5773
-Yerevan,Saint-Denis,6884
+Yerevan,Saint Denis,6884
 Yerevan,Kigali,4910
 Yerevan,Jamestown,8115
 Yerevan,São Tomé,5846
@@ -1711,7 +1711,7 @@ Yerevan,Harare,6599
 Yerevan,Kabul,2260
 Baku,Algiers,4046
 Baku,Luanda,6640
-Baku,Porto-Novo,6013
+Baku,Porto Novo,6013
 Baku,Gaborone,7645
 Baku,Ouagadougou,5885
 Baku,Bujumbura,5296
@@ -1748,7 +1748,7 @@ Baku,Windhoek,7779
 Baku,Niamey,5507
 Baku,Abuja,5436
 Baku,Brazzaville,6089
-Baku,Saint-Denis,6836
+Baku,Saint Denis,6836
 Baku,Kigali,5120
 Baku,Jamestown,8491
 Baku,São Tomé,6225
@@ -1770,7 +1770,7 @@ Baku,Kabul,1817
 Baku,Yerevan,457
 Manama,Algiers,4608
 Manama,Luanda,5610
-Manama,Porto-Novo,5527
+Manama,Porto Novo,5527
 Manama,Gaborone,6246
 Manama,Ouagadougou,5642
 Manama,Bujumbura,4006
@@ -1807,7 +1807,7 @@ Manama,Windhoek,6514
 Manama,Niamey,5230
 Manama,Abuja,4919
 Manama,Brazzaville,5092
-Manama,Saint-Denis,5264
+Manama,Saint Denis,5264
 Manama,Kigali,3830
 Manama,Jamestown,7680
 Manama,São Tomé,5503
@@ -1830,7 +1830,7 @@ Manama,Yerevan,1651
 Manama,Baku,1576
 Dhaka,Algiers,8238
 Dhaka,Luanda,9119
-Dhaka,Porto-Novo,9496
+Dhaka,Porto Novo,9496
 Dhaka,Gaborone,8786
 Dhaka,Ouagadougou,9651
 Dhaka,Bujumbura,7255
@@ -1867,7 +1867,7 @@ Dhaka,Windhoek,9444
 Dhaka,Niamey,9239
 Dhaka,Abuja,8889
 Dhaka,Brazzaville,8696
-Dhaka,Saint-Denis,6238
+Dhaka,Saint Denis,6238
 Dhaka,Kigali,7112
 Dhaka,Jamestown,11319
 Dhaka,São Tomé,9349
@@ -1891,7 +1891,7 @@ Dhaka,Baku,4197
 Dhaka,Manama,4009
 Thimphu,Algiers,7945
 Thimphu,Luanda,9144
-Thimphu,Porto-Novo,9384
+Thimphu,Porto Novo,9384
 Thimphu,Gaborone,8955
 Thimphu,Ouagadougou,9490
 Thimphu,Bujumbura,7303
@@ -1928,7 +1928,7 @@ Thimphu,Windhoek,9570
 Thimphu,Niamey,9081
 Thimphu,Abuja,8775
 Thimphu,Brazzaville,8697
-Thimphu,Saint-Denis,6514
+Thimphu,Saint Denis,6514
 Thimphu,Kigali,7152
 Thimphu,Jamestown,11332
 Thimphu,São Tomé,9291
@@ -1953,7 +1953,7 @@ Thimphu,Manama,3862
 Thimphu,Dhaka,425
 Diego Garcia,Algiers,3978
 Diego Garcia,Luanda,9051
-Diego Garcia,Porto-Novo,7341
+Diego Garcia,Porto Novo,7341
 Diego Garcia,Gaborone,10891
 Diego Garcia,Ouagadougou,6707
 Diego Garcia,Bujumbura,8578
@@ -1990,7 +1990,7 @@ Diego Garcia,Windhoek,10592
 Diego Garcia,Niamey,6564
 Diego Garcia,Abuja,7049
 Diego Garcia,Brazzaville,8551
-Diego Garcia,Saint-Denis,10981
+Diego Garcia,Saint Denis,10981
 Diego Garcia,Kigali,8429
 Diego Garcia,Jamestown,9877
 Diego Garcia,São Tomé,8019
@@ -2016,7 +2016,7 @@ Diego Garcia,Dhaka,7273
 Diego Garcia,Thimphu,6853
 Bandar Seri Begawan,Algiers,11593
 Bandar Seri Begawan,Luanda,11376
-Bandar Seri Begawan,Porto-Novo,12399
+Bandar Seri Begawan,Porto Novo,12399
 Bandar Seri Begawan,Gaborone,10140
 Bandar Seri Begawan,Ouagadougou,12737
 Bandar Seri Begawan,Bujumbura,9552
@@ -2053,7 +2053,7 @@ Bandar Seri Begawan,Windhoek,11025
 Bandar Seri Begawan,Niamey,12326
 Bandar Seri Begawan,Abuja,11827
 Bandar Seri Begawan,Brazzaville,11117
-Bandar Seri Begawan,Saint-Denis,7092
+Bandar Seri Begawan,Saint Denis,7092
 Bandar Seri Begawan,Kigali,9461
 Bandar Seri Begawan,Jamestown,13434
 Bandar Seri Begawan,São Tomé,12022
@@ -2080,7 +2080,7 @@ Bandar Seri Begawan,Thimphu,3668
 Bandar Seri Begawan,Diego Garcia,10066
 Phnom Penh,Algiers,10273
 Phnom Penh,Luanda,10386
-Phnom Penh,Porto-Novo,11193
+Phnom Penh,Porto Novo,11193
 Phnom Penh,Gaborone,9458
 Phnom Penh,Ouagadougou,11473
 Phnom Penh,Bujumbura,8515
@@ -2117,7 +2117,7 @@ Phnom Penh,Windhoek,10280
 Phnom Penh,Niamey,11060
 Phnom Penh,Abuja,10605
 Phnom Penh,Brazzaville,10063
-Phnom Penh,Saint-Denis,6498
+Phnom Penh,Saint Denis,6498
 Phnom Penh,Kigali,8405
 Phnom Penh,Jamestown,12540
 Phnom Penh,São Tomé,10892
@@ -2145,7 +2145,7 @@ Phnom Penh,Diego Garcia,9038
 Phnom Penh,Bandar Seri Begawan,1326
 Beijing,Algiers,9112
 Beijing,Luanda,11758
-Beijing,Porto-Novo,11518
+Beijing,Porto Novo,11518
 Beijing,Gaborone,11773
 Beijing,Ouagadougou,11378
 Beijing,Bujumbura,9997
@@ -2182,7 +2182,7 @@ Beijing,Windhoek,12360
 Beijing,Niamey,11011
 Beijing,Abuja,10931
 Beijing,Brazzaville,11260
-Beijing,Saint-Denis,9245
+Beijing,Saint Denis,9245
 Beijing,Kigali,9835
 Beijing,Jamestown,13859
 Beijing,São Tomé,11646
@@ -2211,7 +2211,7 @@ Beijing,Bandar Seri Begawan,3891
 Beijing,Phnom Penh,3349
 The Settlement,Algiers,11820
 The Settlement,Luanda,10095
-The Settlement,Porto-Novo,11562
+The Settlement,Porto Novo,11562
 The Settlement,Gaborone,8502
 The Settlement,Ouagadougou,12103
 The Settlement,Bujumbura,8445
@@ -2248,7 +2248,7 @@ The Settlement,Windhoek,9423
 The Settlement,Niamey,11727
 The Settlement,Abuja,11077
 The Settlement,Brazzaville,9965
-The Settlement,Saint-Denis,5480
+The Settlement,Saint Denis,5480
 The Settlement,Kigali,8396
 The Settlement,Jamestown,11918
 The Settlement,São Tomé,10993
@@ -2278,7 +2278,7 @@ The Settlement,Phnom Penh,2446
 The Settlement,Beijing,5705
 West Island,Algiers,11146
 West Island,Luanda,9111
-West Island,Porto-Novo,10616
+West Island,Porto Novo,10616
 West Island,Gaborone,7535
 West Island,Ouagadougou,11185
 West Island,Bujumbura,7479
@@ -2315,7 +2315,7 @@ West Island,Windhoek,8453
 West Island,Niamey,10821
 West Island,Abuja,10148
 West Island,Brazzaville,8990
-West Island,Saint-Denis,4502
+West Island,Saint Denis,4502
 West Island,Kigali,7437
 West Island,Jamestown,10943
 West Island,São Tomé,10025
@@ -2346,7 +2346,7 @@ West Island,Beijing,6133
 West Island,The Settlement,985
 Tbilisi,Algiers,3606
 Tbilisi,Luanda,6477
-Tbilisi,Porto-Novo,5709
+Tbilisi,Porto Novo,5709
 Tbilisi,Gaborone,7630
 Tbilisi,Ouagadougou,5534
 Tbilisi,Bujumbura,5250
@@ -2383,7 +2383,7 @@ Tbilisi,Windhoek,7695
 Tbilisi,Niamey,5166
 Tbilisi,Abuja,5147
 Tbilisi,Brazzaville,5921
-Tbilisi,Saint-Denis,7043
+Tbilisi,Saint Denis,7043
 Tbilisi,Kigali,5076
 Tbilisi,Jamestown,8242
 Tbilisi,São Tomé,5975
@@ -2415,7 +2415,7 @@ Tbilisi,The Settlement,8480
 Tbilisi,West Island,8003
 Hong Kong,Algiers,10264
 Hong Kong,Luanda,11497
-Hong Kong,Porto-Novo,11915
+Hong Kong,Porto Novo,11915
 Hong Kong,Gaborone,10854
 Hong Kong,Ouagadougou,12019
 Hong Kong,Bujumbura,9616
@@ -2452,7 +2452,7 @@ Hong Kong,Windhoek,11623
 Hong Kong,Niamey,11612
 Hong Kong,Abuja,11306
 Hong Kong,Brazzaville,11100
-Hong Kong,Saint-Denis,7974
+Hong Kong,Saint Denis,7974
 Hong Kong,Kigali,9484
 Hong Kong,Jamestown,13698
 Hong Kong,São Tomé,11782
@@ -2485,7 +2485,7 @@ Hong Kong,West Island,4272
 Hong Kong,Tbilisi,6700
 New Delhi,Algiers,6829
 New Delhi,Luanda,8022
-New Delhi,Porto-Novo,8163
+New Delhi,Porto Novo,8163
 New Delhi,Gaborone,8075
 New Delhi,Ouagadougou,8266
 New Delhi,Bujumbura,6224
@@ -2522,7 +2522,7 @@ New Delhi,Windhoek,8597
 New Delhi,Niamey,7856
 New Delhi,Abuja,7554
 New Delhi,Brazzaville,7552
-New Delhi,Saint-Denis,5982
+New Delhi,Saint Denis,5982
 New Delhi,Kigali,6065
 New Delhi,Jamestown,10185
 New Delhi,São Tomé,8093
@@ -2556,7 +2556,7 @@ New Delhi,Tbilisi,3256
 New Delhi,Hong Kong,3760
 Jakarta,Algiers,11649
 Jakarta,Luanda,10297
-Jakarta,Porto-Novo,11653
+Jakarta,Porto Novo,11653
 Jakarta,Gaborone,8807
 Jakarta,Ouagadougou,12146
 Jakarta,Bujumbura,8586
@@ -2593,7 +2593,7 @@ Jakarta,Windhoek,9720
 Jakarta,Niamey,11757
 Jakarta,Abuja,11140
 Jakarta,Brazzaville,10129
-Jakarta,Saint-Denis,5763
+Jakarta,Saint Denis,5763
 Jakarta,Kigali,8524
 Jakarta,Jamestown,12199
 Jakarta,São Tomé,11130
@@ -2628,7 +2628,7 @@ Jakarta,Hong Kong,3267
 Jakarta,New Delhi,5009
 Tehran,Algiers,4294
 Tehran,Luanda,6365
-Tehran,Porto-Novo,5929
+Tehran,Porto Novo,5929
 Tehran,Gaborone,7226
 Tehran,Ouagadougou,5884
 Tehran,Bujumbura,4914
@@ -2665,7 +2665,7 @@ Tehran,Windhoek,7417
 Tehran,Niamey,5490
 Tehran,Abuja,5334
 Tehran,Brazzaville,5823
-Tehran,Saint-Denis,6305
+Tehran,Saint Denis,6305
 Tehran,Kigali,4737
 Tehran,Jamestown,8309
 Tehran,São Tomé,6059
@@ -2701,7 +2701,7 @@ Tehran,New Delhi,2543
 Tehran,Jakarta,7420
 Baghdad,Algiers,3755
 Baghdad,Luanda,5732
-Baghdad,Porto-Novo,5235
+Baghdad,Porto Novo,5235
 Baghdad,Gaborone,6739
 Baghdad,Ouagadougou,5197
 Baghdad,Bujumbura,4378
@@ -2738,7 +2738,7 @@ Baghdad,Windhoek,6857
 Baghdad,Niamey,4801
 Baghdad,Abuja,4641
 Baghdad,Brazzaville,5183
-Baghdad,Saint-Denis,6142
+Baghdad,Saint Denis,6142
 Baghdad,Kigali,4202
 Baghdad,Jamestown,7633
 Baghdad,São Tomé,5377
@@ -2775,7 +2775,7 @@ Baghdad,Jakarta,7901
 Baghdad,Tehran,694
 Jerusalem,Algiers,2581
 Jerusalem,Luanda,5273
-Jerusalem,Porto-Novo,4369
+Jerusalem,Porto Novo,4369
 Jerusalem,Gaborone,6687
 Jerusalem,Ouagadougou,4200
 Jerusalem,Bujumbura,4301
@@ -2812,7 +2812,7 @@ Jerusalem,Windhoek,6610
 Jerusalem,Niamey,3827
 Jerusalem,Abuja,3813
 Jerusalem,Brazzaville,4718
-Jerusalem,Saint-Denis,6721
+Jerusalem,Saint Denis,6721
 Jerusalem,Kigali,4138
 Jerusalem,Jamestown,6928
 Jerusalem,São Tomé,4667
@@ -2850,7 +2850,7 @@ Jerusalem,Tehran,1777
 Jerusalem,Baghdad,1178
 Edo,Algiers,10801
 Edo,Luanda,13845
-Edo,Porto-Novo,13529
+Edo,Porto Novo,13529
 Edo,Gaborone,13649
 Edo,Ouagadougou,13295
 Edo,Bujumbura,12056
@@ -2887,7 +2887,7 @@ Edo,Windhoek,14334
 Edo,Niamey,12958
 Edo,Abuja,12959
 Edo,Brazzaville,13352
-Edo,Saint-Denis,10850
+Edo,Saint Denis,10850
 Edo,Kigali,11899
 Edo,Jamestown,15949
 Edo,São Tomé,13718
@@ -2926,7 +2926,7 @@ Edo,Baghdad,8344
 Edo,Jerusalem,9161
 Amman,Algiers,3052
 Amman,Luanda,5139
-Amman,Porto-Novo,4467
+Amman,Porto Novo,4467
 Amman,Gaborone,6384
 Amman,Ouagadougou,4398
 Amman,Bujumbura,3991
@@ -2963,7 +2963,7 @@ Amman,Windhoek,6386
 Amman,Niamey,4005
 Amman,Abuja,3883
 Amman,Brazzaville,4583
-Amman,Saint-Denis,6232
+Amman,Saint Denis,6232
 Amman,Kigali,3821
 Amman,Jamestown,6933
 Amman,São Tomé,4666
@@ -3003,7 +3003,7 @@ Amman,Jerusalem,531
 Amman,Edo,9080
 Astana,Algiers,5491
 Astana,Luanda,8682
-Astana,Porto-Novo,7980
+Astana,Porto Novo,7980
 Astana,Gaborone,9535
 Astana,Ouagadougou,7756
 Astana,Bujumbura,7257
@@ -3040,7 +3040,7 @@ Astana,Windhoek,9763
 Astana,Niamey,7406
 Astana,Abuja,7424
 Astana,Brazzaville,8133
-Astana,Saint-Denis,8164
+Astana,Saint Denis,8164
 Astana,Kigali,7080
 Astana,Jamestown,10519
 Astana,São Tomé,8250
@@ -3081,7 +3081,7 @@ Astana,Edo,5556
 Astana,Amman,3590
 Kuwait City,Algiers,4228
 Kuwait City,Luanda,5648
-Kuwait City,Porto-Novo,5384
+Kuwait City,Porto Novo,5384
 Kuwait City,Gaborone,6453
 Kuwait City,Ouagadougou,5434
 Kuwait City,Bujumbura,4147
@@ -3118,7 +3118,7 @@ Kuwait City,Windhoek,6654
 Kuwait City,Niamey,5026
 Kuwait City,Abuja,4778
 Kuwait City,Brazzaville,5114
-Kuwait City,Saint-Denis,5645
+Kuwait City,Saint Denis,5645
 Kuwait City,Kigali,3970
 Kuwait City,Jamestown,7652
 Kuwait City,São Tomé,5431
@@ -3160,7 +3160,7 @@ Kuwait City,Amman,1185
 Kuwait City,Astana,3110
 Bishkek,Algiers,5964
 Bishkek,Luanda,8447
-Bishkek,Porto-Novo,8052
+Bishkek,Porto Novo,8052
 Bishkek,Gaborone,9009
 Bishkek,Ouagadougou,7949
 Bishkek,Bujumbura,6853
@@ -3197,7 +3197,7 @@ Bishkek,Windhoek,9353
 Bishkek,Niamey,7569
 Bishkek,Abuja,7464
 Bishkek,Brazzaville,7916
-Bishkek,Saint-Denis,7355
+Bishkek,Saint Denis,7355
 Bishkek,Kigali,6679
 Bishkek,Jamestown,10443
 Bishkek,São Tomé,8198
@@ -3240,7 +3240,7 @@ Bishkek,Astana,954
 Bishkek,Kuwait City,2804
 Vientiane,Algiers,9638
 Vientiane,Luanda,10244
-Vientiane,Porto-Novo,10833
+Vientiane,Porto Novo,10833
 Vientiane,Gaborone,9559
 Vientiane,Ouagadougou,11036
 Vientiane,Bujumbura,8361
@@ -3277,7 +3277,7 @@ Vientiane,Windhoek,10325
 Vientiane,Niamey,10622
 Vientiane,Abuja,10232
 Vientiane,Brazzaville,9871
-Vientiane,Saint-Denis,6712
+Vientiane,Saint Denis,6712
 Vientiane,Kigali,8234
 Vientiane,Jamestown,12437
 Vientiane,São Tomé,10617
@@ -3321,7 +3321,7 @@ Vientiane,Kuwait City,5655
 Vientiane,Bishkek,3822
 Beirut,Algiers,2947
 Beirut,Luanda,5300
-Beirut,Porto-Novo,4549
+Beirut,Porto Novo,4549
 Beirut,Gaborone,6588
 Beirut,Ouagadougou,4440
 Beirut,Bujumbura,4194
@@ -3358,7 +3358,7 @@ Beirut,Windhoek,6572
 Beirut,Niamey,4054
 Beirut,Abuja,3975
 Beirut,Brazzaville,4744
-Beirut,Saint-Denis,6447
+Beirut,Saint Denis,6447
 Beirut,Kigali,4026
 Beirut,Jamestown,7053
 Beirut,São Tomé,4785
@@ -3403,7 +3403,7 @@ Beirut,Bishkek,3517
 Beirut,Vientiane,6824
 Macao,Algiers,10223
 Macao,Luanda,11434
-Macao,Porto-Novo,11856
+Macao,Porto Novo,11856
 Macao,Gaborone,10793
 Macao,Ouagadougou,11965
 Macao,Bujumbura,9553
@@ -3440,7 +3440,7 @@ Macao,Windhoek,11560
 Macao,Niamey,11557
 Macao,Abuja,11248
 Macao,Brazzaville,11037
-Macao,Saint-Denis,7916
+Macao,Saint Denis,7916
 Macao,Kigali,9420
 Macao,Jamestown,13635
 Macao,São Tomé,11721
@@ -3486,7 +3486,7 @@ Macao,Vientiane,1236
 Macao,Beirut,7595
 Kuala Lumpur,Algiers,10566
 Kuala Lumpur,Luanda,9892
-Kuala Lumpur,Porto-Novo,10970
+Kuala Lumpur,Porto Novo,10970
 Kuala Lumpur,Gaborone,8724
 Kuala Lumpur,Ouagadougou,11364
 Kuala Lumpur,Bujumbura,8071
@@ -3523,7 +3523,7 @@ Kuala Lumpur,Windhoek,9589
 Kuala Lumpur,Niamey,10959
 Kuala Lumpur,Abuja,10414
 Kuala Lumpur,Brazzaville,9636
-Kuala Lumpur,Saint-Denis,5700
+Kuala Lumpur,Saint Denis,5700
 Kuala Lumpur,Kigali,7982
 Kuala Lumpur,Jamestown,11964
 Kuala Lumpur,São Tomé,10556
@@ -3570,7 +3570,7 @@ Kuala Lumpur,Beirut,7627
 Kuala Lumpur,Macao,2476
 Malé,Algiers,7995
 Malé,Luanda,6837
-Malé,Porto-Novo,7849
+Malé,Porto Novo,7849
 Malé,Gaborone,6059
 Malé,Ouagadougou,8285
 Malé,Bujumbura,4977
@@ -3607,7 +3607,7 @@ Malé,Windhoek,6808
 Malé,Niamey,7890
 Malé,Abuja,7305
 Malé,Brazzaville,6537
-Malé,Saint-Denis,3411
+Malé,Saint Denis,3411
 Malé,Kigali,4876
 Malé,Jamestown,8989
 Malé,São Tomé,7430
@@ -3655,7 +3655,7 @@ Malé,Macao,4752
 Malé,Kuala Lumpur,3129
 Ulan Bator,Algiers,7962
 Ulan Bator,Luanda,11007
-Ulan Bator,Porto-Novo,10519
+Ulan Bator,Porto Novo,10519
 Ulan Bator,Gaborone,11381
 Ulan Bator,Ouagadougou,10312
 Ulan Bator,Bujumbura,9364
@@ -3692,7 +3692,7 @@ Ulan Bator,Windhoek,11832
 Ulan Bator,Niamey,9962
 Ulan Bator,Abuja,9951
 Ulan Bator,Brazzaville,10479
-Ulan Bator,Saint-Denis,9203
+Ulan Bator,Saint Denis,9203
 Ulan Bator,Kigali,9193
 Ulan Bator,Jamestown,12992
 Ulan Bator,São Tomé,10734
@@ -3741,7 +3741,7 @@ Ulan Bator,Kuala Lumpur,5003
 Ulan Bator,Malé,5810
 Nay Pyi Taw,Algiers,8974
 Nay Pyi Taw,Luanda,9606
-Nay Pyi Taw,Porto-Novo,10131
+Nay Pyi Taw,Porto Novo,10131
 Nay Pyi Taw,Gaborone,9058
 Nay Pyi Taw,Ouagadougou,10327
 Nay Pyi Taw,Bujumbura,7725
@@ -3778,7 +3778,7 @@ Nay Pyi Taw,Windhoek,9782
 Nay Pyi Taw,Niamey,9913
 Nay Pyi Taw,Abuja,9528
 Nay Pyi Taw,Brazzaville,9215
-Nay Pyi Taw,Saint-Denis,6324
+Nay Pyi Taw,Saint Denis,6324
 Nay Pyi Taw,Kigali,7593
 Nay Pyi Taw,Jamestown,11807
 Nay Pyi Taw,São Tomé,9932
@@ -3828,7 +3828,7 @@ Nay Pyi Taw,Malé,3002
 Nay Pyi Taw,Ulan Bator,3278
 Kathmandu,Algiers,7569
 Kathmandu,Luanda,8740
-Kathmandu,Porto-Novo,8957
+Kathmandu,Porto Novo,8957
 Kathmandu,Gaborone,8623
 Kathmandu,Ouagadougou,9067
 Kathmandu,Bujumbura,6909
@@ -3865,7 +3865,7 @@ Kathmandu,Windhoek,9211
 Kathmandu,Niamey,8657
 Kathmandu,Abuja,8349
 Kathmandu,Brazzaville,8287
-Kathmandu,Saint-Denis,6284
+Kathmandu,Saint Denis,6284
 Kathmandu,Kigali,6756
 Kathmandu,Jamestown,10922
 Kathmandu,São Tomé,8868
@@ -3916,7 +3916,7 @@ Kathmandu,Ulan Bator,2918
 Kathmandu,Nay Pyi Taw,1410
 Pyongyang,Algiers,9750
 Pyongyang,Luanda,12565
-Pyongyang,Porto-Novo,12291
+Pyongyang,Porto Novo,12291
 Pyongyang,Gaborone,12514
 Pyongyang,Ouagadougou,12114
 Pyongyang,Bujumbura,10796
@@ -3953,7 +3953,7 @@ Pyongyang,Windhoek,13134
 Pyongyang,Niamey,11758
 Pyongyang,Abuja,11710
 Pyongyang,Brazzaville,12068
-Pyongyang,Saint-Denis,9879
+Pyongyang,Saint Denis,9879
 Pyongyang,Kigali,10635
 Pyongyang,Jamestown,14665
 Pyongyang,São Tomé,12443
@@ -4005,7 +4005,7 @@ Pyongyang,Nay Pyi Taw,3554
 Pyongyang,Kathmandu,3924
 Muscat,Algiers,5458
 Muscat,Luanda,6107
-Muscat,Porto-Novo,6262
+Muscat,Porto Novo,6262
 Muscat,Gaborone,6419
 Muscat,Ouagadougou,6436
 Muscat,Bujumbura,4362
@@ -4042,7 +4042,7 @@ Muscat,Windhoek,6818
 Muscat,Niamey,6022
 Muscat,Abuja,5655
 Muscat,Brazzaville,5624
-Muscat,Saint-Denis,4959
+Muscat,Saint Denis,4959
 Muscat,Kigali,4195
 Muscat,Jamestown,8253
 Muscat,São Tomé,6157
@@ -4095,7 +4095,7 @@ Muscat,Kathmandu,2712
 Muscat,Pyongyang,6460
 Islamabad,Algiers,6220
 Islamabad,Luanda,7879
-Islamabad,Porto-Novo,7801
+Islamabad,Porto Novo,7801
 Islamabad,Gaborone,8181
 Islamabad,Ouagadougou,7831
 Islamabad,Bujumbura,6161
@@ -4132,7 +4132,7 @@ Islamabad,Windhoek,8614
 Islamabad,Niamey,7428
 Islamabad,Abuja,7194
 Islamabad,Brazzaville,7378
-Islamabad,Saint-Denis,6351
+Islamabad,Saint Denis,6351
 Islamabad,Kigali,5993
 Islamabad,Jamestown,9986
 Islamabad,São Tomé,7814
@@ -4186,7 +4186,7 @@ Islamabad,Pyongyang,4690
 Islamabad,Muscat,1800
 East Jerusalem,Algiers,2581
 East Jerusalem,Luanda,5273
-East Jerusalem,Porto-Novo,4369
+East Jerusalem,Porto Novo,4369
 East Jerusalem,Gaborone,6687
 East Jerusalem,Ouagadougou,4200
 East Jerusalem,Bujumbura,4301
@@ -4223,7 +4223,7 @@ East Jerusalem,Windhoek,6610
 East Jerusalem,Niamey,3827
 East Jerusalem,Abuja,3813
 East Jerusalem,Brazzaville,4718
-East Jerusalem,Saint-Denis,6721
+East Jerusalem,Saint Denis,6721
 East Jerusalem,Kigali,4138
 East Jerusalem,Jamestown,6928
 East Jerusalem,São Tomé,4667
@@ -4278,7 +4278,7 @@ East Jerusalem,Muscat,2888
 East Jerusalem,Islamabad,3759
 Manila,Algiers,11372
 Manila,Luanda,12152
-Manila,Porto-Novo,12829
+Manila,Porto Novo,12829
 Manila,Gaborone,11179
 Manila,Ouagadougou,13010
 Manila,Bujumbura,10276
@@ -4315,7 +4315,7 @@ Manila,Windhoek,12025
 Manila,Niamey,12597
 Manila,Abuja,12227
 Manila,Brazzaville,11815
-Manila,Saint-Denis,8168
+Manila,Saint Denis,8168
 Manila,Kigali,10161
 Manila,Jamestown,14311
 Manila,São Tomé,12601
@@ -4371,7 +4371,7 @@ Manila,Islamabad,5251
 Manila,East Jerusalem,9008
 Doha,Algiers,4740
 Doha,Luanda,5619
-Doha,Porto-Novo,5594
+Doha,Porto Novo,5594
 Doha,Gaborone,6198
 Doha,Ouagadougou,5727
 Doha,Bujumbura,3984
@@ -4408,7 +4408,7 @@ Doha,Windhoek,6487
 Doha,Niamey,5314
 Doha,Abuja,4985
 Doha,Brazzaville,5108
-Doha,Saint-Denis,5150
+Doha,Saint Denis,5150
 Doha,Kigali,3809
 Doha,Jamestown,7708
 Doha,São Tomé,5548
@@ -4465,7 +4465,7 @@ Doha,East Jerusalem,2190
 Doha,Manila,7284
 Riyadh,Algiers,4344
 Riyadh,Luanda,5204
-Riyadh,Porto-Novo,5109
+Riyadh,Porto Novo,5109
 Riyadh,Gaborone,5926
 Riyadh,Ouagadougou,5240
 Riyadh,Bujumbura,3641
@@ -4502,7 +4502,7 @@ Riyadh,Windhoek,6151
 Riyadh,Niamey,4826
 Riyadh,Abuja,4500
 Riyadh,Brazzaville,4682
-Riyadh,Saint-Denis,5154
+Riyadh,Saint Denis,5154
 Riyadh,Kigali,3465
 Riyadh,Jamestown,7261
 Riyadh,São Tomé,5080
@@ -4560,7 +4560,7 @@ Riyadh,Manila,7772
 Riyadh,Doha,488
 Singapore,Algiers,10882
 Singapore,Luanda,10098
-Singapore,Porto-Novo,11233
+Singapore,Porto Novo,11233
 Singapore,Gaborone,8852
 Singapore,Ouagadougou,11645
 Singapore,Bujumbura,8295
@@ -4597,7 +4597,7 @@ Singapore,Windhoek,9731
 Singapore,Niamey,11242
 Singapore,Abuja,10684
 Singapore,Brazzaville,9860
-Singapore,Saint-Denis,5811
+Singapore,Saint Denis,5811
 Singapore,Kigali,8212
 Singapore,Jamestown,12138
 Singapore,São Tomé,10798
@@ -4656,7 +4656,7 @@ Singapore,Doha,6205
 Singapore,Riyadh,6654
 Seoul,Algiers,9942
 Seoul,Luanda,12693
-Seoul,Porto-Novo,12461
+Seoul,Porto Novo,12461
 Seoul,Gaborone,12578
 Seoul,Ouagadougou,12295
 Seoul,Bujumbura,10908
@@ -4693,7 +4693,7 @@ Seoul,Windhoek,13220
 Seoul,Niamey,11936
 Seoul,Abuja,11877
 Seoul,Brazzaville,12202
-Seoul,Saint-Denis,9897
+Seoul,Saint Denis,9897
 Seoul,Kigali,10749
 Seoul,Jamestown,14809
 Seoul,São Tomé,12599
@@ -4753,7 +4753,7 @@ Seoul,Riyadh,7548
 Seoul,Singapore,4677
 Colombo,Algiers,8373
 Colombo,Luanda,7588
-Colombo,Porto-Novo,8520
+Colombo,Porto Novo,8520
 Colombo,Gaborone,6812
 Colombo,Ouagadougou,8912
 Colombo,Bujumbura,5720
@@ -4790,7 +4790,7 @@ Colombo,Windhoek,7571
 Colombo,Niamey,8508
 Colombo,Abuja,7960
 Colombo,Brazzaville,7273
-Colombo,Saint-Denis,4082
+Colombo,Saint Denis,4082
 Colombo,Kigali,5613
 Colombo,Jamestown,9749
 Colombo,São Tomé,8140
@@ -4851,7 +4851,7 @@ Colombo,Singapore,2734
 Colombo,Seoul,5837
 Damascus,Algiers,3030
 Damascus,Luanda,5302
-Damascus,Porto-Novo,4587
+Damascus,Porto Novo,4587
 Damascus,Gaborone,6560
 Damascus,Ouagadougou,4491
 Damascus,Bujumbura,4166
@@ -4888,7 +4888,7 @@ Damascus,Windhoek,6559
 Damascus,Niamey,4103
 Damascus,Abuja,4009
 Damascus,Brazzaville,4746
-Damascus,Saint-Denis,6380
+Damascus,Saint Denis,6380
 Damascus,Kigali,3997
 Damascus,Jamestown,7076
 Damascus,São Tomé,4808
@@ -4950,7 +4950,7 @@ Damascus,Seoul,7874
 Damascus,Colombo,5361
 Taipei,Algiers,10600
 Taipei,Luanda,12259
-Taipei,Porto-Novo,12543
+Taipei,Porto Novo,12543
 Taipei,Gaborone,11665
 Taipei,Ouagadougou,12574
 Taipei,Bujumbura,10385
@@ -4987,7 +4987,7 @@ Taipei,Windhoek,12430
 Taipei,Niamey,12176
 Taipei,Abuja,11934
 Taipei,Brazzaville,11844
-Taipei,Saint-Denis,8775
+Taipei,Saint Denis,8775
 Taipei,Kigali,10247
 Taipei,Jamestown,14462
 Taipei,São Tomé,12474
@@ -5050,7 +5050,7 @@ Taipei,Colombo,4861
 Taipei,Damascus,8090
 Dushanbe,Algiers,5663
 Dushanbe,Luanda,7787
-Dushanbe,Porto-Novo,7494
+Dushanbe,Porto Novo,7494
 Dushanbe,Gaborone,8324
 Dushanbe,Ouagadougou,7449
 Dushanbe,Bujumbura,6171
@@ -5087,7 +5087,7 @@ Dushanbe,Windhoek,8668
 Dushanbe,Niamey,7057
 Dushanbe,Abuja,6896
 Dushanbe,Brazzaville,7263
-Dushanbe,Saint-Denis,6752
+Dushanbe,Saint Denis,6752
 Dushanbe,Kigali,5997
 Dushanbe,Jamestown,9817
 Dushanbe,São Tomé,7591
@@ -5151,7 +5151,7 @@ Dushanbe,Damascus,2959
 Dushanbe,Taipei,5132
 Bangkok,Algiers,9745
 Bangkok,Luanda,9949
-Bangkok,Porto-Novo,10682
+Bangkok,Porto Novo,10682
 Bangkok,Gaborone,9142
 Bangkok,Ouagadougou,10946
 Bangkok,Bujumbura,8070
@@ -5188,7 +5188,7 @@ Bangkok,Windhoek,9934
 Bangkok,Niamey,10532
 Bangkok,Abuja,10091
 Bangkok,Brazzaville,9606
-Bangkok,Saint-Denis,6248
+Bangkok,Saint Denis,6248
 Bangkok,Kigali,7953
 Bangkok,Jamestown,12124
 Bangkok,São Tomé,10406
@@ -5253,7 +5253,7 @@ Bangkok,Taipei,2533
 Bangkok,Dushanbe,4159
 Ankara,Algiers,2612
 Ankara,Luanda,5786
-Ankara,Porto-Novo,4786
+Ankara,Porto Novo,4786
 Ankara,Gaborone,7216
 Ankara,Ouagadougou,4549
 Ankara,Bujumbura,4828
@@ -5290,7 +5290,7 @@ Ankara,Windhoek,7138
 Ankara,Niamey,4196
 Ankara,Abuja,4252
 Ankara,Brazzaville,5232
-Ankara,Saint-Denis,7156
+Ankara,Saint Denis,7156
 Ankara,Kigali,4664
 Ankara,Jamestown,7383
 Ankara,São Tomé,5135
@@ -5356,7 +5356,7 @@ Ankara,Dushanbe,3078
 Ankara,Bangkok,7135
 Ashkhabad,Algiers,4819
 Ashkhabad,Luanda,6998
-Ashkhabad,Porto-Novo,6596
+Ashkhabad,Porto Novo,6596
 Ashkhabad,Gaborone,7742
 Ashkhabad,Ouagadougou,6539
 Ashkhabad,Bujumbura,5482
@@ -5393,7 +5393,7 @@ Ashkhabad,Windhoek,7992
 Ashkhabad,Niamey,6148
 Ashkhabad,Abuja,6002
 Ashkhabad,Brazzaville,6461
-Ashkhabad,Saint-Denis,6549
+Ashkhabad,Saint Denis,6549
 Ashkhabad,Kigali,5305
 Ashkhabad,Jamestown,8969
 Ashkhabad,São Tomé,6724
@@ -5460,7 +5460,7 @@ Ashkhabad,Bangkok,4939
 Ashkhabad,Ankara,2211
 Abu Dhabi,Algiers,5036
 Abu Dhabi,Luanda,5798
-Abu Dhabi,Porto-Novo,5856
+Abu Dhabi,Porto Novo,5856
 Abu Dhabi,Gaborone,6263
 Abu Dhabi,Ouagadougou,6009
 Abu Dhabi,Bujumbura,4111
@@ -5497,7 +5497,7 @@ Abu Dhabi,Windhoek,6599
 Abu Dhabi,Niamey,5596
 Abu Dhabi,Abuja,5248
 Abu Dhabi,Brazzaville,5299
-Abu Dhabi,Saint-Denis,5044
+Abu Dhabi,Saint Denis,5044
 Abu Dhabi,Kigali,3939
 Abu Dhabi,Jamestown,7915
 Abu Dhabi,São Tomé,5782
@@ -5565,7 +5565,7 @@ Abu Dhabi,Ankara,2643
 Abu Dhabi,Ashkhabad,1546
 Tashkent,Algiers,5601
 Tashkent,Luanda,7972
-Tashkent,Porto-Novo,7586
+Tashkent,Porto Novo,7586
 Tashkent,Gaborone,8581
 Tashkent,Ouagadougou,7501
 Tashkent,Bujumbura,6395
@@ -5602,7 +5602,7 @@ Tashkent,Windhoek,8899
 Tashkent,Niamey,7117
 Tashkent,Abuja,6995
 Tashkent,Brazzaville,7440
-Tashkent,Saint-Denis,7054
+Tashkent,Saint Denis,7054
 Tashkent,Kigali,6220
 Tashkent,Jamestown,9965
 Tashkent,São Tomé,7722
@@ -5671,7 +5671,7 @@ Tashkent,Ashkhabad,998
 Tashkent,Abu Dhabi,2318
 Hanoi,Algiers,9696
 Hanoi,Luanda,10627
-Hanoi,Porto-Novo,11108
+Hanoi,Porto Novo,11108
 Hanoi,Gaborone,10016
 Hanoi,Ouagadougou,11260
 Hanoi,Bujumbura,8746
@@ -5708,7 +5708,7 @@ Hanoi,Windhoek,10767
 Hanoi,Niamey,10849
 Hanoi,Abuja,10502
 Hanoi,Brazzaville,10236
-Hanoi,Saint-Denis,7188
+Hanoi,Saint Denis,7188
 Hanoi,Kigali,8614
 Hanoi,Jamestown,12828
 Hanoi,São Tomé,10939
@@ -5778,7 +5778,7 @@ Hanoi,Abu Dhabi,5262
 Hanoi,Tashkent,4102
 Sanaa,Algiers,4700
 Sanaa,Luanda,4346
-Sanaa,Porto-Novo,4640
+Sanaa,Porto Novo,4640
 Sanaa,Gaborone,4871
 Sanaa,Ouagadougou,4940
 Sanaa,Bujumbura,2648
@@ -5815,7 +5815,7 @@ Sanaa,Windhoek,5147
 Sanaa,Niamey,4531
 Sanaa,Abuja,4047
 Sanaa,Brazzaville,3861
-Sanaa,Saint-Denis,4211
+Sanaa,Saint Denis,4211
 Sanaa,Kigali,2474
 Sanaa,Jamestown,6492
 Sanaa,São Tomé,4440
@@ -5886,7 +5886,7 @@ Sanaa,Tashkent,3752
 Sanaa,Hanoi,6504
 Tirana,Algiers,1533
 Tirana,Luanda,5619
-Tirana,Porto-Novo,4232
+Tirana,Porto Novo,4232
 Tirana,Gaborone,7363
 Tirana,Ouagadougou,3831
 Tirana,Bujumbura,5065
@@ -5923,7 +5923,7 @@ Tirana,Windhoek,7110
 Tirana,Niamey,3537
 Tirana,Abuja,3787
 Tirana,Brazzaville,5091
-Tirana,Saint-Denis,7832
+Tirana,Saint Denis,7832
 Tirana,Kigali,4923
 Tirana,Jamestown,6889
 Tirana,São Tomé,4744
@@ -5995,7 +5995,7 @@ Tirana,Hanoi,8163
 Tirana,Sanaa,3720
 Andorra la Vella,Algiers,654
 Andorra la Vella,Luanda,5833
-Andorra la Vella,Porto-Novo,4006
+Andorra la Vella,Porto Novo,4006
 Andorra la Vella,Gaborone,7876
 Andorra la Vella,Ouagadougou,3364
 Andorra la Vella,Bujumbura,5821
@@ -6032,7 +6032,7 @@ Andorra la Vella,Windhoek,7410
 Andorra la Vella,Niamey,3225
 Andorra la Vella,Abuja,3764
 Andorra la Vella,Brazzaville,5384
-Andorra la Vella,Saint-Denis,8954
+Andorra la Vella,Saint Denis,8954
 Andorra la Vella,Kigali,5713
 Andorra la Vella,Jamestown,6542
 Andorra la Vella,São Tomé,4718
@@ -6105,7 +6105,7 @@ Andorra la Vella,Sanaa,5055
 Andorra la Vella,Tirana,1517
 Vienna,Algiers,1674
 Vienna,Luanda,6351
-Vienna,Porto-Novo,4817
+Vienna,Porto Novo,4817
 Vienna,Gaborone,8157
 Vienna,Ouagadougou,4316
 Vienna,Bujumbura,5874
@@ -6142,7 +6142,7 @@ Vienna,Windhoek,7870
 Vienna,Niamey,4077
 Vienna,Abuja,4431
 Vienna,Brazzaville,5836
-Vienna,Saint-Denis,8610
+Vienna,Saint Denis,8610
 Vienna,Kigali,5733
 Vienna,Jamestown,7462
 Vienna,São Tomé,5403
@@ -6216,7 +6216,7 @@ Vienna,Tirana,812
 Vienna,Andorra la Vella,1319
 Minsk,Algiers,2678
 Minsk,Luanda,7106
-Minsk,Porto-Novo,5729
+Minsk,Porto Novo,5729
 Minsk,Gaborone,8736
 Minsk,Ouagadougou,5279
 Minsk,Bujumbura,6371
@@ -6253,7 +6253,7 @@ Minsk,Windhoek,8561
 Minsk,Niamey,5014
 Minsk,Abuja,5297
 Minsk,Brazzaville,6569
-Minsk,Saint-Denis,8734
+Minsk,Saint Denis,8734
 Minsk,Kigali,6215
 Minsk,Jamestown,8387
 Minsk,São Tomé,6256
@@ -6328,7 +6328,7 @@ Minsk,Andorra la Vella,2288
 Minsk,Vienna,1005
 Brussels,Algiers,1571
 Brussels,Luanda,6692
-Brussels,Porto-Novo,4934
+Brussels,Porto Novo,4934
 Brussels,Gaborone,8658
 Brussels,Ouagadougou,4312
 Brussels,Bujumbura,6483
@@ -6365,7 +6365,7 @@ Brussels,Windhoek,8258
 Brussels,Niamey,4157
 Brussels,Abuja,4655
 Brussels,Brazzaville,6217
-Brussels,Saint-Denis,9408
+Brussels,Saint Denis,9408
 Brussels,Kigali,6357
 Brussels,Jamestown,7491
 Brussels,São Tomé,5621
@@ -6441,7 +6441,7 @@ Brussels,Vienna,915
 Brussels,Minsk,1605
 Sarajevo,Algiers,1517
 Sarajevo,Luanda,5882
-Sarajevo,Porto-Novo,4428
+Sarajevo,Porto Novo,4428
 Sarajevo,Gaborone,7656
 Sarajevo,Ouagadougou,3984
 Sarajevo,Bujumbura,5366
@@ -6478,7 +6478,7 @@ Sarajevo,Windhoek,7386
 Sarajevo,Niamey,3712
 Sarajevo,Abuja,4008
 Sarajevo,Brazzaville,5360
-Sarajevo,Saint-Denis,8129
+Sarajevo,Saint Denis,8129
 Sarajevo,Kigali,5224
 Sarajevo,Jamestown,7085
 Sarajevo,São Tomé,4974
@@ -6555,7 +6555,7 @@ Sarajevo,Minsk,1302
 Sarajevo,Brussels,1308
 Sofia,Algiers,1851
 Sofia,Luanda,5822
-Sofia,Porto-Novo,4510
+Sofia,Porto Novo,4510
 Sofia,Gaborone,7494
 Sofia,Ouagadougou,4135
 Sofia,Bujumbura,5160
@@ -6592,7 +6592,7 @@ Sofia,Windhoek,7285
 Sofia,Niamey,3831
 Sofia,Abuja,4046
 Sofia,Brazzaville,5285
-Sofia,Saint-Denis,7799
+Sofia,Saint Denis,7799
 Sofia,Kigali,5011
 Sofia,Jamestown,7165
 Sofia,São Tomé,4993
@@ -6670,7 +6670,7 @@ Sofia,Brussels,1698
 Sofia,Sarajevo,421
 Zagreb,Algiers,1474
 Zagreb,Luanda,6083
-Zagreb,Porto-Novo,4557
+Zagreb,Porto Novo,4557
 Zagreb,Gaborone,7899
 Zagreb,Ouagadougou,4069
 Zagreb,Bujumbura,5627
@@ -6707,7 +6707,7 @@ Zagreb,Windhoek,7603
 Zagreb,Niamey,3821
 Zagreb,Abuja,4165
 Zagreb,Brazzaville,5569
-Zagreb,Saint-Denis,8416
+Zagreb,Saint Denis,8416
 Zagreb,Kigali,5489
 Zagreb,Jamestown,7205
 Zagreb,São Tomé,5137
@@ -6786,7 +6786,7 @@ Zagreb,Sarajevo,288
 Zagreb,Sofia,679
 Nicosia,Algiers,2724
 Nicosia,Luanda,5331
-Nicosia,Porto-Novo,4477
+Nicosia,Porto Novo,4477
 Nicosia,Gaborone,6698
 Nicosia,Ouagadougou,4325
 Nicosia,Bujumbura,4307
@@ -6823,7 +6823,7 @@ Nicosia,Windhoek,6645
 Nicosia,Niamey,3949
 Nicosia,Abuja,3916
 Nicosia,Brazzaville,4775
-Nicosia,Saint-Denis,6654
+Nicosia,Saint Denis,6654
 Nicosia,Kigali,4142
 Nicosia,Jamestown,7020
 Nicosia,São Tomé,4756
@@ -6903,7 +6903,7 @@ Nicosia,Sofia,1205
 Nicosia,Zagreb,1880
 Prague,Algiers,1741
 Prague,Luanda,6554
-Prague,Porto-Novo,4971
+Prague,Porto Novo,4971
 Prague,Gaborone,8388
 Prague,Ouagadougou,4439
 Prague,Bujumbura,6116
@@ -6940,7 +6940,7 @@ Prague,Windhoek,8083
 Prague,Niamey,4218
 Prague,Abuja,4606
 Prague,Brazzaville,6045
-Prague,Saint-Denis,8862
+Prague,Saint Denis,8862
 Prague,Kigali,5976
 Prague,Jamestown,7603
 Prague,São Tomé,5580
@@ -7021,7 +7021,7 @@ Prague,Zagreb,490
 Prague,Nicosia,2258
 Copenhagen,Algiers,2224
 Copenhagen,Luanda,7175
-Copenhagen,Porto-Novo,5539
+Copenhagen,Porto Novo,5539
 Copenhagen,Gaborone,9022
 Copenhagen,Ouagadougou,4968
 Copenhagen,Bujumbura,6744
@@ -7058,7 +7058,7 @@ Copenhagen,Windhoek,8710
 Copenhagen,Niamey,4775
 Copenhagen,Abuja,5202
 Copenhagen,Brazzaville,6671
-Copenhagen,Saint-Denis,9423
+Copenhagen,Saint Denis,9423
 Copenhagen,Kigali,6603
 Copenhagen,Jamestown,8147
 Copenhagen,São Tomé,6176
@@ -7140,7 +7140,7 @@ Copenhagen,Nicosia,2776
 Copenhagen,Prague,634
 Tallinn,Algiers,2964
 Tallinn,Luanda,7662
-Tallinn,Porto-Novo,6179
+Tallinn,Porto Novo,6179
 Tallinn,Gaborone,9351
 Tallinn,Ouagadougou,5667
 Tallinn,Bujumbura,6997
@@ -7177,7 +7177,7 @@ Tallinn,Windhoek,9145
 Tallinn,Niamey,5437
 Tallinn,Abuja,5786
 Tallinn,Brazzaville,7133
-Tallinn,Saint-Denis,9359
+Tallinn,Saint Denis,9359
 Tallinn,Kigali,6842
 Tallinn,Jamestown,8823
 Tallinn,São Tomé,6755
@@ -7260,7 +7260,7 @@ Tallinn,Prague,1230
 Tallinn,Copenhagen,836
 Tórshavn,Algiers,2890
 Tórshavn,Luanda,8066
-Tórshavn,Porto-Novo,6220
+Tórshavn,Porto Novo,6220
 Tórshavn,Gaborone,10067
 Tórshavn,Ouagadougou,5536
 Tórshavn,Bujumbura,7890
@@ -7297,7 +7297,7 @@ Tórshavn,Windhoek,9640
 Tórshavn,Niamey,5439
 Tórshavn,Abuja,6000
 Tórshavn,Brazzaville,7606
-Tórshavn,Saint-Denis,10712
+Tórshavn,Saint Denis,10712
 Tórshavn,Kigali,7761
 Tórshavn,Jamestown,8668
 Tórshavn,São Tomé,6951
@@ -7381,7 +7381,7 @@ Tórshavn,Copenhagen,1309
 Tórshavn,Tallinn,1720
 Helsinki,Algiers,3032
 Helsinki,Luanda,7743
-Helsinki,Porto-Novo,6256
+Helsinki,Porto Novo,6256
 Helsinki,Gaborone,9432
 Helsinki,Ouagadougou,5741
 Helsinki,Bujumbura,7077
@@ -7418,7 +7418,7 @@ Helsinki,Windhoek,9227
 Helsinki,Niamey,5513
 Helsinki,Abuja,5865
 Helsinki,Brazzaville,7215
-Helsinki,Saint-Denis,9426
+Helsinki,Saint Denis,9426
 Helsinki,Kigali,6922
 Helsinki,Jamestown,8899
 Helsinki,São Tomé,6835
@@ -7503,7 +7503,7 @@ Helsinki,Tallinn,82
 Helsinki,Tórshavn,1699
 Paris,Algiers,1347
 Paris,Luanda,6503
-Paris,Porto-Novo,4709
+Paris,Porto Novo,4709
 Paris,Gaborone,8502
 Paris,Ouagadougou,4072
 Paris,Bujumbura,6367
@@ -7540,7 +7540,7 @@ Paris,Windhoek,8074
 Paris,Niamey,3930
 Paris,Abuja,4449
 Paris,Brazzaville,6038
-Paris,Saint-Denis,9364
+Paris,Saint Denis,9364
 Paris,Kigali,6247
 Paris,Jamestown,7248
 Paris,São Tomé,5410
@@ -7626,7 +7626,7 @@ Paris,Tórshavn,1569
 Paris,Helsinki,1909
 Berlin,Algiers,1931
 Berlin,Luanda,6823
-Berlin,Porto-Novo,5212
+Berlin,Porto Novo,5212
 Berlin,Gaborone,8666
 Berlin,Ouagadougou,4659
 Berlin,Bujumbura,6394
@@ -7663,7 +7663,7 @@ Berlin,Windhoek,8356
 Berlin,Niamey,4453
 Berlin,Abuja,4861
 Berlin,Brazzaville,6317
-Berlin,Saint-Denis,9117
+Berlin,Saint Denis,9117
 Berlin,Kigali,6254
 Berlin,Jamestown,7832
 Berlin,São Tomé,5835
@@ -7750,7 +7750,7 @@ Berlin,Helsinki,1105
 Berlin,Paris,878
 Gibraltar,Algiers,753
 Gibraltar,Luanda,5366
-Gibraltar,Porto-Novo,3394
+Gibraltar,Porto Novo,3394
 Gibraltar,Gaborone,7514
 Gibraltar,Ouagadougou,2671
 Gibraltar,Bujumbura,5682
@@ -7787,7 +7787,7 @@ Gibraltar,Windhoek,6940
 Gibraltar,Niamey,2624
 Gibraltar,Abuja,3278
 Gibraltar,Brazzaville,4980
-Gibraltar,Saint-Denis,8997
+Gibraltar,Saint Denis,8997
 Gibraltar,Kigali,5602
 Gibraltar,Jamestown,5791
 Gibraltar,São Tomé,4172
@@ -7875,7 +7875,7 @@ Gibraltar,Paris,1546
 Gibraltar,Berlin,2340
 Athens,Algiers,1829
 Athens,Luanda,5319
-Athens,Porto-Novo,4097
+Athens,Porto Novo,4097
 Athens,Gaborone,6968
 Athens,Ouagadougou,3790
 Athens,Bujumbura,4636
@@ -7912,7 +7912,7 @@ Athens,Windhoek,6767
 Athens,Niamey,3458
 Athens,Abuja,3603
 Athens,Brazzaville,4778
-Athens,Saint-Denis,7337
+Athens,Saint Denis,7337
 Athens,Kigali,4488
 Athens,Jamestown,6737
 Athens,São Tomé,4532
@@ -8001,7 +8001,7 @@ Athens,Berlin,1803
 Athens,Gibraltar,2577
 St Peter Port,Algiers,1483
 St Peter Port,Luanda,6662
-St Peter Port,Porto-Novo,4801
+St Peter Port,Porto Novo,4801
 St Peter Port,Gaborone,8709
 St Peter Port,Ouagadougou,4125
 St Peter Port,Bujumbura,6627
@@ -8038,7 +8038,7 @@ St Peter Port,Windhoek,8240
 St Peter Port,Niamey,4020
 St Peter Port,Abuja,4587
 St Peter Port,Brazzaville,6217
-St Peter Port,Saint-Denis,9682
+St Peter Port,Saint Denis,9682
 St Peter Port,Kigali,6513
 St Peter Port,Jamestown,7279
 St Peter Port,São Tomé,5533
@@ -8128,7 +8128,7 @@ St Peter Port,Gibraltar,1498
 St Peter Port,Athens,2447
 Budapest,Algiers,1774
 Budapest,Luanda,6291
-Budapest,Porto-Novo,4819
+Budapest,Porto Novo,4819
 Budapest,Gaborone,8052
 Budapest,Ouagadougou,4350
 Budapest,Bujumbura,5747
@@ -8165,7 +8165,7 @@ Budapest,Windhoek,7793
 Budapest,Niamey,4093
 Budapest,Abuja,4410
 Budapest,Brazzaville,5768
-Budapest,Saint-Denis,8429
+Budapest,Saint Denis,8429
 Budapest,Kigali,5602
 Budapest,Jamestown,7473
 Budapest,São Tomé,5378
@@ -8256,7 +8256,7 @@ Budapest,Athens,1125
 Budapest,St Peter Port,1600
 Reykjavík,Algiers,3470
 Reykjavík,Luanda,8632
-Reykjavík,Porto-Novo,6699
+Reykjavík,Porto Novo,6699
 Reykjavík,Gaborone,10704
 Reykjavík,Ouagadougou,5970
 Reykjavík,Bujumbura,8598
@@ -8293,7 +8293,7 @@ Reykjavík,Windhoek,10212
 Reykjavík,Niamey,5927
 Reykjavík,Abuja,6545
 Reykjavík,Brazzaville,8202
-Reykjavík,Saint-Denis,11496
+Reykjavík,Saint Denis,11496
 Reykjavík,Kigali,8477
 Reykjavík,Jamestown,9012
 Reykjavík,São Tomé,7468
@@ -8385,7 +8385,7 @@ Reykjavík,St Peter Port,1996
 Reykjavík,Budapest,3071
 Dublin,Algiers,1979
 Dublin,Luanda,7154
-Dublin,Porto-Novo,5269
+Dublin,Porto Novo,5269
 Dublin,Gaborone,9209
 Dublin,Ouagadougou,4574
 Dublin,Bujumbura,7123
@@ -8422,7 +8422,7 @@ Dublin,Windhoek,8733
 Dublin,Niamey,4489
 Dublin,Abuja,5073
 Dublin,Brazzaville,6714
-Dublin,Saint-Denis,10144
+Dublin,Saint Denis,10144
 Dublin,Kigali,7008
 Dublin,Jamestown,7703
 Dublin,São Tomé,6013
@@ -8515,7 +8515,7 @@ Dublin,Budapest,1894
 Dublin,Reykjavík,1495
 Douglas,Algiers,2019
 Douglas,Luanda,7199
-Douglas,Porto-Novo,5337
+Douglas,Porto Novo,5337
 Douglas,Gaborone,9234
 Douglas,Ouagadougou,4653
 Douglas,Bujumbura,7120
@@ -8552,7 +8552,7 @@ Douglas,Windhoek,8776
 Douglas,Niamey,4556
 Douglas,Abuja,5125
 Douglas,Brazzaville,6750
-Douglas,Saint-Denis,10101
+Douglas,Saint Denis,10101
 Douglas,Kigali,7001
 Douglas,Jamestown,7795
 Douglas,São Tomé,6071
@@ -8646,7 +8646,7 @@ Douglas,Reykjavík,1480
 Douglas,Dublin,148
 Rome,Algiers,992
 Rome,Luanda,5641
-Rome,Porto-Novo,4054
+Rome,Porto Novo,4054
 Rome,Gaborone,7527
 Rome,Ouagadougou,3552
 Rome,Bujumbura,5315
@@ -8683,7 +8683,7 @@ Rome,Windhoek,7182
 Rome,Niamey,3311
 Rome,Abuja,3682
 Rome,Brazzaville,5141
-Rome,Saint-Denis,8259
+Rome,Saint Denis,8259
 Rome,Kigali,5187
 Rome,Jamestown,6697
 Rome,São Tomé,4656
@@ -8778,7 +8778,7 @@ Rome,Dublin,1884
 Rome,Douglas,1848
 Saint Helier,Algiers,1444
 Saint Helier,Luanda,6624
-Saint Helier,Porto-Novo,4767
+Saint Helier,Porto Novo,4767
 Saint Helier,Gaborone,8668
 Saint Helier,Ouagadougou,4095
 Saint Helier,Bujumbura,6584
@@ -8815,7 +8815,7 @@ Saint Helier,Windhoek,8202
 Saint Helier,Niamey,3986
 Saint Helier,Abuja,4549
 Saint Helier,Brazzaville,6177
-Saint Helier,Saint-Denis,9639
+Saint Helier,Saint Denis,9639
 Saint Helier,Kigali,6470
 Saint Helier,Jamestown,7251
 Saint Helier,São Tomé,5497
@@ -8911,7 +8911,7 @@ Saint Helier,Douglas,575
 Saint Helier,Rome,1392
 Pristina,Algiers,1680
 Pristina,Luanda,5784
-Pristina,Porto-Novo,4416
+Pristina,Porto Novo,4416
 Pristina,Gaborone,7501
 Pristina,Ouagadougou,4017
 Pristina,Bujumbura,5186
@@ -8948,7 +8948,7 @@ Pristina,Windhoek,7265
 Pristina,Niamey,3723
 Pristina,Abuja,3967
 Pristina,Brazzaville,5253
-Pristina,Saint-Denis,7891
+Pristina,Saint Denis,7891
 Pristina,Kigali,5041
 Pristina,Jamestown,7074
 Pristina,São Tomé,4923
@@ -9045,7 +9045,7 @@ Pristina,Rome,720
 Pristina,Saint Helier,1930
 Riga,Algiers,2735
 Riga,Luanda,7383
-Riga,Porto-Novo,5916
+Riga,Porto Novo,5916
 Riga,Gaborone,9075
 Riga,Ouagadougou,5417
 Riga,Bujumbura,6725
@@ -9082,7 +9082,7 @@ Riga,Windhoek,8866
 Riga,Niamey,5178
 Riga,Abuja,5515
 Riga,Brazzaville,6854
-Riga,Saint-Denis,9135
+Riga,Saint Denis,9135
 Riga,Kigali,6571
 Riga,Jamestown,8563
 Riga,São Tomé,6483
@@ -9180,7 +9180,7 @@ Riga,Saint Helier,1936
 Riga,Pristina,1601
 Vaduz,Algiers,1272
 Vaduz,Luanda,6236
-Vaduz,Porto-Novo,4567
+Vaduz,Porto Novo,4567
 Vaduz,Gaborone,8150
 Vaduz,Ouagadougou,4002
 Vaduz,Bujumbura,5944
@@ -9217,7 +9217,7 @@ Vaduz,Windhoek,7787
 Vaduz,Niamey,3803
 Vaduz,Abuja,4238
 Vaduz,Brazzaville,5744
-Vaduz,Saint-Denis,8849
+Vaduz,Saint Denis,8849
 Vaduz,Kigali,5814
 Vaduz,Jamestown,7177
 Vaduz,São Tomé,5211
@@ -9316,7 +9316,7 @@ Vaduz,Pristina,1042
 Vaduz,Riga,1472
 Vilnius,Algiers,2615
 Vilnius,Luanda,7153
-Vilnius,Porto-Novo,5729
+Vilnius,Porto Novo,5729
 Vilnius,Gaborone,8822
 Vilnius,Ouagadougou,5255
 Vilnius,Bujumbura,6468
@@ -9353,7 +9353,7 @@ Vilnius,Windhoek,8625
 Vilnius,Niamey,5002
 Vilnius,Abuja,5312
 Vilnius,Brazzaville,6621
-Vilnius,Saint-Denis,8880
+Vilnius,Saint Denis,8880
 Vilnius,Kigali,6313
 Vilnius,Jamestown,8383
 Vilnius,São Tomé,6276
@@ -9453,7 +9453,7 @@ Vilnius,Riga,262
 Vilnius,Vaduz,1382
 Luxembourg,Algiers,1451
 Luxembourg,Luanda,6536
-Luxembourg,Porto-Novo,4805
+Luxembourg,Porto Novo,4805
 Luxembourg,Gaborone,8486
 Luxembourg,Ouagadougou,4200
 Luxembourg,Bujumbura,6301
@@ -9490,7 +9490,7 @@ Luxembourg,Windhoek,8098
 Luxembourg,Niamey,4031
 Luxembourg,Abuja,4510
 Luxembourg,Brazzaville,6056
-Luxembourg,Saint-Denis,9221
+Luxembourg,Saint Denis,9221
 Luxembourg,Kigali,6174
 Luxembourg,Jamestown,7381
 Luxembourg,São Tomé,5479
@@ -9591,7 +9591,7 @@ Luxembourg,Vaduz,372
 Luxembourg,Vilnius,1418
 Skopje,Algiers,1681
 Skopje,Luanda,5715
-Skopje,Porto-Novo,4362
+Skopje,Porto Novo,4362
 Skopje,Gaborone,7425
 Skopje,Ouagadougou,3974
 Skopje,Bujumbura,5109
@@ -9628,7 +9628,7 @@ Skopje,Windhoek,7193
 Skopje,Niamey,3675
 Skopje,Abuja,3908
 Skopje,Brazzaville,5182
-Skopje,Saint-Denis,7818
+Skopje,Saint Denis,7818
 Skopje,Kigali,4964
 Skopje,Jamestown,7019
 Skopje,São Tomé,4861
@@ -9730,7 +9730,7 @@ Skopje,Vilnius,1439
 Skopje,Luxembourg,1452
 Valletta,Algiers,1031
 Valletta,Luanda,4977
-Valletta,Porto-Novo,3487
+Valletta,Porto Novo,3487
 Valletta,Gaborone,6839
 Valletta,Ouagadougou,3071
 Valletta,Bujumbura,4633
@@ -9767,7 +9767,7 @@ Valletta,Windhoek,6506
 Valletta,Niamey,2781
 Valletta,Abuja,3067
 Valletta,Brazzaville,4467
-Valletta,Saint-Denis,7643
+Valletta,Saint Denis,7643
 Valletta,Kigali,4508
 Valletta,Jamestown,6145
 Valletta,São Tomé,4035
@@ -9870,7 +9870,7 @@ Valletta,Luxembourg,1668
 Valletta,Skopje,904
 Chişinău,Algiers,2407
 Chişinău,Luanda,6400
-Chişinău,Porto-Novo,5153
+Chişinău,Porto Novo,5153
 Chişinău,Gaborone,7974
 Chişinău,Ouagadougou,4783
 Chişinău,Bujumbura,5603
@@ -9907,7 +9907,7 @@ Chişinău,Windhoek,7826
 Chişinău,Niamey,4479
 Chişinău,Abuja,4678
 Chişinău,Brazzaville,5856
-Chişinău,Saint-Denis,8006
+Chişinău,Saint Denis,8006
 Chişinău,Kigali,5445
 Chişinău,Jamestown,7805
 Chişinău,São Tomé,5616
@@ -10011,7 +10011,7 @@ Chişinău,Skopje,810
 Chişinău,Valletta,1714
 Monaco,Algiers,860
 Monaco,Luanda,5875
-Monaco,Porto-Novo,4166
+Monaco,Porto Novo,4166
 Monaco,Gaborone,7834
 Monaco,Ouagadougou,3591
 Monaco,Bujumbura,5679
@@ -10048,7 +10048,7 @@ Monaco,Windhoek,7437
 Monaco,Niamey,3398
 Monaco,Abuja,3854
 Monaco,Brazzaville,5395
-Monaco,Saint-Denis,8691
+Monaco,Saint Denis,8691
 Monaco,Kigali,5558
 Monaco,Jamestown,6768
 Monaco,São Tomé,4825
@@ -10153,7 +10153,7 @@ Monaco,Valletta,1060
 Monaco,Chişinău,1708
 Podgorica,Algiers,1524
 Podgorica,Luanda,5735
-Podgorica,Porto-Novo,4319
+Podgorica,Porto Novo,4319
 Podgorica,Gaborone,7491
 Podgorica,Ouagadougou,3899
 Podgorica,Bujumbura,5196
@@ -10190,7 +10190,7 @@ Podgorica,Windhoek,7231
 Podgorica,Niamey,3615
 Podgorica,Abuja,3885
 Podgorica,Brazzaville,5209
-Podgorica,Saint-Denis,7959
+Podgorica,Saint Denis,7959
 Podgorica,Kigali,5054
 Podgorica,Jamestown,6977
 Podgorica,São Tomé,4846
@@ -10296,7 +10296,7 @@ Podgorica,Chişinău,912
 Podgorica,Monaco,971
 Amsterdam,Algiers,1743
 Amsterdam,Luanda,6853
-Amsterdam,Porto-Novo,5105
+Amsterdam,Porto Novo,5105
 Amsterdam,Gaborone,8805
 Amsterdam,Ouagadougou,4485
 Amsterdam,Bujumbura,6612
@@ -10333,7 +10333,7 @@ Amsterdam,Windhoek,8416
 Amsterdam,Niamey,4328
 Amsterdam,Abuja,4820
 Amsterdam,Brazzaville,6374
-Amsterdam,Saint-Denis,9496
+Amsterdam,Saint Denis,9496
 Amsterdam,Kigali,6484
 Amsterdam,Jamestown,7664
 Amsterdam,São Tomé,5788
@@ -10440,7 +10440,7 @@ Amsterdam,Monaco,979
 Amsterdam,Podgorica,1540
 Oslo,Algiers,2633
 Oslo,Luanda,7648
-Oslo,Porto-Novo,5979
+Oslo,Porto Novo,5979
 Oslo,Gaborone,9504
 Oslo,Ouagadougou,5382
 Oslo,Bujumbura,7223
@@ -10477,7 +10477,7 @@ Oslo,Windhoek,9188
 Oslo,Niamey,5208
 Oslo,Abuja,5660
 Oslo,Brazzaville,7148
-Oslo,Saint-Denis,9851
+Oslo,Saint Denis,9851
 Oslo,Kigali,7081
 Oslo,Jamestown,8564
 Oslo,São Tomé,6633
@@ -10585,7 +10585,7 @@ Oslo,Podgorica,2027
 Oslo,Amsterdam,913
 Warsaw,Algiers,2222
 Warsaw,Luanda,6831
-Warsaw,Porto-Novo,5356
+Warsaw,Porto Novo,5356
 Warsaw,Gaborone,8562
 Warsaw,Ouagadougou,4869
 Warsaw,Bujumbura,6233
@@ -10622,7 +10622,7 @@ Warsaw,Windhoek,8325
 Warsaw,Niamey,4623
 Warsaw,Abuja,4954
 Warsaw,Brazzaville,6306
-Warsaw,Saint-Denis,8788
+Warsaw,Saint Denis,8788
 Warsaw,Kigali,6084
 Warsaw,Jamestown,8007
 Warsaw,São Tomé,5922
@@ -10731,7 +10731,7 @@ Warsaw,Amsterdam,1094
 Warsaw,Oslo,1063
 Lisbon,Algiers,1092
 Lisbon,Luanda,5773
-Lisbon,Porto-Novo,3772
+Lisbon,Porto Novo,3772
 Lisbon,Gaborone,7934
 Lisbon,Ouagadougou,3025
 Lisbon,Bujumbura,6122
@@ -10768,7 +10768,7 @@ Lisbon,Windhoek,7341
 Lisbon,Niamey,3014
 Lisbon,Abuja,3690
 Lisbon,Brazzaville,5399
-Lisbon,Saint-Denis,9434
+Lisbon,Saint Denis,9434
 Lisbon,Kigali,6042
 Lisbon,Jamestown,6088
 Lisbon,São Tomé,4564
@@ -10878,7 +10878,7 @@ Lisbon,Oslo,2738
 Lisbon,Warsaw,2758
 Bucharest,Algiers,2118
 Bucharest,Luanda,6063
-Bucharest,Porto-Novo,4795
+Bucharest,Porto Novo,4795
 Bucharest,Gaborone,7681
 Bucharest,Ouagadougou,4429
 Bucharest,Bujumbura,5326
@@ -10915,7 +10915,7 @@ Bucharest,Windhoek,7505
 Bucharest,Niamey,4122
 Bucharest,Abuja,4322
 Bucharest,Brazzaville,5522
-Bucharest,Saint-Denis,7851
+Bucharest,Saint Denis,7851
 Bucharest,Kigali,5172
 Bucharest,Jamestown,7447
 Bucharest,São Tomé,5263
@@ -11026,7 +11026,7 @@ Bucharest,Warsaw,945
 Bucharest,Lisbon,2975
 Moscow,Algiers,3338
 Moscow,Luanda,7528
-Moscow,Porto-Novo,6286
+Moscow,Porto Novo,6286
 Moscow,Gaborone,9009
 Moscow,Ouagadougou,5881
 Moscow,Bujumbura,6618
@@ -11063,7 +11063,7 @@ Moscow,Windhoek,8922
 Moscow,Niamey,5595
 Moscow,Abuja,5820
 Moscow,Brazzaville,6980
-Moscow,Saint-Denis,8686
+Moscow,Saint Denis,8686
 Moscow,Kigali,6453
 Moscow,Jamestown,8941
 Moscow,São Tomé,6761
@@ -11175,7 +11175,7 @@ Moscow,Lisbon,3906
 Moscow,Bucharest,1499
 San Marino,Algiers,1128
 San Marino,Luanda,5869
-San Marino,Porto-Novo,4272
+San Marino,Porto Novo,4272
 San Marino,Gaborone,7749
 San Marino,Ouagadougou,3756
 San Marino,Bujumbura,5526
@@ -11212,7 +11212,7 @@ San Marino,Windhoek,7410
 San Marino,Niamey,3524
 San Marino,Abuja,3907
 San Marino,Brazzaville,5368
-San Marino,Saint-Denis,8432
+San Marino,Saint Denis,8432
 San Marino,Kigali,5396
 San Marino,Jamestown,6910
 San Marino,São Tomé,4881
@@ -11325,7 +11325,7 @@ San Marino,Bucharest,1089
 San Marino,Moscow,2212
 Belgrade,Algiers,1714
 Belgrade,Luanda,6009
-Belgrade,Porto-Novo,4597
+Belgrade,Porto Novo,4597
 Belgrade,Gaborone,7742
 Belgrade,Ouagadougou,4167
 Belgrade,Bujumbura,5430
@@ -11362,7 +11362,7 @@ Belgrade,Windhoek,7498
 Belgrade,Niamey,3889
 Belgrade,Abuja,4165
 Belgrade,Brazzaville,5481
-Belgrade,Saint-Denis,8119
+Belgrade,Saint Denis,8119
 Belgrade,Kigali,5285
 Belgrade,Jamestown,7255
 Belgrade,São Tomé,5126
@@ -11476,7 +11476,7 @@ Belgrade,Moscow,1714
 Belgrade,San Marino,644
 Bratislava,Algiers,1709
 Bratislava,Luanda,6348
-Bratislava,Porto-Novo,4830
+Bratislava,Porto Novo,4830
 Bratislava,Gaborone,8143
 Bratislava,Ouagadougou,4337
 Bratislava,Bujumbura,5852
@@ -11513,7 +11513,7 @@ Bratislava,Windhoek,7863
 Bratislava,Niamey,4093
 Bratislava,Abuja,4438
 Bratislava,Brazzaville,5832
-Bratislava,Saint-Denis,8572
+Bratislava,Saint Denis,8572
 Bratislava,Kigali,5710
 Bratislava,Jamestown,7478
 Bratislava,São Tomé,5410
@@ -11628,7 +11628,7 @@ Bratislava,San Marino,590
 Bratislava,Belgrade,453
 Ljubljana,Algiers,1406
 Ljubljana,Luanda,6105
-Ljubljana,Porto-Novo,4544
+Ljubljana,Porto Novo,4544
 Ljubljana,Gaborone,7945
 Ljubljana,Ouagadougou,4038
 Ljubljana,Bujumbura,5688
@@ -11665,7 +11665,7 @@ Ljubljana,Windhoek,7633
 Ljubljana,Niamey,3801
 Ljubljana,Abuja,4166
 Ljubljana,Brazzaville,5596
-Ljubljana,Saint-Denis,8508
+Ljubljana,Saint Denis,8508
 Ljubljana,Kigali,5552
 Ljubljana,Jamestown,7187
 Ljubljana,São Tomé,5139
@@ -11781,7 +11781,7 @@ Ljubljana,Belgrade,485
 Ljubljana,Bratislava,305
 Madrid,Algiers,714
 Madrid,Luanda,5747
-Madrid,Porto-Novo,3824
+Madrid,Porto Novo,3824
 Madrid,Gaborone,7857
 Madrid,Ouagadougou,3126
 Madrid,Bujumbura,5918
@@ -11818,7 +11818,7 @@ Madrid,Windhoek,7326
 Madrid,Niamey,3045
 Madrid,Abuja,3657
 Madrid,Brazzaville,5333
-Madrid,Saint-Denis,9153
+Madrid,Saint Denis,9153
 Madrid,Kigali,5824
 Madrid,Jamestown,6270
 Madrid,São Tomé,4580
@@ -11935,7 +11935,7 @@ Madrid,Bratislava,1858
 Madrid,Ljubljana,1598
 Longyearbyen,Algiers,4649
 Longyearbyen,Luanda,9682
-Longyearbyen,Porto-Novo,8010
+Longyearbyen,Porto Novo,8010
 Longyearbyen,Gaborone,11458
 Longyearbyen,Ouagadougou,7384
 Longyearbyen,Bujumbura,9111
@@ -11972,7 +11972,7 @@ Longyearbyen,Windhoek,11207
 Longyearbyen,Niamey,7234
 Longyearbyen,Abuja,7703
 Longyearbyen,Brazzaville,9172
-Longyearbyen,Saint-Denis,11306
+Longyearbyen,Saint Denis,11306
 Longyearbyen,Kigali,8956
 Longyearbyen,Jamestown,10556
 Longyearbyen,São Tomé,8676
@@ -12090,7 +12090,7 @@ Longyearbyen,Ljubljana,3577
 Longyearbyen,Madrid,4294
 Stockholm,Algiers,2733
 Stockholm,Luanda,7592
-Stockholm,Porto-Novo,6020
+Stockholm,Porto Novo,6020
 Stockholm,Gaborone,9366
 Stockholm,Ouagadougou,5469
 Stockholm,Bujumbura,7044
@@ -12127,7 +12127,7 @@ Stockholm,Windhoek,9106
 Stockholm,Niamey,5262
 Stockholm,Abuja,5659
 Stockholm,Brazzaville,7076
-Stockholm,Saint-Denis,9548
+Stockholm,Saint Denis,9548
 Stockholm,Kigali,6895
 Stockholm,Jamestown,8643
 Stockholm,São Tomé,6633
@@ -12246,7 +12246,7 @@ Stockholm,Madrid,2592
 Stockholm,Longyearbyen,2102
 Berne,Algiers,1191
 Berne,Luanda,6230
-Berne,Porto-Novo,4522
+Berne,Porto Novo,4522
 Berne,Gaborone,8175
 Berne,Ouagadougou,3936
 Berne,Bujumbura,5994
@@ -12283,7 +12283,7 @@ Berne,Windhoek,7789
 Berne,Niamey,3752
 Berne,Abuja,4212
 Berne,Brazzaville,5747
-Berne,Saint-Denis,8943
+Berne,Saint Denis,8943
 Berne,Kigali,5868
 Berne,Jamestown,7116
 Berne,São Tomé,5183
@@ -12403,7 +12403,7 @@ Berne,Longyearbyen,3494
 Berne,Stockholm,1544
 Kiev,Algiers,2662
 Kiev,Luanda,6801
-Kiev,Porto-Novo,5530
+Kiev,Porto Novo,5530
 Kiev,Gaborone,8363
 Kiev,Ouagadougou,5135
 Kiev,Bujumbura,5987
@@ -12440,7 +12440,7 @@ Kiev,Windhoek,8225
 Kiev,Niamey,4843
 Kiev,Abuja,5066
 Kiev,Brazzaville,6257
-Kiev,Saint-Denis,8301
+Kiev,Saint Denis,8301
 Kiev,Kigali,5827
 Kiev,Jamestown,8186
 Kiev,São Tomé,6009
@@ -12561,7 +12561,7 @@ Kiev,Stockholm,1265
 Kiev,Berne,1730
 London,Algiers,1660
 London,Luanda,6832
-London,Porto-Novo,5011
+London,Porto Novo,5011
 London,Gaborone,8843
 London,Ouagadougou,4354
 London,Bujumbura,6711
@@ -12598,7 +12598,7 @@ London,Windhoek,8406
 London,Niamey,4230
 London,Abuja,4770
 London,Brazzaville,6373
-London,Saint-Denis,9691
+London,Saint Denis,9691
 London,Kigali,6590
 London,Jamestown,7520
 London,São Tomé,5726
@@ -12720,7 +12720,7 @@ London,Berne,748
 London,Kiev,2133
 Vatican,Algiers,991
 Vatican,Luanda,5643
-Vatican,Porto-Novo,4055
+Vatican,Porto Novo,4055
 Vatican,Gaborone,7529
 Vatican,Ouagadougou,3552
 Vatican,Bujumbura,5317
@@ -12757,7 +12757,7 @@ Vatican,Windhoek,7183
 Vatican,Niamey,3311
 Vatican,Abuja,3683
 Vatican,Brazzaville,5142
-Vatican,Saint-Denis,8262
+Vatican,Saint Denis,8262
 Vatican,Kigali,5189
 Vatican,Jamestown,6697
 Vatican,São Tomé,4657
@@ -12880,7 +12880,7 @@ Vatican,Kiev,1678
 Vatican,London,1432
 The Valley,Algiers,6705
 The Valley,Luanda,8891
-The Valley,Porto-Novo,7215
+The Valley,Porto Novo,7215
 The Valley,Gaborone,10741
 The Valley,Ouagadougou,6603
 The Valley,Bujumbura,10380
@@ -12917,7 +12917,7 @@ The Valley,Windhoek,9815
 The Valley,Niamey,6956
 The Valley,Abuja,7649
 The Valley,Brazzaville,8931
-The Valley,Saint-Denis,13604
+The Valley,Saint Denis,13604
 The Valley,Kigali,10405
 The Valley,Jamestown,7337
 The Valley,São Tomé,7865
@@ -13041,7 +13041,7 @@ The Valley,London,6570
 The Valley,Vatican,7485
 St. John's,Algiers,6664
 St. John's,Luanda,8738
-St. John's,Porto-Novo,7085
+St. John's,Porto Novo,7085
 St. John's,Gaborone,10574
 St. John's,Ouagadougou,6484
 St. John's,Bujumbura,10247
@@ -13078,7 +13078,7 @@ St. John's,Windhoek,9647
 St. John's,Niamey,6842
 St. John's,Abuja,7527
 St. John's,Brazzaville,8787
-St. John's,Saint-Denis,13450
+St. John's,Saint Denis,13450
 St. John's,Kigali,10274
 St. John's,Jamestown,7167
 St. John's,São Tomé,7724
@@ -13203,7 +13203,7 @@ St. John's,Vatican,7461
 St. John's,The Valley,177
 Oranjestad,Algiers,7678
 Oranjestad,Luanda,9498
-Oranjestad,Porto-Novo,7972
+Oranjestad,Porto Novo,7972
 Oranjestad,Gaborone,11175
 Oranjestad,Ouagadougou,7414
 Oranjestad,Bujumbura,11107
@@ -13240,7 +13240,7 @@ Oranjestad,Windhoek,10248
 Oranjestad,Niamey,7785
 Oranjestad,Abuja,8446
 Oranjestad,Brazzaville,9603
-Oranjestad,Saint-Denis,14161
+Oranjestad,Saint Denis,14161
 Oranjestad,Kigali,11150
 Oranjestad,Jamestown,7747
 Oranjestad,São Tomé,8563
@@ -13366,7 +13366,7 @@ Oranjestad,The Valley,980
 Oranjestad,St. John's,1017
 Nassau,Algiers,7560
 Nassau,Luanda,10479
-Nassau,Porto-Novo,8691
+Nassau,Porto Novo,8691
 Nassau,Gaborone,12390
 Nassau,Ouagadougou,8015
 Nassau,Bujumbura,11848
@@ -13403,7 +13403,7 @@ Nassau,Windhoek,11466
 Nassau,Niamey,8330
 Nassau,Abuja,9064
 Nassau,Brazzaville,10472
-Nassau,Saint-Denis,15183
+Nassau,Saint Denis,15183
 Nassau,Kigali,11850
 Nassau,Jamestown,8995
 Nassau,São Tomé,9394
@@ -13530,7 +13530,7 @@ Nassau,St. John's,1831
 Nassau,Oranjestad,1592
 Bridgetown,Algiers,6716
 Bridgetown,Luanda,8405
-Bridgetown,Porto-Novo,6842
+Bridgetown,Porto Novo,6842
 Bridgetown,Gaborone,10170
 Bridgetown,Ouagadougou,6286
 Bridgetown,Bujumbura,9982
@@ -13567,7 +13567,7 @@ Bridgetown,Windhoek,9241
 Bridgetown,Niamey,6661
 Bridgetown,Abuja,7316
 Bridgetown,Brazzaville,8489
-Bridgetown,Saint-Denis,13099
+Bridgetown,Saint Denis,13099
 Bridgetown,Kigali,10022
 Bridgetown,Jamestown,6748
 Bridgetown,São Tomé,7441
@@ -13695,7 +13695,7 @@ Bridgetown,Oranjestad,1130
 Bridgetown,Nassau,2284
 Belmopan,Algiers,9027
 Belmopan,Luanda,11563
-Belmopan,Porto-Novo,9938
+Belmopan,Porto Novo,9938
 Belmopan,Gaborone,13242
 Belmopan,Ouagadougou,9315
 Belmopan,Bujumbura,13103
@@ -13732,7 +13732,7 @@ Belmopan,Windhoek,12317
 Belmopan,Niamey,9657
 Belmopan,Abuja,10364
 Belmopan,Brazzaville,11639
-Belmopan,Saint-Denis,16241
+Belmopan,Saint Denis,16241
 Belmopan,Kigali,13127
 Belmopan,Jamestown,9818
 Belmopan,São Tomé,10580
@@ -13861,7 +13861,7 @@ Belmopan,Nassau,1468
 Belmopan,Bridgetown,3159
 Hamilton,Algiers,6102
 Hamilton,Luanda,9424
-Hamilton,Porto-Novo,7500
+Hamilton,Porto Novo,7500
 Hamilton,Gaborone,11500
 Hamilton,Ouagadougou,6773
 Hamilton,Bujumbura,10597
@@ -13898,7 +13898,7 @@ Hamilton,Windhoek,10610
 Hamilton,Niamey,7052
 Hamilton,Abuja,7807
 Hamilton,Brazzaville,9333
-Hamilton,Saint-Denis,14013
+Hamilton,Saint Denis,14013
 Hamilton,Kigali,10578
 Hamilton,Jamestown,8258
 Hamilton,São Tomé,8257
@@ -14028,7 +14028,7 @@ Hamilton,Bridgetown,2198
 Hamilton,Belmopan,2931
 Road Town,Algiers,6832
 Road Town,Luanda,9056
-Road Town,Porto-Novo,7380
+Road Town,Porto Novo,7380
 Road Town,Gaborone,10901
 Road Town,Ouagadougou,6766
 Road Town,Bujumbura,10546
@@ -14065,7 +14065,7 @@ Road Town,Windhoek,9974
 Road Town,Niamey,7117
 Road Town,Abuja,7812
 Road Town,Brazzaville,9097
-Road Town,Saint-Denis,13770
+Road Town,Saint Denis,13770
 Road Town,Kigali,10570
 Road Town,Jamestown,7493
 Road Town,São Tomé,8031
@@ -14196,7 +14196,7 @@ Road Town,Belmopan,2558
 Road Town,Hamilton,1542
 Ottawa,Algiers,6404
 Ottawa,Luanda,10623
-Ottawa,Porto-Novo,8581
+Ottawa,Porto Novo,8581
 Ottawa,Gaborone,12807
 Ottawa,Ouagadougou,7800
 Ottawa,Bujumbura,11447
@@ -14233,7 +14233,7 @@ Ottawa,Windhoek,11980
 Ottawa,Niamey,7996
 Ottawa,Abuja,8760
 Ottawa,Brazzaville,10422
-Ottawa,Saint-Denis,14819
+Ottawa,Saint Denis,14819
 Ottawa,Kigali,11387
 Ottawa,Jamestown,9781
 Ottawa,São Tomé,9390
@@ -14365,7 +14365,7 @@ Ottawa,Hamilton,1735
 Ottawa,Road Town,3171
 George Town,Algiers,8257
 George Town,Luanda,10810
-George Town,Porto-Novo,9139
+George Town,Porto Novo,9139
 George Town,Gaborone,12578
 George Town,Ouagadougou,8507
 George Town,Bujumbura,12306
@@ -14402,7 +14402,7 @@ George Town,Windhoek,11649
 George Town,Niamey,8846
 George Town,Abuja,9556
 George Town,Brazzaville,10861
-George Town,Saint-Denis,15516
+George Town,Saint Denis,15516
 George Town,Kigali,12326
 George Town,Jamestown,9150
 George Town,São Tomé,9796
@@ -14535,7 +14535,7 @@ George Town,Road Town,1765
 George Town,Ottawa,2951
 San José,Algiers,9094
 San José,Luanda,10969
-San José,Porto-Novo,9522
+San José,Porto Novo,9522
 San José,Gaborone,12477
 San José,Ouagadougou,8973
 San José,Bujumbura,12638
@@ -14572,7 +14572,7 @@ San José,Windhoek,11566
 San José,Niamey,9344
 San José,Abuja,10003
 San José,Brazzaville,11113
-San José,Saint-Denis,15523
+San José,Saint Denis,15523
 San José,Kigali,12688
 San José,Jamestown,9089
 San José,São Tomé,10090
@@ -14706,7 +14706,7 @@ San José,Ottawa,4026
 San José,George Town,1081
 Havana,Algiers,8107
 Havana,Luanda,10962
-Havana,Porto-Novo,9213
+Havana,Porto Novo,9213
 Havana,Gaborone,12812
 Havana,Ouagadougou,8549
 Havana,Bujumbura,12376
@@ -14743,7 +14743,7 @@ Havana,Windhoek,11884
 Havana,Niamey,8870
 Havana,Abuja,9599
 Havana,Brazzaville,10976
-Havana,Saint-Denis,15675
+Havana,Saint Denis,15675
 Havana,Kigali,12382
 Havana,Jamestown,9394
 Havana,São Tomé,9902
@@ -14878,7 +14878,7 @@ Havana,George Town,440
 Havana,San José,1479
 Roseau,Algiers,6734
 Roseau,Luanda,8645
-Roseau,Porto-Novo,7033
+Roseau,Porto Novo,7033
 Roseau,Gaborone,10446
 Roseau,Ouagadougou,6452
 Roseau,Bujumbura,10187
@@ -14915,7 +14915,7 @@ Roseau,Windhoek,9518
 Roseau,Niamey,6817
 Roseau,Abuja,7490
 Roseau,Brazzaville,8711
-Roseau,Saint-Denis,13350
+Roseau,Saint Denis,13350
 Roseau,Kigali,10220
 Roseau,Jamestown,7030
 Roseau,São Tomé,7654
@@ -15051,7 +15051,7 @@ Roseau,San José,2532
 Roseau,Havana,2366
 Santo Domingo,Algiers,7305
 Santo Domingo,Luanda,9613
-Santo Domingo,Porto-Novo,7947
+Santo Domingo,Porto Novo,7947
 Santo Domingo,Gaborone,11427
 Santo Domingo,Ouagadougou,7330
 Santo Domingo,Bujumbura,11112
@@ -15088,7 +15088,7 @@ Santo Domingo,Windhoek,10498
 Santo Domingo,Niamey,7678
 Santo Domingo,Abuja,8377
 Santo Domingo,Brazzaville,9661
-Santo Domingo,Saint-Denis,14324
+Santo Domingo,Saint Denis,14324
 Santo Domingo,Kigali,11136
 Santo Domingo,Jamestown,8008
 Santo Domingo,São Tomé,8596
@@ -15225,7 +15225,7 @@ Santo Domingo,Havana,1386
 Santo Domingo,Roseau,982
 San Salvador,Algiers,9297
 San Salvador,Luanda,11570
-San Salvador,Porto-Novo,10029
+San Salvador,Porto Novo,10029
 San Salvador,Gaborone,13149
 San Salvador,Ouagadougou,9437
 San Salvador,Bujumbura,13179
@@ -15262,7 +15262,7 @@ San Salvador,Windhoek,12232
 San Salvador,Niamey,9792
 San Salvador,Abuja,10480
 San Salvador,Brazzaville,11681
-San Salvador,Saint-Denis,16185
+San Salvador,Saint Denis,16185
 San Salvador,Kigali,13216
 San Salvador,Jamestown,9745
 San Salvador,São Tomé,10638
@@ -15400,7 +15400,7 @@ San Salvador,Roseau,2996
 San Salvador,Santo Domingo,2118
 Nuuk (Godthåb),Algiers,4700
 Nuuk (Godthåb),Luanda,9728
-Nuuk (Godthåb),Porto-Novo,7700
+Nuuk (Godthåb),Porto Novo,7700
 Nuuk (Godthåb),Gaborone,11886
 Nuuk (Godthåb),Ouagadougou,6925
 Nuuk (Godthåb),Bujumbura,9916
@@ -15437,7 +15437,7 @@ Nuuk (Godthåb),Windhoek,11290
 Nuuk (Godthåb),Niamey,6961
 Nuuk (Godthåb),Abuja,7647
 Nuuk (Godthåb),Brazzaville,9352
-Nuuk (Godthåb),Saint-Denis,12917
+Nuuk (Godthåb),Saint Denis,12917
 Nuuk (Godthåb),Kigali,9806
 Nuuk (Godthåb),Jamestown,9729
 Nuuk (Godthåb),São Tomé,8508
@@ -15576,7 +15576,7 @@ Nuuk (Godthåb),Santo Domingo,5262
 Nuuk (Godthåb),San Salvador,6306
 St. George's,Algiers,6971
 St. George's,Luanda,8605
-St. George's,Porto-Novo,7075
+St. George's,Porto Novo,7075
 St. George's,Gaborone,10332
 St. George's,Ouagadougou,6530
 St. George's,Bujumbura,10207
@@ -15613,7 +15613,7 @@ St. George's,Windhoek,9403
 St. George's,Niamey,6907
 St. George's,Abuja,7556
 St. George's,Brazzaville,8703
-St. George's,Saint-Denis,13286
+St. George's,Saint Denis,13286
 St. George's,Kigali,10250
 St. George's,Jamestown,6904
 St. George's,São Tomé,7662
@@ -15753,7 +15753,7 @@ St. George's,San Salvador,2978
 St. George's,Nuuk (Godthåb),5848
 Basse-Terre,Algiers,6721
 Basse-Terre,Luanda,8698
-Basse-Terre,Porto-Novo,7070
+Basse-Terre,Porto Novo,7070
 Basse-Terre,Gaborone,10511
 Basse-Terre,Ouagadougou,6481
 Basse-Terre,Bujumbura,10227
@@ -15790,7 +15790,7 @@ Basse-Terre,Windhoek,9583
 Basse-Terre,Niamey,6844
 Basse-Terre,Abuja,7522
 Basse-Terre,Brazzaville,8758
-Basse-Terre,Saint-Denis,13406
+Basse-Terre,Saint Denis,13406
 Basse-Terre,Kigali,10259
 Basse-Terre,Jamestown,7098
 Basse-Terre,São Tomé,7698
@@ -15931,7 +15931,7 @@ Basse-Terre,Nuuk (Godthåb),5412
 Basse-Terre,St. George's,438
 New Guatemala,Algiers,9349
 New Guatemala,Luanda,11722
-New Guatemala,Porto-Novo,10158
+New Guatemala,Porto Novo,10158
 New Guatemala,Gaborone,13319
 New Guatemala,Ouagadougou,9555
 New Guatemala,Bujumbura,13313
@@ -15968,7 +15968,7 @@ New Guatemala,Windhoek,12402
 New Guatemala,Niamey,9905
 New Guatemala,Abuja,10601
 New Guatemala,Brazzaville,11825
-New Guatemala,Saint-Denis,16352
+New Guatemala,Saint Denis,16352
 New Guatemala,Kigali,13346
 New Guatemala,Jamestown,9912
 New Guatemala,São Tomé,10777
@@ -16108,189 +16108,189 @@ New Guatemala,San Salvador,177
 New Guatemala,Nuuk (Godthåb),6252
 New Guatemala,St. George's,3123
 New Guatemala,Basse-Terre,3088
-Port-au-Prince,Algiers,7510
-Port-au-Prince,Luanda,9858
-Port-au-Prince,Porto-Novo,8194
-Port-au-Prince,Gaborone,11659
-Port-au-Prince,Ouagadougou,7576
-Port-au-Prince,Bujumbura,11360
-Port-au-Prince,Yaoundé,9224
-Port-au-Prince,Praia,5200
-Port-au-Prince,Bangui,9947
-Port-au-Prince,N'Djamena,9311
-Port-au-Prince,Moroni,13093
-Port-au-Prince,Kinshasa,9913
-Port-au-Prince,Djibouti,12189
-Port-au-Prince,Cairo,10221
-Port-au-Prince,Malabo,8940
-Port-au-Prince,Asmara,11602
-Port-au-Prince,Addis Ababa,11863
-Port-au-Prince,Libreville,9128
-Port-au-Prince,Banjul,5965
-Port-au-Prince,Accra,7931
-Port-au-Prince,Conakry,6381
-Port-au-Prince,Bissau,6111
-Port-au-Prince,Yamoussoukro,7353
-Port-au-Prince,Nairobi,12071
-Port-au-Prince,Maseru,11927
-Port-au-Prince,Monrovia,6789
-Port-au-Prince,Tripoli,8498
-Port-au-Prince,Antananarivo,13717
-Port-au-Prince,Lilongwe,12166
-Port-au-Prince,Bamako,6889
-Port-au-Prince,Nouakchott,5924
-Port-au-Prince,Port Louis,14770
-Port-au-Prince,Mamoutzou,13331
-Port-au-Prince,Rabat,6645
-Port-au-Prince,Maputo,12345
-Port-au-Prince,Windhoek,10730
-Port-au-Prince,Niamey,7923
-Port-au-Prince,Abuja,8623
-Port-au-Prince,Brazzaville,9908
-Port-au-Prince,Saint-Denis,14567
-Port-au-Prince,Kigali,11383
-Port-au-Prince,Jamestown,8236
-Port-au-Prince,São Tomé,8844
-Port-au-Prince,Dakar,5844
-Port-au-Prince,Victoria,14145
-Port-au-Prince,Freetown,6461
-Port-au-Prince,Mogadishu,12831
-Port-au-Prince,Pretoria,11910
-Port-au-Prince,Khartoum,10961
-Port-au-Prince,Mbabane,12211
-Port-au-Prince,Dodoma,12128
-Port-au-Prince,Lomé,8060
-Port-au-Prince,Tunis,8136
-Port-au-Prince,Kampala,11567
-Port-au-Prince,El Aaiún,6082
-Port-au-Prince,Lusaka,11638
-Port-au-Prince,Harare,11991
-Port-au-Prince,Kabul,12847
-Port-au-Prince,Yerevan,10787
-Port-au-Prince,Baku,11155
-Port-au-Prince,Manama,12095
-Port-au-Prince,Dhaka,14958
-Port-au-Prince,Thimphu,14543
-Port-au-Prince,Diego Garcia,7696
-Port-au-Prince,Bandar Seri Begawan,17285
-Port-au-Prince,Phnom Penh,16655
-Port-au-Prince,Beijing,13453
-Port-au-Prince,The Settlement,19087
-Port-au-Prince,West Island,18654
-Port-au-Prince,Tbilisi,10721
-Port-au-Prince,Hong Kong,15420
-Port-au-Prince,New Delhi,13833
-Port-au-Prince,Jakarta,18641
-Port-au-Prince,Tehran,11568
-Port-au-Prince,Baghdad,11171
-Port-au-Prince,Jerusalem,10042
-Port-au-Prince,Edo,13105
-Port-au-Prince,Amman,10544
-Port-au-Prince,Astana,11498
-Port-au-Prince,Kuwait City,11691
-Port-au-Prince,Bishkek,12395
-Port-au-Prince,Vientiane,15918
-Port-au-Prince,Beirut,10414
-Port-au-Prince,Macao,15440
-Port-au-Prince,Kuala Lumpur,17517
-Port-au-Prince,Malé,15502
-Port-au-Prince,Ulan Bator,12626
-Port-au-Prince,Nay Pyi Taw,15576
-Port-au-Prince,Kathmandu,14339
-Port-au-Prince,Pyongyang,13342
-Port-au-Prince,Muscat,12923
-Port-au-Prince,Islamabad,13143
-Port-au-Prince,East Jerusalem,10042
-Port-au-Prince,Manila,16052
-Port-au-Prince,Doha,12230
-Port-au-Prince,Riyadh,11853
-Port-au-Prince,Singapore,17771
-Port-au-Prince,Seoul,13456
-Port-au-Prince,Colombo,15853
-Port-au-Prince,Damascus,10499
-Port-au-Prince,Taipei,14941
-Port-au-Prince,Dushanbe,12485
-Port-au-Prince,Bangkok,16340
-Port-au-Prince,Ankara,9921
-Port-au-Prince,Ashkhabad,11897
-Port-au-Prince,Abu Dhabi,12519
-Port-au-Prince,Tashkent,12276
-Port-au-Prince,Hanoi,15612
-Port-au-Prince,Sanaa,12113
-Port-au-Prince,Tirana,8834
-Port-au-Prince,Andorra la Vella,7322
-Port-au-Prince,Vienna,8389
-Port-au-Prince,Minsk,8979
-Port-au-Prince,Brussels,7494
-Port-au-Prince,Sarajevo,8647
-Port-au-Prince,Sofia,9068
-Port-au-Prince,Zagreb,8415
-Port-au-Prince,Nicosia,10178
-Port-au-Prince,Prague,8211
-Port-au-Prince,Copenhagen,7999
-Port-au-Prince,Tallinn,8632
-Port-au-Prince,Tórshavn,6928
-Port-au-Prince,Helsinki,8620
-Port-au-Prince,Paris,7357
-Port-au-Prince,Berlin,8099
-Port-au-Prince,Gibraltar,6768
-Port-au-Prince,Athens,9262
-Port-au-Prince,St Peter Port,7002
-Port-au-Prince,Budapest,8601
-Port-au-Prince,Reykjavík,6301
-Port-au-Prince,Dublin,6785
-Port-au-Prince,Douglas,6912
-Port-au-Prince,Rome,8226
-Port-au-Prince,Saint Helier,7033
-Port-au-Prince,Pristina,8901
-Port-au-Prince,Riga,8670
-Port-au-Prince,Vaduz,7903
-Port-au-Prince,Vilnius,8810
-Port-au-Prince,Luxembourg,7627
-Port-au-Prince,Skopje,8942
-Port-au-Prince,Valletta,8538
-Port-au-Prince,Chişinău,9324
-Port-au-Prince,Monaco,7787
-Port-au-Prince,Podgorica,8757
-Port-au-Prince,Amsterdam,7526
-Port-au-Prince,Oslo,7849
-Port-au-Prince,Warsaw,8611
-Port-au-Prince,Lisbon,6431
-Port-au-Prince,Bucharest,9221
-Port-au-Prince,Moscow,9493
-Port-au-Prince,San Marino,8182
-Port-au-Prince,Belgrade,8783
-Port-au-Prince,Bratislava,8444
-Port-au-Prince,Ljubljana,8298
-Port-au-Prince,Madrid,6897
-Port-au-Prince,Longyearbyen,7945
-Port-au-Prince,Stockholm,8265
-Port-au-Prince,Berne,7749
-Port-au-Prince,Kiev,9300
-Port-au-Prince,London,7182
-Port-au-Prince,Vatican,8223
-Port-au-Prince,The Valley,980
-Port-au-Prince,St. John's,1121
-Port-au-Prince,Oranjestad,714
-Port-au-Prince,Nassau,890
-Port-au-Prince,Bridgetown,1488
-Port-au-Prince,Belmopan,1744
-Port-au-Prince,Hamilton,1706
-Port-au-Prince,Road Town,814
-Port-au-Prince,Ottawa,3004
-Port-au-Prince,George Town,953
-Port-au-Prince,San José,1585
-Port-au-Prince,Havana,1161
-Port-au-Prince,Roseau,1219
-Port-au-Prince,Santo Domingo,248
-Port-au-Prince,San Salvador,1878
-Port-au-Prince,Nuuk (Godthåb),5307
-Port-au-Prince,St. George's,1344
-Port-au-Prince,Basse-Terre,1161
-Port-au-Prince,New Guatemala,1983
+Port au Prince,Algiers,7510
+Port au Prince,Luanda,9858
+Port au Prince,Porto Novo,8194
+Port au Prince,Gaborone,11659
+Port au Prince,Ouagadougou,7576
+Port au Prince,Bujumbura,11360
+Port au Prince,Yaoundé,9224
+Port au Prince,Praia,5200
+Port au Prince,Bangui,9947
+Port au Prince,N'Djamena,9311
+Port au Prince,Moroni,13093
+Port au Prince,Kinshasa,9913
+Port au Prince,Djibouti,12189
+Port au Prince,Cairo,10221
+Port au Prince,Malabo,8940
+Port au Prince,Asmara,11602
+Port au Prince,Addis Ababa,11863
+Port au Prince,Libreville,9128
+Port au Prince,Banjul,5965
+Port au Prince,Accra,7931
+Port au Prince,Conakry,6381
+Port au Prince,Bissau,6111
+Port au Prince,Yamoussoukro,7353
+Port au Prince,Nairobi,12071
+Port au Prince,Maseru,11927
+Port au Prince,Monrovia,6789
+Port au Prince,Tripoli,8498
+Port au Prince,Antananarivo,13717
+Port au Prince,Lilongwe,12166
+Port au Prince,Bamako,6889
+Port au Prince,Nouakchott,5924
+Port au Prince,Port Louis,14770
+Port au Prince,Mamoutzou,13331
+Port au Prince,Rabat,6645
+Port au Prince,Maputo,12345
+Port au Prince,Windhoek,10730
+Port au Prince,Niamey,7923
+Port au Prince,Abuja,8623
+Port au Prince,Brazzaville,9908
+Port au Prince,Saint Denis,14567
+Port au Prince,Kigali,11383
+Port au Prince,Jamestown,8236
+Port au Prince,São Tomé,8844
+Port au Prince,Dakar,5844
+Port au Prince,Victoria,14145
+Port au Prince,Freetown,6461
+Port au Prince,Mogadishu,12831
+Port au Prince,Pretoria,11910
+Port au Prince,Khartoum,10961
+Port au Prince,Mbabane,12211
+Port au Prince,Dodoma,12128
+Port au Prince,Lomé,8060
+Port au Prince,Tunis,8136
+Port au Prince,Kampala,11567
+Port au Prince,El Aaiún,6082
+Port au Prince,Lusaka,11638
+Port au Prince,Harare,11991
+Port au Prince,Kabul,12847
+Port au Prince,Yerevan,10787
+Port au Prince,Baku,11155
+Port au Prince,Manama,12095
+Port au Prince,Dhaka,14958
+Port au Prince,Thimphu,14543
+Port au Prince,Diego Garcia,7696
+Port au Prince,Bandar Seri Begawan,17285
+Port au Prince,Phnom Penh,16655
+Port au Prince,Beijing,13453
+Port au Prince,The Settlement,19087
+Port au Prince,West Island,18654
+Port au Prince,Tbilisi,10721
+Port au Prince,Hong Kong,15420
+Port au Prince,New Delhi,13833
+Port au Prince,Jakarta,18641
+Port au Prince,Tehran,11568
+Port au Prince,Baghdad,11171
+Port au Prince,Jerusalem,10042
+Port au Prince,Edo,13105
+Port au Prince,Amman,10544
+Port au Prince,Astana,11498
+Port au Prince,Kuwait City,11691
+Port au Prince,Bishkek,12395
+Port au Prince,Vientiane,15918
+Port au Prince,Beirut,10414
+Port au Prince,Macao,15440
+Port au Prince,Kuala Lumpur,17517
+Port au Prince,Malé,15502
+Port au Prince,Ulan Bator,12626
+Port au Prince,Nay Pyi Taw,15576
+Port au Prince,Kathmandu,14339
+Port au Prince,Pyongyang,13342
+Port au Prince,Muscat,12923
+Port au Prince,Islamabad,13143
+Port au Prince,East Jerusalem,10042
+Port au Prince,Manila,16052
+Port au Prince,Doha,12230
+Port au Prince,Riyadh,11853
+Port au Prince,Singapore,17771
+Port au Prince,Seoul,13456
+Port au Prince,Colombo,15853
+Port au Prince,Damascus,10499
+Port au Prince,Taipei,14941
+Port au Prince,Dushanbe,12485
+Port au Prince,Bangkok,16340
+Port au Prince,Ankara,9921
+Port au Prince,Ashkhabad,11897
+Port au Prince,Abu Dhabi,12519
+Port au Prince,Tashkent,12276
+Port au Prince,Hanoi,15612
+Port au Prince,Sanaa,12113
+Port au Prince,Tirana,8834
+Port au Prince,Andorra la Vella,7322
+Port au Prince,Vienna,8389
+Port au Prince,Minsk,8979
+Port au Prince,Brussels,7494
+Port au Prince,Sarajevo,8647
+Port au Prince,Sofia,9068
+Port au Prince,Zagreb,8415
+Port au Prince,Nicosia,10178
+Port au Prince,Prague,8211
+Port au Prince,Copenhagen,7999
+Port au Prince,Tallinn,8632
+Port au Prince,Tórshavn,6928
+Port au Prince,Helsinki,8620
+Port au Prince,Paris,7357
+Port au Prince,Berlin,8099
+Port au Prince,Gibraltar,6768
+Port au Prince,Athens,9262
+Port au Prince,St Peter Port,7002
+Port au Prince,Budapest,8601
+Port au Prince,Reykjavík,6301
+Port au Prince,Dublin,6785
+Port au Prince,Douglas,6912
+Port au Prince,Rome,8226
+Port au Prince,Saint Helier,7033
+Port au Prince,Pristina,8901
+Port au Prince,Riga,8670
+Port au Prince,Vaduz,7903
+Port au Prince,Vilnius,8810
+Port au Prince,Luxembourg,7627
+Port au Prince,Skopje,8942
+Port au Prince,Valletta,8538
+Port au Prince,Chişinău,9324
+Port au Prince,Monaco,7787
+Port au Prince,Podgorica,8757
+Port au Prince,Amsterdam,7526
+Port au Prince,Oslo,7849
+Port au Prince,Warsaw,8611
+Port au Prince,Lisbon,6431
+Port au Prince,Bucharest,9221
+Port au Prince,Moscow,9493
+Port au Prince,San Marino,8182
+Port au Prince,Belgrade,8783
+Port au Prince,Bratislava,8444
+Port au Prince,Ljubljana,8298
+Port au Prince,Madrid,6897
+Port au Prince,Longyearbyen,7945
+Port au Prince,Stockholm,8265
+Port au Prince,Berne,7749
+Port au Prince,Kiev,9300
+Port au Prince,London,7182
+Port au Prince,Vatican,8223
+Port au Prince,The Valley,980
+Port au Prince,St. John's,1121
+Port au Prince,Oranjestad,714
+Port au Prince,Nassau,890
+Port au Prince,Bridgetown,1488
+Port au Prince,Belmopan,1744
+Port au Prince,Hamilton,1706
+Port au Prince,Road Town,814
+Port au Prince,Ottawa,3004
+Port au Prince,George Town,953
+Port au Prince,San José,1585
+Port au Prince,Havana,1161
+Port au Prince,Roseau,1219
+Port au Prince,Santo Domingo,248
+Port au Prince,San Salvador,1878
+Port au Prince,Nuuk (Godthåb),5307
+Port au Prince,St. George's,1344
+Port au Prince,Basse-Terre,1161
+Port au Prince,New Guatemala,1983
 Tegucigalpa,Algiers,9099
 Tegucigalpa,Luanda,11362
-Tegucigalpa,Porto-Novo,9812
+Tegucigalpa,Porto Novo,9812
 Tegucigalpa,Gaborone,12964
 Tegucigalpa,Ouagadougou,9219
 Tegucigalpa,Bujumbura,12963
@@ -16327,7 +16327,7 @@ Tegucigalpa,Windhoek,12045
 Tegucigalpa,Niamey,9574
 Tegucigalpa,Abuja,10262
 Tegucigalpa,Brazzaville,11468
-Tegucigalpa,Saint-Denis,15993
+Tegucigalpa,Saint Denis,15993
 Tegucigalpa,Kigali,12999
 Tegucigalpa,Jamestown,9554
 Tegucigalpa,São Tomé,10423
@@ -16468,10 +16468,10 @@ Tegucigalpa,Nuuk (Godthåb),6198
 Tegucigalpa,St. George's,2765
 Tegucigalpa,Basse-Terre,2743
 Tegucigalpa,New Guatemala,361
-Tegucigalpa,Port-au-Prince,1662
+Tegucigalpa,Port au Prince,1662
 Kingston,Algiers,7936
 Kingston,Luanda,10312
-Kingston,Porto-Novo,8666
+Kingston,Porto Novo,8666
 Kingston,Gaborone,12075
 Kingston,Ouagadougou,8049
 Kingston,Bujumbura,11831
@@ -16508,7 +16508,7 @@ Kingston,Windhoek,11147
 Kingston,Niamey,8396
 Kingston,Abuja,9097
 Kingston,Brazzaville,10373
-Kingston,Saint-Denis,15015
+Kingston,Saint Denis,15015
 Kingston,Kigali,11856
 Kingston,Jamestown,8648
 Kingston,São Tomé,9311
@@ -16649,194 +16649,194 @@ Kingston,Nuuk (Godthåb),5471
 Kingston,St. George's,1744
 Kingston,Basse-Terre,1616
 Kingston,New Guatemala,1511
-Kingston,Port-au-Prince,474
+Kingston,Port au Prince,474
 Kingston,Tegucigalpa,1195
-Fort-de-France,Algiers,6749
-Fort-de-France,Luanda,8595
-Fort-de-France,Porto-Novo,6998
-Fort-de-France,Gaborone,10383
-Fort-de-France,Ouagadougou,6425
-Fort-de-France,Bujumbura,10148
-Fort-de-France,Yaoundé,8027
-Fort-de-France,Praia,4034
-Fort-de-France,Bangui,8770
-Fort-de-France,N'Djamena,8199
-Fort-de-France,Moroni,11853
-Fort-de-France,Kinshasa,8671
-Fort-de-France,Djibouti,11175
-Fort-de-France,Cairo,9418
-Fort-de-France,Malabo,7735
-Fort-de-France,Asmara,10616
-Fort-de-France,Addis Ababa,10796
-Fort-de-France,Libreville,7903
-Fort-de-France,Banjul,4794
-Fort-de-France,Accra,6721
-Fort-de-France,Conakry,5175
-Fort-de-France,Bissau,4923
-Fort-de-France,Yamoussoukro,6142
-Fort-de-France,Nairobi,10892
-Fort-de-France,Maseru,10660
-Fort-de-France,Monrovia,5563
-Fort-de-France,Tripoli,7679
-Fort-de-France,Antananarivo,12449
-Fort-de-France,Lilongwe,10905
-Fort-de-France,Bamako,5726
-Fort-de-France,Nouakchott,4815
-Fort-de-France,Port Louis,13502
-Fort-de-France,Mamoutzou,12087
-Fort-de-France,Rabat,5829
-Fort-de-France,Maputo,11069
-Fort-de-France,Windhoek,9454
-Fort-de-France,Niamey,6793
-Fort-de-France,Abuja,7461
-Fort-de-France,Brazzaville,8666
-Fort-de-France,Saint-Denis,13296
-Fort-de-France,Kigali,10184
-Fort-de-France,Jamestown,6964
-Fort-de-France,São Tomé,7613
-Fort-de-France,Dakar,4686
-Fort-de-France,Victoria,12988
-Fort-de-France,Freetown,5247
-Fort-de-France,Mogadishu,11711
-Fort-de-France,Pretoria,10635
-Fort-de-France,Khartoum,9950
-Fort-de-France,Mbabane,10935
-Fort-de-France,Dodoma,10910
-Fort-de-France,Lomé,6858
-Fort-de-France,Tunis,7384
-Fort-de-France,Kampala,10391
-Fort-de-France,El Aaiún,5132
-Fort-de-France,Lusaka,10368
-Fort-de-France,Harare,10718
-Fort-de-France,Kabul,12436
-Fort-de-France,Yerevan,10236
-Fort-de-France,Baku,10647
-Fort-de-France,Manama,11348
-Fort-de-France,Dhaka,14746
-Fort-de-France,Thimphu,14370
-Fort-de-France,Diego Garcia,7741
-Fort-de-France,Bandar Seri Begawan,17797
-Fort-de-France,Phnom Penh,16721
-Fort-de-France,Beijing,13947
-Fort-de-France,The Settlement,18504
-Fort-de-France,West Island,17609
-Fort-de-France,Tbilisi,10200
-Fort-de-France,Hong Kong,15879
-Fort-de-France,New Delhi,13440
-Fort-de-France,Jakarta,18398
-Fort-de-France,Tehran,10989
-Fort-de-France,Baghdad,10499
-Fort-de-France,Jerusalem,9329
-Fort-de-France,Edo,14010
-Fort-de-France,Amman,9796
-Fort-de-France,Astana,11378
-Fort-de-France,Kuwait City,10977
-Fort-de-France,Bishkek,12188
-Fort-de-France,Vientiane,15974
-Fort-de-France,Beirut,9696
-Fort-de-France,Macao,15880
-Fort-de-France,Kuala Lumpur,17276
-Fort-de-France,Malé,14592
-Fort-de-France,Ulan Bator,12961
-Fort-de-France,Nay Pyi Taw,15453
-Fort-de-France,Kathmandu,14078
-Fort-de-France,Pyongyang,14009
-Fort-de-France,Muscat,12202
-Fort-de-France,Islamabad,12770
-Fort-de-France,East Jerusalem,9329
-Fort-de-France,Manila,16759
-Fort-de-France,Doha,11476
-Fort-de-France,Riyadh,11052
-Fort-de-France,Singapore,17590
-Fort-de-France,Seoul,14152
-Fort-de-France,Colombo,15085
-Fort-de-France,Damascus,9779
-Fort-de-France,Taipei,15596
-Fort-de-France,Dushanbe,12136
-Fort-de-France,Bangkok,16266
-Fort-de-France,Ankara,9298
-Fort-de-France,Ashkhabad,11421
-Fort-de-France,Abu Dhabi,11775
-Fort-de-France,Tashkent,11976
-Fort-de-France,Hanoi,15803
-Fort-de-France,Sanaa,11155
-Fort-de-France,Tirana,8189
-Fort-de-France,Andorra la Vella,6680
-Fort-de-France,Vienna,7876
-Fort-de-France,Minsk,8612
-Fort-de-France,Brussels,7036
-Fort-de-France,Sarajevo,8048
-Fort-de-France,Sofia,8460
-Fort-de-France,Zagreb,7851
-Fort-de-France,Nicosia,9471
-Fort-de-France,Prague,7736
-Fort-de-France,Copenhagen,7648
-Fort-de-France,Tallinn,8378
-Fort-de-France,Tórshavn,6761
-Fort-de-France,Helsinki,8383
-Fort-de-France,Paris,6855
-Fort-de-France,Berlin,7677
-Fort-de-France,Gibraltar,5996
-Fort-de-France,Athens,8565
-Fort-de-France,St Peter Port,6523
-Fort-de-France,Budapest,8078
-Fort-de-France,Reykjavík,6265
-Fort-de-France,Dublin,6409
-Fort-de-France,Douglas,6550
-Fort-de-France,Rome,7576
-Fort-de-France,Saint Helier,6547
-Fort-de-France,Pristina,8285
-Fort-de-France,Riga,8360
-Fort-de-France,Vaduz,7360
-Fort-de-France,Vilnius,8454
-Fort-de-France,Luxembourg,7140
-Fort-de-France,Skopje,8314
-Fort-de-France,Valletta,7776
-Fort-de-France,Chişinău,8820
-Fort-de-France,Monaco,7170
-Fort-de-France,Podgorica,8132
-Fort-de-France,Amsterdam,7102
-Fort-de-France,Oslo,7596
-Fort-de-France,Warsaw,8192
-Fort-de-France,Lisbon,5721
-Fort-de-France,Bucharest,8656
-Fort-de-France,Moscow,9201
-Fort-de-France,San Marino,7574
-Fort-de-France,Belgrade,8208
-Fort-de-France,Bratislava,7931
-Fort-de-France,Ljubljana,7737
-Fort-de-France,Madrid,6215
-Fort-de-France,Longyearbyen,8117
-Fort-de-France,Stockholm,7999
-Fort-de-France,Berne,7202
-Fort-de-France,Kiev,8871
-Fort-de-France,London,6745
-Fort-de-France,Vatican,7574
-Fort-de-France,The Valley,454
-Fort-de-France,St. John's,291
-Fort-de-France,Oranjestad,996
-Fort-de-France,Nassau,2057
-Fort-de-France,Bridgetown,230
-Fort-de-France,Belmopan,2974
-Fort-de-France,Hamilton,2002
-Fort-de-France,Road Town,568
-Fort-de-France,Ottawa,3690
-Fort-de-France,George Town,2219
-Fort-de-France,San José,2552
-Fort-de-France,Havana,2430
-Fort-de-France,Roseau,84
-Fort-de-France,Santo Domingo,1044
-Fort-de-France,San Salvador,3032
-Fort-de-France,Nuuk (Godthåb),5559
-Fort-de-France,St. George's,293
-Fort-de-France,Basse-Terre,170
-Fort-de-France,New Guatemala,3165
-Fort-de-France,Port-au-Prince,1278
-Fort-de-France,Tegucigalpa,2815
-Fort-de-France,Kingston,1719
+Fort de France,Algiers,6749
+Fort de France,Luanda,8595
+Fort de France,Porto Novo,6998
+Fort de France,Gaborone,10383
+Fort de France,Ouagadougou,6425
+Fort de France,Bujumbura,10148
+Fort de France,Yaoundé,8027
+Fort de France,Praia,4034
+Fort de France,Bangui,8770
+Fort de France,N'Djamena,8199
+Fort de France,Moroni,11853
+Fort de France,Kinshasa,8671
+Fort de France,Djibouti,11175
+Fort de France,Cairo,9418
+Fort de France,Malabo,7735
+Fort de France,Asmara,10616
+Fort de France,Addis Ababa,10796
+Fort de France,Libreville,7903
+Fort de France,Banjul,4794
+Fort de France,Accra,6721
+Fort de France,Conakry,5175
+Fort de France,Bissau,4923
+Fort de France,Yamoussoukro,6142
+Fort de France,Nairobi,10892
+Fort de France,Maseru,10660
+Fort de France,Monrovia,5563
+Fort de France,Tripoli,7679
+Fort de France,Antananarivo,12449
+Fort de France,Lilongwe,10905
+Fort de France,Bamako,5726
+Fort de France,Nouakchott,4815
+Fort de France,Port Louis,13502
+Fort de France,Mamoutzou,12087
+Fort de France,Rabat,5829
+Fort de France,Maputo,11069
+Fort de France,Windhoek,9454
+Fort de France,Niamey,6793
+Fort de France,Abuja,7461
+Fort de France,Brazzaville,8666
+Fort de France,Saint Denis,13296
+Fort de France,Kigali,10184
+Fort de France,Jamestown,6964
+Fort de France,São Tomé,7613
+Fort de France,Dakar,4686
+Fort de France,Victoria,12988
+Fort de France,Freetown,5247
+Fort de France,Mogadishu,11711
+Fort de France,Pretoria,10635
+Fort de France,Khartoum,9950
+Fort de France,Mbabane,10935
+Fort de France,Dodoma,10910
+Fort de France,Lomé,6858
+Fort de France,Tunis,7384
+Fort de France,Kampala,10391
+Fort de France,El Aaiún,5132
+Fort de France,Lusaka,10368
+Fort de France,Harare,10718
+Fort de France,Kabul,12436
+Fort de France,Yerevan,10236
+Fort de France,Baku,10647
+Fort de France,Manama,11348
+Fort de France,Dhaka,14746
+Fort de France,Thimphu,14370
+Fort de France,Diego Garcia,7741
+Fort de France,Bandar Seri Begawan,17797
+Fort de France,Phnom Penh,16721
+Fort de France,Beijing,13947
+Fort de France,The Settlement,18504
+Fort de France,West Island,17609
+Fort de France,Tbilisi,10200
+Fort de France,Hong Kong,15879
+Fort de France,New Delhi,13440
+Fort de France,Jakarta,18398
+Fort de France,Tehran,10989
+Fort de France,Baghdad,10499
+Fort de France,Jerusalem,9329
+Fort de France,Edo,14010
+Fort de France,Amman,9796
+Fort de France,Astana,11378
+Fort de France,Kuwait City,10977
+Fort de France,Bishkek,12188
+Fort de France,Vientiane,15974
+Fort de France,Beirut,9696
+Fort de France,Macao,15880
+Fort de France,Kuala Lumpur,17276
+Fort de France,Malé,14592
+Fort de France,Ulan Bator,12961
+Fort de France,Nay Pyi Taw,15453
+Fort de France,Kathmandu,14078
+Fort de France,Pyongyang,14009
+Fort de France,Muscat,12202
+Fort de France,Islamabad,12770
+Fort de France,East Jerusalem,9329
+Fort de France,Manila,16759
+Fort de France,Doha,11476
+Fort de France,Riyadh,11052
+Fort de France,Singapore,17590
+Fort de France,Seoul,14152
+Fort de France,Colombo,15085
+Fort de France,Damascus,9779
+Fort de France,Taipei,15596
+Fort de France,Dushanbe,12136
+Fort de France,Bangkok,16266
+Fort de France,Ankara,9298
+Fort de France,Ashkhabad,11421
+Fort de France,Abu Dhabi,11775
+Fort de France,Tashkent,11976
+Fort de France,Hanoi,15803
+Fort de France,Sanaa,11155
+Fort de France,Tirana,8189
+Fort de France,Andorra la Vella,6680
+Fort de France,Vienna,7876
+Fort de France,Minsk,8612
+Fort de France,Brussels,7036
+Fort de France,Sarajevo,8048
+Fort de France,Sofia,8460
+Fort de France,Zagreb,7851
+Fort de France,Nicosia,9471
+Fort de France,Prague,7736
+Fort de France,Copenhagen,7648
+Fort de France,Tallinn,8378
+Fort de France,Tórshavn,6761
+Fort de France,Helsinki,8383
+Fort de France,Paris,6855
+Fort de France,Berlin,7677
+Fort de France,Gibraltar,5996
+Fort de France,Athens,8565
+Fort de France,St Peter Port,6523
+Fort de France,Budapest,8078
+Fort de France,Reykjavík,6265
+Fort de France,Dublin,6409
+Fort de France,Douglas,6550
+Fort de France,Rome,7576
+Fort de France,Saint Helier,6547
+Fort de France,Pristina,8285
+Fort de France,Riga,8360
+Fort de France,Vaduz,7360
+Fort de France,Vilnius,8454
+Fort de France,Luxembourg,7140
+Fort de France,Skopje,8314
+Fort de France,Valletta,7776
+Fort de France,Chişinău,8820
+Fort de France,Monaco,7170
+Fort de France,Podgorica,8132
+Fort de France,Amsterdam,7102
+Fort de France,Oslo,7596
+Fort de France,Warsaw,8192
+Fort de France,Lisbon,5721
+Fort de France,Bucharest,8656
+Fort de France,Moscow,9201
+Fort de France,San Marino,7574
+Fort de France,Belgrade,8208
+Fort de France,Bratislava,7931
+Fort de France,Ljubljana,7737
+Fort de France,Madrid,6215
+Fort de France,Longyearbyen,8117
+Fort de France,Stockholm,7999
+Fort de France,Berne,7202
+Fort de France,Kiev,8871
+Fort de France,London,6745
+Fort de France,Vatican,7574
+Fort de France,The Valley,454
+Fort de France,St. John's,291
+Fort de France,Oranjestad,996
+Fort de France,Nassau,2057
+Fort de France,Bridgetown,230
+Fort de France,Belmopan,2974
+Fort de France,Hamilton,2002
+Fort de France,Road Town,568
+Fort de France,Ottawa,3690
+Fort de France,George Town,2219
+Fort de France,San José,2552
+Fort de France,Havana,2430
+Fort de France,Roseau,84
+Fort de France,Santo Domingo,1044
+Fort de France,San Salvador,3032
+Fort de France,Nuuk (Godthåb),5559
+Fort de France,St. George's,293
+Fort de France,Basse-Terre,170
+Fort de France,New Guatemala,3165
+Fort de France,Port au Prince,1278
+Fort de France,Tegucigalpa,2815
+Fort de France,Kingston,1719
 Mexico City,Algiers,9754
 Mexico City,Luanda,12668
-Mexico City,Porto-Novo,10985
+Mexico City,Porto Novo,10985
 Mexico City,Gaborone,14357
 Mexico City,Ouagadougou,10330
 Mexico City,Bujumbura,14151
@@ -16873,7 +16873,7 @@ Mexico City,Windhoek,13434
 Mexico City,Niamey,10652
 Mexico City,Abuja,11380
 Mexico City,Brazzaville,12723
-Mexico City,Saint-Denis,17359
+Mexico City,Saint Denis,17359
 Mexico City,Kigali,14162
 Mexico City,Jamestown,10936
 Mexico City,São Tomé,11655
@@ -17014,13 +17014,13 @@ Mexico City,Nuuk (Godthåb),6086
 Mexico City,St. George's,4075
 Mexico City,Basse-Terre,3972
 Mexico City,New Guatemala,1060
-Mexico City,Port-au-Prince,2816
+Mexico City,Port au Prince,2816
 Mexico City,Tegucigalpa,1401
 Mexico City,Kingston,2356
-Mexico City,Fort-de-France,4074
+Mexico City,Fort de France,4074
 Plymouth,Algiers,6721
 Plymouth,Luanda,8765
-Plymouth,Porto-Novo,7122
+Plymouth,Porto Novo,7122
 Plymouth,Gaborone,10590
 Plymouth,Ouagadougou,6526
 Plymouth,Bujumbura,10283
@@ -17057,7 +17057,7 @@ Plymouth,Windhoek,9663
 Plymouth,Niamey,6885
 Plymouth,Abuja,7568
 Plymouth,Brazzaville,8819
-Plymouth,Saint-Denis,13476
+Plymouth,Saint Denis,13476
 Plymouth,Kigali,10312
 Plymouth,Jamestown,7179
 Plymouth,São Tomé,7758
@@ -17198,14 +17198,14 @@ Plymouth,Nuuk (Godthåb),5338
 Plymouth,St. George's,519
 Plymouth,Basse-Terre,94
 Plymouth,New Guatemala,3036
-Plymouth,Port-au-Prince,1092
+Plymouth,Port au Prince,1092
 Plymouth,Tegucigalpa,2694
 Plymouth,Kingston,1554
-Plymouth,Fort-de-France,263
+Plymouth,Fort de France,263
 Plymouth,Mexico City,3907
 Willemstad,Algiers,11774
 Willemstad,Luanda,6681
-Willemstad,Porto-Novo,8419
+Willemstad,Porto Novo,8419
 Willemstad,Gaborone,5008
 Willemstad,Ouagadougou,9103
 Willemstad,Bujumbura,7400
@@ -17242,7 +17242,7 @@ Willemstad,Windhoek,5166
 Willemstad,Niamey,9200
 Willemstad,Abuja,8680
 Willemstad,Brazzaville,7193
-Willemstad,Saint-Denis,6090
+Willemstad,Saint Denis,6090
 Willemstad,Kigali,7568
 Willemstad,Jamestown,6022
 Willemstad,São Tomé,7712
@@ -17383,15 +17383,15 @@ Willemstad,Nuuk (Godthåb),15615
 Willemstad,St. George's,10627
 Willemstad,Basse-Terre,11037
 Willemstad,New Guatemala,12028
-Willemstad,Port-au-Prince,11707
+Willemstad,Port au Prince,11707
 Willemstad,Tegucigalpa,11838
 Willemstad,Kingston,11827
-Willemstad,Fort-de-France,10868
+Willemstad,Fort de France,10868
 Willemstad,Mexico City,12862
 Willemstad,Plymouth,11129
 Managua,Algiers,9142
 Managua,Luanda,11235
-Managua,Porto-Novo,9732
+Managua,Porto Novo,9732
 Managua,Gaborone,12789
 Managua,Ouagadougou,9158
 Managua,Bujumbura,12869
@@ -17428,7 +17428,7 @@ Managua,Windhoek,11874
 Managua,Niamey,9521
 Managua,Abuja,10197
 Managua,Brazzaville,11359
-Managua,Saint-Denis,15829
+Managua,Saint Denis,15829
 Managua,Kigali,12912
 Managua,Jamestown,9389
 Managua,São Tomé,10324
@@ -17569,16 +17569,16 @@ Managua,Nuuk (Godthåb),6374
 Managua,St. George's,2663
 Managua,Basse-Terre,2678
 Managua,New Guatemala,539
-Managua,Port-au-Prince,1652
+Managua,Port au Prince,1652
 Managua,Tegucigalpa,240
 Managua,Kingston,1207
-Managua,Fort-de-France,2736
+Managua,Fort de France,2736
 Managua,Mexico City,1598
 Managua,Plymouth,2637
 Managua,Willemstad,11599
 Panama City,Algiers,8751
 Panama City,Luanda,10459
-Panama City,Porto-Novo,9034
+Panama City,Porto Novo,9034
 Panama City,Gaborone,11976
 Panama City,Ouagadougou,8501
 Panama City,Bujumbura,12138
@@ -17615,7 +17615,7 @@ Panama City,Windhoek,11062
 Panama City,Niamey,8878
 Panama City,Abuja,9525
 Panama City,Brazzaville,10608
-Panama City,Saint-Denis,15019
+Panama City,Saint Denis,15019
 Panama City,Kigali,12192
 Panama City,Jamestown,8581
 Panama City,São Tomé,9590
@@ -17756,17 +17756,17 @@ Panama City,Nuuk (Godthåb),6515
 Panama City,St. George's,1972
 Panama City,Basse-Terre,2081
 Panama City,New Guatemala,1351
-Panama City,Port-au-Prince,1314
+Panama City,Port au Prince,1314
 Panama City,Tegucigalpa,1011
 Panama City,Kingston,1044
-Panama City,Fort-de-France,2102
+Panama City,Fort de France,2102
 Panama City,Mexico City,2408
 Panama City,Plymouth,2062
 Panama City,Willemstad,11005
 Panama City,Managua,814
 San Juan,Algiers,6962
 San Juan,Luanda,9211
-San Juan,Porto-Novo,7538
+San Juan,Porto Novo,7538
 San Juan,Gaborone,11048
 San Juan,Ouagadougou,6922
 San Juan,Bujumbura,10703
@@ -17803,7 +17803,7 @@ San Juan,Windhoek,10120
 San Juan,Niamey,7273
 San Juan,Abuja,7969
 San Juan,Brazzaville,9254
-San Juan,Saint-Denis,13924
+San Juan,Saint Denis,13924
 San Juan,Kigali,10727
 San Juan,Jamestown,7637
 San Juan,São Tomé,8188
@@ -17944,10 +17944,10 @@ San Juan,Nuuk (Godthåb),5197
 San Juan,St. George's,852
 San Juan,Basse-Terre,540
 San Juan,New Guatemala,2633
-San Juan,Port-au-Prince,657
+San Juan,Port au Prince,657
 San Juan,Tegucigalpa,2303
 San Juan,Kingston,1129
-San Juan,Fort-de-France,688
+San Juan,Fort de France,688
 San Juan,Mexico City,3469
 San Juan,Plymouth,457
 San Juan,Willemstad,11459
@@ -17955,7 +17955,7 @@ San Juan,Managua,2270
 San Juan,Panama City,1790
 Gustavia,Algiers,6706
 Gustavia,Luanda,8861
-Gustavia,Porto-Novo,7192
+Gustavia,Porto Novo,7192
 Gustavia,Gaborone,10706
 Gustavia,Ouagadougou,6584
 Gustavia,Bujumbura,10357
@@ -17992,7 +17992,7 @@ Gustavia,Windhoek,9780
 Gustavia,Niamey,6938
 Gustavia,Abuja,7629
 Gustavia,Brazzaville,8904
-Gustavia,Saint-Denis,13574
+Gustavia,Saint Denis,13574
 Gustavia,Kigali,10382
 Gustavia,Jamestown,7301
 Gustavia,São Tomé,7839
@@ -18133,10 +18133,10 @@ Gustavia,Nuuk (Godthåb),5214
 Gustavia,St. George's,660
 Gustavia,Basse-Terre,243
 Gustavia,New Guatemala,2972
-Gustavia,Port-au-Prince,1005
+Gustavia,Port au Prince,1005
 Gustavia,Tegucigalpa,2636
 Gustavia,Kingston,1474
-Gustavia,Fort-de-France,412
+Gustavia,Fort de France,412
 Gustavia,Mexico City,3819
 Gustavia,Plymouth,149
 Gustavia,Willemstad,11277
@@ -18145,7 +18145,7 @@ Gustavia,Panama City,2055
 Gustavia,San Juan,350
 Basseterre,Algiers,6732
 Basseterre,Luanda,8834
-Basseterre,Porto-Novo,7178
+Basseterre,Porto Novo,7178
 Basseterre,Gaborone,10667
 Basseterre,Ouagadougou,6576
 Basseterre,Bujumbura,10341
@@ -18182,7 +18182,7 @@ Basseterre,Windhoek,9740
 Basseterre,Niamey,6933
 Basseterre,Abuja,7620
 Basseterre,Brazzaville,8882
-Basseterre,Saint-Denis,13546
+Basseterre,Saint Denis,13546
 Basseterre,Kigali,10368
 Basseterre,Jamestown,7258
 Basseterre,São Tomé,7819
@@ -18323,10 +18323,10 @@ Basseterre,Nuuk (Godthåb),5280
 Basseterre,St. George's,591
 Basseterre,Basse-Terre,179
 Basseterre,New Guatemala,2982
-Basseterre,Port-au-Prince,1026
+Basseterre,Port au Prince,1026
 Basseterre,Tegucigalpa,2643
 Basseterre,Kingston,1492
-Basseterre,Fort-de-France,347
+Basseterre,Fort de France,347
 Basseterre,Mexico City,3842
 Basseterre,Plymouth,85
 Basseterre,Willemstad,11209
@@ -18336,7 +18336,7 @@ Basseterre,San Juan,381
 Basseterre,Gustavia,69
 Castries,Algiers,6782
 Castries,Luanda,8573
-Castries,Porto-Novo,6992
+Castries,Porto Novo,6992
 Castries,Gaborone,10349
 Castries,Ouagadougou,6425
 Castries,Bujumbura,10138
@@ -18373,7 +18373,7 @@ Castries,Windhoek,9420
 Castries,Niamey,6796
 Castries,Abuja,7459
 Castries,Brazzaville,8651
-Castries,Saint-Denis,13271
+Castries,Saint Denis,13271
 Castries,Kigali,10175
 Castries,Jamestown,6928
 Castries,São Tomé,7600
@@ -18514,10 +18514,10 @@ Castries,Nuuk (Godthåb),5626
 Castries,St. George's,230
 Castries,Basse-Terre,235
 Castries,New Guatemala,3177
-Castries,Port-au-Prince,1310
+Castries,Port au Prince,1310
 Castries,Tegucigalpa,2825
 Castries,Kingston,1744
-Castries,Fort-de-France,68
+Castries,Fort de France,68
 Castries,Mexico City,4096
 Castries,Plymouth,328
 Castries,Willemstad,10802
@@ -18528,7 +18528,7 @@ Castries,Gustavia,476
 Castries,Basseterre,410
 Marigot,Algiers,6716
 Marigot,Luanda,8889
-Marigot,Porto-Novo,7217
+Marigot,Porto Novo,7217
 Marigot,Gaborone,10736
 Marigot,Ouagadougou,6607
 Marigot,Bujumbura,10382
@@ -18565,7 +18565,7 @@ Marigot,Windhoek,9810
 Marigot,Niamey,6960
 Marigot,Abuja,7652
 Marigot,Brazzaville,8931
-Marigot,Saint-Denis,13602
+Marigot,Saint Denis,13602
 Marigot,Kigali,10407
 Marigot,Jamestown,7331
 Marigot,São Tomé,7865
@@ -18706,10 +18706,10 @@ Marigot,Nuuk (Godthåb),5199
 Marigot,St. George's,683
 Marigot,Basse-Terre,271
 Marigot,New Guatemala,2949
-Marigot,Port-au-Prince,979
+Marigot,Port au Prince,979
 Marigot,Tegucigalpa,2614
 Marigot,Kingston,1449
-Marigot,Fort-de-France,440
+Marigot,Fort de France,440
 Marigot,Mexico City,3792
 Marigot,Plymouth,177
 Marigot,Willemstad,11303
@@ -18719,203 +18719,203 @@ Marigot,San Juan,323
 Marigot,Gustavia,31
 Marigot,Basseterre,94
 Marigot,Castries,504
-Saint-Pierre,Algiers,4915
-Saint-Pierre,Luanda,9202
-Saint-Pierre,Porto-Novo,7138
-Saint-Pierre,Gaborone,11409
-Saint-Pierre,Ouagadougou,6349
-Saint-Pierre,Bujumbura,9942
-Saint-Pierre,Yaoundé,8009
-Saint-Pierre,Praia,4654
-Saint-Pierre,Bangui,8494
-Saint-Pierre,N'Djamena,7603
-Saint-Pierre,Moroni,11668
-Saint-Pierre,Kinshasa,8971
-Saint-Pierre,Djibouti,9767
-Saint-Pierre,Cairo,7443
-Saint-Pierre,Malabo,7818
-Saint-Pierre,Asmara,9152
-Saint-Pierre,Addis Ababa,9649
-Saint-Pierre,Libreville,8149
-Saint-Pierre,Banjul,5220
-Saint-Pierre,Accra,7019
-Saint-Pierre,Conakry,5757
-Saint-Pierre,Bissau,5425
-Saint-Pierre,Yamoussoukro,6557
-Saint-Pierre,Nairobi,10339
-Saint-Pierre,Maseru,11887
-Saint-Pierre,Monrovia,6235
-Saint-Pierre,Tripoli,5921
-Saint-Pierre,Antananarivo,12558
-Saint-Pierre,Lilongwe,11131
-Saint-Pierre,Bamako,5866
-Saint-Pierre,Nouakchott,4854
-Saint-Pierre,Port Louis,13412
-Saint-Pierre,Mamoutzou,11903
-Saint-Pierre,Rabat,4333
-Saint-Pierre,Maputo,11987
-Saint-Pierre,Windhoek,10629
-Saint-Pierre,Niamey,6521
-Saint-Pierre,Abuja,7281
-Saint-Pierre,Brazzaville,8964
-Saint-Pierre,Saint-Denis,13310
-Saint-Pierre,Kigali,9879
-Saint-Pierre,Jamestown,8600
-Saint-Pierre,São Tomé,7957
-Saint-Pierre,Dakar,5054
-Saint-Pierre,Victoria,12017
-Saint-Pierre,Freetown,5881
-Saint-Pierre,Mogadishu,10714
-Saint-Pierre,Pretoria,11656
-Saint-Pierre,Khartoum,8657
-Saint-Pierre,Mbabane,11910
-Saint-Pierre,Dodoma,10652
-Saint-Pierre,Lomé,7070
-Saint-Pierre,Tunis,5443
-Saint-Pierre,Kampala,9886
-Saint-Pierre,El Aaiún,4323
-Saint-Pierre,Lusaka,10838
-Saint-Pierre,Harare,11235
-Saint-Pierre,Kabul,9454
-Saint-Pierre,Yerevan,7571
-Saint-Pierre,Baku,7880
-Saint-Pierre,Manama,9081
-Saint-Pierre,Dhaka,11488
-Saint-Pierre,Thimphu,11073
-Saint-Pierre,Diego Garcia,4234
-Saint-Pierre,Bandar Seri Begawan,14198
-Saint-Pierre,Phnom Penh,13260
-Saint-Pierre,Beijing,10347
-Saint-Pierre,The Settlement,15625
-Saint-Pierre,West Island,15410
-Saint-Pierre,Tbilisi,7475
-Saint-Pierre,Hong Kong,12274
-Saint-Pierre,New Delhi,10413
-Saint-Pierre,Jakarta,15220
-Saint-Pierre,Tehran,8351
-Saint-Pierre,Baghdad,8096
-Saint-Pierre,Jerusalem,7102
-Saint-Pierre,Edo,10709
-Saint-Pierre,Amman,7632
-Saint-Pierre,Astana,8028
-Saint-Pierre,Kuwait City,8650
-Saint-Pierre,Bishkek,8931
-Saint-Pierre,Vientiane,12507
-Saint-Pierre,Beirut,7456
-Saint-Pierre,Macao,12276
-Saint-Pierre,Kuala Lumpur,14055
-Saint-Pierre,Malé,12512
-Saint-Pierre,Ulan Bator,9358
-Saint-Pierre,Nay Pyi Taw,12112
-Saint-Pierre,Kathmandu,10875
-Saint-Pierre,Pyongyang,10472
-Saint-Pierre,Muscat,9822
-Saint-Pierre,Islamabad,9724
-Saint-Pierre,East Jerusalem,7102
-Saint-Pierre,Manila,13184
-Saint-Pierre,Doha,9222
-Saint-Pierre,Riyadh,8948
-Saint-Pierre,Singapore,14325
-Saint-Pierre,Seoul,10631
-Saint-Pierre,Colombo,12638
-Saint-Pierre,Damascus,7539
-Saint-Pierre,Taipei,12025
-Saint-Pierre,Dushanbe,9066
-Saint-Pierre,Bangkok,12893
-Saint-Pierre,Ankara,6842
-Saint-Pierre,Ashkhabad,8570
-Saint-Pierre,Abu Dhabi,9477
-Saint-Pierre,Tashkent,8839
-Saint-Pierre,Hanoi,12262
-Saint-Pierre,Sanaa,9536
-Saint-Pierre,Tirana,5862
-Saint-Pierre,Andorra la Vella,4485
-Saint-Pierre,Vienna,5241
-Saint-Pierre,Minsk,5642
-Saint-Pierre,Brussels,4329
-Saint-Pierre,Sarajevo,5611
-Saint-Pierre,Sofia,6019
-Saint-Pierre,Zagreb,5340
-Saint-Pierre,Nicosia,7216
-Saint-Pierre,Prague,5023
-Saint-Pierre,Copenhagen,4682
-Saint-Pierre,Tallinn,5222
-Saint-Pierre,Tórshavn,3503
-Saint-Pierre,Helsinki,5202
-Saint-Pierre,Paris,4266
-Saint-Pierre,Berlin,4853
-Saint-Pierre,Gibraltar,4316
-Saint-Pierre,Athens,6349
-Saint-Pierre,St Peter Port,3907
-Saint-Pierre,Budapest,5454
-Saint-Pierre,Reykjavík,2835
-Saint-Pierre,Dublin,3561
-Saint-Pierre,Douglas,3662
-Saint-Pierre,Rome,5311
-Saint-Pierre,Saint Helier,3947
-Saint-Pierre,Pristina,5874
-Saint-Pierre,Riga,5297
-Saint-Pierre,Vaduz,4832
-Saint-Pierre,Vilnius,5470
-Saint-Pierre,Luxembourg,4495
-Saint-Pierre,Skopje,5932
-Saint-Pierre,Valletta,5821
-Saint-Pierre,Chişinău,6116
-Saint-Pierre,Monaco,4851
-Saint-Pierre,Podgorica,5756
-Saint-Pierre,Amsterdam,4313
-Saint-Pierre,Oslo,4457
-Saint-Pierre,Warsaw,5338
-Saint-Pierre,Lisbon,3883
-Saint-Pierre,Bucharest,6098
-Saint-Pierre,Moscow,6090
-Saint-Pierre,San Marino,5196
-Saint-Pierre,Belgrade,5700
-Saint-Pierre,Bratislava,5293
-Saint-Pierre,Ljubljana,5227
-Saint-Pierre,Madrid,4204
-Saint-Pierre,Longyearbyen,4536
-Saint-Pierre,Stockholm,4871
-Saint-Pierre,Berne,4698
-Saint-Pierre,Kiev,6010
-Saint-Pierre,London,4009
-Saint-Pierre,Vatican,5309
-Saint-Pierre,The Valley,3238
-Saint-Pierre,St. John's,3339
-Saint-Pierre,Oranjestad,4025
-Saint-Pierre,Nassau,3056
-Saint-Pierre,Bridgetown,3759
-Saint-Pierre,Belmopan,4438
-Saint-Pierre,Hamilton,1770
-Saint-Pierre,Road Town,3247
-Saint-Pierre,Ottawa,1510
-Saint-Pierre,George Town,3820
-Saint-Pierre,San José,4870
-Saint-Pierre,Havana,3519
-Saint-Pierre,Roseau,3534
-Saint-Pierre,Santo Domingo,3389
-Saint-Pierre,San Salvador,4791
-Saint-Pierre,Nuuk (Godthåb),1954
-Saint-Pierre,St. George's,3896
-Saint-Pierre,Basse-Terre,3461
-Saint-Pierre,New Guatemala,4782
-Saint-Pierre,Port-au-Prince,3470
-Saint-Pierre,Tegucigalpa,4639
-Saint-Pierre,Kingston,3715
-Saint-Pierre,Fort-de-France,3606
-Saint-Pierre,Mexico City,4932
-Saint-Pierre,Plymouth,3390
-Saint-Pierre,Willemstad,14018
-Saint-Pierre,Managua,4771
-Saint-Pierre,Panama City,4748
-Saint-Pierre,San Juan,3277
-Saint-Pierre,Gustavia,3269
-Saint-Pierre,Basseterre,3334
-Saint-Pierre,Castries,3673
-Saint-Pierre,Marigot,3255
+Saint Pierre,Algiers,4915
+Saint Pierre,Luanda,9202
+Saint Pierre,Porto Novo,7138
+Saint Pierre,Gaborone,11409
+Saint Pierre,Ouagadougou,6349
+Saint Pierre,Bujumbura,9942
+Saint Pierre,Yaoundé,8009
+Saint Pierre,Praia,4654
+Saint Pierre,Bangui,8494
+Saint Pierre,N'Djamena,7603
+Saint Pierre,Moroni,11668
+Saint Pierre,Kinshasa,8971
+Saint Pierre,Djibouti,9767
+Saint Pierre,Cairo,7443
+Saint Pierre,Malabo,7818
+Saint Pierre,Asmara,9152
+Saint Pierre,Addis Ababa,9649
+Saint Pierre,Libreville,8149
+Saint Pierre,Banjul,5220
+Saint Pierre,Accra,7019
+Saint Pierre,Conakry,5757
+Saint Pierre,Bissau,5425
+Saint Pierre,Yamoussoukro,6557
+Saint Pierre,Nairobi,10339
+Saint Pierre,Maseru,11887
+Saint Pierre,Monrovia,6235
+Saint Pierre,Tripoli,5921
+Saint Pierre,Antananarivo,12558
+Saint Pierre,Lilongwe,11131
+Saint Pierre,Bamako,5866
+Saint Pierre,Nouakchott,4854
+Saint Pierre,Port Louis,13412
+Saint Pierre,Mamoutzou,11903
+Saint Pierre,Rabat,4333
+Saint Pierre,Maputo,11987
+Saint Pierre,Windhoek,10629
+Saint Pierre,Niamey,6521
+Saint Pierre,Abuja,7281
+Saint Pierre,Brazzaville,8964
+Saint Pierre,Saint Denis,13310
+Saint Pierre,Kigali,9879
+Saint Pierre,Jamestown,8600
+Saint Pierre,São Tomé,7957
+Saint Pierre,Dakar,5054
+Saint Pierre,Victoria,12017
+Saint Pierre,Freetown,5881
+Saint Pierre,Mogadishu,10714
+Saint Pierre,Pretoria,11656
+Saint Pierre,Khartoum,8657
+Saint Pierre,Mbabane,11910
+Saint Pierre,Dodoma,10652
+Saint Pierre,Lomé,7070
+Saint Pierre,Tunis,5443
+Saint Pierre,Kampala,9886
+Saint Pierre,El Aaiún,4323
+Saint Pierre,Lusaka,10838
+Saint Pierre,Harare,11235
+Saint Pierre,Kabul,9454
+Saint Pierre,Yerevan,7571
+Saint Pierre,Baku,7880
+Saint Pierre,Manama,9081
+Saint Pierre,Dhaka,11488
+Saint Pierre,Thimphu,11073
+Saint Pierre,Diego Garcia,4234
+Saint Pierre,Bandar Seri Begawan,14198
+Saint Pierre,Phnom Penh,13260
+Saint Pierre,Beijing,10347
+Saint Pierre,The Settlement,15625
+Saint Pierre,West Island,15410
+Saint Pierre,Tbilisi,7475
+Saint Pierre,Hong Kong,12274
+Saint Pierre,New Delhi,10413
+Saint Pierre,Jakarta,15220
+Saint Pierre,Tehran,8351
+Saint Pierre,Baghdad,8096
+Saint Pierre,Jerusalem,7102
+Saint Pierre,Edo,10709
+Saint Pierre,Amman,7632
+Saint Pierre,Astana,8028
+Saint Pierre,Kuwait City,8650
+Saint Pierre,Bishkek,8931
+Saint Pierre,Vientiane,12507
+Saint Pierre,Beirut,7456
+Saint Pierre,Macao,12276
+Saint Pierre,Kuala Lumpur,14055
+Saint Pierre,Malé,12512
+Saint Pierre,Ulan Bator,9358
+Saint Pierre,Nay Pyi Taw,12112
+Saint Pierre,Kathmandu,10875
+Saint Pierre,Pyongyang,10472
+Saint Pierre,Muscat,9822
+Saint Pierre,Islamabad,9724
+Saint Pierre,East Jerusalem,7102
+Saint Pierre,Manila,13184
+Saint Pierre,Doha,9222
+Saint Pierre,Riyadh,8948
+Saint Pierre,Singapore,14325
+Saint Pierre,Seoul,10631
+Saint Pierre,Colombo,12638
+Saint Pierre,Damascus,7539
+Saint Pierre,Taipei,12025
+Saint Pierre,Dushanbe,9066
+Saint Pierre,Bangkok,12893
+Saint Pierre,Ankara,6842
+Saint Pierre,Ashkhabad,8570
+Saint Pierre,Abu Dhabi,9477
+Saint Pierre,Tashkent,8839
+Saint Pierre,Hanoi,12262
+Saint Pierre,Sanaa,9536
+Saint Pierre,Tirana,5862
+Saint Pierre,Andorra la Vella,4485
+Saint Pierre,Vienna,5241
+Saint Pierre,Minsk,5642
+Saint Pierre,Brussels,4329
+Saint Pierre,Sarajevo,5611
+Saint Pierre,Sofia,6019
+Saint Pierre,Zagreb,5340
+Saint Pierre,Nicosia,7216
+Saint Pierre,Prague,5023
+Saint Pierre,Copenhagen,4682
+Saint Pierre,Tallinn,5222
+Saint Pierre,Tórshavn,3503
+Saint Pierre,Helsinki,5202
+Saint Pierre,Paris,4266
+Saint Pierre,Berlin,4853
+Saint Pierre,Gibraltar,4316
+Saint Pierre,Athens,6349
+Saint Pierre,St Peter Port,3907
+Saint Pierre,Budapest,5454
+Saint Pierre,Reykjavík,2835
+Saint Pierre,Dublin,3561
+Saint Pierre,Douglas,3662
+Saint Pierre,Rome,5311
+Saint Pierre,Saint Helier,3947
+Saint Pierre,Pristina,5874
+Saint Pierre,Riga,5297
+Saint Pierre,Vaduz,4832
+Saint Pierre,Vilnius,5470
+Saint Pierre,Luxembourg,4495
+Saint Pierre,Skopje,5932
+Saint Pierre,Valletta,5821
+Saint Pierre,Chişinău,6116
+Saint Pierre,Monaco,4851
+Saint Pierre,Podgorica,5756
+Saint Pierre,Amsterdam,4313
+Saint Pierre,Oslo,4457
+Saint Pierre,Warsaw,5338
+Saint Pierre,Lisbon,3883
+Saint Pierre,Bucharest,6098
+Saint Pierre,Moscow,6090
+Saint Pierre,San Marino,5196
+Saint Pierre,Belgrade,5700
+Saint Pierre,Bratislava,5293
+Saint Pierre,Ljubljana,5227
+Saint Pierre,Madrid,4204
+Saint Pierre,Longyearbyen,4536
+Saint Pierre,Stockholm,4871
+Saint Pierre,Berne,4698
+Saint Pierre,Kiev,6010
+Saint Pierre,London,4009
+Saint Pierre,Vatican,5309
+Saint Pierre,The Valley,3238
+Saint Pierre,St. John's,3339
+Saint Pierre,Oranjestad,4025
+Saint Pierre,Nassau,3056
+Saint Pierre,Bridgetown,3759
+Saint Pierre,Belmopan,4438
+Saint Pierre,Hamilton,1770
+Saint Pierre,Road Town,3247
+Saint Pierre,Ottawa,1510
+Saint Pierre,George Town,3820
+Saint Pierre,San José,4870
+Saint Pierre,Havana,3519
+Saint Pierre,Roseau,3534
+Saint Pierre,Santo Domingo,3389
+Saint Pierre,San Salvador,4791
+Saint Pierre,Nuuk (Godthåb),1954
+Saint Pierre,St. George's,3896
+Saint Pierre,Basse-Terre,3461
+Saint Pierre,New Guatemala,4782
+Saint Pierre,Port au Prince,3470
+Saint Pierre,Tegucigalpa,4639
+Saint Pierre,Kingston,3715
+Saint Pierre,Fort de France,3606
+Saint Pierre,Mexico City,4932
+Saint Pierre,Plymouth,3390
+Saint Pierre,Willemstad,14018
+Saint Pierre,Managua,4771
+Saint Pierre,Panama City,4748
+Saint Pierre,San Juan,3277
+Saint Pierre,Gustavia,3269
+Saint Pierre,Basseterre,3334
+Saint Pierre,Castries,3673
+Saint Pierre,Marigot,3255
 Kingstown,Algiers,6854
 Kingstown,Luanda,8575
-Kingstown,Porto-Novo,7015
+Kingstown,Porto Novo,7015
 Kingstown,Gaborone,10330
 Kingstown,Ouagadougou,6458
 Kingstown,Bujumbura,10156
@@ -18952,7 +18952,7 @@ Kingstown,Windhoek,9401
 Kingstown,Niamey,6831
 Kingstown,Abuja,7488
 Kingstown,Brazzaville,8661
-Kingstown,Saint-Denis,13266
+Kingstown,Saint Denis,13266
 Kingstown,Kigali,10195
 Kingstown,Jamestown,6906
 Kingstown,São Tomé,7614
@@ -19093,10 +19093,10 @@ Kingstown,Nuuk (Godthåb),5721
 Kingstown,St. George's,135
 Kingstown,Basse-Terre,321
 Kingstown,New Guatemala,3164
-Kingstown,Port-au-Prince,1331
+Kingstown,Port au Prince,1331
 Kingstown,Tegucigalpa,2809
 Kingstown,Kingston,1751
-Kingstown,Fort-de-France,162
+Kingstown,Fort de France,162
 Kingstown,Mexico City,4097
 Kingstown,Plymouth,409
 Kingstown,Willemstad,10722
@@ -19107,10 +19107,10 @@ Kingstown,Gustavia,555
 Kingstown,Basseterre,487
 Kingstown,Castries,96
 Kingstown,Marigot,581
-Kingstown,Saint-Pierre,3768
+Kingstown,Saint Pierre,3768
 Port of Spain,Algiers,7041
 Port of Spain,Luanda,8549
-Port of Spain,Porto-Novo,7054
+Port of Spain,Porto Novo,7054
 Port of Spain,Gaborone,10244
 Port of Spain,Ouagadougou,6525
 Port of Spain,Bujumbura,10173
@@ -19147,7 +19147,7 @@ Port of Spain,Windhoek,9316
 Port of Spain,Niamey,6907
 Port of Spain,Abuja,7545
 Port of Spain,Brazzaville,8660
-Port of Spain,Saint-Denis,13215
+Port of Spain,Saint Denis,13215
 Port of Spain,Kigali,10220
 Port of Spain,Jamestown,6816
 Port of Spain,São Tomé,7625
@@ -19288,10 +19288,10 @@ Port of Spain,Nuuk (Godthåb),5999
 Port of Spain,St. George's,157
 Port of Spain,Basse-Terre,593
 Port of Spain,New Guatemala,3174
-Port of Spain,Port-au-Prince,1455
+Port of Spain,Port au Prince,1455
 Port of Spain,Tegucigalpa,2814
 Port of Spain,Kingston,1834
-Port of Spain,Fort-de-France,441
+Port of Spain,Fort de France,441
 Port of Spain,Mexico City,4145
 Port of Spain,Plymouth,676
 Port of Spain,Willemstad,10474
@@ -19302,11 +19302,11 @@ Port of Spain,Gustavia,817
 Port of Spain,Basseterre,748
 Port of Spain,Castries,374
 Port of Spain,Marigot,840
-Port of Spain,Saint-Pierre,4047
+Port of Spain,Saint Pierre,4047
 Port of Spain,Kingstown,279
 Cockburn Town,Algiers,7231
 Cockburn Town,Luanda,9791
-Cockburn Town,Porto-Novo,8064
+Cockburn Town,Porto Novo,8064
 Cockburn Town,Gaborone,11660
 Cockburn Town,Ouagadougou,7420
 Cockburn Town,Bujumbura,11231
@@ -19343,7 +19343,7 @@ Cockburn Town,Windhoek,10733
 Cockburn Town,Niamey,7755
 Cockburn Town,Abuja,8470
 Cockburn Town,Brazzaville,9812
-Cockburn Town,Saint-Denis,14505
+Cockburn Town,Saint Denis,14505
 Cockburn Town,Kigali,11246
 Cockburn Town,Jamestown,8254
 Cockburn Town,São Tomé,8739
@@ -19484,10 +19484,10 @@ Cockburn Town,Nuuk (Godthåb),4963
 Cockburn Town,St. George's,1445
 Cockburn Town,Basse-Terre,1162
 Cockburn Town,New Guatemala,2181
-Cockburn Town,Port-au-Prince,348
+Cockburn Town,Port au Prince,348
 Cockburn Town,Tegucigalpa,1887
 Cockburn Town,Kingston,705
-Cockburn Town,Fort-de-France,1308
+Cockburn Town,Fort de France,1308
 Cockburn Town,Mexico City,2921
 Cockburn Town,Plymouth,1076
 Cockburn Town,Willemstad,11962
@@ -19498,12 +19498,12 @@ Cockburn Town,Gustavia,954
 Cockburn Town,Basseterre,996
 Cockburn Town,Castries,1355
 Cockburn Town,Marigot,924
-Cockburn Town,Saint-Pierre,3122
+Cockburn Town,Saint Pierre,3122
 Cockburn Town,Kingstown,1399
 Cockburn Town,Port of Spain,1579
 Charlotte Amalie,Algiers,6865
 Charlotte Amalie,Luanda,9086
-Charlotte Amalie,Porto-Novo,7413
+Charlotte Amalie,Porto Novo,7413
 Charlotte Amalie,Gaborone,10927
 Charlotte Amalie,Ouagadougou,6799
 Charlotte Amalie,Bujumbura,10578
@@ -19540,7 +19540,7 @@ Charlotte Amalie,Windhoek,10000
 Charlotte Amalie,Niamey,7151
 Charlotte Amalie,Abuja,7846
 Charlotte Amalie,Brazzaville,9129
-Charlotte Amalie,Saint-Denis,13800
+Charlotte Amalie,Saint Denis,13800
 Charlotte Amalie,Kigali,10602
 Charlotte Amalie,Jamestown,7519
 Charlotte Amalie,São Tomé,8063
@@ -19681,10 +19681,10 @@ Charlotte Amalie,Nuuk (Godthåb),5194
 Charlotte Amalie,St. George's,777
 Charlotte Amalie,Basse-Terre,428
 Charlotte Amalie,New Guatemala,2756
-Charlotte Amalie,Port-au-Prince,782
+Charlotte Amalie,Port au Prince,782
 Charlotte Amalie,Tegucigalpa,2424
 Charlotte Amalie,Kingston,1253
-Charlotte Amalie,Fort-de-France,584
+Charlotte Amalie,Fort de France,584
 Charlotte Amalie,Mexico City,3594
 Charlotte Amalie,Plymouth,341
 Charlotte Amalie,Willemstad,11401
@@ -19695,13 +19695,13 @@ Charlotte Amalie,Gustavia,225
 Charlotte Amalie,Basseterre,261
 Charlotte Amalie,Castries,639
 Charlotte Amalie,Marigot,198
-Charlotte Amalie,Saint-Pierre,3262
+Charlotte Amalie,Saint Pierre,3262
 Charlotte Amalie,Kingstown,699
 Charlotte Amalie,Port of Spain,928
 Charlotte Amalie,Cockburn Town,736
 Washington,Algiers,6795
 Washington,Luanda,10647
-Washington,Porto-Novo,8659
+Washington,Porto Novo,8659
 Washington,Gaborone,12772
 Washington,Ouagadougou,7900
 Washington,Bujumbura,11659
@@ -19738,7 +19738,7 @@ Washington,Windhoek,11899
 Washington,Niamey,8139
 Washington,Abuja,8904
 Washington,Brazzaville,10506
-Washington,Saint-Denis,15083
+Washington,Saint Denis,15083
 Washington,Kigali,11618
 Washington,Jamestown,9579
 Washington,São Tomé,9445
@@ -19879,10 +19879,10 @@ Washington,Nuuk (Godthåb),3263
 Washington,St. George's,3345
 Washington,Basse-Terre,2951
 Washington,New Guatemala,3003
-Washington,Port-au-Prince,2309
+Washington,Port au Prince,2309
 Washington,Tegucigalpa,2935
 Washington,Kingston,2324
-Washington,Fort-de-France,3121
+Washington,Fort de France,3121
 Washington,Mexico City,3031
 Washington,Plymouth,2857
 Washington,Willemstad,13963
@@ -19893,14 +19893,14 @@ Washington,Gustavia,2709
 Washington,Basseterre,2775
 Washington,Castries,3184
 Washington,Marigot,2681
-Washington,Saint-Pierre,1906
+Washington,Saint Pierre,1906
 Washington,Kingstown,3258
 Washington,Port of Spain,3496
 Washington,Cockburn Town,2019
 Washington,Charlotte Amalie,2568
 Pago Pago,Algiers,17440
 Pago Pago,Luanda,17408
-Pago Pago,Porto-Novo,18882
+Pago Pago,Porto Novo,18882
 Pago Pago,Gaborone,15326
 Pago Pago,Ouagadougou,18824
 Pago Pago,Bujumbura,17058
@@ -19937,7 +19937,7 @@ Pago Pago,Windhoek,15832
 Pago Pago,Niamey,19234
 Pago Pago,Abuja,19403
 Pago Pago,Brazzaville,17850
-Pago Pago,Saint-Denis,13637
+Pago Pago,Saint Denis,13637
 Pago Pago,Kigali,17102
 Pago Pago,Jamestown,16271
 Pago Pago,São Tomé,18439
@@ -20078,10 +20078,10 @@ Pago Pago,Nuuk (Godthåb),12815
 Pago Pago,St. George's,12349
 Pago Pago,Basse-Terre,12428
 Pago Pago,New Guatemala,9386
-Pago Pago,Port-au-Prince,11369
+Pago Pago,Port au Prince,11369
 Pago Pago,Tegucigalpa,9711
 Pago Pago,Kingston,10896
-Pago Pago,Fort-de-France,12472
+Pago Pago,Fort de France,12472
 Pago Pago,Mexico City,8680
 Pago Pago,Plymouth,12390
 Pago Pago,Willemstad,10761
@@ -20092,7 +20092,7 @@ Pago Pago,Gustavia,12343
 Pago Pago,Basseterre,12345
 Pago Pago,Castries,12467
 Pago Pago,Marigot,12322
-Pago Pago,Saint-Pierre,13019
+Pago Pago,Saint Pierre,13019
 Pago Pago,Kingstown,12428
 Pago Pago,Port of Spain,12344
 Pago Pago,Cockburn Town,11552
@@ -20100,7 +20100,7 @@ Pago Pago,Charlotte Amalie,12134
 Pago Pago,Washington,11310
 Canberra,Algiers,16977
 Canberra,Luanda,13274
-Canberra,Porto-Novo,15334
+Canberra,Porto Novo,15334
 Canberra,Gaborone,11067
 Canberra,Ouagadougou,16120
 Canberra,Bujumbura,12426
@@ -20137,7 +20137,7 @@ Canberra,Windhoek,11838
 Canberra,Niamey,15924
 Canberra,Abuja,15158
 Canberra,Brazzaville,13499
-Canberra,Saint-Denis,9004
+Canberra,Saint Denis,9004
 Canberra,Kigali,12469
 Canberra,Jamestown,13732
 Canberra,São Tomé,14517
@@ -20278,10 +20278,10 @@ Canberra,Nuuk (Godthåb),16507
 Canberra,St. George's,15978
 Canberra,Basse-Terre,16278
 Canberra,New Guatemala,13681
-Canberra,Port-au-Prince,15543
+Canberra,Port au Prince,15543
 Canberra,Tegucigalpa,13945
 Canberra,Kingston,15116
-Canberra,Fort-de-France,16227
+Canberra,Fort de France,16227
 Canberra,Mexico City,13177
 Canberra,Plymouth,16290
 Canberra,Willemstad,7905
@@ -20292,7 +20292,7 @@ Canberra,Gustavia,16320
 Canberra,Basseterre,16288
 Canberra,Castries,16186
 Canberra,Marigot,16312
-Canberra,Saint-Pierre,17554
+Canberra,Saint Pierre,17554
 Canberra,Kingstown,16105
 Canberra,Port of Spain,15885
 Canberra,Cockburn Town,15821
@@ -20301,7 +20301,7 @@ Canberra,Washington,15944
 Canberra,Pago Pago,4634
 Avarua,Algiers,17619
 Avarua,Luanda,16588
-Avarua,Porto-Novo,17511
+Avarua,Porto Novo,17511
 Avarua,Gaborone,14879
 Avarua,Ouagadougou,17503
 Avarua,Bujumbura,17105
@@ -20338,7 +20338,7 @@ Avarua,Windhoek,15136
 Avarua,Niamey,17913
 Avarua,Abuja,18096
 Avarua,Brazzaville,17131
-Avarua,Saint-Denis,13969
+Avarua,Saint Denis,13969
 Avarua,Kigali,17226
 Avarua,Jamestown,15008
 Avarua,São Tomé,17271
@@ -20479,10 +20479,10 @@ Avarua,Nuuk (Godthåb),12992
 Avarua,St. George's,11310
 Avarua,Basse-Terre,11455
 Avarua,New Guatemala,8543
-Avarua,Port-au-Prince,10489
+Avarua,Port au Prince,10489
 Avarua,Tegucigalpa,8836
 Avarua,Kingston,10030
-Avarua,Fort-de-France,11472
+Avarua,Fort de France,11472
 Avarua,Mexico City,7996
 Avarua,Plymouth,11432
 Avarua,Willemstad,9972
@@ -20493,7 +20493,7 @@ Avarua,Gustavia,11409
 Avarua,Basseterre,11400
 Avarua,Castries,11456
 Avarua,Marigot,11392
-Avarua,Saint-Pierre,12726
+Avarua,Saint Pierre,12726
 Avarua,Kingstown,11404
 Avarua,Port of Spain,11281
 Avarua,Cockburn Town,10721
@@ -20503,7 +20503,7 @@ Avarua,Pago Pago,1389
 Avarua,Canberra,5183
 Dili,Algiers,13455
 Dili,Luanda,12276
-Dili,Porto-Novo,13729
+Dili,Porto Novo,13729
 Dili,Gaborone,10574
 Dili,Ouagadougou,14224
 Dili,Bujumbura,10633
@@ -20540,7 +20540,7 @@ Dili,Windhoek,11503
 Dili,Niamey,13832
 Dili,Abuja,13221
 Dili,Brazzaville,12156
-Dili,Saint-Denis,7612
+Dili,Saint Denis,7612
 Dili,Kigali,10581
 Dili,Jamestown,14001
 Dili,São Tomé,13182
@@ -20681,10 +20681,10 @@ Dili,Nuuk (Godthåb),13827
 Dili,St. George's,19125
 Dili,Basse-Terre,18869
 Dili,New Guatemala,16032
-Dili,Port-au-Prince,17786
+Dili,Port au Prince,17786
 Dili,Tegucigalpa,16392
 Dili,Kingston,17381
-Dili,Fort-de-France,19028
+Dili,Fort de France,19028
 Dili,Mexico City,15059
 Dili,Plymouth,18777
 Dili,Willemstad,10025
@@ -20695,7 +20695,7 @@ Dili,Gustavia,18634
 Dili,Basseterre,18692
 Dili,Castries,19077
 Dili,Marigot,18604
-Dili,Saint-Pierre,15762
+Dili,Saint Pierre,15762
 Dili,Kingstown,19114
 Dili,Port of Spain,19203
 Dili,Cockburn Town,17722
@@ -20706,7 +20706,7 @@ Dili,Canberra,3816
 Dili,Avarua,8080
 Suva,Algiers,17897
 Suva,Luanda,16604
-Suva,Porto-Novo,18644
+Suva,Porto Novo,18644
 Suva,Gaborone,14403
 Suva,Ouagadougou,19373
 Suva,Bujumbura,15868
@@ -20743,7 +20743,7 @@ Suva,Windhoek,15056
 Suva,Niamey,19368
 Suva,Abuja,18612
 Suva,Brazzaville,16914
-Suva,Saint-Denis,12439
+Suva,Saint Denis,12439
 Suva,Kigali,15896
 Suva,Jamestown,16198
 Suva,São Tomé,17838
@@ -20884,10 +20884,10 @@ Suva,Nuuk (Godthåb),13683
 Suva,St. George's,13544
 Suva,Basse-Terre,13643
 Suva,New Guatemala,10617
-Suva,Port-au-Prince,12599
+Suva,Port au Prince,12599
 Suva,Tegucigalpa,10939
 Suva,Kingston,12127
-Suva,Fort-de-France,13681
+Suva,Fort de France,13681
 Suva,Mexico City,9915
 Suva,Plymouth,13609
 Suva,Willemstad,10273
@@ -20898,7 +20898,7 @@ Suva,Gustavia,13567
 Suva,Basseterre,13567
 Suva,Castries,13672
 Suva,Marigot,13547
-Suva,Saint-Pierre,14137
+Suva,Saint Pierre,14137
 Suva,Kingstown,13629
 Suva,Port of Spain,13530
 Suva,Cockburn Town,12786
@@ -20910,7 +20910,7 @@ Suva,Avarua,2304
 Suva,Dili,5799
 Papeete,Algiers,16586
 Papeete,Luanda,16527
-Papeete,Porto-Novo,16755
+Papeete,Porto Novo,16755
 Papeete,Gaborone,15299
 Papeete,Ouagadougou,16538
 Papeete,Bujumbura,17687
@@ -20947,7 +20947,7 @@ Papeete,Windhoek,15327
 Papeete,Niamey,16951
 Papeete,Abuja,17363
 Papeete,Brazzaville,17076
-Papeete,Saint-Denis,14947
+Papeete,Saint Denis,14947
 Papeete,Kigali,17849
 Papeete,Jamestown,14580
 Papeete,São Tomé,16794
@@ -21088,10 +21088,10 @@ Papeete,Nuuk (Godthåb),12136
 Papeete,St. George's,10183
 Papeete,Basse-Terre,10317
 Papeete,New Guatemala,7398
-Papeete,Port-au-Prince,9343
+Papeete,Port au Prince,9343
 Papeete,Tegucigalpa,7690
 Papeete,Kingston,8884
-Papeete,Fort-de-France,10338
+Papeete,Fort de France,10338
 Papeete,Mexico City,6872
 Papeete,Plymouth,10291
 Papeete,Willemstad,10291
@@ -21102,7 +21102,7 @@ Papeete,Gustavia,10267
 Papeete,Basseterre,10258
 Papeete,Castries,10324
 Papeete,Marigot,10249
-Papeete,Saint-Pierre,11672
+Papeete,Saint Pierre,11672
 Papeete,Kingstown,10274
 Papeete,Port of Spain,10160
 Papeete,Cockburn Town,9575
@@ -21115,7 +21115,7 @@ Papeete,Dili,9181
 Papeete,Suva,3383
 Hagåtña,Algiers,13140
 Hagåtña,Luanda,14709
-Hagåtña,Porto-Novo,15282
+Hagåtña,Porto Novo,15282
 Hagåtña,Gaborone,13518
 Hagåtña,Ouagadougou,15316
 Hagåtña,Bujumbura,12839
@@ -21152,7 +21152,7 @@ Hagåtña,Windhoek,14418
 Hagåtña,Niamey,14922
 Hagåtña,Abuja,14674
 Hagåtña,Brazzaville,14381
-Hagåtña,Saint-Denis,10467
+Hagåtña,Saint Denis,10467
 Hagåtña,Kigali,12726
 Hagåtña,Jamestown,16830
 Hagåtña,São Tomé,15142
@@ -21293,10 +21293,10 @@ Hagåtña,Nuuk (Godthåb),11267
 Hagåtña,St. George's,15941
 Hagåtña,Basse-Terre,15631
 Hagåtña,New Guatemala,13177
-Hagåtña,Port-au-Prince,14611
+Hagåtña,Port au Prince,14611
 Hagåtña,Tegucigalpa,13525
 Hagåtña,Kingston,14270
-Hagåtña,Fort-de-France,15792
+Hagåtña,Fort de France,15792
 Hagåtña,Mexico City,12124
 Hagåtña,Plymouth,15539
 Hagåtña,Willemstad,13013
@@ -21307,7 +21307,7 @@ Hagåtña,Gustavia,15395
 Hagåtña,Basseterre,15454
 Hagåtña,Castries,15846
 Hagåtña,Marigot,15365
-Hagåtña,Saint-Pierre,12997
+Hagåtña,Saint Pierre,12997
 Hagåtña,Kingstown,15897
 Hagåtña,Port of Spain,16064
 Hagåtña,Cockburn Town,14498
@@ -21321,7 +21321,7 @@ Hagåtña,Suva,5100
 Hagåtña,Papeete,7988
 South Tarawa,Algiers,15655
 South Tarawa,Luanda,17623
-South Tarawa,Porto-Novo,18637
+South Tarawa,Porto Novo,18637
 South Tarawa,Gaborone,15630
 South Tarawa,Ouagadougou,18376
 South Tarawa,Bujumbura,15967
@@ -21358,7 +21358,7 @@ South Tarawa,Windhoek,16501
 South Tarawa,Niamey,18082
 South Tarawa,Abuja,18036
 South Tarawa,Brazzaville,17517
-South Tarawa,Saint-Denis,12910
+South Tarawa,Saint Denis,12910
 South Tarawa,Kigali,15893
 South Tarawa,Jamestown,18384
 South Tarawa,São Tomé,18475
@@ -21499,10 +21499,10 @@ South Tarawa,Nuuk (Godthåb),11873
 South Tarawa,St. George's,13792
 South Tarawa,Basse-Terre,13709
 South Tarawa,New Guatemala,10670
-South Tarawa,Port-au-Prince,12549
+South Tarawa,Port au Prince,12549
 South Tarawa,Tegucigalpa,11029
 South Tarawa,Kingston,12094
-South Tarawa,Fort-de-France,13810
+South Tarawa,Fort de France,13810
 South Tarawa,Mexico City,9737
 South Tarawa,Plymouth,13641
 South Tarawa,Willemstad,12363
@@ -21513,7 +21513,7 @@ South Tarawa,Gustavia,13545
 South Tarawa,Basseterre,13573
 South Tarawa,Castries,13831
 South Tarawa,Marigot,13517
-South Tarawa,Saint-Pierre,12846
+South Tarawa,Saint Pierre,12846
 South Tarawa,Kingstown,13826
 South Tarawa,Port of Spain,13842
 South Tarawa,Cockburn Town,12613
@@ -21528,7 +21528,7 @@ South Tarawa,Papeete,4606
 South Tarawa,Hagåtña,3387
 Majuro,Algiers,14991
 Majuro,Luanda,17601
-Majuro,Porto-Novo,18057
+Majuro,Porto Novo,18057
 Majuro,Gaborone,15857
 Majuro,Ouagadougou,17714
 Majuro,Bujumbura,15791
@@ -21565,7 +21565,7 @@ Majuro,Windhoek,16771
 Majuro,Niamey,17436
 Majuro,Abuja,17483
 Majuro,Brazzaville,17353
-Majuro,Saint-Denis,12977
+Majuro,Saint Denis,12977
 Majuro,Kigali,15692
 Majuro,Jamestown,18982
 Majuro,São Tomé,18123
@@ -21706,10 +21706,10 @@ Majuro,Nuuk (Godthåb),11320
 Majuro,St. George's,13767
 Majuro,Basse-Terre,13631
 Majuro,New Guatemala,10673
-Majuro,Port-au-Prince,12473
+Majuro,Port au Prince,12473
 Majuro,Tegucigalpa,11034
 Majuro,Kingston,12034
-Majuro,Fort-de-France,13749
+Majuro,Fort de France,13749
 Majuro,Mexico City,9693
 Majuro,Plymouth,13556
 Majuro,Willemstad,12974
@@ -21720,7 +21720,7 @@ Majuro,Gustavia,13447
 Majuro,Basseterre,13482
 Majuro,Castries,13777
 Majuro,Marigot,13418
-Majuro,Saint-Pierre,12413
+Majuro,Saint Pierre,12413
 Majuro,Kingstown,13785
 Majuro,Port of Spain,13836
 Majuro,Cockburn Town,12498
@@ -21736,7 +21736,7 @@ Majuro,Hagåtña,2996
 Majuro,South Tarawa,665
 Palikir,Algiers,14511
 Palikir,Luanda,16148
-Palikir,Porto-Novo,16920
+Palikir,Porto Novo,16920
 Palikir,Gaborone,14574
 Palikir,Ouagadougou,16910
 Palikir,Bujumbura,14334
@@ -21773,7 +21773,7 @@ Palikir,Windhoek,15503
 Palikir,Niamey,16529
 Palikir,Abuja,16311
 Palikir,Brazzaville,15898
-Palikir,Saint-Denis,11598
+Palikir,Saint Denis,11598
 Palikir,Kigali,14238
 Palikir,Jamestown,17994
 Palikir,São Tomé,16745
@@ -21914,10 +21914,10 @@ Palikir,Nuuk (Godthåb),11726
 Palikir,St. George's,15124
 Palikir,Basse-Terre,14938
 Palikir,New Guatemala,12075
-Palikir,Port-au-Prince,13797
+Palikir,Port au Prince,13797
 Palikir,Tegucigalpa,12436
 Palikir,Kingston,13380
-Palikir,Fort-de-France,15071
+Palikir,Fort de France,15071
 Palikir,Mexico City,11069
 Palikir,Plymouth,14857
 Palikir,Willemstad,12689
@@ -21928,7 +21928,7 @@ Palikir,Gustavia,14735
 Palikir,Basseterre,14778
 Palikir,Castries,15107
 Palikir,Marigot,14705
-Palikir,Saint-Pierre,13151
+Palikir,Saint Pierre,13151
 Palikir,Kingstown,15126
 Palikir,Port of Spain,15207
 Palikir,Cockburn Town,13782
@@ -21945,7 +21945,7 @@ Palikir,South Tarawa,1757
 Palikir,Majuro,1459
 Yaren,Algiers,14463
 Yaren,Luanda,18440
-Yaren,Porto-Novo,17812
+Yaren,Porto Novo,17812
 Yaren,Gaborone,16957
 Yaren,Ouagadougou,17184
 Yaren,Bujumbura,16557
@@ -21982,7 +21982,7 @@ Yaren,Windhoek,17875
 Yaren,Niamey,17045
 Yaren,Abuja,17399
 Yaren,Brazzaville,18021
-Yaren,Saint-Denis,14025
+Yaren,Saint Denis,14025
 Yaren,Kigali,16428
 Yaren,Jamestown,19373
 Yaren,São Tomé,18322
@@ -22123,10 +22123,10 @@ Yaren,Nuuk (Godthåb),10405
 Yaren,St. George's,12710
 Yaren,Basse-Terre,12552
 Yaren,New Guatemala,9646
-Yaren,Port-au-Prince,11398
+Yaren,Port au Prince,11398
 Yaren,Tegucigalpa,10007
 Yaren,Kingston,10969
-Yaren,Fort-de-France,12676
+Yaren,Fort de France,12676
 Yaren,Mexico City,8644
 Yaren,Plymouth,12475
 Yaren,Willemstad,13740
@@ -22137,7 +22137,7 @@ Yaren,Gustavia,12362
 Yaren,Basseterre,12400
 Yaren,Castries,12707
 Yaren,Marigot,12333
-Yaren,Saint-Pierre,11367
+Yaren,Saint Pierre,11367
 Yaren,Kingstown,12720
 Yaren,Port of Spain,12787
 Yaren,Cockburn Town,11410
@@ -22155,7 +22155,7 @@ Yaren,Majuro,1106
 Yaren,Palikir,2429
 Noumea,Algiers,17750
 Noumea,Luanda,15489
-Noumea,Porto-Novo,17550
+Noumea,Porto Novo,17550
 Noumea,Gaborone,13280
 Noumea,Ouagadougou,18332
 Noumea,Bujumbura,14552
@@ -22192,7 +22192,7 @@ Noumea,Windhoek,14027
 Noumea,Niamey,18096
 Noumea,Abuja,17334
 Noumea,Brazzaville,15710
-Noumea,Saint-Denis,11127
+Noumea,Saint Denis,11127
 Noumea,Kigali,14573
 Noumea,Jamestown,15681
 Noumea,São Tomé,16734
@@ -22333,10 +22333,10 @@ Noumea,Nuuk (Godthåb),14584
 Noumea,St. George's,14791
 Noumea,Basse-Terre,14925
 Noumea,New Guatemala,11933
-Noumea,Port-au-Prince,13911
+Noumea,Port au Prince,13911
 Noumea,Tegucigalpa,12249
 Noumea,Kingston,13441
-Noumea,Fort-de-France,14950
+Noumea,Fort de France,14950
 Noumea,Mexico City,11246
 Noumea,Plymouth,14897
 Noumea,Willemstad,9665
@@ -22347,7 +22347,7 @@ Noumea,Gustavia,14864
 Noumea,Basseterre,14860
 Noumea,Castries,14936
 Noumea,Marigot,14845
-Noumea,Saint-Pierre,15339
+Noumea,Saint Pierre,15339
 Noumea,Kingstown,14885
 Noumea,Port of Spain,14762
 Noumea,Cockburn Town,14109
@@ -22366,7 +22366,7 @@ Noumea,Palikir,3370
 Noumea,Yaren,4178
 Wellington,Algiers,19142
 Wellington,Luanda,14130
-Wellington,Porto-Novo,16070
+Wellington,Porto Novo,16070
 Wellington,Gaborone,12011
 Wellington,Ouagadougou,16779
 Wellington,Bujumbura,13939
@@ -22403,7 +22403,7 @@ Wellington,Windhoek,12552
 Wellington,Niamey,16845
 Wellington,Abuja,16221
 Wellington,Brazzaville,14538
-Wellington,Saint-Denis,10701
+Wellington,Saint Denis,10701
 Wellington,Kigali,14033
 Wellington,Jamestown,13651
 Wellington,São Tomé,15306
@@ -22544,10 +22544,10 @@ Wellington,Nuuk (Godthåb),16125
 Wellington,St. George's,13665
 Wellington,Basse-Terre,13953
 Wellington,New Guatemala,11463
-Wellington,Port-au-Prince,13247
+Wellington,Port au Prince,13247
 Wellington,Tegucigalpa,11697
 Wellington,Kingston,12838
-Wellington,Fort-de-France,13907
+Wellington,Fort de France,13907
 Wellington,Mexico City,11104
 Wellington,Plymouth,13963
 Wellington,Willemstad,7677
@@ -22558,7 +22558,7 @@ Wellington,Gustavia,13994
 Wellington,Basseterre,13961
 Wellington,Castries,13868
 Wellington,Marigot,13986
-Wellington,Saint-Pierre,15969
+Wellington,Saint Pierre,15969
 Wellington,Kingstown,13789
 Wellington,Port of Spain,13580
 Wellington,Cockburn Town,13542
@@ -22578,7 +22578,7 @@ Wellington,Yaren,6064
 Wellington,Noumea,2253
 Alofi,Algiers,17932
 Alofi,Luanda,16894
-Alofi,Porto-Novo,18401
+Alofi,Porto Novo,18401
 Alofi,Gaborone,14861
 Alofi,Ouagadougou,18568
 Alofi,Bujumbura,16748
@@ -22615,7 +22615,7 @@ Alofi,Windhoek,15325
 Alofi,Niamey,18965
 Alofi,Abuja,18870
 Alofi,Brazzaville,17359
-Alofi,Saint-Denis,13373
+Alofi,Saint Denis,13373
 Alofi,Kigali,16817
 Alofi,Jamestown,15757
 Alofi,São Tomé,17902
@@ -22756,10 +22756,10 @@ Alofi,Nuuk (Godthåb),13259
 Alofi,St. George's,12330
 Alofi,Basse-Terre,12447
 Alofi,New Guatemala,9462
-Alofi,Port-au-Prince,11434
+Alofi,Port au Prince,11434
 Alofi,Tegucigalpa,9772
 Alofi,Kingston,10967
-Alofi,Fort-de-France,12476
+Alofi,Fort de France,12476
 Alofi,Mexico City,8824
 Alofi,Plymouth,12417
 Alofi,Willemstad,10231
@@ -22770,7 +22770,7 @@ Alofi,Gustavia,12384
 Alofi,Basseterre,12380
 Alofi,Castries,12465
 Alofi,Marigot,12365
-Alofi,Saint-Pierre,13333
+Alofi,Saint Pierre,13333
 Alofi,Kingstown,12418
 Alofi,Port of Spain,12310
 Alofi,Cockburn Town,11642
@@ -22791,7 +22791,7 @@ Alofi,Noumea,2481
 Alofi,Wellington,2866
 Saipan,Algiers,13040
 Saipan,Luanda,14813
-Saipan,Porto-Novo,15292
+Saipan,Porto Novo,15292
 Saipan,Gaborone,13686
 Saipan,Ouagadougou,15285
 Saipan,Bujumbura,12936
@@ -22828,7 +22828,7 @@ Saipan,Windhoek,14578
 Saipan,Niamey,14897
 Saipan,Abuja,14683
 Saipan,Brazzaville,14466
-Saipan,Saint-Denis,10634
+Saipan,Saint Denis,10634
 Saipan,Kigali,12818
 Saipan,Jamestown,16960
 Saipan,São Tomé,15192
@@ -22969,10 +22969,10 @@ Saipan,Nuuk (Godthåb),11062
 Saipan,St. George's,15730
 Saipan,Basse-Terre,15416
 Saipan,New Guatemala,12997
-Saipan,Port-au-Prince,14404
+Saipan,Port au Prince,14404
 Saipan,Tegucigalpa,13343
 Saipan,Kingston,14069
-Saipan,Fort-de-France,15578
+Saipan,Fort de France,15578
 Saipan,Mexico City,11942
 Saipan,Plymouth,15324
 Saipan,Willemstad,13229
@@ -22983,7 +22983,7 @@ Saipan,Gustavia,15180
 Saipan,Basseterre,15239
 Saipan,Castries,15632
 Saipan,Marigot,15150
-Saipan,Saint-Pierre,12782
+Saipan,Saint Pierre,12782
 Saipan,Kingstown,15684
 Saipan,Port of Spain,15855
 Saipan,Cockburn Town,14287
@@ -23005,7 +23005,7 @@ Saipan,Wellington,6956
 Saipan,Alofi,6169
 Melekeok,Algiers,12975
 Melekeok,Luanda,13569
-Melekeok,Porto-Novo,14471
+Melekeok,Porto Novo,14471
 Melekeok,Gaborone,12241
 Melekeok,Ouagadougou,14689
 Melekeok,Bujumbura,11737
@@ -23042,7 +23042,7 @@ Melekeok,Windhoek,13149
 Melekeok,Niamey,14275
 Melekeok,Abuja,13876
 Melekeok,Brazzaville,13301
-Melekeok,Saint-Denis,9193
+Melekeok,Saint Denis,9193
 Melekeok,Kigali,11641
 Melekeok,Jamestown,15604
 Melekeok,São Tomé,14172
@@ -23183,10 +23183,10 @@ Melekeok,Nuuk (Godthåb),12027
 Melekeok,St. George's,17186
 Melekeok,Basse-Terre,16842
 Melekeok,New Guatemala,14463
-Melekeok,Port-au-Prince,15877
+Melekeok,Port au Prince,15877
 Melekeok,Tegucigalpa,14813
 Melekeok,Kingston,15551
-Melekeok,Fort-de-France,17009
+Melekeok,Fort de France,17009
 Melekeok,Mexico City,13413
 Melekeok,Plymouth,16748
 Melekeok,Willemstad,12039
@@ -23197,7 +23197,7 @@ Melekeok,Gustavia,16601
 Melekeok,Basseterre,16663
 Melekeok,Castries,17067
 Melekeok,Marigot,16571
-Melekeok,Saint-Pierre,13886
+Melekeok,Saint Pierre,13886
 Melekeok,Kingstown,17127
 Melekeok,Port of Spain,17318
 Melekeok,Cockburn Town,15741
@@ -23220,7 +23220,7 @@ Melekeok,Alofi,6755
 Melekeok,Saipan,1485
 Port Moresby,Algiers,15303
 Port Moresby,Luanda,14526
-Port Moresby,Porto-Novo,16103
+Port Moresby,Porto Novo,16103
 Port Moresby,Gaborone,12608
 Port Moresby,Ouagadougou,16585
 Port Moresby,Bujumbura,12981
@@ -23257,7 +23257,7 @@ Port Moresby,Windhoek,13520
 Port Moresby,Niamey,16185
 Port Moresby,Abuja,15595
 Port Moresby,Brazzaville,14472
-Port Moresby,Saint-Denis,9812
+Port Moresby,Saint Denis,9812
 Port Moresby,Kigali,12937
 Port Moresby,Jamestown,15908
 Port Moresby,São Tomé,15523
@@ -23398,10 +23398,10 @@ Port Moresby,Nuuk (Godthåb),13749
 Port Moresby,St. George's,16843
 Port Moresby,Basse-Terre,16799
 Port Moresby,New Guatemala,13730
-Port Moresby,Port-au-Prince,15643
+Port Moresby,Port au Prince,15643
 Port Moresby,Tegucigalpa,14084
 Port Moresby,Kingston,15183
-Port Moresby,Fort-de-France,16892
+Port Moresby,Fort de France,16892
 Port Moresby,Mexico City,12828
 Port Moresby,Plymouth,16735
 Port Moresby,Willemstad,10634
@@ -23412,7 +23412,7 @@ Port Moresby,Gustavia,16642
 Port Moresby,Basseterre,16668
 Port Moresby,Castries,16906
 Port Moresby,Marigot,16614
-Port Moresby,Saint-Pierre,15312
+Port Moresby,Saint Pierre,15312
 Port Moresby,Kingstown,16893
 Port Moresby,Port of Spain,16871
 Port Moresby,Cockburn Town,15710
@@ -23436,7 +23436,7 @@ Port Moresby,Saipan,2745
 Port Moresby,Melekeok,2342
 Adamstown,Algiers,15409
 Adamstown,Luanda,14539
-Adamstown,Porto-Novo,14585
+Adamstown,Porto Novo,14585
 Adamstown,Gaborone,13914
 Adamstown,Ouagadougou,14452
 Adamstown,Bujumbura,16152
@@ -23473,7 +23473,7 @@ Adamstown,Windhoek,13645
 Adamstown,Niamey,14865
 Adamstown,Abuja,15194
 Adamstown,Brazzaville,15054
-Adamstown,Saint-Denis,14871
+Adamstown,Saint Denis,14871
 Adamstown,Kigali,16327
 Adamstown,Jamestown,12460
 Adamstown,São Tomé,14626
@@ -23614,10 +23614,10 @@ Adamstown,Nuuk (Godthåb),11962
 Adamstown,St. George's,8475
 Adamstown,Basse-Terre,8698
 Adamstown,New Guatemala,6157
-Adamstown,Port-au-Prince,7909
+Adamstown,Port au Prince,7909
 Adamstown,Tegucigalpa,6369
 Adamstown,Kingston,7498
-Adamstown,Fort-de-France,8680
+Adamstown,Fort de France,8680
 Adamstown,Mexico City,5975
 Adamstown,Plymouth,8694
 Adamstown,Willemstad,9126
@@ -23628,7 +23628,7 @@ Adamstown,Gustavia,8705
 Adamstown,Basseterre,8680
 Adamstown,Castries,8652
 Adamstown,Marigot,8694
-Adamstown,Saint-Pierre,10884
+Adamstown,Saint Pierre,10884
 Adamstown,Kingstown,8586
 Adamstown,Port of Spain,8420
 Adamstown,Cockburn Town,8202
@@ -23653,7 +23653,7 @@ Adamstown,Melekeok,10889
 Adamstown,Port Moresby,8837
 Apia,Algiers,17415
 Apia,Luanda,17435
-Apia,Porto-Novo,18994
+Apia,Porto Novo,18994
 Apia,Gaborone,15326
 Apia,Ouagadougou,18946
 Apia,Bujumbura,16999
@@ -23690,7 +23690,7 @@ Apia,Windhoek,15855
 Apia,Niamey,19353
 Apia,Abuja,19480
 Apia,Brazzaville,17857
-Apia,Saint-Denis,13574
+Apia,Saint Denis,13574
 Apia,Kigali,17037
 Apia,Jamestown,16367
 Apia,São Tomé,18506
@@ -23831,10 +23831,10 @@ Apia,Nuuk (Godthåb),12818
 Apia,St. George's,12457
 Apia,Basse-Terre,12531
 Apia,New Guatemala,9482
-Apia,Port-au-Prince,11465
+Apia,Port au Prince,11465
 Apia,Tegucigalpa,9809
 Apia,Kingston,10993
-Apia,Fort-de-France,12577
+Apia,Fort de France,12577
 Apia,Mexico City,8766
 Apia,Plymouth,12492
 Apia,Willemstad,10809
@@ -23845,7 +23845,7 @@ Apia,Gustavia,12443
 Apia,Basseterre,12446
 Apia,Castries,12572
 Apia,Marigot,12422
-Apia,Saint-Pierre,13064
+Apia,Saint Pierre,13064
 Apia,Kingstown,12535
 Apia,Port of Spain,12453
 Apia,Cockburn Town,11645
@@ -23871,7 +23871,7 @@ Apia,Port Moresby,4492
 Apia,Adamstown,4524
 Honiara,Algiers,16190
 Honiara,Luanda,15807
-Honiara,Porto-Novo,17500
+Honiara,Porto Novo,17500
 Honiara,Gaborone,13756
 Honiara,Ouagadougou,17967
 Honiara,Bujumbura,14359
@@ -23908,7 +23908,7 @@ Honiara,Windhoek,14629
 Honiara,Niamey,17559
 Honiara,Abuja,16994
 Honiara,Brazzaville,15814
-Honiara,Saint-Denis,11111
+Honiara,Saint Denis,11111
 Honiara,Kigali,14323
 Honiara,Jamestown,16783
 Honiara,São Tomé,16884
@@ -24049,10 +24049,10 @@ Honiara,Nuuk (Godthåb),13441
 Honiara,St. George's,15454
 Honiara,Basse-Terre,15443
 Honiara,New Guatemala,12358
-Honiara,Port-au-Prince,14302
+Honiara,Port au Prince,14302
 Honiara,Tegucigalpa,12708
 Honiara,Kingston,13834
-Honiara,Fort-de-France,15523
+Honiara,Fort de France,15523
 Honiara,Mexico City,11491
 Honiara,Plymouth,15386
 Honiara,Willemstad,10951
@@ -24063,7 +24063,7 @@ Honiara,Gustavia,15307
 Honiara,Basseterre,15326
 Honiara,Castries,15532
 Honiara,Marigot,15281
-Honiara,Saint-Pierre,14643
+Honiara,Saint Pierre,14643
 Honiara,Kingstown,15512
 Honiara,Port of Spain,15476
 Honiara,Cockburn Town,14404
@@ -24090,7 +24090,7 @@ Honiara,Adamstown,7553
 Honiara,Apia,3117
 Nukunonu,Algiers,16603
 Nukunonu,Luanda,16894
-Nukunonu,Porto-Novo,18701
+Nukunonu,Porto Novo,18701
 Nukunonu,Gaborone,14744
 Nukunonu,Ouagadougou,19054
 Nukunonu,Bujumbura,15551
@@ -24127,7 +24127,7 @@ Nukunonu,Windhoek,15560
 Nukunonu,Niamey,18644
 Nukunonu,Abuja,18179
 Nukunonu,Brazzaville,16969
-Nukunonu,Saint-Denis,12255
+Nukunonu,Saint Denis,12255
 Nukunonu,Kigali,15519
 Nukunonu,Jamestown,17309
 Nukunonu,São Tomé,18048
@@ -24268,10 +24268,10 @@ Nukunonu,Nuuk (Godthåb),12948
 Nukunonu,St. George's,14254
 Nukunonu,Basse-Terre,14251
 Nukunonu,New Guatemala,11164
-Nukunonu,Port-au-Prince,13118
+Nukunonu,Port au Prince,13118
 Nukunonu,Tegucigalpa,11512
 Nukunonu,Kingston,12648
-Nukunonu,Fort-de-France,14327
+Nukunonu,Fort de France,14327
 Nukunonu,Mexico City,10315
 Nukunonu,Plymouth,14197
 Nukunonu,Willemstad,11287
@@ -24282,7 +24282,7 @@ Nukunonu,Gustavia,14122
 Nukunonu,Basseterre,14139
 Nukunonu,Castries,14335
 Nukunonu,Marigot,14097
-Nukunonu,Saint-Pierre,13840
+Nukunonu,Saint Pierre,13840
 Nukunonu,Kingstown,14312
 Nukunonu,Port of Spain,14275
 Nukunonu,Cockburn Town,13235
@@ -24310,7 +24310,7 @@ Nukunonu,Apia,2004
 Nukunonu,Honiara,1201
 Nuku'alofa,Algiers,18270
 Nuku'alofa,Luanda,16558
-Nuku'alofa,Porto-Novo,18371
+Nuku'alofa,Porto Novo,18371
 Nuku'alofa,Gaborone,14437
 Nuku'alofa,Ouagadougou,18831
 Nuku'alofa,Bujumbura,16196
@@ -24347,7 +24347,7 @@ Nuku'alofa,Windhoek,14978
 Nuku'alofa,Niamey,19121
 Nuku'alofa,Abuja,18644
 Nuku'alofa,Brazzaville,16968
-Nuku'alofa,Saint-Denis,12798
+Nuku'alofa,Saint Denis,12798
 Nuku'alofa,Kigali,16255
 Nuku'alofa,Jamestown,15736
 Nuku'alofa,São Tomé,17694
@@ -24488,10 +24488,10 @@ Nuku'alofa,Nuuk (Godthåb),13707
 Nuku'alofa,St. George's,12898
 Nuku'alofa,Basse-Terre,13028
 Nuku'alofa,New Guatemala,10056
-Nuku'alofa,Port-au-Prince,12025
+Nuku'alofa,Port au Prince,12025
 Nuku'alofa,Tegucigalpa,10364
 Nuku'alofa,Kingston,11559
-Nuku'alofa,Fort-de-France,13052
+Nuku'alofa,Fort de France,13052
 Nuku'alofa,Mexico City,9422
 Nuku'alofa,Plymouth,13000
 Nuku'alofa,Willemstad,9985
@@ -24502,7 +24502,7 @@ Nuku'alofa,Gustavia,12969
 Nuku'alofa,Basseterre,12964
 Nuku'alofa,Castries,13039
 Nuku'alofa,Marigot,12951
-Nuku'alofa,Saint-Pierre,13892
+Nuku'alofa,Saint Pierre,13892
 Nuku'alofa,Kingstown,12990
 Nuku'alofa,Port of Spain,12874
 Nuku'alofa,Cockburn Town,12237
@@ -24531,7 +24531,7 @@ Nuku'alofa,Honiara,2960
 Nuku'alofa,Nukunonu,2083
 Funafuti,Algiers,16852
 Funafuti,Luanda,17536
-Funafuti,Porto-Novo,19577
+Funafuti,Porto Novo,19577
 Funafuti,Gaborone,15325
 Funafuti,Ouagadougou,19580
 Funafuti,Bujumbura,16418
@@ -24568,7 +24568,7 @@ Funafuti,Windhoek,16048
 Funafuti,Niamey,19375
 Funafuti,Abuja,19102
 Funafuti,Brazzaville,17733
-Funafuti,Saint-Denis,13056
+Funafuti,Saint Denis,13056
 Funafuti,Kigali,16401
 Funafuti,Jamestown,17242
 Funafuti,São Tomé,18780
@@ -24709,10 +24709,10 @@ Funafuti,Nuuk (Godthåb),12664
 Funafuti,St. George's,13349
 Funafuti,Basse-Terre,13365
 Funafuti,New Guatemala,10278
-Funafuti,Port-au-Prince,12246
+Funafuti,Port au Prince,12246
 Funafuti,Tegucigalpa,10622
 Funafuti,Kingston,11773
-Funafuti,Fort-de-France,13433
+Funafuti,Fort de France,13433
 Funafuti,Mexico City,9461
 Funafuti,Plymouth,13314
 Funafuti,Willemstad,11346
@@ -24723,7 +24723,7 @@ Funafuti,Gustavia,13247
 Funafuti,Basseterre,13259
 Funafuti,Castries,13437
 Funafuti,Marigot,13222
-Funafuti,Saint-Pierre,13291
+Funafuti,Saint Pierre,13291
 Funafuti,Kingstown,13412
 Funafuti,Port of Spain,13365
 Funafuti,Cockburn Town,12381
@@ -24753,7 +24753,7 @@ Funafuti,Nukunonu,924
 Funafuti,Nuku'alofa,1526
 Port Vila,Algiers,17455
 Port Vila,Luanda,15988
-Port Vila,Porto-Novo,18025
+Port Vila,Porto Novo,18025
 Port Vila,Gaborone,13786
 Port Vila,Ouagadougou,18773
 Port Vila,Bujumbura,14941
@@ -24790,7 +24790,7 @@ Port Vila,Windhoek,14551
 Port Vila,Niamey,18466
 Port Vila,Abuja,17732
 Port Vila,Brazzaville,16177
-Port Vila,Saint-Denis,11534
+Port Vila,Saint Denis,11534
 Port Vila,Kigali,14947
 Port Vila,Jamestown,16215
 Port Vila,São Tomé,17224
@@ -24931,10 +24931,10 @@ Port Vila,Nuuk (Godthåb),14042
 Port Vila,St. George's,14613
 Port Vila,Basse-Terre,14701
 Port Vila,New Guatemala,11654
-Port Vila,Port-au-Prince,13637
+Port Vila,Port au Prince,13637
 Port Vila,Tegucigalpa,11982
 Port Vila,Kingston,13164
-Port Vila,Fort-de-France,14743
+Port Vila,Fort de France,14743
 Port Vila,Mexico City,10911
 Port Vila,Plymouth,14664
 Port Vila,Willemstad,10195
@@ -24945,7 +24945,7 @@ Port Vila,Gustavia,14616
 Port Vila,Basseterre,14619
 Port Vila,Castries,14737
 Port Vila,Marigot,14595
-Port Vila,Saint-Pierre,14835
+Port Vila,Saint Pierre,14835
 Port Vila,Kingstown,14695
 Port Vila,Port of Spain,14600
 Port Vila,Cockburn Town,13809
@@ -24976,7 +24976,7 @@ Port Vila,Nuku'alofa,1768
 Port Vila,Funafuti,1559
 Mata-Utu,Algiers,17404
 Mata-Utu,Luanda,17345
-Mata-Utu,Porto-Novo,19249
+Mata-Utu,Porto Novo,19249
 Mata-Utu,Gaborone,15164
 Mata-Utu,Ouagadougou,19425
 Mata-Utu,Bujumbura,16643
@@ -25013,7 +25013,7 @@ Mata-Utu,Windhoek,15776
 Mata-Utu,Niamey,19827
 Mata-Utu,Abuja,19401
 Mata-Utu,Brazzaville,17690
-Mata-Utu,Saint-Denis,13217
+Mata-Utu,Saint Denis,13217
 Mata-Utu,Kigali,16663
 Mata-Utu,Jamestown,16601
 Mata-Utu,São Tomé,18541
@@ -25154,10 +25154,10 @@ Mata-Utu,Nuuk (Godthåb),12957
 Mata-Utu,St. George's,12921
 Mata-Utu,Basse-Terre,12984
 Mata-Utu,New Guatemala,9923
-Mata-Utu,Port-au-Prince,11906
+Mata-Utu,Port au Prince,11906
 Mata-Utu,Tegucigalpa,10254
 Mata-Utu,Kingston,11433
-Mata-Utu,Fort-de-France,13035
+Mata-Utu,Fort de France,13035
 Mata-Utu,Mexico City,9181
 Mata-Utu,Plymouth,12943
 Mata-Utu,Willemstad,10851
@@ -25168,7 +25168,7 @@ Mata-Utu,Gustavia,12891
 Mata-Utu,Basseterre,12895
 Mata-Utu,Castries,13032
 Mata-Utu,Marigot,12868
-Mata-Utu,Saint-Pierre,13348
+Mata-Utu,Saint Pierre,13348
 Mata-Utu,Kingstown,12996
 Mata-Utu,Port of Spain,12920
 Mata-Utu,Cockburn Town,12076
@@ -25200,7 +25200,7 @@ Mata-Utu,Funafuti,733
 Mata-Utu,Port Vila,1733
 Buenos Aires,Algiers,10163
 Buenos Aires,Luanda,7771
-Buenos Aires,Porto-Novo,7849
+Buenos Aires,Porto Novo,7849
 Buenos Aires,Gaborone,7991
 Buenos Aires,Ouagadougou,7946
 Buenos Aires,Bujumbura,9587
@@ -25237,7 +25237,7 @@ Buenos Aires,Windhoek,7325
 Buenos Aires,Niamey,8322
 Buenos Aires,Abuja,8445
 Buenos Aires,Brazzaville,8245
-Buenos Aires,Saint-Denis,10699
+Buenos Aires,Saint Denis,10699
 Buenos Aires,Kigali,9742
 Buenos Aires,Jamestown,5616
 Buenos Aires,São Tomé,7777
@@ -25378,10 +25378,10 @@ Buenos Aires,Nuuk (Godthåb),11001
 Buenos Aires,St. George's,5202
 Buenos Aires,Basse-Terre,5639
 Buenos Aires,New Guatemala,6443
-Buenos Aires,Port-au-Prince,6092
+Buenos Aires,Port au Prince,6092
 Buenos Aires,Tegucigalpa,6212
 Buenos Aires,Kingston,6165
-Buenos Aires,Fort-de-France,5480
+Buenos Aires,Fort de France,5480
 Buenos Aires,Mexico City,7392
 Buenos Aires,Plymouth,5721
 Buenos Aires,Willemstad,5674
@@ -25392,7 +25392,7 @@ Buenos Aires,Gustavia,5858
 Buenos Aires,Basseterre,5789
 Buenos Aires,Castries,5412
 Buenos Aires,Marigot,5879
-Buenos Aires,Saint-Pierre,9053
+Buenos Aires,Saint Pierre,9053
 Buenos Aires,Kingstown,5320
 Buenos Aires,Port of Spain,5046
 Buenos Aires,Cockburn Town,6379
@@ -25425,7 +25425,7 @@ Buenos Aires,Port Vila,12386
 Buenos Aires,Mata-Utu,11571
 Sucre,Algiers,9465
 Sucre,Luanda,8486
-Sucre,Porto-Novo,7952
+Sucre,Porto Novo,7952
 Sucre,Gaborone,9251
 Sucre,Ouagadougou,7805
 Sucre,Bujumbura,10370
@@ -25462,7 +25462,7 @@ Sucre,Windhoek,8454
 Sucre,Niamey,8216
 Sucre,Abuja,8558
 Sucre,Brazzaville,8860
-Sucre,Saint-Denis,12183
+Sucre,Saint Denis,12183
 Sucre,Kigali,10495
 Sucre,Jamestown,6295
 Sucre,São Tomé,8131
@@ -25603,10 +25603,10 @@ Sucre,Nuuk (Godthåb),9326
 Sucre,St. George's,3478
 Sucre,Basse-Terre,3914
 Sucre,New Guatemala,4654
-Sucre,Port-au-Prince,4248
+Sucre,Port au Prince,4248
 Sucre,Tegucigalpa,4397
 Sucre,Kingston,4306
-Sucre,Fort-de-France,3769
+Sucre,Fort de France,3769
 Sucre,Mexico City,5651
 Sucre,Plymouth,3988
 Sucre,Willemstad,7533
@@ -25617,7 +25617,7 @@ Sucre,Gustavia,4115
 Sucre,Basseterre,4048
 Sucre,Castries,3702
 Sucre,Marigot,4132
-Sucre,Saint-Pierre,7374
+Sucre,Saint Pierre,7374
 Sucre,Kingstown,3607
 Sucre,Port of Spain,3328
 Sucre,Cockburn Town,4548
@@ -25651,7 +25651,7 @@ Sucre,Mata-Utu,11640
 Sucre,Buenos Aires,1861
 Brasília,Algiers,7913
 Brasília,Luanda,6668
-Brasília,Porto-Novo,6089
+Brasília,Porto Novo,6089
 Brasília,Gaborone,7683
 Brasília,Ouagadougou,5987
 Brasília,Bujumbura,8546
@@ -25688,7 +25688,7 @@ Brasília,Windhoek,6820
 Brasília,Niamey,6393
 Brasília,Abuja,6697
 Brasília,Brazzaville,7014
-Brasília,Saint-Denis,10717
+Brasília,Saint Denis,10717
 Brasília,Kigali,8664
 Brasília,Jamestown,4507
 Brasília,São Tomé,6259
@@ -25829,10 +25829,10 @@ Brasília,Nuuk (Godthåb),8897
 Brasília,St. George's,3449
 Brasília,Basse-Terre,3845
 Brasília,New Guatemala,5773
-Brasília,Port-au-Prince,4659
+Brasília,Port au Prince,4659
 Brasília,Tegucigalpa,5446
 Brasília,Kingston,4909
-Brasília,Fort-de-France,3675
+Brasília,Fort de France,3675
 Brasília,Mexico City,6831
 Brasília,Plymouth,3938
 Brasília,Willemstad,7199
@@ -25843,7 +25843,7 @@ Brasília,Gustavia,4086
 Brasília,Basseterre,4019
 Brasília,Castries,3610
 Brasília,Marigot,4113
-Brasília,Saint-Pierre,7005
+Brasília,Saint Pierre,7005
 Brasília,Kingstown,3534
 Brasília,Port of Spain,3300
 Brasília,Cockburn Town,4853
@@ -25878,7 +25878,7 @@ Brasília,Buenos Aires,2339
 Brasília,Sucre,1873
 Santiago,Algiers,10916
 Santiago,Luanda,8902
-Santiago,Porto-Novo,8877
+Santiago,Porto Novo,8877
 Santiago,Gaborone,9091
 Santiago,Ouagadougou,8904
 Santiago,Bujumbura,10724
@@ -25915,7 +25915,7 @@ Santiago,Windhoek,8450
 Santiago,Niamey,9295
 Santiago,Abuja,9481
 Santiago,Brazzaville,9369
-Santiago,Saint-Denis,11701
+Santiago,Saint Denis,11701
 Santiago,Kigali,10878
 Santiago,Jamestown,6735
 Santiago,São Tomé,8861
@@ -26056,10 +26056,10 @@ Santiago,Nuuk (Godthåb),10984
 Santiago,St. George's,5149
 Santiago,Basse-Terre,5581
 Santiago,New Guatemala,5748
-Santiago,Port-au-Prince,5785
+Santiago,Port au Prince,5785
 Santiago,Tegucigalpa,5570
 Santiago,Kingston,5759
-Santiago,Fort-de-France,5441
+Santiago,Fort de France,5441
 Santiago,Mexico City,6612
 Santiago,Plymouth,5650
 Santiago,Willemstad,6280
@@ -26070,7 +26070,7 @@ Santiago,Gustavia,5771
 Santiago,Basseterre,5705
 Santiago,Castries,5375
 Santiago,Marigot,5786
-Santiago,Saint-Pierre,9039
+Santiago,Saint Pierre,9039
 Santiago,Kingstown,5279
 Santiago,Port of Spain,5001
 Santiago,Cockburn Town,6107
@@ -26106,7 +26106,7 @@ Santiago,Sucre,1691
 Santiago,Brasília,3010
 Bogotá,Algiers,8554
 Bogotá,Luanda,9792
-Bogotá,Porto-Novo,8481
+Bogotá,Porto Novo,8481
 Bogotá,Gaborone,11230
 Bogotá,Ouagadougou,8005
 Bogotá,Bujumbura,11525
@@ -26143,7 +26143,7 @@ Bogotá,Windhoek,10323
 Bogotá,Niamey,8397
 Bogotá,Abuja,9002
 Bogotá,Brazzaville,9975
-Bogotá,Saint-Denis,14280
+Bogotá,Saint Denis,14280
 Bogotá,Kigali,11592
 Bogotá,Jamestown,7856
 Bogotá,São Tomé,8986
@@ -26284,10 +26284,10 @@ Bogotá,Nuuk (Godthåb),6862
 Bogotá,St. George's,1589
 Bogotá,Basse-Terre,1850
 Bogotá,New Guatemala,2116
-Bogotá,Port-au-Prince,1560
+Bogotá,Port au Prince,1560
 Bogotá,Tegucigalpa,1783
 Bogotá,Kingston,1518
-Bogotá,Fort-de-France,1807
+Bogotá,Fort de France,1807
 Bogotá,Mexico City,3176
 Bogotá,Plymouth,1867
 Bogotá,Willemstad,10333
@@ -26298,7 +26298,7 @@ Bogotá,Gustavia,1917
 Bogotá,Basseterre,1875
 Bogotá,Castries,1773
 Bogotá,Marigot,1916
-Bogotá,Saint-Pierre,4995
+Bogotá,Saint Pierre,4995
 Bogotá,Kingstown,1702
 Bogotá,Port of Spain,1539
 Bogotá,Cockburn Town,1900
@@ -26335,7 +26335,7 @@ Bogotá,Brasília,3664
 Bogotá,Santiago,4249
 Quito,Algiers,9272
 Quito,Luanda,10196
-Quito,Porto-Novo,9029
+Quito,Porto Novo,9029
 Quito,Gaborone,11452
 Quito,Ouagadougou,8601
 Quito,Bujumbura,11991
@@ -26372,7 +26372,7 @@ Quito,Windhoek,10573
 Quito,Niamey,9001
 Quito,Abuja,9572
 Quito,Brazzaville,10427
-Quito,Saint-Denis,14493
+Quito,Saint Denis,14493
 Quito,Kigali,12071
 Quito,Jamestown,8163
 Quito,São Tomé,9480
@@ -26513,10 +26513,10 @@ Quito,Nuuk (Godthåb),7489
 Quito,St. George's,2301
 Quito,Basse-Terre,2579
 Quito,New Guatemala,2115
-Quito,Port-au-Prince,2194
+Quito,Port au Prince,2194
 Quito,Tegucigalpa,1857
 Quito,Kingston,2036
-Quito,Fort-de-France,2531
+Quito,Fort de France,2531
 Quito,Mexico City,3135
 Quito,Plymouth,2597
 Quito,Willemstad,10008
@@ -26527,7 +26527,7 @@ Quito,Gustavia,2646
 Quito,Basseterre,2605
 Quito,Castries,2494
 Quito,Marigot,2644
-Quito,Saint-Pierre,5662
+Quito,Saint Pierre,5662
 Quito,Kingstown,2419
 Quito,Port of Spain,2236
 Quito,Cockburn Town,2541
@@ -26565,7 +26565,7 @@ Quito,Santiago,3785
 Quito,Bogotá,730
 Stanley,Algiers,11473
 Stanley,Luanda,7938
-Stanley,Porto-Novo,8628
+Stanley,Porto Novo,8628
 Stanley,Gaborone,7465
 Stanley,Ouagadougou,8935
 Stanley,Bujumbura,9520
@@ -26602,7 +26602,7 @@ Stanley,Windhoek,7035
 Stanley,Niamey,9252
 Stanley,Abuja,9166
 Stanley,Brazzaville,8478
-Stanley,Saint-Denis,9685
+Stanley,Saint Denis,9685
 Stanley,Kigali,9693
 Stanley,Jamestown,6055
 Stanley,São Tomé,8323
@@ -26743,10 +26743,10 @@ Stanley,Nuuk (Godthåb),12896
 Stanley,St. George's,7100
 Stanley,Basse-Terre,7537
 Stanley,New Guatemala,8023
-Stanley,Port-au-Prince,7936
+Stanley,Port au Prince,7936
 Stanley,Tegucigalpa,7845
 Stanley,Kingston,7966
-Stanley,Fort-de-France,7380
+Stanley,Fort de France,7380
 Stanley,Mexico City,8866
 Stanley,Plymouth,7619
 Stanley,Willemstad,4007
@@ -26757,7 +26757,7 @@ Stanley,Gustavia,7754
 Stanley,Basseterre,7686
 Stanley,Castries,7312
 Stanley,Marigot,7775
-Stanley,Saint-Pierre,10952
+Stanley,Saint Pierre,10952
 Stanley,Kingstown,7219
 Stanley,Port of Spain,6944
 Stanley,Cockburn Town,8238
@@ -26796,7 +26796,7 @@ Stanley,Bogotá,6448
 Stanley,Quito,6042
 Cayenne,Algiers,6634
 Cayenne,Luanda,7427
-Cayenne,Porto-Novo,6077
+Cayenne,Porto Novo,6077
 Cayenne,Gaborone,9057
 Cayenne,Ouagadougou,5637
 Cayenne,Bujumbura,9121
@@ -26833,7 +26833,7 @@ Cayenne,Windhoek,8129
 Cayenne,Niamey,6039
 Cayenne,Abuja,6611
 Cayenne,Brazzaville,7579
-Cayenne,Saint-Denis,12048
+Cayenne,Saint Denis,12048
 Cayenne,Kigali,9184
 Cayenne,Jamestown,5628
 Cayenne,São Tomé,6578
@@ -26974,10 +26974,10 @@ Cayenne,Nuuk (Godthåb),6588
 Cayenne,St. George's,1304
 Cayenne,Basse-Terre,1602
 Cayenne,New Guatemala,4313
-Cayenne,Port-au-Prince,2647
+Cayenne,Port au Prince,2647
 Cayenne,Tegucigalpa,3952
 Cayenne,Kingston,3030
-Cayenne,Fort-de-France,1440
+Cayenne,Fort de France,1440
 Cayenne,Mexico City,5315
 Cayenne,Plymouth,1696
 Cayenne,Willemstad,9533
@@ -26988,7 +26988,7 @@ Cayenne,Gustavia,1841
 Cayenne,Basseterre,1781
 Cayenne,Castries,1386
 Cayenne,Marigot,1871
-Cayenne,Saint-Pierre,4668
+Cayenne,Saint Pierre,4668
 Cayenne,Kingstown,1337
 Cayenne,Port of Spain,1196
 Cayenne,Cockburn Town,2737
@@ -27028,7 +27028,7 @@ Cayenne,Quito,2965
 Cayenne,Stanley,6319
 Georgetown,Algiers,7004
 Georgetown,Luanda,8100
-Georgetown,Porto-Novo,6706
+Georgetown,Porto Novo,6706
 Georgetown,Gaborone,9728
 Georgetown,Ouagadougou,6229
 Georgetown,Bujumbura,9779
@@ -27065,7 +27065,7 @@ Georgetown,Windhoek,8801
 Georgetown,Niamey,6624
 Georgetown,Abuja,7224
 Georgetown,Brazzaville,8243
-Georgetown,Saint-Denis,12725
+Georgetown,Saint Denis,12725
 Georgetown,Kigali,9837
 Georgetown,Jamestown,6301
 Georgetown,São Tomé,7232
@@ -27206,10 +27206,10 @@ Georgetown,Nuuk (Godthåb),6401
 Georgetown,St. George's,705
 Georgetown,Basse-Terre,1094
 Georgetown,New Guatemala,3636
-Georgetown,Port-au-Prince,2015
+Georgetown,Port au Prince,2015
 Georgetown,Tegucigalpa,3275
 Georgetown,Kingston,2372
-Georgetown,Fort-de-France,925
+Georgetown,Fort de France,925
 Georgetown,Mexico City,4639
 Georgetown,Plymouth,1187
 Georgetown,Willemstad,9943
@@ -27220,7 +27220,7 @@ Georgetown,Gustavia,1335
 Georgetown,Basseterre,1268
 Georgetown,Castries,859
 Georgetown,Marigot,1362
-Georgetown,Saint-Pierre,4450
+Georgetown,Saint Pierre,4450
 Georgetown,Kingstown,782
 Georgetown,Port of Spain,567
 Georgetown,Cockburn Town,2145
@@ -27261,7 +27261,7 @@ Georgetown,Stanley,6505
 Georgetown,Cayenne,678
 Asunción,Algiers,9376
 Asunción,Luanda,7672
-Asunción,Porto-Novo,7403
+Asunción,Porto Novo,7403
 Asunción,Gaborone,8262
 Asunción,Ouagadougou,7380
 Asunción,Bujumbura,9546
@@ -27298,7 +27298,7 @@ Asunción,Windhoek,7497
 Asunción,Niamey,7777
 Asunción,Abuja,8011
 Asunción,Brazzaville,8089
-Asunción,Saint-Denis,11154
+Asunción,Saint Denis,11154
 Asunción,Kigali,9684
 Asunción,Jamestown,5470
 Asunción,São Tomé,7465
@@ -27439,10 +27439,10 @@ Asunción,Nuuk (Godthåb),9963
 Asunción,St. George's,4178
 Asunción,Basse-Terre,4614
 Asunción,New Guatemala,5693
-Asunción,Port-au-Prince,5128
+Asunción,Port au Prince,5128
 Asunción,Tegucigalpa,5426
 Asunción,Kingston,5242
-Asunción,Fort-de-France,4453
+Asunción,Fort de France,4453
 Asunción,Mexico City,6697
 Asunción,Plymouth,4697
 Asunción,Willemstad,6588
@@ -27453,7 +27453,7 @@ Asunción,Gustavia,4837
 Asunción,Basseterre,4768
 Asunción,Castries,4385
 Asunción,Marigot,4858
-Asunción,Saint-Pierre,8016
+Asunción,Saint Pierre,8016
 Asunción,Kingstown,4294
 Asunción,Port of Spain,4022
 Asunción,Cockburn Town,5400
@@ -27495,7 +27495,7 @@ Asunción,Cayenne,3410
 Asunción,Georgetown,3570
 Lima,Algiers,9942
 Lima,Luanda,9831
-Lima,Porto-Novo,9040
+Lima,Porto Novo,9040
 Lima,Gaborone,10723
 Lima,Ouagadougou,8760
 Lima,Bujumbura,11704
@@ -27532,7 +27532,7 @@ Lima,Windhoek,9910
 Lima,Niamey,9174
 Lima,Abuja,9628
 Lima,Brazzaville,10159
-Lima,Saint-Denis,13663
+Lima,Saint Denis,13663
 Lima,Kigali,11817
 Lima,Jamestown,7671
 Lima,São Tomé,9337
@@ -27673,10 +27673,10 @@ Lima,Nuuk (Godthåb),8742
 Lima,St. George's,3166
 Lima,Basse-Terre,3543
 Lima,New Guatemala,3318
-Lima,Port-au-Prince,3439
+Lima,Port au Prince,3439
 Lima,Tegucigalpa,3114
 Lima,Kingston,3340
-Lima,Fort-de-France,3446
+Lima,Fort de France,3446
 Lima,Mexico City,4255
 Lima,Plymouth,3588
 Lima,Willemstad,8725
@@ -27687,7 +27687,7 @@ Lima,Gustavia,3675
 Lima,Basseterre,3620
 Lima,Castries,3391
 Lima,Marigot,3681
-Lima,Saint-Pierre,6863
+Lima,Saint Pierre,6863
 Lima,Kingstown,3300
 Lima,Port of Spain,3051
 Lima,Cockburn Town,3780
@@ -27730,7 +27730,7 @@ Lima,Georgetown,2957
 Lima,Asunción,2513
 Paramaribo,Algiers,6810
 Paramaribo,Luanda,7756
-Paramaribo,Porto-Novo,6383
+Paramaribo,Porto Novo,6383
 Paramaribo,Gaborone,9385
 Paramaribo,Ouagadougou,5924
 Paramaribo,Bujumbura,9442
@@ -27767,7 +27767,7 @@ Paramaribo,Windhoek,8458
 Paramaribo,Niamey,6322
 Paramaribo,Abuja,6909
 Paramaribo,Brazzaville,7903
-Paramaribo,Saint-Denis,12380
+Paramaribo,Saint Denis,12380
 Paramaribo,Kigali,9502
 Paramaribo,Jamestown,5957
 Paramaribo,São Tomé,6896
@@ -27908,10 +27908,10 @@ Paramaribo,Nuuk (Godthåb),6490
 Paramaribo,St. George's,998
 Paramaribo,Basse-Terre,1334
 Paramaribo,New Guatemala,3982
-Paramaribo,Port-au-Prince,2334
+Paramaribo,Port au Prince,2334
 Paramaribo,Tegucigalpa,3621
 Paramaribo,Kingston,2706
-Paramaribo,Fort-de-France,1166
+Paramaribo,Fort de France,1166
 Paramaribo,Mexico City,4984
 Paramaribo,Plymouth,1428
 Paramaribo,Willemstad,9735
@@ -27922,7 +27922,7 @@ Paramaribo,Gustavia,1576
 Paramaribo,Basseterre,1513
 Paramaribo,Castries,1107
 Paramaribo,Marigot,1605
-Paramaribo,Saint-Pierre,4550
+Paramaribo,Saint Pierre,4550
 Paramaribo,Kingstown,1047
 Paramaribo,Port of Spain,879
 Paramaribo,Cockburn Town,2441
@@ -27966,7 +27966,7 @@ Paramaribo,Asunción,3476
 Paramaribo,Lima,3132
 Montevideo,Algiers,10040
 Montevideo,Luanda,7571
-Montevideo,Porto-Novo,7674
+Montevideo,Porto Novo,7674
 Montevideo,Gaborone,7791
 Montevideo,Ouagadougou,7786
 Montevideo,Bujumbura,9385
@@ -28003,7 +28003,7 @@ Montevideo,Windhoek,7122
 Montevideo,Niamey,8158
 Montevideo,Abuja,8267
 Montevideo,Brazzaville,8047
-Montevideo,Saint-Denis,10511
+Montevideo,Saint Denis,10511
 Montevideo,Kigali,9540
 Montevideo,Jamestown,5420
 Montevideo,São Tomé,7589
@@ -28144,10 +28144,10 @@ Montevideo,Nuuk (Godthåb),11016
 Montevideo,St. George's,5247
 Montevideo,Basse-Terre,5682
 Montevideo,New Guatemala,6587
-Montevideo,Port-au-Prince,6176
+Montevideo,Port au Prince,6176
 Montevideo,Tegucigalpa,6349
 Montevideo,Kingston,6265
-Montevideo,Fort-de-France,5522
+Montevideo,Fort de France,5522
 Montevideo,Mexico City,7548
 Montevideo,Plymouth,5766
 Montevideo,Willemstad,5564
@@ -28158,7 +28158,7 @@ Montevideo,Gustavia,5906
 Montevideo,Basseterre,5837
 Montevideo,Castries,5454
 Montevideo,Marigot,5927
-Montevideo,Saint-Pierre,9075
+Montevideo,Saint Pierre,9075
 Montevideo,Kingstown,5363
 Montevideo,Port of Spain,5091
 Montevideo,Cockburn Town,6456
@@ -28203,7 +28203,7 @@ Montevideo,Lima,3294
 Montevideo,Paramaribo,4527
 Caracas,Algiers,7528
 Caracas,Luanda,9120
-Caracas,Porto-Novo,7640
+Caracas,Porto Novo,7640
 Caracas,Gaborone,10770
 Caracas,Ouagadougou,7108
 Caracas,Bujumbura,10757
@@ -28240,7 +28240,7 @@ Caracas,Windhoek,9844
 Caracas,Niamey,7487
 Caracas,Abuja,8130
 Caracas,Brazzaville,9240
-Caracas,Saint-Denis,13765
+Caracas,Saint Denis,13765
 Caracas,Kigali,10806
 Caracas,Jamestown,7344
 Caracas,São Tomé,8209
@@ -28381,10 +28381,10 @@ Caracas,Nuuk (Godthåb),6087
 Caracas,St. George's,586
 Caracas,Basse-Terre,828
 Caracas,New Guatemala,2604
-Caracas,Port-au-Prince,1071
+Caracas,Port au Prince,1071
 Caracas,Tegucigalpa,2244
 Caracas,Kingston,1355
-Caracas,Fort-de-France,779
+Caracas,Fort de France,779
 Caracas,Mexico City,3597
 Caracas,Plymouth,856
 Caracas,Willemstad,10660
@@ -28395,7 +28395,7 @@ Caracas,Gustavia,931
 Caracas,Basseterre,879
 Caracas,Castries,748
 Caracas,Marigot,937
-Caracas,Saint-Pierre,4160
+Caracas,Saint Pierre,4160
 Caracas,Kingstown,684
 Caracas,Port of Spain,586
 Caracas,Cockburn Town,1302

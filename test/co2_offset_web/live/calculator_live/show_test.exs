@@ -31,12 +31,12 @@ defmodule Co2OffsetWeb.CalculatorLive.ShowTest do
     assert html =~ "642"
     assert html =~ "Car"
     assert html =~ "1751"
-    assert html =~ distance_1700.capital_from
-    assert html =~ distance_1700.capital_to
+    assert html =~ distance_1700.from
+    assert html =~ distance_1700.to
     assert html =~ "Train"
     assert html =~ "10272"
-    assert html =~ distance_10000.capital_from
-    assert html =~ distance_10000.capital_to
+    assert html =~ distance_10000.from
+    assert html =~ distance_10000.to
     assert html =~ "Petrol"
     assert html =~ "99"
     assert html =~ "Human"
