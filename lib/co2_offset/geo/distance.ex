@@ -1,4 +1,4 @@
-defmodule Co2Offset.Geo.CapitalsDistance do
+defmodule Co2Offset.Geo.Distance do
   use Ecto.Schema
 
   @moduledoc """
@@ -6,9 +6,9 @@ defmodule Co2Offset.Geo.CapitalsDistance do
   Used for "Same distance as blocks"
   """
 
-  schema "capitals_distances" do
-    field :capital_from, :string
-    field :capital_to, :string
+  schema "distances" do
+    field :from, :string
+    field :to, :string
     field :distance, :integer
   end
 end
