@@ -41,6 +41,7 @@ defmodule Mix.Tasks.Co2Offset.UpdateCapitalsDistancesCsv do
           Enum.at(Enum.at(capitals, 1)["geometry"]["coordinates"], 0)
         )
 
+      # credo:disable-for-next-line
       capitals ++ [distance]
     end)
   end
@@ -87,6 +88,7 @@ defmodule Mix.Tasks.Co2Offset.UpdateCapitalsDistancesCsv do
 
       %{capitals: capitals, combinations: combinations} ->
         new_combinations = Enum.map(capitals, fn capital -> [current, capital] end)
+        # credo:disable-for-next-line
         %{capitals: capitals ++ [current], combinations: combinations ++ new_combinations}
     end
   end
