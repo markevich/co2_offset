@@ -81,8 +81,11 @@
                   </div>
                   <%= for airport <- airports do %>
                     <div class="new-calculator-autocomplete__item" phx-click="set_iata_to" phx-value="<%= airport.iata %>">
-                      <div class="new-calculator-autocomplete__name">
-                        <%= airport.name %>
+                      <div class="new-calculator-autocomplete__airport">
+                        <img src="<%= Routes.static_path(@socket, "/images/calculator.new/autocomplete-plane.svg") %>" class="new-calculator-autocomplete__icon"></img>
+                        <div class="new-calculator-autocomplete__name">
+                         <%= airport.name %>
+                        </div>
                       </div>
                       <div class="new-calculator-autocomplete__iata">
                         <%= airport.iata %>
