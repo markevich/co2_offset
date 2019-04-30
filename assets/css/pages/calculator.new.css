@@ -1,4 +1,4 @@
-.new-calculator-container {
+.container {
   background-color: var(--c-primary-zeta);
   height: 100%;
   display: flex;
@@ -6,7 +6,7 @@
   padding: 16px;
 }
 
-.new-calculator-container__heading {
+.container__heading {
   margin: 0;
   margin-top: 2px;
   flex: 1;
@@ -14,45 +14,45 @@
   color: var(--c-primary-alpha);
 }
 
-.new-calculator-container__subheading-container {
+.container__subheading-container {
   flex: 3;
 }
 
-.new-calculator-container__subheading {
+.container__subheading {
   font: var(--t-body-gamma);
   line-height: 32px;
   color: var(--c-primary-alpha);
 }
 
-.new-calculator-container__leaf {
+.container__leaf {
   position: fixed;
   right: -10vh;
   top: 35%;
   width: 25vh;
 }
 
-.new-calculator-form__container {
+.form__container {
   flex: 1;
   align-self: flex-end;
   width: 100%;
 }
 
-.new-calculator-form__heading {
+.form__heading {
   font: var(--t-body-beta);
   line-height: 28px;
   margin: 0;
   color: var(--c-primary-alpha);
 }
 
-.new-calculator-form__form {
+.form__form {
   margin-top: 10px;
 }
 
-.new-calculator-form__input-group {
+.form__input-group {
   position: relative;
 }
 
-.new-calculator-form__input {
+.form__input {
   border: none;
   height: 68px;
   width: 100%;
@@ -62,25 +62,25 @@
   font: var(--t-body-beta);
 }
 
-.new-calculator-form__input:focus {
+.form__input:focus {
   outline: none;
   border: 1px solid var(--c-primary-alpha);
 }
 
-.new-calculator-form__input--upper {
+.form__input--upper {
   border-radius: 5px 5px 0 0;
 }
 
-.new-calculator-form__input--upper:after {
+.form__input--upper:after {
   position: absolute;
   content: '';
 }
 
-.new-calculator-form__input--bottom {
+.form__input--bottom {
   border-radius: 0 0 5px 5px;
 }
 
-.new-calculator-form__label {
+.form__label {
   color: var(--c-neutral-gamma);
   font: var(--t-body-beta);
   position: absolute;
@@ -93,19 +93,19 @@
 }
 
 /* active state */
-.new-calculator-form__input:focus~.new-calculator-form__label,
-.new-calculator-form__input:valid~.new-calculator-form__label {
+.form__input:focus~.form__label,
+.form__input:valid~.form__label {
   top: 10px;
   font: var(--t-caption-beta);
 }
 
-.new-calculator-form__line-container {
+.form__line-container {
   position: relative;
   height: 1px;
   background-color: var(--c-neutral-iota);
 }
 
-.new-calculator-form__line {
+.form__line {
   position: absolute;
   border: none;
   margin: 0;
@@ -115,7 +115,7 @@
   left: 5%;
 }
 
-.new-calculator-form__button {
+.form__button {
   margin-top: 20px;
   height: 55px;
   width: 100%;
@@ -124,11 +124,11 @@
   margin-bottom: 13px;
 }
 
-.new-calculator-autocomplete{
+.autocomplete{
   position: relative;
 }
 
-.new-calculator-autocomplete__container{
+.autocomplete__container{
   background-color: var(--c-neutral-iota);
   color: var(--c-neutral-alpha);
   width: 100%;
@@ -138,34 +138,34 @@
   overflow: scroll;
 }
 
-.new-calculator-autocomplete__group {
+.autocomplete__group {
   padding: 16px;
 }
 
-.new-calculator-autocomplete__location{
+.autocomplete__location{
   color: var(--c-neutral-gamma);
 }
 
-.new-calculator-autocomplete__item{
+.autocomplete__item{
   display: flex;
   justify-content: space-between;
   margin-top: 15px;
   align-items: center;
 }
 
-.new-calculator-autocomplete__airport{
+.autocomplete__airport{
   margin-left: 10px;
   display: flex;
   flex-direction: row;
 }
 
-.new-calculator-autocomplete__icon{
+.autocomplete__icon{
   width: 19px;
   height: 19px;
   margin-right: 8px;
 }
 
-.new-calculator-autocomplete__iata{
+.autocomplete__iata{
   font: var(--t-caption-beta);
   text-transform: uppercase;
   color: var(--c-neutral-gamma);

@@ -5,7 +5,7 @@
 <link rel="preload" href="<%= Routes.static_path(@socket, "/js/pages/calculator.show.js") %>" as="script">
 
 <%= #link "Go to calculator", to: Routes.calculator_path(@socket, :show, 1) %>
-<div class="new-calculator-container">
+<div class="container">
   <div class="header">
     <span class="header__logo">CO²</span>
     <div class="header__menu">
@@ -16,45 +16,45 @@
   </div>
 
 
-  <h1 class="new-calculator-container__heading">
+  <h1 class="container__heading">
     Offset your flight CO² emissions
   </h1>
 
-  <div class="new-calculator-container__subheading-container">
-    <h2 class="new-calculator-container__subheading">
+  <div class="container__subheading-container">
+    <h2 class="container__subheading">
       Measure your carbon footprint<br />
       and take the first step to help<br />
       to restore the balance.
     </h2>
-    <img class="new-calculator-container__leaf" src="<%= Routes.static_path(@socket, "/images/calculator.new/leaf.svg") %>">
+    <img class="container__leaf" src="<%= Routes.static_path(@socket, "/images/calculator.new/leaf.svg") %>">
   </div>
 
 
-  <div class="new-calculator-form__container">
-    <h4 class="new-calculator-form__heading">
+  <div class="form__container">
+    <h4 class="form__heading">
       Enter your flight details
     </h4>
-    <%= f = form_for @changeset, "#", class: "new-calculator-form__form", autocomplete: :off, phx_submit: :save, phx_change: :autocomplete %>
-      <div class="new-calculator-form__input-group">
-        <%= text_input f, :iata_from, class: "new-calculator-form__input new-calculator-form__input--upper", required: :required, autocomplete: :off, phx_focus: :show_iata_from_autocomplete %>
-        <label class="new-calculator-form__label">Flight from</label>
-        <div class="new-calculator-autocomplete">
-          <div class="new-calculator-autocomplete__container">
+    <%= f = form_for @changeset, "#", class: "form__form", autocomplete: :off, phx_submit: :save, phx_change: :autocomplete %>
+      <div class="form__input-group">
+        <%= text_input f, :iata_from, class: "form__input form__input--upper", required: :required, autocomplete: :off, phx_focus: :show_iata_from_autocomplete %>
+        <label class="form__label">Flight from</label>
+        <div class="autocomplete">
+          <div class="autocomplete__container">
           <%= if @show_iata_from_autocomplete do %>
               <%= for {city, airports} <- @iata_from_autocomplete do %>
-                <div class="new-calculator-autocomplete__group">
-                  <div class="new-calculator-autocomplete__location">
-                    <%= city %>, <span class="new-calculator-autocomplete__country"><%= List.first(airports).country %></span>
+                <div class="autocomplete__group">
+                  <div class="autocomplete__location">
+                    <%= city %>, <span class="autocomplete__country"><%= List.first(airports).country %></span>
                   </div>
                   <%= for airport <- airports do %>
-                    <div class="new-calculator-autocomplete__item" phx-click="set_iata_from" phx-value="<%= airport.iata %>">
-                      <div class="new-calculator-autocomplete__airport">
-                        <img src="<%= Routes.static_path(@socket, "/images/calculator.new/autocomplete-plane.svg") %>" class="new-calculator-autocomplete__icon"></img>
-                        <div class="new-calculator-autocomplete__name">
+                    <div class="autocomplete__item" phx-click="set_iata_from" phx-value="<%= airport.iata %>">
+                      <div class="autocomplete__airport">
+                        <img src="<%= Routes.static_path(@socket, "/images/calculator.new/autocomplete-plane.svg") %>" class="autocomplete__icon"></img>
+                        <div class="autocomplete__name">
                          <%= airport.name %>
                         </div>
                       </div>
-                      <div class="new-calculator-autocomplete__iata">
+                      <div class="autocomplete__iata">
                         <%= airport.iata %>
                       </div>
                     </div>
@@ -65,29 +65,29 @@
           </div>
         </div>
       </div>
-      <div class="new-calculator-form__line-container">
-        <hr class="new-calculator-form__line"></hr>
+      <div class="form__line-container">
+        <hr class="form__line"></hr>
       </div>
-      <div class="new-calculator-form__input-group">
-        <%= text_input f, :iata_to, class: "new-calculator-form__input new-calculator-form__input--bottom", required: :required, autocomplete: :off, phx_focus: :show_iata_to_autocomplete %>
-        <label class="new-calculator-form__label">Flight to</label>
-        <div class="new-calculator-autocomplete">
-          <div class="new-calculator-autocomplete__container">
+      <div class="form__input-group">
+        <%= text_input f, :iata_to, class: "form__input form__input--bottom", required: :required, autocomplete: :off, phx_focus: :show_iata_to_autocomplete %>
+        <label class="form__label">Flight to</label>
+        <div class="autocomplete">
+          <div class="autocomplete__container">
           <%= if @show_iata_to_autocomplete do %>
               <%= for {city, airports} <- @iata_to_autocomplete do %>
-                <div class="new-calculator-autocomplete__group">
-                  <div class="new-calculator-autocomplete__location">
+                <div class="autocomplete__group">
+                  <div class="autocomplete__location">
                     <%= city %>, <%= List.first(airports).country %>
                   </div>
                   <%= for airport <- airports do %>
-                    <div class="new-calculator-autocomplete__item" phx-click="set_iata_to" phx-value="<%= airport.iata %>">
-                      <div class="new-calculator-autocomplete__airport">
-                        <img src="<%= Routes.static_path(@socket, "/images/calculator.new/autocomplete-plane.svg") %>" class="new-calculator-autocomplete__icon"></img>
-                        <div class="new-calculator-autocomplete__name">
+                    <div class="autocomplete__item" phx-click="set_iata_to" phx-value="<%= airport.iata %>">
+                      <div class="autocomplete__airport">
+                        <img src="<%= Routes.static_path(@socket, "/images/calculator.new/autocomplete-plane.svg") %>" class="autocomplete__icon"></img>
+                        <div class="autocomplete__name">
                          <%= airport.name %>
                         </div>
                       </div>
-                      <div class="new-calculator-autocomplete__iata">
+                      <div class="autocomplete__iata">
                         <%= airport.iata %>
                       </div>
                     </div>
@@ -98,7 +98,7 @@
           </div>
         </div>
       </div>
-      <input class="button new-calculator-form__button" type="submit" value="Measure!"></input>
+      <input class="button form__button" type="submit" value="Measure!"></input>
     </form>
   </div>
 </div>
