@@ -1,6 +1,6 @@
 language: elixir
-elixir: '1.8.1'
-otp_release: '21.2.4'
+elixir: '1.9.0'
+otp_release: '22.0'
 
 cache:
   directories:
@@ -9,7 +9,7 @@ cache:
     - deps
 
 env:
-  - MIX_ENV=test TRAVIS_NODE_VERSION="11.11.0"
+  - MIX_ENV=test TRAVIS_NODE_VERSION="12.6.0"
 
 services:
   - postgresql
