@@ -21,22 +21,27 @@ body{
 .money__button{
   margin: 0;
   height: 35px;
-  background-color: var(--c-neutral-epsilon);
-  border-color: var(--c-neutral-epsilon);
+  outline: none;
+  background-color: var(--c-neutral-eta);
+  border-color: var(--c-neutral-zeta);
+  color: var(--c-neutral-beta);
   border-style: solid;
   width: 50px;
+  line-height: 0;
 }
 
 .money__button--dec{
   border-width: 1px 0 1px 1px;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
+  font-size: 18px;
 }
 
 .money__button--inc{
   border-width: 1px 1px 1px 0;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
+  font-size: 26px;
 }
 
 .money__amount{
@@ -47,7 +52,7 @@ body{
   line-height: 1;
   width: 80px;
   height: 100%;
-  border-color: var(--c-neutral-epsilon);
+  border-color: var(--c-neutral-zeta);
   border-width: 1px 0 1px 0;
   border-style: solid;
   font: var(--t-body-beta-bold);
@@ -143,6 +148,25 @@ body{
   align-items: center;
   font: var(--t-caption-beta);
 }
+
+.converter-item__examples-row__additional {
+  margin-top: 14px;
+}
+
+.converter-item__examples-from{
+  flex: 2;
+}
+
+.converter-item__examples-indicator{
+  height: 19px;
+  flex: 1;
+}
+
+.converter-item__examples-to{
+  flex: 2;
+  text-align: right;
+}
+
 
 .converter-item__examples-from{
   flex: 2;

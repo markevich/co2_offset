@@ -20,7 +20,7 @@ defmodule Co2OffsetWeb.CalculatorLive.New do
   def mount(_session, socket) do
     {:ok,
      assign(socket, %{
-       changeset: Calculators.change_calculator(%Calculator{}),
+       changeset: Calculators.change_static_calculator(%Calculator{}),
        show_iata_from_autocomplete: false,
        show_iata_to_autocomplete: false,
        iata_from_autocomplete: %{},

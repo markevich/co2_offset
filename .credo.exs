@@ -134,9 +134,9 @@
         #
         # Controversial and experimental checks (opt-in, just remove `, false`)
         #
-        {Credo.Check.Consistency.MultiAliasImportRequireUse},
+        {Credo.Check.Consistency.MultiAliasImportRequireUse, false},
         {Credo.Check.Design.DuplicatedCode},
-        {Credo.Check.Readability.MultiAlias},
+        {Credo.Check.Readability.MultiAlias, false},
         {Credo.Check.Readability.Specs, false},
         {Credo.Check.Refactor.ABCSize},
         {Credo.Check.Refactor.AppendSingleItem},

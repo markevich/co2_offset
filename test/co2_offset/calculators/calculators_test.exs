@@ -15,8 +15,8 @@ defmodule Co2Offset.CalculatorsTest do
     test "creates calculator", %{airport_from: airport_from, airport_to: airport_to} do
       iata_from = airport_from.iata
       iata_to = airport_to.iata
-      city_from = airport_from.city
-      city_to = airport_to.city
+      original_city_from = airport_from.city
+      original_city_to = airport_to.city
 
       attrs = %{iata_from: iata_from, iata_to: iata_to}
 
@@ -25,8 +25,8 @@ defmodule Co2Offset.CalculatorsTest do
       assert(
         {:ok,
          %Calculator{
-           city_from: ^city_from,
-           city_to: ^city_to,
+           original_city_from: ^original_city_from,
+           original_city_to: ^original_city_to,
            iata_from: ^iata_from,
            iata_to: ^iata_to,
            original_distance: 0
@@ -35,9 +35,9 @@ defmodule Co2Offset.CalculatorsTest do
     end
   end
 
-  describe "#change_calculator" do
+  describe "#change_static_calculator" do
     test "returns changeset" do
-      assert(%Ecto.Changeset{} = Calculators.change_calculator(%Calculator{}))
+      assert(%Ecto.Changeset{} = Calculators.change_static_calculator(%Calculator{}))
     end
   end
 

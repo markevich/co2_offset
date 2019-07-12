@@ -49,13 +49,13 @@ defmodule Co2Offset.MixProject do
       {:phoenix_ecto, "~> 4.0"},
       {:phoenix_html, "~> 2.13.1"},
       {:phoenix_live_reload, "~> 1.2", only: :dev},
-      {:ecto_sql, "~> 3.0.5"},
+      {:ecto_sql, "~> 3.1.6"},
       {:postgrex, ">= 0.0.0"},
       {:gettext, "~> 0.11"},
       {:jason, "~> 1.0"},
       {:plug_cowboy, "~> 2.0"},
       {:distillery, "~> 2.0"},
-      {:credo, "~> 1.0.2", only: [:dev, :test], runtime: false},
+      {:credo, "~> 1.1.0", only: [:dev, :test], runtime: false},
       {:ex_machina, "~> 2.3", only: :test},
       {:excoveralls, "~> 0.10", only: :test}
     ]

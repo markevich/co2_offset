@@ -2,45 +2,43 @@ defmodule Co2OffsetWeb.CalculatorLive.Show do
   use Phoenix.LiveView
   alias Co2Offset.Calculators
   alias Co2Offset.Converters
-  alias Co2Offset.Geo
   alias Phoenix.LiveView.Socket
 
   def render(assigns) do
     Co2OffsetWeb.CalculatorView.render("show.html", assigns)
   end
 
-  def mount(%{path_params: %{"id" => id}}, socket) do
+  def mount(_params, socket) do
+    {:ok, socket}
+  end
+
+  def handle_params(%{"id" => id}, _uri, socket) do
     new_socket =
       socket
       |> assign(id: id)
-      |> assign_converters
-      |> assign_similar_distances
+      |> assign_calculator()
+      |> assign_additional_examples()
 
-    {:ok, new_socket}
+    {:noreply, new_socket}
   end
 
-  defp assign_converters(%Socket{assigns: %{id: id}} = socket) do
+  def handle_event("increase_donation", _params, socket) do
+    {:noreply, socket}
+  end
+
+  def handle_event("decrease_donation", _params, socket) do
+    {:noreply, socket}
+  end
+
+  defp assign_calculator(%Socket{assigns: %{id: id}} = socket) do
     calculator = Calculators.get_calculator!(id)
-    converters = Converters.from_plane(calculator.original_distance)
 
-    assign(socket, calculator: calculator, converters: converters)
+    assign(socket, calculator: calculator)
   end
 
-  defp assign_similar_distances(%Socket{assigns: %{converters: converters}} = socket) do
-    new_converters =
-      converters
-      |> Map.update!(:car, &put_distance_examples/1)
-      |> Map.update!(:train, &put_distance_examples/1)
+  defp assign_additional_examples(%Socket{assigns: %{calculator: calculator}} = socket) do
+    examples = Converters.generate_examples(calculator)
 
-    assign(socket, converters: new_converters)
-  end
-
-  defp put_distance_examples(converter) do
-    %{from: location_from, to: location_to} =
-      Geo.get_locations_with_similar_distance(converter[:km])
-
-    converter
-    |> Map.put(:example_from, location_from)
-    |> Map.put(:example_to, location_to)
+    assign(socket, examples: examples)
   end
 end

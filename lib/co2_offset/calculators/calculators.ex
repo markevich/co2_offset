@@ -6,13 +6,13 @@ defmodule Co2Offset.Calculators do
   This module is a root Calculator context.
   """
 
-  def change_calculator(calculator, attrs \\ %{}) do
-    Calculator.changeset(calculator, attrs)
+  def change_static_calculator(calculator, attrs \\ %{}) do
+    Calculator.static_changeset(calculator, attrs)
   end
 
   def create_calculator(attrs \\ %{}) do
     %Calculator{}
-    |> Calculator.changeset(attrs)
+    |> Calculator.static_changeset(attrs)
     |> Repo.insert()
   end
 
