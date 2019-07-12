@@ -71,11 +71,6 @@
   border-radius: 5px 5px 0 0;
 }
 
-.form__input--upper:after {
-  position: absolute;
-  content: '';
-}
-
 .form__input--bottom {
   border-radius: 0 0 5px 5px;
 }

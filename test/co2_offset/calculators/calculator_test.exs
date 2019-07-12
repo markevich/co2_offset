@@ -9,11 +9,17 @@ defmodule Co2Offset.Calculators.CalculatorTest do
 
   @valid_attrs params_for(:calculator)
 
-  @required_attributes [:iata_from, :iata_to, :city_from, :city_to, :original_distance]
+  @required_attributes [
+    :iata_from,
+    :iata_to,
+    :original_city_from,
+    :original_city_to,
+    :original_distance
+  ]
   test "validates required attributes" do
     attrs = Map.drop(@valid_attrs, @required_attributes)
 
-    changeset = Calculator.changeset(%Calculator{}, attrs)
+    changeset = Calculator.static_changeset(%Calculator{}, attrs)
 
     for attribute <- @required_attributes do
       assert %{^attribute => ["can't be blank"]} = errors_on(changeset)
@@ -27,21 +33,27 @@ defmodule Co2Offset.Calculators.CalculatorTest do
         {attribute, "LongLongString"}
       end
 
-    changeset = Calculator.changeset(%Calculator{}, attrs)
+    changeset = Calculator.static_changeset(%Calculator{}, attrs)
 
     for attribute <- @attributes_with_length do
       assert %{^attribute => ["should be 3 character(s)"]} = errors_on(changeset)
     end
   end
 
-  @protected_attributes [:city_from, :city_to, :original_distance, :airport_from, :airport_to]
+  @protected_attributes [
+    :original_city_from,
+    :original_city_to,
+    :original_distance,
+    :airport_from,
+    :airport_to
+  ]
   test "refuse protected attributes" do
     attrs =
       for attribute <- @protected_attributes, into: @valid_attrs do
         {attribute, "You shall not pass"}
       end
 
-    changeset = Calculator.changeset(%Calculator{}, attrs)
+    changeset = Calculator.static_changeset(%Calculator{}, attrs)
 
     for attribute <- @protected_attributes do
       assert %{^attribute => ["can't be blank"]} = errors_on(changeset)
@@ -57,21 +69,21 @@ defmodule Co2Offset.Calculators.CalculatorTest do
     end
 
     test "returns valid changeset", %{airport_from: airport_from, airport_to: airport_to} do
-      city_from = airport_from.city
-      city_to = airport_to.city
+      original_city_from = airport_from.city
+      original_city_to = airport_to.city
       iata_from = airport_from.iata
       iata_to = airport_to.iata
 
       attrs = %{iata_from: iata_from, iata_to: iata_to}
 
-      changeset = Calculator.changeset(%Calculator{}, attrs)
+      changeset = Calculator.static_changeset(%Calculator{}, attrs)
 
       assert(
         %Ecto.Changeset{
           valid?: true,
           changes: %{
-            city_from: ^city_from,
-            city_to: ^city_to,
+            original_city_from: ^original_city_from,
+            original_city_to: ^original_city_to,
             iata_from: ^iata_from,
             iata_to: ^iata_to,
             airport_from: ^airport_from,
@@ -96,13 +108,13 @@ defmodule Co2Offset.Calculators.CalculatorTest do
       iata_to = airport_to.iata
 
       attrs = %{iata_from: iata_from, iata_to: iata_to}
-      changeset = Calculator.changeset(%Calculator{}, attrs)
+      changeset = Calculator.static_changeset(%Calculator{}, attrs)
 
       assert(
         %{
           airport_from: ["can't be blank"],
-          city_from: ["can't be blank"],
-          city_to: ["can't be blank"],
+          original_city_from: ["can't be blank"],
+          original_city_to: ["can't be blank"],
           original_distance: ["can't be blank"]
         } = errors_on(changeset)
       )
@@ -115,13 +127,13 @@ defmodule Co2Offset.Calculators.CalculatorTest do
       iata_to = "🤷‍♂️🤷‍♂️🤷‍♂️"
 
       attrs = %{iata_from: iata_from, iata_to: iata_to}
-      changeset = Calculator.changeset(%Calculator{}, attrs)
+      changeset = Calculator.static_changeset(%Calculator{}, attrs)
 
       assert(
         %{
           airport_to: ["can't be blank"],
-          city_from: ["can't be blank"],
-          city_to: ["can't be blank"],
+          original_city_from: ["can't be blank"],
+          original_city_to: ["can't be blank"],
           original_distance: ["can't be blank"]
         } = errors_on(changeset)
       )

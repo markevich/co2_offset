@@ -5,9 +5,13 @@ defmodule Co2Offset.Factory do
     %Co2Offset.Calculators.Calculator{
       iata_from: "MSQ",
       iata_to: "SVO",
-      city_from: "Minsk",
-      city_to: "Moscow",
-      original_distance: 642
+      original_city_from: "Minsk",
+      original_city_to: "Moscow",
+      original_distance: 642,
+      original_co2: 231,
+      original_donation: 5,
+      additional_distance: 0,
+      additional_donation: 0
     }
   end
 

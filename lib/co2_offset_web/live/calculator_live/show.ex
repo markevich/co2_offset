@@ -9,30 +9,45 @@ defmodule Co2OffsetWeb.CalculatorLive.Show do
     Co2OffsetWeb.CalculatorView.render("show.html", assigns)
   end
 
-  def mount(%{path_params: %{"id" => id}}, socket) do
+  def mount(_params, socket) do
+    {:ok, socket}
+  end
+
+  def handle_params(%{"id" => id}, _uri, socket) do
     new_socket =
       socket
       |> assign(id: id)
-      |> assign_converters
-      |> assign_similar_distances
+      |> assign_calculator()
+      |> assign_additional_examples()
 
-    {:ok, new_socket}
+    {:noreply, new_socket}
   end
 
-  defp assign_converters(%Socket{assigns: %{id: id}} = socket) do
+  def handle_event("increase_donation", _params, socket) do
+    {:noreply, socket}
+  end
+
+  def handle_event("decrease_donation", _params, socket) do
+    {:noreply, socket}
+  end
+
+  defp assign_calculator(%Socket{assigns: %{id: id}} = socket) do
     calculator = Calculators.get_calculator!(id)
-    converters = Converters.from_plane(calculator.original_distance)
 
-    assign(socket, calculator: calculator, converters: converters)
+    assign(socket, calculator: calculator)
   end
 
-  defp assign_similar_distances(%Socket{assigns: %{converters: converters}} = socket) do
-    new_converters =
-      converters
+  defp assign_additional_examples(%Socket{assigns: %{calculator: calculator}} = socket) do
+    distance = calculator.original_distance + calculator.additional_distance
+
+    examples =
+      distance
+      |> Converters.from_plane()
+      |> Map.drop([:plane, :co2, :money])
       |> Map.update!(:car, &put_distance_examples/1)
       |> Map.update!(:train, &put_distance_examples/1)
 
-    assign(socket, converters: new_converters)
+    assign(socket, examples: examples)
   end
 
   defp put_distance_examples(converter) do

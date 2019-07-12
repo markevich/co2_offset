@@ -6,8 +6,8 @@
 
 Offset your carbon footpring
 
-- [CO2 offset](#co2-offset)
-- [Install development environment](#install-development-environment)
+- [CO2 offset](#CO2-offset)
+  - [Install development environment](#Install-development-environment)
 
 
 ## Install development environment
@@ -33,8 +33,8 @@ Offset your carbon footpring
 1. Copy example configs:
    - `cp config/dev.secret.exs.example config/dev.secret.exs`
    - `cp config/test.secret.exs.example config/test.secret.exs`
-1. Install Phoenix 1.4.1.
-   - `mix archive.install hex phx_new 1.4.1`
+1. Install Phoenix 1.4.9.
+   - `mix archive.install hex phx_new 1.4.9`
 1. Create a db-user for aplication in `psql` console:
    - `CREATE ROLE username LOGIN PASSWORD 'password' SUPERUSER;`
 1. Configure DB parameters in

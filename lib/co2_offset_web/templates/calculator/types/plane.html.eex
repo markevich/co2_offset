@@ -9,7 +9,7 @@
             Plane
           </div>
           <div class="converter-item__details-value">
-            <%= to_int(@converter[:km]) %>
+            <%= to_int(@calculator.original_distance) %>
             km
           </div>
         </div>
@@ -18,7 +18,7 @@
             Compensated CO²
           </div>
           <div class="converter-item__details-value converter-item__details-value--secondary">
-            <%= to_int(@co2_amount) %>
+            <%= to_int(@calculator.original_co2 + @calculator.additional_co2) %>
             kg
           </div>
         </div>
@@ -27,15 +27,28 @@
     <div class="converter-item__examples">
       <div class="converter-item__examples-row">
         <div class="converter-item__examples-from">
-          <%= @calculator.city_from %>
+          <%= @calculator.original_city_from %>
         </div>
         <div class="converter-item__examples-indicator">
           <img src="<%= Routes.static_path(@socket, "/images/calculator.show/indicator-plane.svg") %>"/>
         </div>
         <div class="converter-item__examples-to">
-          <%= @calculator.city_to %>
+          <%= @calculator.original_city_to %>
         </div>
       </div>
+      <%= if @calculator.additional_co2 > 0 do %>
+        <div class="converter-item__examples-row converter-item__examples-row__additional">
+          <div class="converter-item__examples-from">
+            <%= @calculator.additional_city_from %>
+          </div>
+          <div class="converter-item__examples-indicator">
+            <img src="<%= Routes.static_path(@socket, "/images/calculator.show/indicator-plane.svg") %>"/>
+          </div>
+          <div class="converter-item__examples-to">
+            <%= @calculator.additional_city_to %>
+          </div>
+        </div>
+      <% end %>
     </div>
   </div>
 </div>

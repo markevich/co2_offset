@@ -3,22 +3,22 @@
 
 <div class="actions">
   <div class="money">
-    <button class="money__button money__button--dec">-</button>
-    <div class="money__amount"><span>$3600</span></div>
-    <button class="money__button money__button--inc">+</button>
+    <button class="money__button money__button--dec" phx-click="decrease_donation">—</button>
+    <div class="money__amount"><span>$<%= @calculator.original_donation + @calculator.additional_donation %></span></div>
+    <button class="money__button money__button--inc" phx-click="increase_donation">+</button>
   </div>
   <button class="button button--small">
     Donate
   </button>
 </div>
 
-<%= render(Co2OffsetWeb.CalculatorView, "types/plane.html", converter: @converters[:plane], co2_amount: @converters[:co2], calculator: @calculator, socket: @socket) %>
+<%= render(Co2OffsetWeb.CalculatorView, "types/plane.html", calculator: @calculator, socket: @socket) %>
 
 <div class="converters-separator__container">
   <div class="converters-separator__item">
     Same CO² as:
   </div>
 </div>
-<%= for type <- [:car, :train, :petrol, :human, :beef, :chicken, :etno_volcano] do %>
-  <%= render(Co2OffsetWeb.CalculatorView, "types/#{type}.html", converter: @converters[type], socket: @socket) %>
+<%= for {type, example} <- @examples do %>
+  <%= render(Co2OffsetWeb.CalculatorView, "types/#{type}.html", converter: example, socket: @socket) %>
 <% end %>

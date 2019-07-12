@@ -35,10 +35,21 @@ defmodule Co2Offset.ConvertersTest do
         },
         etno_volcano: %{
           seconds: 0.0227
+        },
+        money: %{
+          dollar: 5
         }
       }
 
       assert(Converters.from_plane(km) == expected)
+    end
+
+    test "co2_from_plane_km/1 returns a correct numbers" do
+      assert(252.0 = Converters.co2_from_plane_km(700))
+    end
+
+    test "money_from_co2/1 returns a correct numbers" do
+      assert(10 = Converters.money_from_co2(1000))
     end
   end
 end

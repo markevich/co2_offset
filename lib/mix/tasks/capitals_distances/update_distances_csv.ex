@@ -1,6 +1,8 @@
 defmodule Mix.Tasks.Co2Offset.UpdateDistancesCsv do
   use Mix.Task
 
+  alias Co2Offset.Geo.GreatCircleDistance
+
   @capitals_json_path "priv/tools/distances.json"
   @distances_csv_path "priv/tools/distances.csv"
 
@@ -34,7 +36,7 @@ defmodule Mix.Tasks.Co2Offset.UpdateDistancesCsv do
   def add_distances(collection) do
     Enum.map(collection, fn capitals ->
       distance =
-        great_circle_distance(
+        GreatCircleDistance.call(
           Enum.at(Enum.at(capitals, 0)["geometry"]["coordinates"], 1),
           Enum.at(Enum.at(capitals, 0)["geometry"]["coordinates"], 0),
           Enum.at(Enum.at(capitals, 1)["geometry"]["coordinates"], 1),
@@ -44,23 +46,6 @@ defmodule Mix.Tasks.Co2Offset.UpdateDistancesCsv do
       # credo:disable-for-next-line
       capitals ++ [distance]
     end)
-  end
-
-  defp great_circle_distance(lat1, lon1, lat2, lon2) do
-    rlat1 = :math.pi() * lat1 / 180.0
-    rlat2 = :math.pi() * lat2 / 180.0
-    theta = lon1 - lon2
-    rtheta = :math.pi() * theta / 180.0
-
-    deg_distance =
-      :math.acos(
-        :math.sin(rlat1) * :math.sin(rlat2) +
-          :math.cos(rlat1) * :math.cos(rlat2) * :math.cos(rtheta)
-      )
-
-    earth_radius = 6371.0
-
-    round(deg_distance * earth_radius)
   end
 
   defp write_to_csv(collection) do
