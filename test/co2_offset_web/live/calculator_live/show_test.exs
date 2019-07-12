@@ -1,14 +1,12 @@
 defmodule Co2OffsetWeb.CalculatorLive.ShowTest do
   use Co2OffsetWeb.ConnCase
-  alias Co2OffsetWeb.CalculatorLive.Show
 
   setup do
     calculator = insert(:calculator, original_distance: 642)
     distance_1700 = insert(:capitals_distance, distance: 1700)
     distance_10000 = insert(:capitals_distance, distance: 10_000)
 
-    {:ok, view, html} =
-      mount(Co2OffsetWeb.Endpoint, Show, session: %{path_params: %{"id" => calculator.id}})
+    {:ok, view, html} = live(build_conn(), "/calculators/#{calculator.id}")
 
     {
       :ok,

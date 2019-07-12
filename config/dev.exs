@@ -26,6 +26,7 @@ config :co2_offset, Co2OffsetWeb.Endpoint,
       "--mode",
       "development",
       "--watch-stdin",
+      "--color",
       cd: Path.expand("../assets", __DIR__)
     ]
   ]

@@ -3,10 +3,9 @@ defmodule Co2OffsetWeb.CalculatorLive.NewTest do
 
   alias Co2Offset.Calculators.Calculator
   alias Co2Offset.Repo
-  alias Co2OffsetWeb.CalculatorLive.New
 
   setup do
-    {:ok, view, html} = mount(Co2OffsetWeb.Endpoint, New, session: %{})
+    {:ok, view, html} = live(build_conn(), "/calculators/new")
 
     {:ok, view: view, html: html}
   end
