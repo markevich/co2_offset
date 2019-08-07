@@ -22,12 +22,34 @@ defmodule Co2OffsetWeb.CalculatorLive.Show do
     {:noreply, new_socket}
   end
 
-  def handle_event("increase_donation", _params, socket) do
-    {:noreply, socket}
+  def handle_event(
+        "increase_donation",
+        _params,
+        %Socket{assigns: %{calculator: calculator}} = socket
+      ) do
+    new_calculator = Calculators.increase_donation(calculator)
+
+    new_socket =
+      socket
+      |> assign(calculator: new_calculator)
+      |> assign_additional_examples()
+
+    {:noreply, new_socket}
   end
 
-  def handle_event("decrease_donation", _params, socket) do
-    {:noreply, socket}
+  def handle_event(
+        "decrease_donation",
+        _params,
+        %Socket{assigns: %{calculator: calculator}} = socket
+      ) do
+    new_calculator = Calculators.decrease_donation(calculator)
+
+    new_socket =
+      socket
+      |> assign(calculator: new_calculator)
+      |> assign_additional_examples()
+
+    {:noreply, new_socket}
   end
 
   defp assign_calculator(%Socket{assigns: %{id: id}} = socket) do

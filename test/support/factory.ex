@@ -11,7 +11,10 @@ defmodule Co2Offset.Factory do
       original_co2: 231,
       original_donation: 5,
       additional_distance: 0,
-      additional_donation: 0
+      additional_donation: 0,
+      additional_city_from: "",
+      additional_city_to: "",
+      additional_co2: 0
     }
   end
 

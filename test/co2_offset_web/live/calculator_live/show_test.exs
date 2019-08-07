@@ -1,10 +1,15 @@
 defmodule Co2OffsetWeb.CalculatorLive.ShowTest do
   use Co2OffsetWeb.ConnCase
+  alias Co2Offset.Calculators
 
   setup do
     calculator = insert(:calculator, original_distance: 642)
     distance_1700 = insert(:capitals_distance, distance: 1700)
     distance_10000 = insert(:capitals_distance, distance: 10_000)
+
+    distance_278 = insert(:capitals_distance, distance: 278)
+    distance_2509 = insert(:capitals_distance, distance: 2509)
+    distance_14720 = insert(:capitals_distance, distance: 14_720)
 
     {:ok, view, html} = live(build_conn(), "/calculators/#{calculator.id}")
 
@@ -14,36 +19,133 @@ defmodule Co2OffsetWeb.CalculatorLive.ShowTest do
       html: html,
       calculator: calculator,
       distance_1700: distance_1700,
-      distance_10000: distance_10000
+      distance_10000: distance_10000,
+      distance_278: distance_278,
+      distance_2509: distance_2509,
+      distance_14720: distance_14720
     }
   end
 
   test "renders /calculators/show", %{
-    html: html,
+    html: new_html,
+    calculator: calculator,
     distance_1700: distance_1700,
     distance_10000: distance_10000
   } do
-    assert html =~ "Compensated CO²"
-    assert html =~ "231"
-    assert html =~ "Plane"
-    assert html =~ "642"
-    assert html =~ "Car"
-    assert html =~ "1751"
-    assert html =~ distance_1700.from
-    assert html =~ distance_1700.to
-    assert html =~ "Train"
-    assert html =~ "10272"
-    assert html =~ distance_10000.from
-    assert html =~ distance_10000.to
-    assert html =~ "Petrol"
-    assert html =~ "99"
-    assert html =~ "Human"
-    assert html =~ "231"
-    assert html =~ "Beef"
-    assert html =~ "6.68"
-    assert html =~ "Chicken"
-    assert html =~ "49"
-    assert html =~ "Etno volcano"
-    assert html =~ "0.02"
+    assert new_html =~ "$#{calculator.original_donation}"
+    # plane
+    assert new_html =~ "#{round(calculator.original_distance)} km"
+    assert new_html =~ "#{round(calculator.original_co2)} kg"
+    assert new_html =~ calculator.original_city_from
+    assert new_html =~ calculator.original_city_to
+    # beef
+    assert new_html =~ "6.68 kg"
+    # car
+    assert new_html =~ "1751 km"
+    assert new_html =~ distance_1700.from
+    assert new_html =~ distance_1700.to
+    # chicken
+    assert new_html =~ "49 kg"
+    # volcano
+    assert new_html =~ "0.02 sec"
+    # human
+    assert new_html =~ "231 days"
+    # petrol
+    assert new_html =~ "99 liters"
+    # train
+    assert new_html =~ "10272 km"
+    assert new_html =~ distance_10000.from
+    assert new_html =~ distance_10000.to
+  end
+
+  test "#increase donation", %{
+    view: view,
+    calculator: calculator,
+    distance_278: distance_278,
+    distance_2509: distance_2509,
+    distance_14720: distance_14720
+  } do
+    new_html = render_click(view, :increase_donation)
+
+    # refetch after update
+    calculator = Calculators.get_calculator!(calculator.id)
+    assert new_html =~ "$#{round(calculator.original_donation + calculator.additional_donation)}"
+    # plane
+    assert new_html =~
+             "#{round(calculator.original_distance + calculator.additional_distance)} km"
+
+    assert new_html =~ "#{round(calculator.original_co2 + calculator.additional_co2)} kg"
+    assert new_html =~ calculator.original_city_from
+    assert new_html =~ calculator.original_city_to
+    assert new_html =~ calculator.additional_city_from
+    assert new_html =~ calculator.additional_city_to
+    # beef
+    assert new_html =~ "9.57 kg"
+    # car
+    assert new_html =~ "2509 km"
+    assert new_html =~ distance_2509.from
+    assert new_html =~ distance_2509.to
+    # chicken
+    # plane
+    assert new_html =~ "920 km"
+    assert new_html =~ "331 kg"
+    assert new_html =~ distance_278.from
+    assert new_html =~ distance_278.to
+    # beef
+    assert new_html =~ "9.57 kg"
+    # car
+    assert new_html =~ "2509 km"
+    assert new_html =~ distance_2509.from
+    assert new_html =~ distance_2509.to
+    # chicken
+    assert new_html =~ "71 kg"
+    # volcano
+    assert new_html =~ "0.03 sec"
+    # human
+    assert new_html =~ "331 days"
+    # petrol
+    assert new_html =~ "142 liters"
+    # train
+    assert new_html =~ "14720 km"
+    assert new_html =~ distance_14720.from
+    assert new_html =~ distance_14720.to
+  end
+
+  test "#decrease donation to default", %{
+    view: view,
+    calculator: calculator,
+    distance_1700: distance_1700,
+    distance_10000: distance_10000
+  } do
+    render_click(view, :increase_donation)
+    new_html = render_click(view, :decrease_donation)
+
+    # refetch after update
+    calculator = Calculators.get_calculator!(calculator.id)
+
+    assert new_html =~ "$#{calculator.original_donation}"
+    # plane
+    assert new_html =~ "#{round(calculator.original_distance)} km"
+    assert new_html =~ "#{round(calculator.original_co2)} kg"
+    assert new_html =~ calculator.original_city_from
+    assert new_html =~ calculator.original_city_to
+    # beef
+    assert new_html =~ "6.68 kg"
+    # car
+    assert new_html =~ "1751 km"
+    assert new_html =~ distance_1700.from
+    assert new_html =~ distance_1700.to
+    # chicken
+    assert new_html =~ "49 kg"
+    # volcano
+    assert new_html =~ "0.02 sec"
+    # human
+    assert new_html =~ "231 days"
+    # petrol
+    assert new_html =~ "99 liters"
+    # train
+    assert new_html =~ "10272 km"
+    assert new_html =~ distance_10000.from
+    assert new_html =~ distance_10000.to
   end
 end

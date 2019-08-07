@@ -9,8 +9,7 @@
             Petrol burning
           </div>
           <div class="converter-item__details-value">
-            <%= to_int(@converter[:liters]) %>
-            liters
+            <%= to_int(@converter[:liters]) %> liters
           </div>
         </div>
       </div>

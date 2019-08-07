@@ -9,8 +9,7 @@
             Human breathing
           </div>
           <div class="converter-item__details-value">
-            <%= to_int(@converter[:days]) %>
-            days
+            <%= to_int(@converter[:days]) %> days
           </div>
         </div>
       </div>

@@ -9,8 +9,7 @@
             Chicken
           </div>
           <div class="converter-item__details-value">
-            <%= to_int(@converter[:kg]) %>
-            kg
+            <%= to_int(@converter[:kg]) %> kg
           </div>
         </div>
       </div>

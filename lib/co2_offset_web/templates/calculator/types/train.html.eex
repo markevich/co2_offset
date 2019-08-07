@@ -9,8 +9,7 @@
             Train
           </div>
           <div class="converter-item__details-value">
-            <%= to_int(@converter[:km]) %>
-            km
+            <%= to_int(@converter[:km]) %> km
           </div>
         </div>
       </div>

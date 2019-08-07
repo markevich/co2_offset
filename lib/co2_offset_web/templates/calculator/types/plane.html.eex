@@ -9,8 +9,7 @@
             Plane
           </div>
           <div class="converter-item__details-value">
-            <%= to_int(@calculator.original_distance) %>
-            km
+            <%= to_int(@calculator.original_distance + @calculator.additional_distance) %> km
           </div>
         </div>
         <div class="converter-item__details-row">
@@ -18,8 +17,7 @@
             Compensated CO²
           </div>
           <div class="converter-item__details-value converter-item__details-value--secondary">
-            <%= to_int(@calculator.original_co2 + @calculator.additional_co2) %>
-            kg
+            <%= to_int(@calculator.original_co2 + @calculator.additional_co2) %> kg
           </div>
         </div>
       </div>

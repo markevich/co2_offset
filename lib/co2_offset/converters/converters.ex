@@ -39,8 +39,16 @@ defmodule Co2Offset.Converters do
     Plane.convert(km / 1.0, :co2_from_km)
   end
 
+  def plane_km_from_co2(co2) do
+    Plane.convert(co2 / 1.0, :km_from_co2)
+  end
+
   def money_from_co2(co2) do
     Money.convert(co2, :money_from_co2)
+  end
+
+  def co2_from_money(money) do
+    Money.convert(money, :co2_from_money)
   end
 
   defp put_distance_examples(converter) do

@@ -56,4 +56,25 @@ defmodule Co2Offset.CalculatorsTest do
       assert(%Calculator{id: ^calculator_id} = result)
     end
   end
+
+  describe "#increase/decrease_donation" do
+    setup do
+      calculator = insert(:calculator, original_donation: 30, additional_donation: 5)
+      insert(:capitals_distance)
+
+      {:ok, calculator: calculator}
+    end
+
+    test "correctly increases donation", %{calculator: calculator} do
+      new_calculator = Calculators.increase_donation(calculator)
+
+      assert(%Calculator{additional_donation: 9} = new_calculator)
+    end
+
+    test "correctly decreases donation", %{calculator: calculator} do
+      new_calculator = Calculators.decrease_donation(calculator)
+
+      assert(%Calculator{additional_donation: 1} = new_calculator)
+    end
+  end
 end

@@ -62,8 +62,8 @@ defmodule Co2Offset.Calculators.CalculatorTest do
 
   describe "when input is correct" do
     setup do
-      airport_from = insert(:airport, city: "Minsk")
-      airport_to = insert(:airport, city: "Moscow")
+      airport_from = insert(:airport, city: "Minsk", lat: 53.882499694824, long: 28.030700683594)
+      airport_to = insert(:airport, city: "Moscow", lat: 55.972599, long: 37.4146)
 
       {:ok, airport_from: airport_from, airport_to: airport_to}
     end
@@ -88,7 +88,9 @@ defmodule Co2Offset.Calculators.CalculatorTest do
             iata_to: ^iata_to,
             airport_from: ^airport_from,
             airport_to: ^airport_to,
-            original_distance: 0
+            original_distance: 642,
+            original_donation: 5,
+            original_co2: 231.12
           }
         } = changeset
       )
@@ -139,6 +141,48 @@ defmodule Co2Offset.Calculators.CalculatorTest do
       )
 
       refute(errors_on(changeset)[:airport_from] == ["can't be blank"])
+    end
+  end
+
+  describe "dynamic changeset" do
+    setup do
+      calculator = build(:calculator, original_donation: 5)
+      distance = insert(:capitals_distance, distance: 4167)
+
+      {:ok, calculator: calculator, distance: distance}
+    end
+
+    test "updates calculator with new values", %{calculator: calculator, distance: distance} do
+      attrs = %{additional_donation: 15}
+
+      changeset = Calculator.dynamic_changeset(calculator, attrs)
+      city_from = distance.from
+      city_to = distance.to
+
+      assert(
+        %Ecto.Changeset{
+          valid?: true,
+          changes: %{
+            additional_donation: 15,
+            additional_co2: 1.5e3,
+            additional_city_from: ^city_from,
+            additional_city_to: ^city_to,
+            additional_distance: 4167
+          }
+        } = changeset
+      )
+    end
+
+    test "invalid with incorrect additional donation", %{calculator: calculator} do
+      attrs = %{additional_donation: -5}
+
+      changeset = Calculator.dynamic_changeset(calculator, attrs)
+
+      assert(
+        %{
+          additional_donation: ["must be greater than or equal to 0"]
+        } = errors_on(changeset)
+      )
     end
   end
 end

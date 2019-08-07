@@ -9,8 +9,7 @@
             Beef
           </div>
           <div class="converter-item__details-value">
-            <%= to_float_string(@converter[:kg]) %>
-            kg
+            <%= to_float_string(@converter[:kg]) %> kg
           </div>
         </div>
       </div>
