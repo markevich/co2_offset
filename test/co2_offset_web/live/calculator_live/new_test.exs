@@ -1,16 +1,16 @@
-defmodule Co2OffsetWeb.CalculatorLive.NewTest do
+defmodule Co2OffsetWeb.DonationLive.NewTest do
   use Co2OffsetWeb.ConnCase
 
-  alias Co2Offset.Calculators.Calculator
+  alias Co2Offset.Donations.DonationSchema
   alias Co2Offset.Repo
 
   setup do
-    {:ok, view, html} = live(build_conn(), "/calculators/new")
+    {:ok, view, html} = live(build_conn(), "/donations/new")
 
     {:ok, view: view, html: html}
   end
 
-  test "renders /calculators/new", %{html: html} do
+  test "renders /donations/new", %{html: html} do
     assert html =~ "Offset your flight CO² emissions"
     assert html =~ "Measure your carbon footprint"
   end
@@ -23,7 +23,7 @@ defmodule Co2OffsetWeb.CalculatorLive.NewTest do
       {:ok, airport_from: airport_from, airport_to: airport_to}
     end
 
-    test "creates new calculator", %{
+    test "creates new donation", %{
       view: view,
       airport_from: airport_from,
       airport_to: airport_to
@@ -31,13 +31,13 @@ defmodule Co2OffsetWeb.CalculatorLive.NewTest do
       # "wait for elixir slack answer https://elixir-lang.slack.com/archives/C03QQCV4H/p1555569448222400"
       # assert_redirect(
       #   view,
-      #   "calculators/1",
+      #   "donations/1",
       #   fn ->
       #     assert render_submit(
       #              view,
       #              :save,
       #              %{
-      #                calculator: %{
+      #                donation: %{
       #                  iata_from: airport_from.iata,
       #                  iata_to: airport_to.iata
       #                }
@@ -45,22 +45,22 @@ defmodule Co2OffsetWeb.CalculatorLive.NewTest do
       #            )
       #   end
       # )
-      calculators_before = Repo.aggregate(Calculator, :count, :id)
+      donations_before = Repo.aggregate(DonationSchema, :count, :id)
 
       render_submit(
         view,
         :save,
         %{
-          calculator: %{
+          donation: %{
             iata_from: airport_from.iata,
             iata_to: airport_to.iata
           }
         }
       )
 
-      calculators_after = Repo.aggregate(Calculator, :count, :id)
+      donations_after = Repo.aggregate(DonationSchema, :count, :id)
 
-      assert(calculators_after == calculators_before + 1)
+      assert(donations_after == donations_before + 1)
     end
   end
 
@@ -84,7 +84,7 @@ defmodule Co2OffsetWeb.CalculatorLive.NewTest do
       render_change(view, :show_iata_from_autocomplete)
 
       rendered =
-        render_change(view, :autocomplete, %{calculator: %{iata_from: search_term, iata_to: ""}})
+        render_change(view, :autocomplete, %{donation: %{iata_from: search_term, iata_to: ""}})
 
       assert rendered =~ airport1.city
       assert rendered =~ airport1.name
@@ -106,7 +106,7 @@ defmodule Co2OffsetWeb.CalculatorLive.NewTest do
       render_change(view, :show_iata_to_autocomplete)
 
       rendered =
-        render_change(view, :autocomplete, %{calculator: %{iata_from: "", iata_to: "minsk"}})
+        render_change(view, :autocomplete, %{donation: %{iata_from: "", iata_to: "minsk"}})
 
       assert rendered =~ airport1.city
       assert rendered =~ airport1.name

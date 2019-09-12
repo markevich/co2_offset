@@ -1,11 +1,11 @@
-defmodule Co2Offset.Calculators.Calculator do
+defmodule Co2Offset.Donations.DonationSchema do
   use Ecto.Schema
   import Ecto.Changeset
-  alias Co2Offset.Calculators.Calculator
   alias Co2Offset.Converters
+  alias Co2Offset.Donations.DonationSchema
   alias Co2Offset.Geo
 
-  schema "calculators" do
+  schema "donations" do
     field :iata_from, :string
     field :iata_to, :string
     field :original_city_from, :string
@@ -26,8 +26,8 @@ defmodule Co2Offset.Calculators.Calculator do
     timestamps()
   end
 
-  def static_changeset(%Calculator{} = calculator, attrs) do
-    calculator
+  def static_changeset(%DonationSchema{} = donation_schema, attrs) do
+    donation_schema
     |> cast(attrs, [:iata_from, :iata_to])
     |> validate_required([:iata_from, :iata_to])
     |> validate_length(:iata_from, is: 3)
@@ -43,8 +43,8 @@ defmodule Co2Offset.Calculators.Calculator do
     |> validate_required([:original_co2, :original_donation])
   end
 
-  def dynamic_changeset(calculator, attrs) do
-    calculator
+  def dynamic_changeset(donation_schema, attrs) do
+    donation_schema
     |> cast(attrs, [:additional_donation])
     |> validate_required([:additional_donation])
     |> validate_number(:additional_donation, greater_than_or_equal_to: 0)

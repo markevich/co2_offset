@@ -1,4 +1,4 @@
-defmodule Co2OffsetWeb.CalculatorView do
+defmodule Co2OffsetWeb.DonationView do
   use Co2OffsetWeb, :view
 
   def to_float_string(float) do

@@ -1,9 +1,9 @@
-defmodule Co2OffsetWeb.CalculatorLive.New do
+defmodule Co2OffsetWeb.DonationLive.New do
   use Phoenix.LiveView
-  alias Co2Offset.Calculators
-  alias Co2Offset.Calculators.Calculator
+  alias Co2Offset.Donations.Context, as: DonationsContext
+  alias Co2Offset.Donations.DonationSchema
   alias Co2Offset.Geo
-  alias Co2OffsetWeb.CalculatorLive.Show
+  alias Co2OffsetWeb.DonationLive.Show
   alias Co2OffsetWeb.Router.Helpers, as: Routes
 
   @moduledoc """
@@ -14,13 +14,13 @@ defmodule Co2OffsetWeb.CalculatorLive.New do
   """
 
   def render(assigns) do
-    Co2OffsetWeb.CalculatorView.render("new.html", assigns)
+    Co2OffsetWeb.DonationView.render("new.html", assigns)
   end
 
   def mount(_session, socket) do
     {:ok,
      assign(socket, %{
-       changeset: Calculators.change_static_calculator(%Calculator{}),
+       changeset: DonationsContext.change_static_donation(%DonationSchema{}),
        show_iata_from_autocomplete: false,
        show_iata_to_autocomplete: false,
        iata_from_autocomplete: %{},
@@ -30,7 +30,7 @@ defmodule Co2OffsetWeb.CalculatorLive.New do
 
   def handle_event(
         "autocomplete",
-        %{"calculator" => %{"iata_from" => iata_from, "iata_to" => iata_to}},
+        %{"donation" => %{"iata_from" => iata_from, "iata_to" => iata_to}},
         socket
       ) do
     iata_from_autocomplete = get_autocomplete_records(iata_from)
@@ -73,12 +73,12 @@ defmodule Co2OffsetWeb.CalculatorLive.New do
      assign(socket, show_iata_to_autocomplete: true, show_iata_from_autocomplete: false)}
   end
 
-  def handle_event("save", %{"calculator" => calculator_params}, socket) do
-    case Calculators.create_calculator(calculator_params) do
-      {:ok, calculator} ->
+  def handle_event("save", %{"donation" => donation_params}, socket) do
+    case DonationsContext.create_donation(donation_params) do
+      {:ok, donation} ->
         {:stop,
          socket
-         |> redirect(to: Routes.live_path(socket, Show, calculator))}
+         |> redirect(to: Routes.live_path(socket, Show, donation))}
 
       {:error, %Ecto.Changeset{} = changeset} ->
         {:noreply, assign(socket, changeset: changeset)}

@@ -10,12 +10,12 @@ defmodule Co2Offset.ConvertersTest do
       insert(:capitals_distance, from: "Minsk", to: "Moscow", distance: 10_000)
       insert(:capitals_distance, from: "Paris", to: "Copenhagen", distance: 2000)
 
-      calculator = insert(:calculator, original_distance: 700, additional_distance: 1)
+      donation = insert(:donation, original_distance: 700, additional_distance: 1)
 
-      {:ok, %{calculator: calculator}}
+      {:ok, %{donation: donation}}
     end
 
-    test "returns correct examples", %{calculator: calculator} do
+    test "returns correct examples", %{donation: donation} do
       expected = %{
         beef: %{kg: 7.2936},
         car: %{example_from: "Paris", example_to: "Copenhagen", km: 1911.8182},
@@ -26,7 +26,7 @@ defmodule Co2Offset.ConvertersTest do
         train: %{example_from: "Minsk", example_to: "Moscow", km: 11_216.0}
       }
 
-      assert(Converters.generate_examples(calculator) == expected)
+      assert(Converters.generate_examples(donation) == expected)
     end
   end
 

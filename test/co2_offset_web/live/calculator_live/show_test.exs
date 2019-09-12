@@ -1,9 +1,9 @@
-defmodule Co2OffsetWeb.CalculatorLive.ShowTest do
+defmodule Co2OffsetWeb.DonationLive.ShowTest do
   use Co2OffsetWeb.ConnCase
-  alias Co2Offset.Calculators
+  alias Co2Offset.Donations.Context, as: DonationsContext
 
   setup do
-    calculator = insert(:calculator, original_distance: 642)
+    donation = insert(:donation, original_distance: 642)
     distance_1700 = insert(:capitals_distance, distance: 1700)
     distance_10000 = insert(:capitals_distance, distance: 10_000)
 
@@ -11,13 +11,13 @@ defmodule Co2OffsetWeb.CalculatorLive.ShowTest do
     distance_2509 = insert(:capitals_distance, distance: 2509)
     distance_14720 = insert(:capitals_distance, distance: 14_720)
 
-    {:ok, view, html} = live(build_conn(), "/calculators/#{calculator.id}")
+    {:ok, view, html} = live(build_conn(), "/donations/#{donation.id}")
 
     {
       :ok,
       view: view,
       html: html,
-      calculator: calculator,
+      donation: donation,
       distance_1700: distance_1700,
       distance_10000: distance_10000,
       distance_278: distance_278,
@@ -26,18 +26,18 @@ defmodule Co2OffsetWeb.CalculatorLive.ShowTest do
     }
   end
 
-  test "renders /calculators/show", %{
+  test "renders /donations/show", %{
     html: new_html,
-    calculator: calculator,
+    donation: donation,
     distance_1700: distance_1700,
     distance_10000: distance_10000
   } do
-    assert new_html =~ "$#{calculator.original_donation}"
+    assert new_html =~ "$#{donation.original_donation}"
     # plane
-    assert new_html =~ "#{round(calculator.original_distance)} km"
-    assert new_html =~ "#{round(calculator.original_co2)} kg"
-    assert new_html =~ calculator.original_city_from
-    assert new_html =~ calculator.original_city_to
+    assert new_html =~ "#{round(donation.original_distance)} km"
+    assert new_html =~ "#{round(donation.original_co2)} kg"
+    assert new_html =~ donation.original_city_from
+    assert new_html =~ donation.original_city_to
     # beef
     assert new_html =~ "6.68 kg"
     # car
@@ -60,7 +60,7 @@ defmodule Co2OffsetWeb.CalculatorLive.ShowTest do
 
   test "#increase donation", %{
     view: view,
-    calculator: calculator,
+    donation: donation,
     distance_278: distance_278,
     distance_2509: distance_2509,
     distance_14720: distance_14720
@@ -68,17 +68,17 @@ defmodule Co2OffsetWeb.CalculatorLive.ShowTest do
     new_html = render_click(view, :increase_donation)
 
     # refetch after update
-    calculator = Calculators.get_calculator!(calculator.id)
-    assert new_html =~ "$#{round(calculator.original_donation + calculator.additional_donation)}"
+    donation = DonationsContext.get_donation!(donation.id)
+    assert new_html =~ "$#{round(donation.original_donation + donation.additional_donation)}"
     # plane
     assert new_html =~
-             "#{round(calculator.original_distance + calculator.additional_distance)} km"
+             "#{round(donation.original_distance + donation.additional_distance)} km"
 
-    assert new_html =~ "#{round(calculator.original_co2 + calculator.additional_co2)} kg"
-    assert new_html =~ calculator.original_city_from
-    assert new_html =~ calculator.original_city_to
-    assert new_html =~ calculator.additional_city_from
-    assert new_html =~ calculator.additional_city_to
+    assert new_html =~ "#{round(donation.original_co2 + donation.additional_co2)} kg"
+    assert new_html =~ donation.original_city_from
+    assert new_html =~ donation.original_city_to
+    assert new_html =~ donation.additional_city_from
+    assert new_html =~ donation.additional_city_to
     # beef
     assert new_html =~ "9.57 kg"
     # car
@@ -113,7 +113,7 @@ defmodule Co2OffsetWeb.CalculatorLive.ShowTest do
 
   test "#decrease donation to default", %{
     view: view,
-    calculator: calculator,
+    donation: donation,
     distance_1700: distance_1700,
     distance_10000: distance_10000
   } do
@@ -121,14 +121,14 @@ defmodule Co2OffsetWeb.CalculatorLive.ShowTest do
     new_html = render_click(view, :decrease_donation)
 
     # refetch after update
-    calculator = Calculators.get_calculator!(calculator.id)
+    donation = DonationsContext.get_donation!(donation.id)
 
-    assert new_html =~ "$#{calculator.original_donation}"
+    assert new_html =~ "$#{donation.original_donation}"
     # plane
-    assert new_html =~ "#{round(calculator.original_distance)} km"
-    assert new_html =~ "#{round(calculator.original_co2)} kg"
-    assert new_html =~ calculator.original_city_from
-    assert new_html =~ calculator.original_city_to
+    assert new_html =~ "#{round(donation.original_distance)} km"
+    assert new_html =~ "#{round(donation.original_co2)} kg"
+    assert new_html =~ donation.original_city_from
+    assert new_html =~ donation.original_city_to
     # beef
     assert new_html =~ "6.68 kg"
     # car
