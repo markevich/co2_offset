@@ -1,6 +1,6 @@
 defmodule Co2Offset.Converters.Beef do
   @moduledoc """
-  Converter CO2 <-> beef kg for humans
+  Converter CO2 <-> beef kg
   """
   @co2_per_kg 34.6
 

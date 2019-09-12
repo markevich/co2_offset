@@ -1,6 +1,6 @@
 defmodule Co2Offset.Converters.Chicken do
   @moduledoc """
-  Converter CO2 <-> chicken kg for humans
+  Converter CO2 <-> chicken kg
   """
   @co2_per_kg 4.67
 
