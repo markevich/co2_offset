@@ -1,7 +1,6 @@
 defmodule Co2OffsetWeb.DonationLive.New do
   use Phoenix.LiveView
   alias Co2Offset.Donations.Context, as: DonationsContext
-  alias Co2Offset.Donations.DonationSchema
   alias Co2Offset.Geo
   alias Co2OffsetWeb.DonationLive.Show
   alias Co2OffsetWeb.Router.Helpers, as: Routes
@@ -20,7 +19,7 @@ defmodule Co2OffsetWeb.DonationLive.New do
   def mount(_session, socket) do
     {:ok,
      assign(socket, %{
-       changeset: DonationsContext.change_static_donation(%DonationSchema{}),
+       changeset: DonationsContext.donation_creation_changeset(),
        show_iata_from_autocomplete: false,
        show_iata_to_autocomplete: false,
        iata_from_autocomplete: %{},
@@ -30,7 +29,7 @@ defmodule Co2OffsetWeb.DonationLive.New do
 
   def handle_event(
         "autocomplete",
-        %{"donation" => %{"iata_from" => iata_from, "iata_to" => iata_to}},
+        %{"donation_creation_schema" => %{"iata_from" => iata_from, "iata_to" => iata_to}},
         socket
       ) do
     iata_from_autocomplete = get_autocomplete_records(iata_from)
@@ -73,7 +72,7 @@ defmodule Co2OffsetWeb.DonationLive.New do
      assign(socket, show_iata_to_autocomplete: true, show_iata_from_autocomplete: false)}
   end
 
-  def handle_event("save", %{"donation" => donation_params}, socket) do
+  def handle_event("save", %{"donation_creation_schema" => donation_params}, socket) do
     case DonationsContext.create_donation(donation_params) do
       {:ok, donation} ->
         {:stop,

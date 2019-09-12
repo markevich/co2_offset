@@ -1,18 +1,24 @@
 defmodule Co2Offset.Donations.Context do
-  alias Co2Offset.Donations.{Calculator, DonationSchema}
+  alias Co2Offset.Donations.{
+    AdditionalDonationSchema,
+    Calculator,
+    DonationCreationSchema,
+    DonationSchema
+  }
+
   alias Co2Offset.Repo
 
   @moduledoc """
   This module is a root Donations context.
   """
 
-  def change_static_donation(donation, attrs \\ %{}) do
-    DonationSchema.static_changeset(donation, attrs)
+  def donation_creation_changeset(donation \\ %DonationCreationSchema{}, attrs \\ %{}) do
+    DonationCreationSchema.changeset(donation, attrs)
   end
 
   def create_donation(attrs \\ %{}) do
-    %DonationSchema{}
-    |> DonationSchema.static_changeset(attrs)
+    %DonationCreationSchema{}
+    |> DonationCreationSchema.changeset(attrs)
     |> Repo.insert()
   end
 
@@ -23,10 +29,10 @@ defmodule Co2Offset.Donations.Context do
 
     {:ok, new_donation} =
       donation
-      |> DonationSchema.dynamic_changeset(%{additional_donation: increased_donation})
+      |> AdditionalDonationSchema.changeset(%{additional_donation: increased_donation})
       |> Repo.update()
 
-    new_donation
+    get_donation!(new_donation.id)
   end
 
   def decrease_donation(donation) do
@@ -34,9 +40,9 @@ defmodule Co2Offset.Donations.Context do
 
     {:ok, new_donation} =
       donation
-      |> DonationSchema.dynamic_changeset(%{additional_donation: decreased_donation})
+      |> AdditionalDonationSchema.changeset(%{additional_donation: decreased_donation})
       |> Repo.update()
 
-    new_donation
+    get_donation!(new_donation.id)
   end
 end
