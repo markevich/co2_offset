@@ -1,7 +1,7 @@
-defmodule Co2Offset.Calculators.Donation do
-  alias Co2Offset.Calculators.Calculator
+defmodule Co2Offset.Donations.Calculator do
+  alias Co2Offset.Donations.DonationSchema
 
-  def calculate_new_donations(%Calculator{
+  def calculate_new_donations(%DonationSchema{
         original_donation: original_donation,
         additional_donation: additional_donation
       }) do

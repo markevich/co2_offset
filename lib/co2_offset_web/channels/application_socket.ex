@@ -2,7 +2,7 @@ defmodule Co2OffsetWeb.ApplicationSocket do
   use Phoenix.Socket
 
   ## Channels
-  channel "calculator:*", Co2OffsetWeb.CalculatorChannel
+  channel "donation:*", Co2OffsetWeb.DonationChannel
 
   # Socket params are passed from the client and can
   # be used to verify and authenticate a user. After

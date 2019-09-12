@@ -1,13 +1,13 @@
-defmodule Co2Offset.Calculators.CalculatorTest do
+defmodule Co2Offset.Donations.DonationSchemaTest do
   use Co2Offset.DataCase, async: true
 
-  alias Co2Offset.Calculators.Calculator
+  alias Co2Offset.Donations.DonationSchema
 
   test "valid factory" do
-    assert(%Co2Offset.Calculators.Calculator{} = insert(:calculator))
+    assert(%Co2Offset.Donations.DonationSchema{} = insert(:donation))
   end
 
-  @valid_attrs params_for(:calculator)
+  @valid_attrs params_for(:donation)
 
   @required_attributes [
     :iata_from,
@@ -19,7 +19,7 @@ defmodule Co2Offset.Calculators.CalculatorTest do
   test "validates required attributes" do
     attrs = Map.drop(@valid_attrs, @required_attributes)
 
-    changeset = Calculator.static_changeset(%Calculator{}, attrs)
+    changeset = DonationSchema.static_changeset(%DonationSchema{}, attrs)
 
     for attribute <- @required_attributes do
       assert %{^attribute => ["can't be blank"]} = errors_on(changeset)
@@ -33,7 +33,7 @@ defmodule Co2Offset.Calculators.CalculatorTest do
         {attribute, "LongLongString"}
       end
 
-    changeset = Calculator.static_changeset(%Calculator{}, attrs)
+    changeset = DonationSchema.static_changeset(%DonationSchema{}, attrs)
 
     for attribute <- @attributes_with_length do
       assert %{^attribute => ["should be 3 character(s)"]} = errors_on(changeset)
@@ -53,7 +53,7 @@ defmodule Co2Offset.Calculators.CalculatorTest do
         {attribute, "You shall not pass"}
       end
 
-    changeset = Calculator.static_changeset(%Calculator{}, attrs)
+    changeset = DonationSchema.static_changeset(%DonationSchema{}, attrs)
 
     for attribute <- @protected_attributes do
       assert %{^attribute => ["can't be blank"]} = errors_on(changeset)
@@ -76,7 +76,7 @@ defmodule Co2Offset.Calculators.CalculatorTest do
 
       attrs = %{iata_from: iata_from, iata_to: iata_to}
 
-      changeset = Calculator.static_changeset(%Calculator{}, attrs)
+      changeset = DonationSchema.static_changeset(%DonationSchema{}, attrs)
 
       assert(
         %Ecto.Changeset{
@@ -110,7 +110,7 @@ defmodule Co2Offset.Calculators.CalculatorTest do
       iata_to = airport_to.iata
 
       attrs = %{iata_from: iata_from, iata_to: iata_to}
-      changeset = Calculator.static_changeset(%Calculator{}, attrs)
+      changeset = DonationSchema.static_changeset(%DonationSchema{}, attrs)
 
       assert(
         %{
@@ -129,7 +129,7 @@ defmodule Co2Offset.Calculators.CalculatorTest do
       iata_to = "🤷‍♂️🤷‍♂️🤷‍♂️"
 
       attrs = %{iata_from: iata_from, iata_to: iata_to}
-      changeset = Calculator.static_changeset(%Calculator{}, attrs)
+      changeset = DonationSchema.static_changeset(%DonationSchema{}, attrs)
 
       assert(
         %{
@@ -146,16 +146,16 @@ defmodule Co2Offset.Calculators.CalculatorTest do
 
   describe "dynamic changeset" do
     setup do
-      calculator = build(:calculator, original_donation: 5)
+      donation = build(:donation, original_donation: 5)
       distance = insert(:capitals_distance, distance: 4167)
 
-      {:ok, calculator: calculator, distance: distance}
+      {:ok, donation: donation, distance: distance}
     end
 
-    test "updates calculator with new values", %{calculator: calculator, distance: distance} do
+    test "updates donation with new values", %{donation: donation, distance: distance} do
       attrs = %{additional_donation: 15}
 
-      changeset = Calculator.dynamic_changeset(calculator, attrs)
+      changeset = DonationSchema.dynamic_changeset(donation, attrs)
       city_from = distance.from
       city_to = distance.to
 
@@ -173,10 +173,10 @@ defmodule Co2Offset.Calculators.CalculatorTest do
       )
     end
 
-    test "invalid with incorrect additional donation", %{calculator: calculator} do
+    test "invalid with incorrect additional donation", %{donation: donation} do
       attrs = %{additional_donation: -5}
 
-      changeset = Calculator.dynamic_changeset(calculator, attrs)
+      changeset = DonationSchema.dynamic_changeset(donation, attrs)
 
       assert(
         %{

@@ -1,6 +1,6 @@
 defmodule Co2Offset.Converters do
   # credo:disable-for-next-line
-  alias Co2Offset.Calculators.Calculator
+  alias Co2Offset.Donations.DonationSchema
   alias Co2Offset.Converters.{Beef, Car, Chicken, EtnoVolcano, Human, Money, Petrol, Plane, Train}
   alias Co2Offset.Geo
 
@@ -8,9 +8,9 @@ defmodule Co2Offset.Converters do
   This module is a root converter context.
   """
 
-  @spec generate_examples(Co2Offset.Calculators.Calculator.t()) :: map
-  def generate_examples(%Calculator{} = calculator) do
-    distance = calculator.original_distance + calculator.additional_distance
+  @spec generate_examples(Co2Offset.Donations.DonationSchema.t()) :: map
+  def generate_examples(%DonationSchema{} = donation) do
+    distance = donation.original_distance + donation.additional_distance
 
     distance
     |> from_plane()

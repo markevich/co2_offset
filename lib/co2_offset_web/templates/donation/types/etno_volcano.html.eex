@@ -1,15 +1,15 @@
 <div class="converter-container">
   <div class="converter-item converter-item">
     <div class="converter-item__header">
-      <img src="<%= Routes.static_path(@socket, "/images/calculator.show/chicken.svg") %>"/>
+      <img src="<%= Routes.static_path(@socket, "/images/donation.show/volcano.svg") %>"/>
       </object>
       <div class="converter-item__details">
         <div class="converter-item__details-row">
           <div class="converter-item__details-name">
-            Chicken
+            Etno volcano breathing
           </div>
           <div class="converter-item__details-value">
-            <%= to_int(@converter[:kg]) %> kg
+            <%= to_float_string(@converter[:seconds]) %> sec
           </div>
         </div>
       </div>

@@ -1,7 +1,7 @@
 <div class="converter-container">
   <div class="converter-item converter-item">
     <div class="converter-item__header">
-      <img src="<%= Routes.static_path(@socket, "/images/calculator.show/plane.svg") %>"/>
+      <img src="<%= Routes.static_path(@socket, "/images/donation.show/plane.svg") %>"/>
       </object>
       <div class="converter-item__details">
         <div class="converter-item__details-row">
@@ -9,7 +9,7 @@
             Plane
           </div>
           <div class="converter-item__details-value">
-            <%= to_int(@calculator.original_distance + @calculator.additional_distance) %> km
+            <%= to_int(@donation.original_distance + @donation.additional_distance) %> km
           </div>
         </div>
         <div class="converter-item__details-row">
@@ -17,7 +17,7 @@
             Compensated CO²
           </div>
           <div class="converter-item__details-value converter-item__details-value--secondary">
-            <%= to_int(@calculator.original_co2 + @calculator.additional_co2) %> kg
+            <%= to_int(@donation.original_co2 + @donation.additional_co2) %> kg
           </div>
         </div>
       </div>
@@ -25,25 +25,25 @@
     <div class="converter-item__examples">
       <div class="converter-item__examples-row">
         <div class="converter-item__examples-from">
-          <%= @calculator.original_city_from %>
+          <%= @donation.original_city_from %>
         </div>
         <div class="converter-item__examples-indicator">
-          <img src="<%= Routes.static_path(@socket, "/images/calculator.show/indicator-plane.svg") %>"/>
+          <img src="<%= Routes.static_path(@socket, "/images/donation.show/indicator-plane.svg") %>"/>
         </div>
         <div class="converter-item__examples-to">
-          <%= @calculator.original_city_to %>
+          <%= @donation.original_city_to %>
         </div>
       </div>
-      <%= if @calculator.additional_co2 > 0 do %>
+      <%= if @donation.additional_co2 > 0 do %>
         <div class="converter-item__examples-row converter-item__examples-row__additional">
           <div class="converter-item__examples-from">
-            <%= @calculator.additional_city_from %>
+            <%= @donation.additional_city_from %>
           </div>
           <div class="converter-item__examples-indicator">
-            <img src="<%= Routes.static_path(@socket, "/images/calculator.show/indicator-plane.svg") %>"/>
+            <img src="<%= Routes.static_path(@socket, "/images/donation.show/indicator-plane.svg") %>"/>
           </div>
           <div class="converter-item__examples-to">
-            <%= @calculator.additional_city_to %>
+            <%= @donation.additional_city_to %>
           </div>
         </div>
       <% end %>

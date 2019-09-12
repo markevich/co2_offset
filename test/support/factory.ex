@@ -1,8 +1,8 @@
 defmodule Co2Offset.Factory do
   use ExMachina.Ecto, repo: Co2Offset.Repo
 
-  def calculator_factory do
-    %Co2Offset.Calculators.Calculator{
+  def donation_factory do
+    %Co2Offset.Donations.DonationSchema{
       iata_from: "MSQ",
       iata_to: "SVO",
       original_city_from: "Minsk",

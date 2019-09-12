@@ -1,12 +1,12 @@
 <div class="converter-container">
   <div class="converter-item converter-item">
     <div class="converter-item__header">
-      <img src="<%= Routes.static_path(@socket, "/images/calculator.show/car.svg") %>"/>
+      <img src="<%= Routes.static_path(@socket, "/images/donation.show/train.svg") %>"/>
       </object>
       <div class="converter-item__details">
         <div class="converter-item__details-row">
           <div class="converter-item__details-name">
-            Car
+            Train
           </div>
           <div class="converter-item__details-value">
             <%= to_int(@converter[:km]) %> km
@@ -20,7 +20,7 @@
           <%= @converter[:example_from] %>
         </div>
         <div class="converter-item__examples-indicator">
-          <img src="<%= Routes.static_path(@socket, "/images/calculator.show/indicator-car.svg") %>"/>
+          <img src="<%= Routes.static_path(@socket, "/images/donation.show/indicator-train.svg") %>"/>
         </div>
         <div class="converter-item__examples-to">
           <%= @converter[:example_to] %>

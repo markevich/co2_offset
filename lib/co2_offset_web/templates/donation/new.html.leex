@@ -1,10 +1,10 @@
-<link rel="stylesheet" href="<%= Routes.static_path(@socket, "/css/pages/calculator.new.css") %>"/>
-<script type="text/javascript" src="<%= Routes.static_path(@socket, "/js/pages/calculator.new.js") %>"></script>
+<link rel="stylesheet" href="<%= Routes.static_path(@socket, "/css/pages/donation.new.css") %>"/>
+<script type="text/javascript" src="<%= Routes.static_path(@socket, "/js/pages/donation.new.js") %>"></script>
 
-<link rel="preload" href="<%= Routes.static_path(@socket, "/css/pages/calculator.show.css") %>" as="style">
-<link rel="preload" href="<%= Routes.static_path(@socket, "/js/pages/calculator.show.js") %>" as="script">
+<link rel="preload" href="<%= Routes.static_path(@socket, "/css/pages/donation.show.css") %>" as="style">
+<link rel="preload" href="<%= Routes.static_path(@socket, "/js/pages/donation.show.js") %>" as="script">
 
-<%= #link "Go to calculator", to: Routes.calculator_path(@socket, :show, 1) %>
+<%= #link "Go to donation", to: Routes.donation_path(@socket, :show, 1) %>
 <div class="container">
   <div class="header">
     <span class="header__logo">CO²</span>
@@ -26,7 +26,7 @@
       and take the first step to help<br />
       to restore the balance.
     </h2>
-    <img class="container__leaf" src="<%= Routes.static_path(@socket, "/images/calculator.new/leaf.svg") %>">
+    <img class="container__leaf" src="<%= Routes.static_path(@socket, "/images/donation.new/leaf.svg") %>">
   </div>
 
 
@@ -49,7 +49,7 @@
                   <%= for airport <- airports do %>
                     <div class="autocomplete__item" phx-click="set_iata_from" phx-value="<%= airport.iata %>">
                       <div class="autocomplete__airport">
-                        <img src="<%= Routes.static_path(@socket, "/images/calculator.new/autocomplete-plane.svg") %>" class="autocomplete__icon"></img>
+                        <img src="<%= Routes.static_path(@socket, "/images/donation.new/autocomplete-plane.svg") %>" class="autocomplete__icon"></img>
                         <div class="autocomplete__name">
                          <%= airport.name %>
                         </div>
@@ -82,7 +82,7 @@
                   <%= for airport <- airports do %>
                     <div class="autocomplete__item" phx-click="set_iata_to" phx-value="<%= airport.iata %>">
                       <div class="autocomplete__airport">
-                        <img src="<%= Routes.static_path(@socket, "/images/calculator.new/autocomplete-plane.svg") %>" class="autocomplete__icon"></img>
+                        <img src="<%= Routes.static_path(@socket, "/images/donation.new/autocomplete-plane.svg") %>" class="autocomplete__icon"></img>
                         <div class="autocomplete__name">
                          <%= airport.name %>
                         </div>

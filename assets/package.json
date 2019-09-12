@@ -47,8 +47,8 @@
       "webpack": false,
       "path": [
         "../priv/static/js/core.js",
-        "../priv/static/js/pages/calculator.new.js",
-        "../priv/static/js/pages/calculator.show.js"
+        "../priv/static/js/pages/donation.new.js",
+        "../priv/static/js/pages/donation.show.js"
       ]
     }
   ]
