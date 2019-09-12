@@ -1,8 +1,8 @@
-defmodule Co2Offset.Geo.GeoTest do
+defmodule Co2Offset.Geo.ContextTest do
   use Co2Offset.DataCase, async: true
 
-  alias Co2Offset.Geo
   alias Co2Offset.Geo.Airport
+  alias Co2Offset.Geo.Context
 
   describe "#get_airport_by_iata" do
     setup do
@@ -14,7 +14,7 @@ defmodule Co2Offset.Geo.GeoTest do
     test "with existing iata", %{airport: airport} do
       iata = airport.iata
 
-      result = Geo.get_airport_by_iata(iata)
+      result = Context.get_airport_by_iata(iata)
 
       assert(%Airport{iata: ^iata} = result)
     end
@@ -29,7 +29,7 @@ defmodule Co2Offset.Geo.GeoTest do
     end
 
     test "returns correct result", %{airport_from: airport_from, airport_to: airport_to} do
-      assert(Geo.distance_between_airports(airport_from, airport_to) == 107)
+      assert(Context.distance_between_airports(airport_from, airport_to) == 107)
     end
   end
 
@@ -80,7 +80,7 @@ defmodule Co2Offset.Geo.GeoTest do
       search_terms: search_terms
     } do
       for term <- search_terms do
-        result = Geo.search_airports(term)
+        result = Context.search_airports(term)
 
         assert Enum.any?(result, fn airport -> airport.id == airport1.id end)
         assert Enum.any?(result, fn airport -> airport.id == airport2.id end)
@@ -92,13 +92,13 @@ defmodule Co2Offset.Geo.GeoTest do
       airport1: airport1,
       iata_term: iata_term
     } do
-      result = Geo.search_airports(iata_term)
+      result = Context.search_airports(iata_term)
 
       assert Enum.any?(result, fn airport -> airport.id == airport1.id end)
     end
 
     test "with empty search term" do
-      assert %{} = Geo.search_airports("")
+      assert %{} = Context.search_airports("")
     end
   end
 
@@ -111,8 +111,8 @@ defmodule Co2Offset.Geo.GeoTest do
     end
 
     test "returns closest locations" do
-      assert %{from: "Paris", to: "Copenhagen"} = Geo.get_locations_with_similar_distance(955)
-      assert %{from: "Minsk", to: "Moscow"} = Geo.get_locations_with_similar_distance(945)
+      assert %{from: "Paris", to: "Copenhagen"} = Context.get_locations_with_similar_distance(955)
+      assert %{from: "Minsk", to: "Moscow"} = Context.get_locations_with_similar_distance(945)
     end
   end
 end

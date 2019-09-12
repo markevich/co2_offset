@@ -1,6 +1,7 @@
 defmodule Co2OffsetWeb.DonationLive.Show do
   use Phoenix.LiveView
-  alias Co2Offset.Converters
+
+  alias Co2Offset.Converters.Context, as: ConvertersContext
   alias Co2Offset.Donations.Context, as: DonationsContext
   alias Phoenix.LiveView.Socket
 
@@ -59,7 +60,7 @@ defmodule Co2OffsetWeb.DonationLive.Show do
   end
 
   defp assign_additional_examples(%Socket{assigns: %{donation: donation}} = socket) do
-    examples = Converters.generate_examples(donation)
+    examples = ConvertersContext.generate_examples(donation)
 
     assign(socket, examples: examples)
   end

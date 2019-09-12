@@ -1,8 +1,8 @@
-defmodule Co2Offset.Converters do
+defmodule Co2Offset.Converters.Context do
   # credo:disable-for-next-line
   alias Co2Offset.Donations.DonationSchema
   alias Co2Offset.Converters.{Beef, Car, Chicken, EtnoVolcano, Human, Money, Petrol, Plane, Train}
-  alias Co2Offset.Geo
+  alias Co2Offset.Geo.Context, as: GeoContext
 
   @moduledoc """
   This module is a root converter context.
@@ -53,7 +53,7 @@ defmodule Co2Offset.Converters do
 
   defp put_distance_examples(converter) do
     %{from: location_from, to: location_to} =
-      Geo.get_locations_with_similar_distance(converter[:km])
+      GeoContext.get_locations_with_similar_distance(converter[:km])
 
     converter
     |> Map.put(:example_from, location_from)

@@ -1,9 +1,11 @@
 defmodule Co2Offset.Donations.DonationCreationSchema do
   use Ecto.Schema
+
   import Ecto.Changeset
-  alias Co2Offset.Converters
-  alias Co2Offset.Donations.DonationCreationSchema
-  alias Co2Offset.Geo
+
+  alias __MODULE__
+  alias Co2Offset.Converters.Context, as: ConvertersContext
+  alias Co2Offset.Geo.Context, as: GeoContext
 
   schema "donations" do
     field :iata_from, :string
@@ -40,8 +42,8 @@ defmodule Co2Offset.Donations.DonationCreationSchema do
   defp put_airports(changeset) do
     case changeset do
       %Ecto.Changeset{valid?: true, changes: %{iata_from: iata_from, iata_to: iata_to}} ->
-        airport_from = Geo.get_airport_by_iata(iata_from)
-        airport_to = Geo.get_airport_by_iata(iata_to)
+        airport_from = GeoContext.get_airport_by_iata(iata_from)
+        airport_to = GeoContext.get_airport_by_iata(iata_to)
 
         changeset
         |> put_change(:airport_from, airport_from)
@@ -73,7 +75,7 @@ defmodule Co2Offset.Donations.DonationCreationSchema do
         valid?: true,
         changes: %{airport_from: airport_from, airport_to: airport_to}
       } ->
-        original_distance = Geo.distance_between_airports(airport_from, airport_to)
+        original_distance = GeoContext.distance_between_airports(airport_from, airport_to)
 
         changeset
         |> put_change(:original_distance, original_distance)
@@ -89,7 +91,7 @@ defmodule Co2Offset.Donations.DonationCreationSchema do
         valid?: true,
         changes: %{original_distance: distance}
       } ->
-        original_co2 = Converters.co2_from_plane_km(distance)
+        original_co2 = ConvertersContext.co2_from_plane_km(distance)
 
         changeset
         |> put_change(:original_co2, original_co2)
@@ -105,7 +107,7 @@ defmodule Co2Offset.Donations.DonationCreationSchema do
         valid?: true,
         changes: %{original_co2: original_co2}
       } ->
-        original_donation = Converters.money_from_co2(original_co2)
+        original_donation = ConvertersContext.money_from_co2(original_co2)
 
         changeset
         |> put_change(:original_donation, original_donation)
