@@ -1,7 +1,7 @@
 defmodule Co2Offset.Geo.ContextTest do
   use Co2Offset.DataCase, async: true
 
-  alias Co2Offset.Geo.Airport
+  alias Co2Offset.Geo.AirportSchema
   alias Co2Offset.Geo.Context
 
   describe "#get_airport_by_iata" do
@@ -16,7 +16,7 @@ defmodule Co2Offset.Geo.ContextTest do
 
       result = Context.get_airport_by_iata(iata)
 
-      assert(%Airport{iata: ^iata} = result)
+      assert(%AirportSchema{iata: ^iata} = result)
     end
   end
 
@@ -104,8 +104,8 @@ defmodule Co2Offset.Geo.ContextTest do
 
   describe "get_locations_with_similar_distance" do
     setup do
-      insert(:capitals_distance, from: "Minsk", to: "Moscow", distance: 900)
-      insert(:capitals_distance, from: "Paris", to: "Copenhagen", distance: 1000)
+      insert(:distance, from: "Minsk", to: "Moscow", distance: 900)
+      insert(:distance, from: "Paris", to: "Copenhagen", distance: 1000)
 
       {:ok, %{}}
     end

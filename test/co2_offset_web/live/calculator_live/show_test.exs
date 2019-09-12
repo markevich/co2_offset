@@ -4,12 +4,12 @@ defmodule Co2OffsetWeb.DonationLive.ShowTest do
 
   setup do
     donation = insert(:donation, original_distance: 642)
-    distance_1700 = insert(:capitals_distance, distance: 1700)
-    distance_10000 = insert(:capitals_distance, distance: 10_000)
+    distance_1700 = insert(:distance, distance: 1700)
+    distance_10000 = insert(:distance, distance: 10_000)
 
-    distance_278 = insert(:capitals_distance, distance: 278)
-    distance_2509 = insert(:capitals_distance, distance: 2509)
-    distance_14720 = insert(:capitals_distance, distance: 14_720)
+    distance_278 = insert(:distance, distance: 278)
+    distance_2509 = insert(:distance, distance: 2509)
+    distance_14720 = insert(:distance, distance: 14_720)
 
     {:ok, view, html} = live(build_conn(), "/donations/#{donation.id}")
 

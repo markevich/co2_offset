@@ -1,7 +1,7 @@
 defmodule Co2Offset.Geo.Context do
   import Ecto.Query, only: [from: 2]
 
-  alias Co2Offset.Geo.Airport
+  alias Co2Offset.Geo.AirportSchema
   alias Co2Offset.Geo.GreatCircleDistance
   alias Co2Offset.Repo
 
@@ -10,7 +10,7 @@ defmodule Co2Offset.Geo.Context do
   """
 
   def get_airport_by_iata(iata) do
-    Repo.one(from a in Airport, where: a.iata == ^String.upcase(iata))
+    Repo.one(from a in AirportSchema, where: a.iata == ^String.upcase(iata))
   end
 
   def distance_between_airports(airport_from, airport_to) do
@@ -43,7 +43,7 @@ defmodule Co2Offset.Geo.Context do
   defp form_query(term) do
     term = "%#{term}%"
 
-    from a in Airport,
+    from a in AirportSchema,
       where:
         like(fragment("lower(?)", a.city), ^term) or
           like(fragment("lower(?)", a.country), ^term) or

@@ -1,6 +1,6 @@
 defmodule Mix.Tasks.Co2Offset.UpdateAirportsTable do
   use Mix.Task
-  alias Co2Offset.Geo.Airport
+  alias Co2Offset.Geo.AirportSchema
   alias Co2Offset.Repo
 
   @moduledoc """
@@ -20,7 +20,7 @@ defmodule Mix.Tasks.Co2Offset.UpdateAirportsTable do
     {:ok, _result} = copy_table_sql() |> Repo.query()
     {:ok, _result} = delete_bad_iata_sql() |> Repo.query()
 
-    new_count = Repo.aggregate(Airport, :count, :id)
+    new_count = Repo.aggregate(AirportSchema, :count, :id)
 
     IO.puts("Import completed. New airports count: #{new_count}")
   end
