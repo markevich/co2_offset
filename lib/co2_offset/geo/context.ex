@@ -1,8 +1,9 @@
-defmodule Co2Offset.Geo do
+defmodule Co2Offset.Geo.Context do
+  import Ecto.Query, only: [from: 2]
+
   alias Co2Offset.Geo.Airport
   alias Co2Offset.Geo.GreatCircleDistance
   alias Co2Offset.Repo
-  import Ecto.Query, only: [from: 2]
 
   @moduledoc """
   This module is a root Geo context.

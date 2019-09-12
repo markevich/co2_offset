@@ -1,9 +1,9 @@
-defmodule Co2Offset.ConvertersTest do
+defmodule Co2Offset.Converters.ContextTest do
   @moduledoc false
 
   use Co2Offset.DataCase
 
-  alias Co2Offset.Converters
+  alias Co2Offset.Converters.Context
 
   describe "generate_examples/1" do
     setup do
@@ -26,7 +26,7 @@ defmodule Co2Offset.ConvertersTest do
         train: %{example_from: "Minsk", example_to: "Moscow", km: 11_216.0}
       }
 
-      assert(Converters.generate_examples(donation) == expected)
+      assert(Context.generate_examples(donation) == expected)
     end
   end
 
@@ -66,19 +66,19 @@ defmodule Co2Offset.ConvertersTest do
         }
       }
 
-      assert(Converters.from_plane(km) == expected)
+      assert(Context.from_plane(km) == expected)
     end
   end
 
   describe "co2_from_plane_km/1" do
     test "returns correct numbers" do
-      assert(252.0 = Converters.co2_from_plane_km(700))
+      assert(252.0 = Context.co2_from_plane_km(700))
     end
   end
 
   describe "money_from_co2/1" do
     test "returns correct numbers" do
-      assert(10 = Converters.money_from_co2(1000.0))
+      assert(10 = Context.money_from_co2(1000.0))
     end
   end
 end
