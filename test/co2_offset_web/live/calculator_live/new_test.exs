@@ -51,7 +51,7 @@ defmodule Co2OffsetWeb.DonationLive.NewTest do
         view,
         :save,
         %{
-          donation: %{
+          donation_creation_schema: %{
             iata_from: airport_from.iata,
             iata_to: airport_to.iata
           }
@@ -84,7 +84,9 @@ defmodule Co2OffsetWeb.DonationLive.NewTest do
       render_change(view, :show_iata_from_autocomplete)
 
       rendered =
-        render_change(view, :autocomplete, %{donation: %{iata_from: search_term, iata_to: ""}})
+        render_change(view, :autocomplete, %{
+          donation_creation_schema: %{iata_from: search_term, iata_to: ""}
+        })
 
       assert rendered =~ airport1.city
       assert rendered =~ airport1.name
@@ -106,7 +108,9 @@ defmodule Co2OffsetWeb.DonationLive.NewTest do
       render_change(view, :show_iata_to_autocomplete)
 
       rendered =
-        render_change(view, :autocomplete, %{donation: %{iata_from: "", iata_to: "minsk"}})
+        render_change(view, :autocomplete, %{
+          donation_creation_schema: %{iata_from: "", iata_to: "minsk"}
+        })
 
       assert rendered =~ airport1.city
       assert rendered =~ airport1.name

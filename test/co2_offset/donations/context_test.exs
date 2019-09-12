@@ -2,7 +2,7 @@ defmodule Co2Offset.Donations.ContextTest do
   use Co2Offset.DataCase, async: true
 
   alias Co2Offset.Donations.Context, as: DonationsContext
-  alias Co2Offset.Donations.DonationSchema
+  alias Co2Offset.Donations.{DonationCreationSchema, DonationSchema}
 
   describe "#create_donation" do
     setup do
@@ -24,7 +24,7 @@ defmodule Co2Offset.Donations.ContextTest do
 
       assert(
         {:ok,
-         %DonationSchema{
+         %DonationCreationSchema{
            original_city_from: ^original_city_from,
            original_city_to: ^original_city_to,
            iata_from: ^iata_from,
@@ -35,9 +35,9 @@ defmodule Co2Offset.Donations.ContextTest do
     end
   end
 
-  describe "#change_static_donation" do
+  describe "#changeset" do
     test "returns changeset" do
-      assert(%Ecto.Changeset{} = DonationsContext.change_static_donation(%DonationSchema{}))
+      assert(%Ecto.Changeset{} = DonationsContext.donation_creation_changeset())
     end
   end
 
