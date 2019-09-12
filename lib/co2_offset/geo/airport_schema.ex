@@ -1,8 +1,8 @@
-defmodule Co2Offset.Geo.Airport do
+defmodule Co2Offset.Geo.AirportSchema do
   use Ecto.Schema
 
   @moduledoc """
-  Airports model. Generated from 3rd party data.
+  Airports schema. Generated from 3rd party data.
   Used for airports autocompletion.
   """
 

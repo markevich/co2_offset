@@ -1,6 +1,6 @@
 defmodule Mix.Tasks.Co2Offset.UpdateDistancesTable do
   use Mix.Task
-  alias Co2Offset.Geo.Distance
+  alias Co2Offset.Geo.DistanceSchema
   alias Co2Offset.Repo
 
   @moduledoc """
@@ -19,7 +19,7 @@ defmodule Mix.Tasks.Co2Offset.UpdateDistancesTable do
     {:ok, _result} = truncate_table_sql() |> Repo.query()
     {:ok, _result} = copy_table_sql() |> Repo.query()
 
-    new_count = Repo.aggregate(Distance, :count, :id)
+    new_count = Repo.aggregate(DistanceSchema, :count, :id)
 
     IO.puts("Import completed. New distances count: #{new_count}")
   end

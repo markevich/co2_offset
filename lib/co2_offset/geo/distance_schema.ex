@@ -1,4 +1,4 @@
-defmodule Co2Offset.Geo.Distance do
+defmodule Co2Offset.Geo.DistanceSchema do
   use Ecto.Schema
 
   @moduledoc """

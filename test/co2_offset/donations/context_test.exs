@@ -60,7 +60,7 @@ defmodule Co2Offset.Donations.ContextTest do
   describe "#increase/decrease_donation" do
     setup do
       donation = insert(:donation, original_donation: 30, additional_donation: 5)
-      insert(:capitals_distance)
+      insert(:distance)
 
       {:ok, donation: donation}
     end

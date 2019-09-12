@@ -7,8 +7,8 @@ defmodule Co2Offset.Converters.ContextTest do
 
   describe "generate_examples/1" do
     setup do
-      insert(:capitals_distance, from: "Minsk", to: "Moscow", distance: 10_000)
-      insert(:capitals_distance, from: "Paris", to: "Copenhagen", distance: 2000)
+      insert(:distance, from: "Minsk", to: "Moscow", distance: 10_000)
+      insert(:distance, from: "Paris", to: "Copenhagen", distance: 2000)
 
       donation = insert(:donation, original_distance: 700, additional_distance: 1)
 

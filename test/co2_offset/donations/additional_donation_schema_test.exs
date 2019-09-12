@@ -8,7 +8,7 @@ defmodule Co2Offset.Donations.AdditionalDonationSchemaTest do
       donation = build(:donation, original_donation: 5)
       additional_donation = %AdditionalDonationSchema{id: donation.id}
 
-      distance = insert(:capitals_distance, distance: 4167)
+      distance = insert(:distance, distance: 4167)
 
       {:ok, donation: additional_donation, distance: distance}
     end

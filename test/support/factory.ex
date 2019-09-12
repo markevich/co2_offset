@@ -19,7 +19,7 @@ defmodule Co2Offset.Factory do
   end
 
   def airport_factory do
-    %Co2Offset.Geo.Airport{
+    %Co2Offset.Geo.AirportSchema{
       city: "City",
       name: "Airport Name",
       iata: sequence(:iata, fn n -> generate_unique_string(n, 3) end),
@@ -29,8 +29,8 @@ defmodule Co2Offset.Factory do
     }
   end
 
-  def capitals_distance_factory do
-    %Co2Offset.Geo.Distance{
+  def distance_factory do
+    %Co2Offset.Geo.DistanceSchema{
       from: sequence(:iata, fn n -> generate_unique_string(n, 3) end),
       to: sequence(:iata, fn n -> generate_unique_string(n, 4) end),
       distance: 42
