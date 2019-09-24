@@ -1,8 +1,8 @@
 defmodule Co2OffsetWeb.DonationLive.Show do
   use Phoenix.LiveView
 
-  alias Co2Offset.Converters, as: Converters
-  alias Co2Offset.Donations.Context, as: DonationsContext
+  alias Co2Offset.Converters
+  alias Co2Offset.Donations
   alias Phoenix.LiveView.Socket
 
   def render(assigns) do
@@ -28,7 +28,7 @@ defmodule Co2OffsetWeb.DonationLive.Show do
         _params,
         %Socket{assigns: %{donation: donation}} = socket
       ) do
-    new_donation = DonationsContext.increase_donation(donation)
+    new_donation = Donations.increase_donation(donation)
 
     new_socket =
       socket
@@ -43,7 +43,7 @@ defmodule Co2OffsetWeb.DonationLive.Show do
         _params,
         %Socket{assigns: %{donation: donation}} = socket
       ) do
-    new_donation = DonationsContext.decrease_donation(donation)
+    new_donation = Donations.decrease_donation(donation)
 
     new_socket =
       socket
@@ -54,7 +54,7 @@ defmodule Co2OffsetWeb.DonationLive.Show do
   end
 
   defp assign_donation(%Socket{assigns: %{id: id}} = socket) do
-    donation = DonationsContext.get_donation!(id)
+    donation = Donations.get_donation!(id)
 
     assign(socket, donation: donation)
   end
