@@ -5,7 +5,7 @@ defmodule Co2Offset.Donations.DonationCreationSchema do
 
   alias __MODULE__
   alias Co2Offset.Converters
-  alias Co2Offset.Geo.Context, as: GeoContext
+  alias Co2Offset.Geo
 
   schema "donations" do
     field :iata_from, :string
@@ -42,8 +42,8 @@ defmodule Co2Offset.Donations.DonationCreationSchema do
   defp put_airports(changeset) do
     case changeset do
       %Ecto.Changeset{valid?: true, changes: %{iata_from: iata_from, iata_to: iata_to}} ->
-        airport_from = GeoContext.get_airport_by_iata(iata_from)
-        airport_to = GeoContext.get_airport_by_iata(iata_to)
+        airport_from = Geo.get_airport_by_iata(iata_from)
+        airport_to = Geo.get_airport_by_iata(iata_to)
 
         changeset
         |> put_change(:airport_from, airport_from)
@@ -75,7 +75,7 @@ defmodule Co2Offset.Donations.DonationCreationSchema do
         valid?: true,
         changes: %{airport_from: airport_from, airport_to: airport_to}
       } ->
-        original_distance = GeoContext.distance_between_airports(airport_from, airport_to)
+        original_distance = Geo.distance_between_airports(airport_from, airport_to)
 
         changeset
         |> put_change(:original_distance, original_distance)

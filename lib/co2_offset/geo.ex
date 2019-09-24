@@ -1,4 +1,4 @@
-defmodule Co2Offset.Geo.Context do
+defmodule Co2Offset.Geo do
   import Ecto.Query, only: [from: 2]
 
   alias Co2Offset.Geo.AirportSchema

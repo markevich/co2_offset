@@ -4,7 +4,7 @@ defmodule Co2Offset.Donations.AdditionalDonationSchema do
   import Ecto.Changeset
 
   alias Co2Offset.Converters
-  alias Co2Offset.Geo.Context, as: GeoContext
+  alias Co2Offset.Geo
 
   schema "donations" do
     field :additional_city_from, :string
@@ -58,7 +58,7 @@ defmodule Co2Offset.Donations.AdditionalDonationSchema do
         %{
           from: additional_city_from,
           to: additional_city_to
-        } = GeoContext.get_locations_with_similar_distance(additional_distance)
+        } = Geo.get_locations_with_similar_distance(additional_distance)
 
         changeset
         |> put_change(:additional_city_from, additional_city_from)

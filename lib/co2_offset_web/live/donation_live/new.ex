@@ -2,7 +2,7 @@ defmodule Co2OffsetWeb.DonationLive.New do
   use Phoenix.LiveView
 
   alias Co2Offset.Donations
-  alias Co2Offset.Geo.Context, as: GeoContext
+  alias Co2Offset.Geo
   alias Co2OffsetWeb.DonationLive.Show
   alias Co2OffsetWeb.Router.Helpers, as: Routes
 
@@ -87,7 +87,7 @@ defmodule Co2OffsetWeb.DonationLive.New do
 
   defp get_autocomplete_records(term) do
     term
-    |> GeoContext.search_airports()
+    |> Geo.search_airports()
     |> Enum.group_by(fn a -> a.city end)
   end
 end
