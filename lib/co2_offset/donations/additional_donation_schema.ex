@@ -3,7 +3,7 @@ defmodule Co2Offset.Donations.AdditionalDonationSchema do
 
   import Ecto.Changeset
 
-  alias Co2Offset.Converters.Context, as: ConvertersContext
+  alias Co2Offset.Converters, as: Converters
   alias Co2Offset.Geo.Context, as: GeoContext
 
   schema "donations" do
@@ -29,7 +29,7 @@ defmodule Co2Offset.Donations.AdditionalDonationSchema do
   defp put_additional_co2(changeset) do
     case changeset do
       %Ecto.Changeset{valid?: true, changes: %{additional_donation: additional_donation}} ->
-        additional_co2 = ConvertersContext.co2_from_money(additional_donation)
+        additional_co2 = Converters.co2_from_money(additional_donation)
 
         changeset
         |> put_change(:additional_co2, additional_co2 / 1.0)
@@ -42,7 +42,7 @@ defmodule Co2Offset.Donations.AdditionalDonationSchema do
   defp put_additional_distance(changeset) do
     case changeset do
       %Ecto.Changeset{valid?: true, changes: %{additional_co2: additional_co2}} ->
-        additional_distance = ConvertersContext.plane_km_from_co2(additional_co2)
+        additional_distance = Converters.plane_km_from_co2(additional_co2)
 
         changeset
         |> put_change(:additional_distance, round(additional_distance))

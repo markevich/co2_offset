@@ -1,4 +1,4 @@
-defmodule Co2Offset.Converters.Context do
+defmodule Co2Offset.Converters do
   alias Co2Offset.Donations.DonationSchema
   alias Co2Offset.Converters.{Beef, Car, Chicken, EtnoVolcano, Human, Money, Petrol, Plane, Train}
   alias Co2Offset.Geo.Context, as: GeoContext

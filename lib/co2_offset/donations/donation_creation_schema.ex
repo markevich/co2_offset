@@ -4,7 +4,7 @@ defmodule Co2Offset.Donations.DonationCreationSchema do
   import Ecto.Changeset
 
   alias __MODULE__
-  alias Co2Offset.Converters.Context, as: ConvertersContext
+  alias Co2Offset.Converters, as: Converters
   alias Co2Offset.Geo.Context, as: GeoContext
 
   schema "donations" do
@@ -91,7 +91,7 @@ defmodule Co2Offset.Donations.DonationCreationSchema do
         valid?: true,
         changes: %{original_distance: distance}
       } ->
-        original_co2 = ConvertersContext.co2_from_plane_km(distance)
+        original_co2 = Converters.co2_from_plane_km(distance)
 
         changeset
         |> put_change(:original_co2, original_co2)
@@ -107,7 +107,7 @@ defmodule Co2Offset.Donations.DonationCreationSchema do
         valid?: true,
         changes: %{original_co2: original_co2}
       } ->
-        original_donation = ConvertersContext.money_from_co2(original_co2)
+        original_donation = Converters.money_from_co2(original_co2)
 
         changeset
         |> put_change(:original_donation, original_donation)
