@@ -5,7 +5,7 @@
 # is restricted to this project.
 
 # General application configuration
-use Mix.Config
+import Config
 
 config :co2_offset,
   ecto_repos: [Co2Offset.Repo]
