@@ -1,4 +1,4 @@
-defmodule Co2Offset.Donations.Context do
+defmodule Co2Offset.Donations do
   alias Co2Offset.Donations.{
     AdditionalDonationSchema,
     Calculator,

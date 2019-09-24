@@ -1,7 +1,7 @@
-defmodule Co2Offset.Donations.ContextTest do
+defmodule Co2Offset.DonationsTest do
   use Co2Offset.DataCase, async: true
 
-  alias Co2Offset.Donations.Context, as: DonationsContext
+  alias Co2Offset.Donations
   alias Co2Offset.Donations.{DonationCreationSchema, DonationSchema}
 
   describe "#create_donation" do
@@ -20,7 +20,7 @@ defmodule Co2Offset.Donations.ContextTest do
 
       attrs = %{iata_from: iata_from, iata_to: iata_to}
 
-      result = DonationsContext.create_donation(attrs)
+      result = Donations.create_donation(attrs)
 
       assert(
         {:ok,
@@ -37,7 +37,7 @@ defmodule Co2Offset.Donations.ContextTest do
 
   describe "#changeset" do
     test "returns changeset" do
-      assert(%Ecto.Changeset{} = DonationsContext.donation_creation_changeset())
+      assert(%Ecto.Changeset{} = Donations.donation_creation_changeset())
     end
   end
 
@@ -51,7 +51,7 @@ defmodule Co2Offset.Donations.ContextTest do
     test "returns donation", %{donation: donation} do
       donation_id = donation.id
 
-      result = DonationsContext.get_donation!(donation.id)
+      result = Donations.get_donation!(donation.id)
 
       assert(%DonationSchema{id: ^donation_id} = result)
     end
@@ -66,13 +66,13 @@ defmodule Co2Offset.Donations.ContextTest do
     end
 
     test "correctly increases donation", %{donation: donation} do
-      new_donation = DonationsContext.increase_donation(donation)
+      new_donation = Donations.increase_donation(donation)
 
       assert(%DonationSchema{additional_donation: 9} = new_donation)
     end
 
     test "correctly decreases donation", %{donation: donation} do
-      new_donation = DonationsContext.decrease_donation(donation)
+      new_donation = Donations.decrease_donation(donation)
 
       assert(%DonationSchema{additional_donation: 1} = new_donation)
     end

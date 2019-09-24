@@ -3,7 +3,7 @@ defmodule Co2Offset.Donations.AdditionalDonationSchema do
 
   import Ecto.Changeset
 
-  alias Co2Offset.Converters, as: Converters
+  alias Co2Offset.Converters
   alias Co2Offset.Geo.Context, as: GeoContext
 
   schema "donations" do

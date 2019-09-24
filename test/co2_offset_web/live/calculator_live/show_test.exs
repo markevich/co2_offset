@@ -1,6 +1,6 @@
 defmodule Co2OffsetWeb.DonationLive.ShowTest do
   use Co2OffsetWeb.ConnCase
-  alias Co2Offset.Donations.Context, as: DonationsContext
+  alias Co2Offset.Donations
 
   setup do
     donation = insert(:donation, original_distance: 642)
@@ -68,7 +68,7 @@ defmodule Co2OffsetWeb.DonationLive.ShowTest do
     new_html = render_click(view, :increase_donation)
 
     # refetch after update
-    donation = DonationsContext.get_donation!(donation.id)
+    donation = Donations.get_donation!(donation.id)
     assert new_html =~ "$#{round(donation.original_donation + donation.additional_donation)}"
     # plane
     assert new_html =~
@@ -121,7 +121,7 @@ defmodule Co2OffsetWeb.DonationLive.ShowTest do
     new_html = render_click(view, :decrease_donation)
 
     # refetch after update
-    donation = DonationsContext.get_donation!(donation.id)
+    donation = Donations.get_donation!(donation.id)
 
     assert new_html =~ "$#{donation.original_donation}"
     # plane
