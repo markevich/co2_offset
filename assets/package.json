@@ -38,7 +38,7 @@
     "postcss-plugin": "^1.0.0",
     "postcss-reporter": "^6.0.1",
     "terser-webpack-plugin": "^2.1.2",
-    "webpack": "^4.41.0",
+    "webpack": "^4.41.1",
     "webpack-cli": "^3.3.9"
   },
   "size-limit": [
