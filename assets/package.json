@@ -21,7 +21,7 @@
     "@babel/core": "^7.6.4",
     "@babel/preset-env": "^7.6.3",
     "@size-limit/preset-app": "^2.1.6",
-    "autoprefixer": "^9.6.5",
+    "autoprefixer": "^9.7.3",
     "babel-loader": "^8.0.6",
     "copy-webpack-plugin": "^5.0.4",
     "css-loader": "^3.2.0",
