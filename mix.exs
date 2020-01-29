@@ -48,7 +48,7 @@ defmodule Co2Offset.MixProject do
       {:phoenix_live_view, github: "phoenixframework/phoenix_live_view"},
       {:floki, "~> 0.23.0", only: :test},
       {:phoenix_ecto, "~> 4.0"},
-      {:phoenix_html, "~> 2.13.1"},
+      {:phoenix_html, "~> 2.14.0"},
       {:phoenix_live_reload, "~> 1.2", only: :dev},
       {:ecto_sql, "~> 3.2.0"},
       {:postgrex, ">= 0.0.0"},
